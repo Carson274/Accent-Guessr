@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.partykit.io/schema.json",
+  "name": "server",
+  "main": "src/server.ts",
+  "compatibilityDate": "2026-03-02",
+  "serve": {
+    "path": "public",
+    "build": "src/client.ts"
+  }
+}
