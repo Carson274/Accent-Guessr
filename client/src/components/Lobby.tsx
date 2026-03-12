@@ -17,7 +17,7 @@ export function Lobby({ gameState, isHost, onStartGame }: LobbyProps) {
                 <p className="text-sm text-white/80 uppercase tracking-widest mb-1">
                     Room Code
                 </p>
-                <p className="text-6xl font-extrabold tracking-[0.3em] text-white select-all">
+                <p className="text-6xl font-extrabold text-white select-all">
                     {gameState.roomCode.toUpperCase()}
                 </p>
             </div>
