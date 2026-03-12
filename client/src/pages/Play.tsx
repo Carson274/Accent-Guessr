@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useParams, useNavigate } from "react-router";
+import { useParams, useNavigate, Navigate } from "react-router";
 import { usePartySocket } from "../hooks/usePartySocket";
 import { Lobby } from "../components/Lobby";
 import { Scoreboard } from "../components/Scoreboard";
@@ -28,6 +28,11 @@ export function Play() {
                 </div>
             </div>
         );
+    }
+
+    // ── Validate room code (must be exactly 4 letters) ───────
+    if (!/^[A-Za-z]{4}$/.test(roomCode)) {
+        return <Navigate to="/" replace />;
     }
 
     // ── Multiplayer: name entry ───────────────────────────────
