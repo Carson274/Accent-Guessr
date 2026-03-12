@@ -1,8 +1,8 @@
 export function Modes() {
     return (
-        <div className="bg-orange-100 h-screen w-screen">
-            <div>Modes</div>
-            <div>TBD</div>
+        <div className="h-screen w-screen" style={{ backgroundColor: "#EAE8DD" }}>
+            <div className="text-black">Modes</div>
+            <div className="text-black">TBD</div>
         </div>
     )
 }
