@@ -15,13 +15,14 @@ const router = createBrowserRouter([
     children: [
       { index: true, Component: Home },
       { path: "modes", Component: Modes },
-      { path: "play", Component: Play}
+      { path: "play", Component: Play },
+      { path: "play/:roomCode", Component: Play }
     ]
   }
 ]);
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   </StrictMode>,
 )
