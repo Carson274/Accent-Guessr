@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback } from "react";
+import { useCallback, useRef, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import L from "leaflet";
@@ -46,17 +46,28 @@ const worldBounds = L.latLngBounds(
 
 // ── Map Component ────────────────────────────────────────────
 
+interface MapProps {
+  disabled?: boolean;
+}
+
 /**
  * Interactive world map for selecting countries.
  * Uses Redux for state management of the selected country.
  * Allows users to click countries to select/deselect them.
+ * When `disabled` is true, click and hover interactions are suppressed.
  */
-export default function Map() {
+export default function Map({ disabled = false }: MapProps) {
   // Redux dispatch and selector
   const dispatch = useDispatch();
   const selectedCountry = useSelector(
     (state: RootState) => state.map.selectedCountry
   );
+
+  // Use a ref so event handlers bound by GeoJSON always see the latest value
+  const disabledRef = useRef(disabled);
+  useEffect(() => {
+    disabledRef.current = disabled;
+  }, [disabled]);
 
   /**
    * Handle interactions for each GeoJSON feature (country).
@@ -76,6 +87,7 @@ export default function Map() {
 
       layer.on({
         click: (_e: LeafletMouseEvent) => {
+          if (disabledRef.current) return;
           // Toggle selection: deselect if already selected, select otherwise
           if (selectedCountry === countryName) {
             dispatch(selectCountry(null));
@@ -84,6 +96,7 @@ export default function Map() {
           }
         },
         mouseover: (e: LeafletMouseEvent) => {
+          if (disabledRef.current) return;
           const target = e.target as Path;
           // Don't override the selected highlight
           if (countryName !== selectedCountry) {
@@ -91,6 +104,7 @@ export default function Map() {
           }
         },
         mouseout: (e: LeafletMouseEvent) => {
+          if (disabledRef.current) return;
           const target = e.target as Path;
           if (countryName !== selectedCountry) {
             target.setStyle(defaultStyle);
@@ -135,7 +149,7 @@ export default function Map() {
 
       {/* GeoJSON layer with country boundaries and click handlers */}
       <GeoJSON
-        key={selectedCountry}
+        key={`${selectedCountry}-${disabled}`}
         data={countriesData as GeoJsonObject}
         style={styleFeature}
         onEachFeature={onEachFeature}

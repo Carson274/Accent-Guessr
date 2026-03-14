@@ -177,7 +177,13 @@ export function Play() {
                         </p>
                         {/* Map + Scoreboard overlay container */}
                         <div className="relative rounded-xl overflow-hidden h-[70vh] mb-4">
-                            <Map />
+                            <Map
+                                disabled={
+                                    gameState.players.find(
+                                        (p) => p.id === currentPlayerId
+                                    )?.hasGuessed ?? false
+                                }
+                            />
                             {/* Scoreboard overlay */}
                             <div className="absolute top-4 right-4 z-[1000]">
                                 <Scoreboard
