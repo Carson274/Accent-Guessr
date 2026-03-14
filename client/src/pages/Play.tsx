@@ -3,6 +3,7 @@ import { useParams, useNavigate, Navigate } from "react-router";
 import { usePartySocket } from "../hooks/usePartySocket";
 import { Lobby } from "../components/Lobby";
 import { Scoreboard } from "../components/Scoreboard";
+import { MapView } from "../components/Map";
 
 export function Play() {
     const { roomCode } = useParams<{ roomCode?: string }>();
@@ -132,10 +133,21 @@ export function Play() {
                         <p className="text-black mb-4">
                             Listen to the audio clip and click on the map to guess the origin.
                         </p>
-                        {/* Placeholder for map + audio */}
-                        <div className="bg-gray-300 rounded-xl h-96 flex items-center justify-center text-black/50 text-lg">
-                            Map / Audio area (TBD)
-                        </div>
+                        {/* Map (with audio feature WIP) */}
+                        <MapView
+                            onGuess={(lat, lng) =>
+                                sendMessage({
+                                    type: "guess",
+                                    lat,
+                                    lng,
+                                    round: gameState.currentRound,
+                                })
+                            }
+                            disabled={
+                                gameState.players.find((p) => p.id === currentPlayerId)
+                                    ?.hasGuessed ?? false
+                            }
+                        />
 
                         {/* Temporary: manual guess button for testing */}
                         <button
