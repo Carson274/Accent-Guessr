@@ -1,3 +1,6 @@
+import { useSelector, useDispatch } from "react-redux";
+import type { RootState } from "../store/store";
+import { selectCountry } from "../store/mapSlice";
 import { useState } from "react";
 import { useParams, useNavigate, Navigate } from "react-router";
 import { usePartySocket } from "../hooks/usePartySocket";
@@ -6,13 +9,16 @@ import { Scoreboard } from "../components/Scoreboard";
 import Map from "../components/Map";
 
 export function Play() {
+    const dispatch = useDispatch();
     const { roomCode } = useParams<{ roomCode?: string }>();
     const navigate = useNavigate();
 
     // Multiplayer name entry state
     const [playerName, setPlayerName] = useState("");
     const [nameSubmitted, setNameSubmitted] = useState(false);
-    const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
+    const selectedCountry = useSelector(
+        (state: RootState) => state.map.selectedCountry
+    );
 
     // Only connect when we have a room code AND the player submitted their name
     const { gameState, connected, error, sendMessage } = usePartySocket(
@@ -136,10 +142,7 @@ export function Play() {
                         </p>
                         {/* Map component */}
                         <div className="rounded-xl overflow-hidden h-96 mb-4">
-                            <Map 
-                                selectedCountry={selectedCountry}
-                                onSelectCountry={setSelectedCountry}
-                            />
+                            <Map />
                         </div>
 
                         {/* Submit guess button */}
@@ -152,7 +155,7 @@ export function Play() {
                                         lng: 0,
                                         round: gameState.currentRound,
                                     });
-                                    setSelectedCountry(null);
+                                    dispatch(selectCountry(null));
                                 }
                             }}
                             disabled={
