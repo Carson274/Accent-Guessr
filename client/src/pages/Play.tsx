@@ -3,6 +3,7 @@ import { useParams, useNavigate, Navigate } from "react-router";
 import { usePartySocket } from "../hooks/usePartySocket";
 import { Lobby } from "../components/Lobby";
 import { Scoreboard } from "../components/Scoreboard";
+import Map from "../components/Map";
 
 export function Play() {
     const { roomCode } = useParams<{ roomCode?: string }>();
@@ -11,6 +12,7 @@ export function Play() {
     // Multiplayer name entry state
     const [playerName, setPlayerName] = useState("");
     const [nameSubmitted, setNameSubmitted] = useState(false);
+    const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
 
     // Only connect when we have a room code AND the player submitted their name
     const { gameState, connected, error, sendMessage } = usePartySocket(
@@ -132,29 +134,36 @@ export function Play() {
                         <p className="text-black mb-4">
                             Listen to the audio clip and click on the map to guess the origin.
                         </p>
-                        {/* Placeholder for map + audio */}
-                        <div className="bg-gray-300 rounded-xl h-96 flex items-center justify-center text-black/50 text-lg">
-                            Map / Audio area (TBD)
+                        {/* Map component */}
+                        <div className="rounded-xl overflow-hidden h-96 mb-4">
+                            <Map 
+                                selectedCountry={selectedCountry}
+                                onSelectCountry={setSelectedCountry}
+                            />
                         </div>
 
-                        {/* Temporary: manual guess button for testing */}
+                        {/* Submit guess button */}
                         <button
-                            onClick={() =>
-                                sendMessage({
-                                    type: "guess",
-                                    lat: Math.random() * 180 - 90,
-                                    lng: Math.random() * 360 - 180,
-                                    round: gameState.currentRound,
-                                })
-                            }
+                            onClick={() => {
+                                if (selectedCountry) {
+                                    sendMessage({
+                                        type: "guess",
+                                        lat: 0,
+                                        lng: 0,
+                                        round: gameState.currentRound,
+                                    });
+                                    setSelectedCountry(null);
+                                }
+                            }}
                             disabled={
-                                gameState.players.find((p) => p.id === currentPlayerId)
-                                    ?.hasGuessed ?? false
+                                !selectedCountry ||
+                                (gameState.players.find((p) => p.id === currentPlayerId)
+                                    ?.hasGuessed ?? false)
                             }
                             className="mt-4 px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed"
                             style={{ backgroundColor: "#DA4F49" }}
                         >
-                            Submit Random Guess (test)
+                            Submit Guess
                         </button>
                     </>
                 )}
