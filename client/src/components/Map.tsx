@@ -3,7 +3,8 @@
 import { useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
-import type { Layer, LeafletMouseEvent } from "leaflet";
+import L from "leaflet";
+import type { Layer, LeafletMouseEvent, Path } from "leaflet";
 import type { Feature, GeoJsonObject } from "geojson";
 import "leaflet/dist/leaflet.css";
 import { selectCountry } from "../store/mapSlice";
@@ -30,6 +31,19 @@ const highlightStyle = {
   fillOpacity: 0.45,
 };
 
+// Style on hover (slightly brighter outline)
+const hoverStyle = {
+  weight: 2,
+  color: "#3388ff",
+  fillOpacity: 0.35,
+};
+
+// ── World bounds to prevent scrolling past GeoJSON coverage ──
+const worldBounds = L.latLngBounds(
+  L.latLng(-85, -180),
+  L.latLng(85, 180)
+);
+
 // ── Map Component ────────────────────────────────────────────
 
 /**
@@ -47,23 +61,39 @@ export default function Map() {
   /**
    * Handle interactions for each GeoJSON feature (country).
    * Dispatches Redux action to select/deselect the country on click.
+   * Binds a tooltip showing the country name on hover.
    */
   const onEachFeature = useCallback(
     (feature: Feature, layer: Layer) => {
       const countryName = feature.properties?.ADMIN as string;
 
+      // Show country name on hover
+      layer.bindTooltip(countryName, {
+        sticky: true,
+        direction: "top",
+        className: "country-tooltip",
+      });
+
       layer.on({
         click: (_e: LeafletMouseEvent) => {
-          console.log("Clicking country:", countryName);
-          console.log("Previously selected:", selectedCountry);
-
           // Toggle selection: deselect if already selected, select otherwise
           if (selectedCountry === countryName) {
             dispatch(selectCountry(null));
-            console.log("Deselecting country");
           } else {
             dispatch(selectCountry(countryName));
-            console.log("Selecting country:", countryName);
+          }
+        },
+        mouseover: (e: LeafletMouseEvent) => {
+          const target = e.target as Path;
+          // Don't override the selected highlight
+          if (countryName !== selectedCountry) {
+            target.setStyle(hoverStyle);
+          }
+        },
+        mouseout: (e: LeafletMouseEvent) => {
+          const target = e.target as Path;
+          if (countryName !== selectedCountry) {
+            target.setStyle(defaultStyle);
           }
         },
       });
@@ -91,12 +121,16 @@ export default function Map() {
     <MapContainer
       center={[30, 0]}
       zoom={2}
+      minZoom={2}
+      maxBounds={worldBounds}
+      maxBoundsViscosity={1.0}
       style={{ height: "100vh", width: "100%" }}
     >
       {/* Base map tile layer (OpenStreetMap) */}
       <TileLayer
         attribution="&copy; OpenStreetMap"
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        noWrap={true}
       />
 
       {/* GeoJSON layer with country boundaries and click handlers */}
