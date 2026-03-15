@@ -32,7 +32,7 @@ export function Home() {
             <HowToPlay className="p-2 justify-self-end" />
             <div className="flex flex-col items-center pt-12 gap-10">
                 {/* Title */}
-                <h1 className="text-6xl text-center font-bold text-black">AccentGuessr</h1>
+                <h1 className="text-8xl text-center font-bold text-black logo">Accent-Guessr</h1>
 
                 {/* Solo Play */}
                 <button

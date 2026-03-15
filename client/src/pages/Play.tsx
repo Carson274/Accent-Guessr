@@ -31,7 +31,15 @@ export function Play() {
         return (
             <div className="h-screen w-screen" style={{ backgroundColor: "#EAE8DD" }}>
                 <div className="p-6">
-                    <h2 className="text-3xl font-bold mb-2 text-black">Solo Play</h2>
+                    {/* Back button */}
+                    <button
+                        onClick={() => navigate("/")}
+                        className="left-2 p-2 rounded-md text-white font-semibold transition duration-300 ease-in-out transform hover:scale-105"
+                        style={{ backgroundColor: "#DA4F49" }}
+                    >
+                        ← Back
+                    </button>
+                    <h2 className="text-3xl font-bold mt-4 mb-2 text-black">Solo Play</h2>
                     <p className="text-black mb-4">
                         Listen to the audio clip and click on the map to guess the origin.
                     </p>
@@ -46,7 +54,7 @@ export function Play() {
                                 }
                             }}
                             disabled={!selectedCountry}
-                            className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed"
+                            className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed transition duration-300 ease-in-out transform hover:scale-105"
                             style={{ backgroundColor: "#DA4F49" }}
                         >
                             Submit Guess
@@ -209,7 +217,7 @@ export function Play() {
                                     (gameState.players.find((p) => p.id === currentPlayerId)
                                         ?.hasGuessed ?? false)
                                 }
-                                className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed"
+                                className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed transition duration-300 ease-in-out transform hover:scale-105"
                                 style={{ backgroundColor: "#DA4F49" }}
                             >
                                 Submit Guess
@@ -227,7 +235,7 @@ export function Play() {
                         {isHost && (
                             <button
                                 onClick={() => sendMessage({ type: "next-round" })}
-                                className="px-6 py-3 rounded-lg font-semibold text-white transition"
+                                className="px-6 py-3 rounded-lg font-semibold text-white transition duration-300 ease-in-out transform hover:scale-105"
                                 style={{ backgroundColor: "#DA4F49" }}
                             >
                                 Next Round
