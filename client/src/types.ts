@@ -17,6 +17,9 @@ export interface GameState {
   status: GameStatus;
   roomCode: string;
   hostId: string;
+  audioUrl: string | null;
+  countryCode: string | null;
+  usedCountries: string[];
 }
 
 // ===== Client → Server Messages =====
@@ -25,7 +28,8 @@ export type ClientMessage =
   | { type: "join"; name: string }
   | { type: "guess"; lat: number; lng: number; round: number }
   | { type: "start-game" }
-  | { type: "next-round" };
+  | { type: "next-round" }
+  | { type: "set-audio"; audioUrl: string; countryCode: string };
 
 // ===== Server → Client Messages =====
 

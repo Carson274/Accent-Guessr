@@ -3,6 +3,7 @@ import { BACKEND_URL } from "../utils/constants";
 
 interface AudioParams {
   usedCountries: string[];
+  enabled?: boolean;
 }
 
 interface AudioResponse {
@@ -29,9 +30,9 @@ const fetchAudio = async ({ usedCountries }: AudioParams): Promise<AudioResponse
 
 export const useAudio = (params: AudioParams) => {
   return useQuery({
-    queryKey: ["audio", params],
+    queryKey: ["audio", params.usedCountries],
     queryFn: () => fetchAudio(params),
-    enabled: true,
+    enabled: params.enabled !== false,
     refetchOnWindowFocus: false,
   });
 };

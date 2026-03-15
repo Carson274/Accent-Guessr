@@ -19,6 +19,9 @@ export default class Server implements Party.Server {
       status: "waiting",
       roomCode: room.id,
       hostId: "",
+      audioUrl: null,
+      countryCode: null,
+      usedCountries: [],
     };
   }
 
@@ -94,6 +97,9 @@ export default class Server implements Party.Server {
       case "next-round":
         this.handleNextRound(sender);
         break;
+      case "set-audio":
+        this.handleSetAudio(sender, msg.audioUrl, msg.countryCode);
+        break;
     }
   }
 
@@ -152,6 +158,9 @@ export default class Server implements Party.Server {
 
     this.gameState.status = "playing";
     this.gameState.currentRound = 1;
+    this.gameState.audioUrl = null;
+    this.gameState.countryCode = null;
+    this.gameState.usedCountries = [];
 
     // Reset all players
     for (const p of this.gameState.players) {
@@ -253,10 +262,33 @@ export default class Server implements Party.Server {
 
     this.gameState.currentRound += 1;
     this.gameState.status = "playing";
+    this.gameState.audioUrl = null;
+    this.gameState.countryCode = null;
 
     for (const p of this.gameState.players) {
       p.hasGuessed = false;
       p.currentRound = this.gameState.currentRound;
+    }
+
+    this.syncAll();
+  }
+  // ── Set Audio ─────────────────────────────────────────────
+
+  private handleSetAudio(conn: Party.Connection, audioUrl: string, countryCode: string) {
+    if (conn.id !== this.gameState.hostId) {
+      this.send(conn, {
+        type: "error",
+        message: "Only the host can set audio",
+      });
+      return;
+    }
+
+    if (this.gameState.status !== "playing") return;
+
+    this.gameState.audioUrl = audioUrl;
+    this.gameState.countryCode = countryCode;
+    if (!this.gameState.usedCountries.includes(countryCode)) {
+      this.gameState.usedCountries.push(countryCode);
     }
 
     this.syncAll();
