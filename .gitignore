@@ -143,3 +143,6 @@ dist
 
 # PartyKit
 .partykit
+
+# Google Cloud
+*/service-account-creds.json

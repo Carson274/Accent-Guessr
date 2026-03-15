@@ -1,30 +1,62 @@
 const express = require('express')
 const rateLimit = require("express-rate-limit");
 const { loadEnvFile } = require('node:process');
-const {TranslationServiceClient} = require('@google-cloud/translate');
+const { GoogleAuth } = require('google-auth-library');
+const { TranslationServiceClient } = require('@google-cloud/translate');
+const { COUNTRY_MAP, COMMON_WORDS } = require('./constants');
 
-const translationClient = new TranslationServiceClient();
+const auth = new GoogleAuth({
+  keyFilename: './service-account-creds.json',
+  scopes: ['https://www.googleapis.com/auth/cloud-translation'],
+});
 
-const projectId = 'accent-guessr';
+const translationClient = new TranslationServiceClient({ auth });
+
+const projectId = process.env.GOOGLE_CLOUD_PROJECT_ID;
 const location = 'global';
 
-async function translateText(word, sourceLanguageCode, targetLanguageCode) {
-    const request = {
-        parent: `projects/${projectId}/locations/${location}`,
-        contents: [word],
-        mimeType: 'text/plain',
-        sourceLanguageCode,
-        targetLanguageCode,
-    };
+async function translateText(word, targetLanguageCode) {
+  const client = await auth.getClient();
+  const token = await client.getAccessToken();
 
-    const [response] = await translationClient.translateText(request);
-    
-    for (const translation of response.translations) {
-        console.log(`Translation: ${translation.translatedText}`);
+  const response = await fetch(
+    `https://translation.googleapis.com/language/translate/v2`,
+    {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token.token}`,
+      },
+      body: JSON.stringify({
+        q: word,
+        source: 'en',
+        target: targetLanguageCode,
+        format: 'text',
+      }),
     }
+  );
 
-    return response.translations
-    
+  const data = await response.json();
+
+  if (!response.ok) throw new Error("Translation API request failed");
+
+  return data.data.translations[0].translatedText;
+}
+
+async function getForvoAudio(word, language, country) {
+  let url = `https://apifree.forvo.com/key/${process.env.FORVO_API_KEY}/format/json/action/word-pronunciations/word/${encodeURIComponent(word)}`;
+  url += `/language/${language}`;
+  url += `/country/${country}`;
+  url += '/order/rate-desc';
+  url += '/limit/1';
+
+  const response = await fetch(url);
+  if (!response.ok) throw new Error("Forvo API request failed");
+
+  const data = await response.json();
+  if (!data.items?.length) throw new Error("No pronunciations found");
+
+  return data.items[0].pathmp3;
 }
 
 const app = express()
@@ -37,37 +69,43 @@ const limiter = rateLimit({
   max: 20,
 });
 
+
 app.use(limiter);
+app.use(express.json());
 
+// usedCountries should be a comma-separated list of Alpha-3 country codes e.g. "USA,FRA"
 app.get('/audio', async (req, res) => {
-  const { word, language, country } = req.query;
+  const { usedCountries: usedCountriesRaw } = req.query;
 
-  if (!word) {
-    return res.status(400).json({ message: "Missing required parameter: word" });
-  } else if (!country) {
-    return res.status(400).json({ message: "Missing required parameter: country" });
+  const usedCountries = usedCountriesRaw
+    ? usedCountriesRaw.split(",").map(c => c.trim().toUpperCase())
+    : [];
+
+  const availableCountries = Object.entries(COUNTRY_MAP).filter(
+    ([code, { language }]) => !usedCountries.includes(code) && language !== 'en'
+    );
+
+  if (!availableCountries.length) {
+    return res.status(400).json({ message: "All countries have been used" });
   }
 
-  let url = `https://apifree.forvo.com/key/${process.env.FORVO_API_KEY}/format/json/action/word-pronunciations/word/${encodeURIComponent(word)}`;
+  const word = COMMON_WORDS[Math.floor(Math.random() * COMMON_WORDS.length)];
 
-  if (language) url += `/language/${language}`;
-  if (country) url += `/country/${country}`;
-  url += '/order/rate-desc';
-  url += '/limit/2';
+  const shuffled = availableCountries.sort(() => Math.random() - 0.5);
 
-  try {
-    const response = await fetch(url);
-
-    if (!response.ok) {
-      return res.status(response.status).json({ message: "Forvo API request failed" });
+  for (const [countryCode, { language }] of shuffled) {
+    try {
+      const translatedWord = await translateText(word, language);
+      const audioUrl = await getForvoAudio(translatedWord, language, countryCode);
+      return res.json({ audioUrl, countryCode });
+    } catch (e) {
+      console.log(e);
+      continue;
     }
-
-    const data = await response.json();
-    res.json(data);
-  } catch (error) {
-    res.status(500).json({ message: "Internal server error" });
   }
-});
+
+  return res.status(404).json({ message: "No audio found for any available country" });
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
