@@ -1,9 +1,10 @@
 import { useSelector, useDispatch } from "react-redux";
 import type { RootState } from "../store/store";
 import { selectCountry } from "../store/mapSlice";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useParams, useNavigate, Navigate } from "react-router";
 import { usePartySocket } from "../hooks/usePartySocket";
+import { useAudio } from "../hooks/useAudio";
 import { SoloGame } from "./game/SoloGame";
 import { SoloGameOver } from "./game/SoloGameOver";
 import { Lobby } from "../components/Lobby";
@@ -29,6 +30,56 @@ export function Play() {
         nameSubmitted ? roomCode ?? "" : "",
         nameSubmitted ? playerName : ""
     );
+
+    // Determine current player's connection id
+    const currentPlayerId =
+        gameState?.players.find((p) => p.name === playerName)?.id ?? null;
+    const isHost = currentPlayerId === gameState?.hostId;
+
+    // ── Audio for multiplayer (host fetches, shares with all) ──
+    const shouldFetchAudio =
+        isHost &&
+        gameState?.status === "playing" &&
+        !gameState?.audioUrl;
+
+    const { data: audioData } = useAudio({
+        usedCountries: gameState?.usedCountries ?? [],
+        enabled: shouldFetchAudio,
+    });
+
+    // Host sends fetched audio URL to the server
+    useEffect(() => {
+        if (isHost && audioData?.audioUrl && audioData?.countryCode && gameState?.status === "playing" && !gameState?.audioUrl) {
+            sendMessage({
+                type: "set-audio",
+                audioUrl: audioData.audioUrl,
+                countryCode: audioData.countryCode,
+            });
+        }
+    }, [isHost, audioData, gameState?.status, gameState?.audioUrl, sendMessage]);
+
+    // All clients auto-play when audioUrl is set
+    const audioRef = useRef<HTMLAudioElement | null>(null);
+    const lastPlayedUrl = useRef<string | null>(null);
+
+    useEffect(() => {
+        if (gameState?.audioUrl && gameState.audioUrl !== lastPlayedUrl.current) {
+            if (audioRef.current) {
+                audioRef.current.pause();
+                audioRef.current.currentTime = 0;
+            }
+            audioRef.current = new Audio(gameState.audioUrl);
+            audioRef.current.play();
+            lastPlayedUrl.current = gameState.audioUrl;
+        }
+    }, [gameState?.audioUrl]);
+
+    const handleReplayAudio = () => {
+        if (audioRef.current) {
+            audioRef.current.currentTime = 0;
+            audioRef.current.play();
+        }
+    };
 
     // ── Solo play (no room code) ──────────────────────────────
     if (!roomCode) {
@@ -127,11 +178,6 @@ export function Play() {
         );
     }
 
-    // Determine current player's connection id
-    const currentPlayerId =
-        gameState.players.find((p) => p.name === playerName)?.id ?? null;
-    const isHost = currentPlayerId === gameState.hostId;
-
     // ── Multiplayer: lobby (waiting) ──────────────────────────
     if (gameState.status === "waiting") {
         return (
@@ -166,7 +212,16 @@ export function Play() {
             <div className="p-6">
                 {(gameState.status === "playing" || gameState.status === "round-end") && (
                     <>
-                        <h2 className="text-2xl font-bold mb-4 text-black">
+                        {/* Back button */}
+                        <button
+                            onClick={() => navigate("/")}
+                            className="mb-4 p-2 rounded-md text-white font-semibold transition duration-300 ease-in-out transform hover:scale-105"
+                            style={{ backgroundColor: "#DA4F49" }}
+                        >
+                            ← Back
+                        </button>
+
+                        <h2 className="text-2xl font-bold mb-2 text-black">
                             Round {gameState.currentRound} / {gameState.totalRounds}
                         </h2>
                         <p className="text-black mb-4">
@@ -189,6 +244,19 @@ export function Play() {
                                     currentPlayerId={currentPlayerId}
                                 />
                             </div>
+
+                            {/* Audio replay button */}
+                            <div className="absolute bottom-4 left-4 z-[1000] flex gap-2">
+                                <button
+                                    onClick={handleReplayAudio}
+                                    disabled={!gameState.audioUrl}
+                                    className="px-4 py-2 rounded-lg font-semibold text-white transition hover:scale-105 transform disabled:opacity-50 disabled:cursor-not-allowed"
+                                    style={{ backgroundColor: "#DA4F49" }}
+                                >
+                                    {!gameState.audioUrl && gameState.status === "playing" ? "Loading..." : "🔊 Replay"}
+                                </button>
+                            </div>
+
                             {/* Submit guess / Next round button */}
                             {gameState.status === "round-end" ? (
                                 isHost ? (
