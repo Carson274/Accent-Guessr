@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router";
 import type { RootState } from "../../store/store";
@@ -6,6 +6,7 @@ import { selectCountry } from "../../store/mapSlice";
 import Map from "../../components/Map";
 import { Scoreboard } from "../../components/Scoreboard";
 import { calculateRoundScore } from "../../utils/scoring";
+import { useAudio } from "../../hooks/useAudio";
 
 interface SoloGameProps {
     onGameOver: (finalScore: number) => void;
@@ -21,7 +22,26 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
     const [soloScore, setSoloScore] = useState(0);
     const [soloRound, setSoloRound] = useState(1);
     const [hasGuessed, setHasGuessed] = useState(false);
+    const [usedCountries, setUsedCountries] = useState<string[]>([]);
     const soloTotalRounds = 5;
+    const audioRef = useRef<HTMLAudioElement | null>(null);
+
+    const { data, isLoading, error } = useAudio({ usedCountries });
+
+    // Play audio automatically when a new round's data arrives
+    useEffect(() => {
+        if (data?.audioUrl) {
+            audioRef.current = new Audio(data.audioUrl);
+            audioRef.current.play();
+        }
+    }, [data?.audioUrl]);
+
+     const handleReplayAudio = () => {
+        if (audioRef.current) {
+            audioRef.current.currentTime = 0;
+            audioRef.current.play();
+        }
+    };
 
     const handleSubmitGuess = () => {
         if (!selectedCountry) return;
@@ -38,6 +58,9 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
             setSoloRound(soloRound + 1);
             dispatch(selectCountry(null));
             setHasGuessed(false);
+                    if (data?.countryCode) {
+            setUsedCountries(prev => [...prev, data.countryCode]);
+        }
         }
     };
 
@@ -62,7 +85,7 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
                     <Map disabled={hasGuessed} />
 
                     {/* Solo Scoreboard overlay */}
-                    <div className="absolute top-4 right-4 z-[1000]">
+                    <div className="absolute top-4 right-4 z-1000">
                         <Scoreboard
                             title="Score"
                             round={soloRound}
@@ -75,6 +98,19 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
                                 </div>
                             </div>
                         </Scoreboard>
+                    </div>
+
+                    {/* Audio controls */}
+                    <div className="absolute top-4 left-4 z-1000 flex gap-2">
+                        <button
+                            onClick={handleReplayAudio}
+                            disabled={isLoading || !data?.audioUrl}
+                            className="px-4 py-2 rounded-lg font-semibold text-white transition hover:scale-105 transform disabled:opacity-50 disabled:cursor-not-allowed"
+                            style={{ backgroundColor: "#DA4F49" }}
+                        >
+                            {isLoading ? "Loading..." : "🔊 Replay"}
+                        </button>
+                        {error && <p className="text-red-500 text-sm self-center">Failed to load audio</p>}
                     </div>
 
                     {/* Submit guess / Next round button */}
