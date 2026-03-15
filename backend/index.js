@@ -2,18 +2,13 @@ const express = require('express')
 const rateLimit = require("express-rate-limit");
 const { loadEnvFile } = require('node:process');
 const { GoogleAuth } = require('google-auth-library');
-const { TranslationServiceClient } = require('@google-cloud/translate');
 const { COUNTRY_MAP, COMMON_WORDS } = require('./constants');
+const cors = require('cors');
 
 const auth = new GoogleAuth({
   keyFilename: './service-account-creds.json',
   scopes: ['https://www.googleapis.com/auth/cloud-translation'],
 });
-
-const translationClient = new TranslationServiceClient({ auth });
-
-const projectId = process.env.GOOGLE_CLOUD_PROJECT_ID;
-const location = 'global';
 
 async function translateText(word, targetLanguageCode) {
   const client = await auth.getClient();
@@ -61,6 +56,8 @@ async function getForvoAudio(word, language, country) {
 
 const app = express()
 const port = 3000
+
+app.use(cors({ origin: 'http://localhost:5173' }));
 
 loadEnvFile('./.env')
 
