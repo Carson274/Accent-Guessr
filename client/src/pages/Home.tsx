@@ -68,7 +68,7 @@ export function Home() {
                             }
                             placeholder="ABCD"
                             maxLength={4}
-                            className="flex-1 px-4 py-3 rounded-lg border border-white/30 text-center text-lg tracking-widest font-mono uppercase bg-white/90 text-black focus:outline-none focus:ring-2 focus:ring-white/50"
+                            className="min-w-0 flex-1 px-4 py-3 rounded-lg border border-white/30 text-center text-lg tracking-widest font-mono uppercase bg-white/90 text-black focus:outline-none focus:ring-2 focus:ring-white/50"
                         />
                         <button
                             onClick={handleJoinRoom}

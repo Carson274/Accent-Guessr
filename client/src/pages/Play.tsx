@@ -32,7 +32,26 @@ export function Play() {
             <div className="h-screen w-screen" style={{ backgroundColor: "#EAE8DD" }}>
                 <div className="p-6">
                     <h2 className="text-3xl font-bold mb-2 text-black">Solo Play</h2>
-                    <p className="text-black">TBD — Solo gameplay coming soon.</p>
+                    <p className="text-black mb-4">
+                        Listen to the audio clip and click on the map to guess the origin.
+                    </p>
+                    {/* Map component */}
+                    <div className="relative rounded-xl overflow-hidden h-[70vh] mb-4">
+                        <Map />
+                        {/* Submit guess button */}
+                        <button
+                            onClick={() => {
+                                if (selectedCountry) {
+                                    dispatch(selectCountry(null));
+                                }
+                            }}
+                            disabled={!selectedCountry}
+                            className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed"
+                            style={{ backgroundColor: "#DA4F49" }}
+                        >
+                            Submit Guess
+                        </button>
+                    </div>
                 </div>
             </div>
         );
@@ -47,9 +66,17 @@ export function Play() {
     if (!nameSubmitted) {
         return (
             <div
-                className="min-h-screen w-screen flex items-center justify-center"
+                className="relative min-h-screen w-screen flex items-center justify-center"
                 style={{ backgroundColor: "#EAE8DD" }}
             >
+                {/* Back button */}
+                <button
+                    onClick={() => navigate("/")}
+                    className="absolute top-2 left-2 p-2 rounded-md text-white font-semibold transition duration-300 ease-in-out transform hover:scale-105"
+                    style={{ backgroundColor: "#DA4F49" }}
+                >
+                    ← Back
+                </button>
                 <div
                     className="rounded-2xl shadow-lg p-8 w-full max-w-sm flex flex-col gap-4"
                     style={{ backgroundColor: "#DA4F49" }}
@@ -112,9 +139,17 @@ export function Play() {
     if (gameState.status === "waiting") {
         return (
             <div
-                className="min-h-screen w-screen flex items-center justify-center"
+                className="relative min-h-screen w-screen flex items-center justify-center"
                 style={{ backgroundColor: "#EAE8DD" }}
             >
+                {/* Back button */}
+                <button
+                    onClick={() => navigate("/")}
+                    className="absolute top-2 left-2 p-2 rounded-md text-white font-semibold transition duration-300 ease-in-out transform hover:scale-105"
+                    style={{ backgroundColor: "#DA4F49" }}
+                >
+                    ← Back
+                </button>
                 <Lobby
                     gameState={gameState}
                     isHost={isHost}
@@ -127,11 +162,11 @@ export function Play() {
     // ── Multiplayer: playing / round-end / finished ───────────
     return (
         <div
-            className="min-h-screen w-screen flex"
+            className="min-h-screen w-screen"
             style={{ backgroundColor: "#EAE8DD" }}
         >
             {/* Main game area */}
-            <div className="flex-1 p-6">
+            <div className="p-6">
                 {gameState.status === "playing" && (
                     <>
                         <h2 className="text-2xl font-bold mb-4 text-black">
@@ -140,39 +175,51 @@ export function Play() {
                         <p className="text-black mb-4">
                             Listen to the audio clip and click on the map to guess the origin.
                         </p>
-                        {/* Map component */}
-                        <div className="rounded-xl overflow-hidden h-96 mb-4">
-                            <Map />
-                        </div>
-
-                        {/* Submit guess button */}
-                        <button
-                            onClick={() => {
-                                if (selectedCountry) {
-                                    sendMessage({
-                                        type: "guess",
-                                        lat: 0,
-                                        lng: 0,
-                                        round: gameState.currentRound,
-                                    });
-                                    dispatch(selectCountry(null));
+                        {/* Map + Scoreboard overlay container */}
+                        <div className="relative rounded-xl overflow-hidden h-[70vh] mb-4">
+                            <Map
+                                disabled={
+                                    gameState.players.find(
+                                        (p) => p.id === currentPlayerId
+                                    )?.hasGuessed ?? false
                                 }
-                            }}
-                            disabled={
-                                !selectedCountry ||
-                                (gameState.players.find((p) => p.id === currentPlayerId)
-                                    ?.hasGuessed ?? false)
-                            }
-                            className="mt-4 px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed"
-                            style={{ backgroundColor: "#DA4F49" }}
-                        >
-                            Submit Guess
-                        </button>
+                            />
+                            {/* Scoreboard overlay */}
+                            <div className="absolute top-4 right-4 z-[1000]">
+                                <Scoreboard
+                                    gameState={gameState}
+                                    currentPlayerId={currentPlayerId}
+                                />
+                            </div>
+                            {/* Submit guess button */}
+                            <button
+                                onClick={() => {
+                                    if (selectedCountry) {
+                                        sendMessage({
+                                            type: "guess",
+                                            lat: 0,
+                                            lng: 0,
+                                            round: gameState.currentRound,
+                                        });
+                                        dispatch(selectCountry(null));
+                                    }
+                                }}
+                                disabled={
+                                    !selectedCountry ||
+                                    (gameState.players.find((p) => p.id === currentPlayerId)
+                                        ?.hasGuessed ?? false)
+                                }
+                                className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed"
+                                style={{ backgroundColor: "#DA4F49" }}
+                            >
+                                Submit Guess
+                            </button>
+                        </div>
                     </>
                 )}
 
                 {gameState.status === "round-end" && (
-                    <div className="flex flex-col items-center gap-4 pt-12">
+                    <div className="flex flex-col items-center justify-center gap-4 min-h-[80vh]">
                         <h2 className="text-3xl font-bold text-black">Round Complete!</h2>
                         <p className="text-black">
                             Round {gameState.currentRound} of {gameState.totalRounds}
@@ -195,7 +242,7 @@ export function Play() {
                 )}
 
                 {gameState.status === "finished" && (
-                    <div className="flex flex-col items-center gap-6 pt-12">
+                    <div className="flex flex-col items-center justify-center gap-6 min-h-[80vh]">
                         <h2 className="text-4xl font-bold text-black">Game Over!</h2>
                         <div className="flex gap-4">
                             <button
@@ -212,14 +259,6 @@ export function Play() {
                 {error && (
                     <p className="text-red-700 mt-4 text-sm">Error: {error}</p>
                 )}
-            </div>
-
-            {/* Scoreboard sidebar */}
-            <div className="p-4">
-                <Scoreboard
-                    gameState={gameState}
-                    currentPlayerId={currentPlayerId}
-                />
             </div>
         </div>
     );
