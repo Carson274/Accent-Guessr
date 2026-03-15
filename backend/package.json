@@ -3,6 +3,7 @@
     "dev": "node index.js "
   },
   "dependencies": {
+    "@google-cloud/translate": "^9.3.0",
     "express": "^5.2.1",
     "express-rate-limit": "^8.3.1"
   },
