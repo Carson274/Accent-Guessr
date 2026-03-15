@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router";
 import type { RootState } from "../../store/store";
 import { selectCountry } from "../../store/mapSlice";
 import Map from "../../components/Map";
@@ -12,6 +13,7 @@ interface SoloGameProps {
 
 export function SoloGame({ onGameOver }: SoloGameProps) {
     const dispatch = useDispatch();
+    const navigate = useNavigate();
     const selectedCountry = useSelector(
         (state: RootState) => state.map.selectedCountry
     );
@@ -40,6 +42,15 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
     return (
         <div className="h-screen w-screen" style={{ backgroundColor: "#EAE8DD" }}>
             <div className="p-6">
+                {/* Back button */}
+                <button
+                    onClick={() => navigate("/")}
+                    className="mb-4 p-2 rounded-md text-white font-semibold transition duration-300 ease-in-out transform hover:scale-105"
+                    style={{ backgroundColor: "#DA4F49" }}
+                >
+                    ← Back
+                </button>
+
                 <h2 className="text-3xl font-bold mb-2 text-black">Solo Play</h2>
                 <p className="text-black mb-4">
                     Listen to the audio clip and click on the map to guess the origin.
