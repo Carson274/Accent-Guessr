@@ -4,11 +4,11 @@ import { selectCountry } from "../store/mapSlice";
 import { useState } from "react";
 import { useParams, useNavigate, Navigate } from "react-router";
 import { usePartySocket } from "../hooks/usePartySocket";
+import { SoloGame } from "./game/SoloGame";
+import { SoloGameOver } from "./game/SoloGameOver";
 import { Lobby } from "../components/Lobby";
 import { MultiplayerScoreboard } from "../components/MultiplayerScoreboard";
-import { Scoreboard } from "../components/Scoreboard";
 import Map from "../components/Map";
-import { calculateRoundScore } from "../utils/scoring";
 
 export function Play() {
     const dispatch = useDispatch();
@@ -22,10 +22,9 @@ export function Play() {
         (state: RootState) => state.map.selectedCountry
     );
 
-    // Solo play state
-    const [soloScore, setSoloScore] = useState(0);
-    const [soloRound, setSoloRound] = useState(1);
-    const [soloTotalRounds] = useState(5);
+    // Game started state
+    const [gameStarted, setGameStarted] = useState(false);
+    const [finalScore, setFinalScore] = useState(0);
 
     // Only connect when we have a room code AND the player submitted their name
     const { gameState, connected, error, sendMessage } = usePartySocket(
@@ -35,75 +34,43 @@ export function Play() {
 
     // ── Solo play (no room code) ──────────────────────────────
     if (!roomCode) {
-        return (
-            <div className="h-screen w-screen" style={{ backgroundColor: "#EAE8DD" }}>
-                <div className="p-6">
-                    {/* Back button */}
-                    <button
-                        onClick={() => navigate("/")}
-                        className="left-2 p-2 rounded-md text-white font-semibold transition duration-300 ease-in-out transform hover:scale-105"
-                        style={{ backgroundColor: "#DA4F49" }}
-                    >
-                        ← Back
-                    </button>
-                    <h2 className="text-3xl font-bold mt-4 mb-2 text-black">Solo Play</h2>
-                    <p className="text-black mb-4">
-                        Listen to the audio clip and click on the map to guess the origin.
-                    </p>
-                    {/* Map + Scoreboard overlay container */}
-                    <div className="relative rounded-xl overflow-hidden h-[70vh] mb-4">
-                        <Map />
-                        {/* Solo Scoreboard overlay */}
-                        <div className="absolute top-4 right-4 z-[1000]">
-                            <Scoreboard title="Score" round={soloRound} totalRounds={soloTotalRounds}>
-                                <div className="flex flex-col gap-2">
-                                    <div className="flex justify-between px-3 py-2 rounded-lg bg-white/10 text-white text-sm">
-                                        <span className="font-semibold">Score:</span>
-                                        <span className="font-mono font-bold">{soloScore}</span>
-                                    </div>
-                                </div>
-                            </Scoreboard>
-                        </div>
-                        {/* Submit guess button */}
-                        <button
-                            onClick={() => {
-                                if (selectedCountry && soloRound <= soloTotalRounds) {
-                                    // For now, use placeholder coordinates (0, 0)
-                                    // In production, you'd have actual target coordinates
-                                    const lat = 0;
-                                    const lng = 0;
-                                    const roundScore = calculateRoundScore(lat, lng);
-                                    
-                                    setSoloScore(soloScore + roundScore);
-                                    if (soloRound < soloTotalRounds) {
-                                        setSoloRound(soloRound + 1);
-                                    }
-                                    dispatch(selectCountry(null));
-                                }
-                            }}
-                            disabled={!selectedCountry || soloRound > soloTotalRounds}
-                            className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed transition duration-300 ease-in-out transform hover:scale-105"
-                            style={{ backgroundColor: "#DA4F49" }}
-                        >
-                            Submit Guess
-                        </button>
-                    </div>
+        // Show game over screen
+        if (finalScore > 0 && gameStarted) {
+            return (
+                <SoloGameOver
+                    finalScore={finalScore}
+                    onPlayAgain={() => {
+                        setGameStarted(false);
+                        setFinalScore(0);
+                    }}
+                />
+            );
+        }
 
-                    {/* Game over message */}
-                    {soloRound > soloTotalRounds && (
-                        <div className="text-center mt-8">
-                            <h3 className="text-2xl font-bold text-black mb-4">Game Over!</h3>
-                            <p className="text-black mb-4">Final Score: <span className="font-bold text-lg">{soloScore}</span></p>
-                            <button
-                                onClick={() => navigate("/")}
-                                className="px-6 py-3 rounded-lg font-semibold text-white transition"
-                                style={{ backgroundColor: "#DA4F49" }}
-                            >
-                                Back to Home
-                            </button>
-                        </div>
-                    )}
-                </div>
+        // Show game screen
+        if (gameStarted) {
+            return (
+                <SoloGame
+                    onGameOver={(score) => {
+                        setFinalScore(score);
+                    }}
+                />
+            );
+        }
+
+        // Show start screen / modes selection
+        return (
+            <div
+                className="min-h-screen w-screen flex items-center justify-center"
+                style={{ backgroundColor: "#EAE8DD" }}
+            >
+                <button
+                    onClick={() => setGameStarted(true)}
+                    className="px-8 py-4 rounded-lg font-semibold text-white text-lg transition duration-300 ease-in-out transform hover:scale-105"
+                    style={{ backgroundColor: "#DA4F49" }}
+                >
+                    Start Solo Game
+                </button>
             </div>
         );
     }
