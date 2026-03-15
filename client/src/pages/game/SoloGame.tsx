@@ -104,7 +104,7 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
                     </div>
 
                     {/* Audio controls */}
-                    <div className="absolute top-4 left-4 z-1000 flex gap-2">
+                    <div className="absolute bottom-4 left-4 z-1000 flex gap-2">
                         <button
                             onClick={handleReplayAudio}
                             disabled={isLoading || !data?.audioUrl}
