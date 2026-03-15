@@ -20,22 +20,24 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
 
     const [soloScore, setSoloScore] = useState(0);
     const [soloRound, setSoloRound] = useState(1);
+    const [hasGuessed, setHasGuessed] = useState(false);
     const soloTotalRounds = 5;
 
     const handleSubmitGuess = () => {
         if (!selectedCountry) return;
 
         const roundScore = calculateRoundScore(0, 0);
-        const newScore = soloScore + roundScore;
-        setSoloScore(newScore);
+        setSoloScore(soloScore + roundScore);
+        setHasGuessed(true);
+    };
 
+    const handleNextRound = () => {
         if (soloRound === soloTotalRounds) {
-            // Game is over, call callback with final score
-            onGameOver(newScore);
+            onGameOver(soloScore);
         } else {
-            // Continue to next round
             setSoloRound(soloRound + 1);
             dispatch(selectCountry(null));
+            setHasGuessed(false);
         }
     };
 
@@ -57,7 +59,7 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
                 </p>
 
                 <div className="relative rounded-xl overflow-hidden h-[70vh] mb-4">
-                    <Map />
+                    <Map disabled={hasGuessed} />
 
                     {/* Solo Scoreboard overlay */}
                     <div className="absolute top-4 right-4 z-[1000]">
@@ -75,15 +77,25 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
                         </Scoreboard>
                     </div>
 
-                    {/* Submit guess button */}
-                    <button
-                        onClick={handleSubmitGuess}
-                        disabled={!selectedCountry}
-                        className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed hover:scale-105 transform"
-                        style={{ backgroundColor: "#DA4F49" }}
-                    >
-                        Submit Guess
-                    </button>
+                    {/* Submit guess / Next round button */}
+                    {hasGuessed ? (
+                        <button
+                            onClick={handleNextRound}
+                            className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition hover:scale-105 transform"
+                            style={{ backgroundColor: "#DA4F49" }}
+                        >
+                            Next Round
+                        </button>
+                    ) : (
+                        <button
+                            onClick={handleSubmitGuess}
+                            disabled={!selectedCountry}
+                            className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed hover:scale-105 transform"
+                            style={{ backgroundColor: "#DA4F49" }}
+                        >
+                            Submit Guess
+                        </button>
+                    )}
                 </div>
             </div>
         </div>

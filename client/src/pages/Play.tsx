@@ -22,8 +22,6 @@ export function Play() {
         (state: RootState) => state.map.selectedCountry
     );
 
-    // Game started state
-    const [gameStarted, setGameStarted] = useState(false);
     const [finalScore, setFinalScore] = useState(0);
 
     // Only connect when we have a room code AND the player submitted their name
@@ -35,12 +33,11 @@ export function Play() {
     // ── Solo play (no room code) ──────────────────────────────
     if (!roomCode) {
         // Show game over screen
-        if (finalScore > 0 && gameStarted) {
+        if (finalScore > 0) {
             return (
                 <SoloGameOver
                     finalScore={finalScore}
                     onPlayAgain={() => {
-                        setGameStarted(false);
                         setFinalScore(0);
                     }}
                 />
@@ -48,30 +45,12 @@ export function Play() {
         }
 
         // Show game screen
-        if (gameStarted) {
-            return (
-                <SoloGame
-                    onGameOver={(score) => {
-                        setFinalScore(score);
-                    }}
-                />
-            );
-        }
-
-        // Show start screen / modes selection
         return (
-            <div
-                className="min-h-screen w-screen flex items-center justify-center"
-                style={{ backgroundColor: "#EAE8DD" }}
-            >
-                <button
-                    onClick={() => setGameStarted(true)}
-                    className="px-8 py-4 rounded-lg font-semibold text-white text-lg transition duration-300 ease-in-out transform hover:scale-105"
-                    style={{ backgroundColor: "#DA4F49" }}
-                >
-                    Start Solo Game
-                </button>
-            </div>
+            <SoloGame
+                onGameOver={(score) => {
+                    setFinalScore(score);
+                }}
+            />
         );
     }
 
@@ -185,7 +164,7 @@ export function Play() {
         >
             {/* Main game area */}
             <div className="p-6">
-                {gameState.status === "playing" && (
+                {(gameState.status === "playing" || gameState.status === "round-end") && (
                     <>
                         <h2 className="text-2xl font-bold mb-4 text-black">
                             Round {gameState.currentRound} / {gameState.totalRounds}
@@ -197,9 +176,10 @@ export function Play() {
                         <div className="relative rounded-xl overflow-hidden h-[70vh] mb-4">
                             <Map
                                 disabled={
-                                    gameState.players.find(
+                                    gameState.status === "round-end" ||
+                                    (gameState.players.find(
                                         (p) => p.id === currentPlayerId
-                                    )?.hasGuessed ?? false
+                                    )?.hasGuessed ?? false)
                                 }
                             />
                             {/* Scoreboard overlay */}
@@ -209,54 +189,49 @@ export function Play() {
                                     currentPlayerId={currentPlayerId}
                                 />
                             </div>
-                            {/* Submit guess button */}
-                            <button
-                                onClick={() => {
-                                    if (selectedCountry) {
-                                        sendMessage({
-                                            type: "guess",
-                                            lat: 0,
-                                            lng: 0,
-                                            round: gameState.currentRound,
-                                        });
-                                        dispatch(selectCountry(null));
+                            {/* Submit guess / Next round button */}
+                            {gameState.status === "round-end" ? (
+                                isHost ? (
+                                    <button
+                                        onClick={() => sendMessage({ type: "next-round" })}
+                                        className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition duration-300 ease-in-out transform hover:scale-105"
+                                        style={{ backgroundColor: "#DA4F49" }}
+                                    >
+                                        Next Round
+                                    </button>
+                                ) : (
+                                    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white animate-pulse"
+                                        style={{ backgroundColor: "#DA4F49" }}
+                                    >
+                                        Waiting for host…
+                                    </div>
+                                )
+                            ) : (
+                                <button
+                                    onClick={() => {
+                                        if (selectedCountry) {
+                                            sendMessage({
+                                                type: "guess",
+                                                lat: 0,
+                                                lng: 0,
+                                                round: gameState.currentRound,
+                                            });
+                                            dispatch(selectCountry(null));
+                                        }
+                                    }}
+                                    disabled={
+                                        !selectedCountry ||
+                                        (gameState.players.find((p) => p.id === currentPlayerId)
+                                            ?.hasGuessed ?? false)
                                     }
-                                }}
-                                disabled={
-                                    !selectedCountry ||
-                                    (gameState.players.find((p) => p.id === currentPlayerId)
-                                        ?.hasGuessed ?? false)
-                                }
-                                className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed transition duration-300 ease-in-out transform hover:scale-105"
-                                style={{ backgroundColor: "#DA4F49" }}
-                            >
-                                Submit Guess
-                            </button>
+                                    className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed transition duration-300 ease-in-out transform hover:scale-105"
+                                    style={{ backgroundColor: "#DA4F49" }}
+                                >
+                                    Submit Guess
+                                </button>
+                            )}
                         </div>
                     </>
-                )}
-
-                {gameState.status === "round-end" && (
-                    <div className="flex flex-col items-center justify-center gap-4 min-h-[80vh]">
-                        <h2 className="text-3xl font-bold text-black">Round Complete!</h2>
-                        <p className="text-black">
-                            Round {gameState.currentRound} of {gameState.totalRounds}
-                        </p>
-                        {isHost && (
-                            <button
-                                onClick={() => sendMessage({ type: "next-round" })}
-                                className="px-6 py-3 rounded-lg font-semibold text-white transition duration-300 ease-in-out transform hover:scale-105"
-                                style={{ backgroundColor: "#DA4F49" }}
-                            >
-                                Next Round
-                            </button>
-                        )}
-                        {!isHost && (
-                            <p className="text-black animate-pulse">
-                                Waiting for host to continue…
-                            </p>
-                        )}
-                    </div>
                 )}
 
                 {gameState.status === "finished" && (
