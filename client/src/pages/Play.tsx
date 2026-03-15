@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import type { RootState } from "../store/store";
 import { selectCountry } from "../store/mapSlice";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { useParams, useNavigate, Navigate } from "react-router";
 import { usePartySocket } from "../hooks/usePartySocket";
 import { SoloGame } from "./game/SoloGame";
@@ -9,7 +9,6 @@ import { SoloGameOver } from "./game/SoloGameOver";
 import { Lobby } from "../components/Lobby";
 import { MultiplayerScoreboard } from "../components/MultiplayerScoreboard";
 import Map from "../components/Map";
-import { useAudio } from "../hooks/useAudio";
 
 export function Play() {
     const dispatch = useDispatch();
@@ -24,23 +23,12 @@ export function Play() {
     );
 
     const [finalScore, setFinalScore] = useState(0);
-    const [usedCountries, setUsedCountries] = useState<string[]>([]);
-    const { data: audioData, isLoading: audioLoading } = useAudio({ usedCountries });
-
-    const audioRef = useRef<HTMLAudioElement | null>(null);
 
     // Only connect when we have a room code AND the player submitted their name
     const { gameState, connected, error, sendMessage } = usePartySocket(
         nameSubmitted ? roomCode ?? "" : "",
         nameSubmitted ? playerName : ""
     );
-
-    useEffect(() => {
-        if (audioData?.audioUrl && gameState?.status === 'playing') {
-            audioRef.current = new Audio(audioData.audioUrl);
-            audioRef.current.play();
-        }
-    }, [audioData?.audioUrl, gameState?.status]);
 
     // ── Solo play (no room code) ──────────────────────────────
     if (!roomCode) {
@@ -201,26 +189,11 @@ export function Play() {
                                     currentPlayerId={currentPlayerId}
                                 />
                             </div>
-                            <div className="absolute top-4 left-4 z-[1000]">
-                                <button
-                                    onClick={() => { if (audioRef.current) { audioRef.current.currentTime = 0; audioRef.current.play(); } }}
-                                    disabled={audioLoading || !audioData?.audioUrl}
-                                    className="px-4 py-2 rounded-lg font-semibold text-white transition hover:scale-105 transform disabled:opacity-50 disabled:cursor-not-allowed"
-                                    style={{ backgroundColor: "#DA4F49" }}
-                                >
-                                    {audioLoading ? "Loading..." : "🔊 Replay"}
-                                </button>
-                            </div>
                             {/* Submit guess / Next round button */}
                             {gameState.status === "round-end" ? (
                                 isHost ? (
                                     <button
-                                        onClick={() => {
-                                            if (audioData?.countryCode) {
-                                                setUsedCountries(prev => [...prev, audioData.countryCode]);
-                                            }
-                                            sendMessage({ type: "next-round" });
-                                        }}
+                                        onClick={() => sendMessage({ type: "next-round" })}
                                         className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition duration-300 ease-in-out transform hover:scale-105"
                                         style={{ backgroundColor: "#DA4F49" }}
                                     >

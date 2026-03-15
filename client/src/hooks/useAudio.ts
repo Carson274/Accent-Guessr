@@ -32,5 +32,6 @@ export const useAudio = (params: AudioParams) => {
     queryKey: ["audio", params],
     queryFn: () => fetchAudio(params),
     enabled: true,
+    refetchOnWindowFocus: false,
   });
 };

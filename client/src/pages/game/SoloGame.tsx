@@ -28,9 +28,12 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
 
     const { data, isLoading, error } = useAudio({ usedCountries });
 
-    // Play audio automatically when a new round's data arrives
-    useEffect(() => {
+   useEffect(() => {
         if (data?.audioUrl) {
+            if (audioRef.current) {
+                audioRef.current.pause();
+                audioRef.current.currentTime = 0;
+            }
             audioRef.current = new Audio(data.audioUrl);
             audioRef.current.play();
         }
