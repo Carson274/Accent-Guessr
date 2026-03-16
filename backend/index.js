@@ -73,12 +73,15 @@ async function getForvoAudio(word, country) {
 const app = express()
 const port = 3000
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://accent-guessr-game.vercel.app",
+  "https://accent-guessr-git-deployment-carson274s-projects.vercel.app",
+];
+
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://accent-guessr-game.vercel.app",
-    ],
+    origin: allowedOrigins,
   })
 );
 
