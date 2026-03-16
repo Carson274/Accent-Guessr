@@ -40,11 +40,11 @@ export function HowToPlay({ className }: { className: string }) {
                             <h2 className="text-center font-semibold text-2xl logo">How to Play</h2>
                             <div className="flex flex-row justify-center gap-10 mb-10">
                                 <div className="flex flex-col items-center">
-                                    <img className="w-96 mt-4 rounded-lg" src={HowTo1}/>
+                                    <img className="w-120 mt-4 rounded-lg" src={HowTo1}/>
                                     <p className="pt-3 text-center w-96">In this game, you will take turns taking guesses of the country from where a specific accent originates. You will make these gusses based on an audio clip played for you.</p>
                                 </div>
                                 <div className="flex flex-col items-center">
-                                    <img className="w-96 mt-4 rounded-lg" src={HowTo2}/>
+                                    <img className="w-120 mt-4 rounded-lg" src={HowTo2}/>
                                     <p className="pt-3 text-center w-96">After you hear the audio clip, select a country on the map that you wish to make a guess for. Then, submit your guess and see how you did! Be the player with the most points at the end to claim victory!</p>
                                 </div>
                             </div>
