@@ -89,8 +89,6 @@ app.use(
   })
 );
 
-loadEnvFile('./.env')
-
 const limiter = rateLimit({
   windowMs: 10 * 60 * 1000,
   max: 35,
