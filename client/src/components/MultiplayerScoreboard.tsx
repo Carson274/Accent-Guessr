@@ -1,16 +1,24 @@
-import type { GameState } from "../types";
+import type { GameState, RoundResultEntry } from "../types";
 import { Scoreboard } from "./Scoreboard";
+import { getCountryNameFromCode } from "../utils/scoring";
 
 interface MultiplayerScoreboardProps {
     gameState: GameState;
     currentPlayerId: string | null;
+    roundResults?: RoundResultEntry[] | null;
+    correctCountryCode?: string | null;
 }
 
 export function MultiplayerScoreboard({
     gameState,
     currentPlayerId,
+    roundResults,
+    correctCountryCode,
 }: MultiplayerScoreboardProps) {
     const sorted = [...gameState.players].sort((a, b) => b.score - a.score);
+    const correctCountryName = correctCountryCode
+        ? getCountryNameFromCode(correctCountryCode)
+        : null;
 
     return (
         <Scoreboard
@@ -18,6 +26,28 @@ export function MultiplayerScoreboard({
             round={gameState.currentRound}
             totalRounds={gameState.totalRounds}
         >
+            {/* Round result breakdown — shown after everyone guesses */}
+            {roundResults && roundResults.length > 0 && (
+                <div className="mb-3 space-y-1 text-xs bg-white/10 rounded-lg px-3 py-2 text-white">
+                    {correctCountryName && (
+                        <div className="mb-1.5 font-semibold text-center text-white/90">
+                            Answer: {correctCountryName}
+                        </div>
+                    )}
+                    {roundResults
+                        .slice()
+                        .sort((a, b) => b.roundScore - a.roundScore)
+                        .map((r) => (
+                            <div key={r.playerId} className="flex justify-between gap-2">
+                                <span className="truncate max-w-[100px]">{r.playerName}</span>
+                                <span className="text-white/80 truncate max-w-[80px]">{r.countryGuess}</span>
+                                <span className="font-mono font-bold shrink-0">+{r.roundScore}</span>
+                            </div>
+                        ))}
+                </div>
+            )}
+
+            {/* Player scores */}
             <ul className="space-y-1.5">
                 {sorted.map((player, idx) => (
                     <li
@@ -42,11 +72,7 @@ export function MultiplayerScoreboard({
                                             ? "bg-green-400"
                                             : "bg-white/30"
                                     }`}
-                                    title={
-                                        player.hasGuessed
-                                            ? "Guessed"
-                                            : "Thinking…"
-                                    }
+                                    title={player.hasGuessed ? "Guessed" : "Thinking…"}
                                 />
                             )}
                             <span className="font-mono">{player.score}</span>

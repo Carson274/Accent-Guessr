@@ -1,14 +1,25 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import PartySocket from "partysocket";
-import type { GameState, ClientMessage, ServerMessage } from "../types";
+import type { GameState, ClientMessage, ServerMessage, RoundResultEntry } from "../types";
 
 const PARTYKIT_HOST =
     import.meta.env.VITE_PARTYKIT_HOST ?? "localhost:1999";
 
-export function usePartySocket(roomCode: string, playerName: string) {
+interface UsePartySocketReturn {
+    gameState: GameState | null;
+    connected: boolean;
+    error: string | null;
+    sendMessage: (msg: ClientMessage) => void;
+    lastRoundResults: RoundResultEntry[] | null;
+    lastRoundCorrectCode: string | null;
+}
+
+export function usePartySocket(roomCode: string, playerName: string): UsePartySocketReturn {
     const [gameState, setGameState] = useState<GameState | null>(null);
     const [connected, setConnected] = useState(false);
     const [error, setError] = useState<string | null>(null);
+    const [lastRoundResults, setLastRoundResults] = useState<RoundResultEntry[] | null>(null);
+    const [lastRoundCorrectCode, setLastRoundCorrectCode] = useState<string | null>(null);
     const socketRef = useRef<PartySocket | null>(null);
 
     useEffect(() => {
@@ -24,7 +35,6 @@ export function usePartySocket(roomCode: string, playerName: string) {
         socket.addEventListener("open", () => {
             setConnected(true);
             setError(null);
-            // Send join message once connected
             const joinMsg: ClientMessage = { type: "join", name: playerName };
             socket.send(JSON.stringify(joinMsg));
         });
@@ -39,9 +49,7 @@ export function usePartySocket(roomCode: string, playerName: string) {
                     case "player-joined":
                         setGameState((prev) => {
                             if (!prev) return prev;
-                            // Avoid duplicates
-                            if (prev.players.some((p) => p.id === msg.player.id))
-                                return prev;
+                            if (prev.players.some((p) => p.id === msg.player.id)) return prev;
                             return { ...prev, players: [...prev.players, msg.player] };
                         });
                         break;
@@ -50,35 +58,28 @@ export function usePartySocket(roomCode: string, playerName: string) {
                             if (!prev) return prev;
                             return {
                                 ...prev,
-                                players: prev.players.filter(
-                                    (p) => p.id !== msg.playerId
-                                ),
+                                players: prev.players.filter((p) => p.id !== msg.playerId),
                             };
                         });
                         break;
                     case "round-result":
-                        // round-result is informational; the sync that follows
-                        // will update the full state. We could show a toast here.
+                        setLastRoundResults(msg.results);
+                        setLastRoundCorrectCode(msg.correctCountryCode);
                         break;
                     case "game-over":
-                        // game-over is also followed by a sync
+                        // Handled via sync
                         break;
                     case "error":
                         setError(msg.message);
                         break;
                 }
             } catch {
-                // ignore non-JSON messages
+                // ignore non-JSON
             }
         });
 
-        socket.addEventListener("close", () => {
-            setConnected(false);
-        });
-
-        socket.addEventListener("error", () => {
-            setError("Connection error");
-        });
+        socket.addEventListener("close", () => setConnected(false));
+        socket.addEventListener("error", () => setError("Connection error"));
 
         return () => {
             socket.close();
@@ -92,5 +93,5 @@ export function usePartySocket(roomCode: string, playerName: string) {
         }
     }, []);
 
-    return { gameState, connected, error, sendMessage };
+    return { gameState, connected, error, sendMessage, lastRoundResults, lastRoundCorrectCode };
 }
