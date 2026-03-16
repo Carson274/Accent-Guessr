@@ -73,7 +73,7 @@ async function getForvoAudio(word, country) {
 const app = express()
 const port = 3000
 
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({ origin: 'accent-guessr-game.vercel.app' }));
 
 loadEnvFile('./.env')
 
