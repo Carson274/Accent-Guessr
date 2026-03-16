@@ -54,9 +54,9 @@ async function translateText(word, targetLanguageCode) {
   return data.data.translations[0].translatedText;
 }
 
-async function getForvoAudio(word, language, country) {
+async function getForvoAudio(word, country) {
   let url = `https://apifree.forvo.com/key/${process.env.FORVO_API_KEY}/format/json/action/word-pronunciations/word/${encodeURIComponent(word)}`;
-  url += `/language/${language}`;
+  url += '/language/en';
   url += `/country/${country}`;
   url += '/order/rate-desc';
   url += '/limit/1';
@@ -94,9 +94,7 @@ app.get('/audio', async (req, res) => {
     ? usedCountriesRaw.split(",").map(c => c.trim().toUpperCase())
     : [];
 
-  const availableCountries = Object.entries(COUNTRY_MAP).filter(
-    ([code, { language }]) => !usedCountries.includes(code) && language !== 'en'
-    );
+  const availableCountries = Object.entries(COUNTRY_MAP).filter(([code]) => !usedCountries.includes(code));
 
   if (!availableCountries.length) {
     return res.status(400).json({ message: "All countries have been used" });
@@ -106,10 +104,9 @@ app.get('/audio', async (req, res) => {
 
   const shuffled = availableCountries.sort(() => Math.random() - 0.5);
 
-  for (const [countryCode, { language }] of shuffled) {
+  for (const [countryCode] of shuffled) {
     try {
-      const translatedWord = await translateText(word, language);
-      const audioUrl = await getForvoAudio(translatedWord, language, countryCode);
+      const audioUrl = await getForvoAudio(word, countryCode);
       return res.json({ audioUrl, countryCode });
     } catch (e) {
       console.log(e);
