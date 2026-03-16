@@ -10,6 +10,7 @@ import { Error } from './pages/Error.tsx'
 import { Modes } from './pages/Modes.tsx'
 import { Play } from './pages/Play.tsx'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { Analytics } from "@vercel/analytics/react"
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,7 @@ createRoot(document.getElementById('root')!).render(
     <Provider store={store}>
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router} />
+        <Analytics />
       </QueryClientProvider>
     </Provider>
   </StrictMode>,
