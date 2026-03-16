@@ -6,13 +6,17 @@ const textToSpeech = require('@google-cloud/text-to-speech');
 const { ALL_COUNTRY_MAP, COMMON_WORDS, SENTENCES, EN_COUNTRY_MAP } = require('./constants');
 const cors = require('cors');
 
+const serviceAccountJson = process.env.GCP_SERVICE_ACCOUNT_JSON;
+if (!serviceAccountJson) {
+  throw new Error("GCP_SERVICE_ACCOUNT_JSON env var is not set");
+}
+const serviceAccount = JSON.parse(serviceAccountJson);
 const auth = new GoogleAuth({
-  keyFilename: './service-account-creds.json',
+  credentials: serviceAccount,
   scopes: ['https://www.googleapis.com/auth/cloud-translation'],
 });
-
 const ttsClient = new textToSpeech.TextToSpeechClient({
-  keyFilename: './service-account-creds.json',
+  credentials: serviceAccount,
 });
 
 async function synthesizeSpeech(text, languageCode) {
