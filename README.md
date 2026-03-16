@@ -29,6 +29,34 @@ npm run dev
 ```
 You will then need to create another `.env` file in this directory that contains variables for your `VITE_PARTYKIT_HOST` and `VITE_BACKEND_URL`.
 
+## Tech Stack
+
+AccentGuessr is built with the following technologies:
+
+- **Frontend**
+  - [React](https://react.dev/) (with [TypeScript](https://www.typescriptlang.org/))
+  - [Redux Toolkit](https://redux-toolkit.js.org/) for some state management
+  - [Leaflet](https://leafletjs.com/) and [react-leaflet](https://react-leaflet.js.org/) for interactive maps
+  - [Vite](https://vitejs.dev/) for fast development and builds
+
+- **Backend**
+  - [Node.js](https://nodejs.org/) with [Express](https://expressjs.com/) for the API server
+  - [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech) for generating synthetic audio
+  - [Forvo API](https://api.forvo.com/) for authentic native speaker pronunciations
+
+- **Deployment**
+  - [Vercel](https://vercel.com/) for hosting the frontend and backend
+
+- **Other**
+  - [GeoJSON](https://geojson.org/) for country boundary data
+  - [dotenv](https://www.npmjs.com/package/dotenv) for environment variable management
+
 ------
+
+## Acknowledgements
+
+This project was created for OSU's Advanced Web Development class (CS 494). Shoutout to Rob Hess for being a great teacher!  
+
+-----
 
 © Carson Secrest - 2026 @ Oregon State University
