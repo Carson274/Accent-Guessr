@@ -5,12 +5,22 @@ import type {
   GameMode,
   ClientMessage,
   ServerMessage,
+  RoundResultEntry,
 } from "../src/types";
 
 const TOTAL_ROUNDS = 5;
 
+// Per-round guess tracking (not in GameState to avoid syncing sensitive data)
+interface GuessRecord {
+  countryGuess: string;
+  roundScore: number;
+  distanceKm: number | null;
+}
+
 export default class Server implements Party.Server {
   gameState: GameState;
+  // Map of playerId -> GuessRecord for the current round
+  roundGuesses: Map<string, GuessRecord> = new Map();
 
   constructor(readonly room: Party.Room) {
     this.gameState = {
@@ -48,7 +58,6 @@ export default class Server implements Party.Server {
   // ── Connection lifecycle ─────────────────────────────────
 
   onConnect(conn: Party.Connection, _ctx: Party.ConnectionContext) {
-    // Send the current state so the new client can hydrate
     this.send(conn, { type: "sync", state: this.gameState });
   }
 
@@ -59,13 +68,12 @@ export default class Server implements Party.Server {
     this.gameState.players = this.gameState.players.filter(
       (p) => p.id !== conn.id
     );
+    this.roundGuesses.delete(conn.id);
 
-    // If the host left, assign a new host
     if (this.gameState.hostId === conn.id && this.gameState.players.length > 0) {
       this.gameState.hostId = this.gameState.players[0].id;
     }
 
-    // If the room is now empty, reset state
     if (this.gameState.players.length === 0) {
       this.gameState.status = "waiting";
       this.gameState.currentRound = 1;
@@ -94,7 +102,7 @@ export default class Server implements Party.Server {
         this.handleStartGame(sender, msg.gameMode);
         break;
       case "guess":
-        this.handleGuess(sender, msg.lat, msg.lng, msg.round);
+        this.handleGuess(sender, msg.countryGuess, msg.roundScore, msg.round);
         break;
       case "next-round":
         this.handleNextRound(sender);
@@ -108,18 +116,13 @@ export default class Server implements Party.Server {
   // ── Join ─────────────────────────────────────────────────
 
   private handleJoin(conn: Party.Connection, name: string) {
-    // Prevent duplicate joins
     if (this.getPlayer(conn.id)) {
       this.send(conn, { type: "error", message: "Already joined" });
       return;
     }
 
-    // Don't allow joining mid-game
     if (this.gameState.status !== "waiting") {
-      this.send(conn, {
-        type: "error",
-        message: "Game already in progress",
-      });
+      this.send(conn, { type: "error", message: "Game already in progress" });
       return;
     }
 
@@ -133,7 +136,6 @@ export default class Server implements Party.Server {
 
     this.gameState.players.push(player);
 
-    // First player becomes the host
     if (this.gameState.players.length === 1) {
       this.gameState.hostId = conn.id;
     }
@@ -146,10 +148,7 @@ export default class Server implements Party.Server {
 
   private handleStartGame(conn: Party.Connection, gameMode: GameMode) {
     if (conn.id !== this.gameState.hostId) {
-      this.send(conn, {
-        type: "error",
-        message: "Only the host can start the game",
-      });
+      this.send(conn, { type: "error", message: "Only the host can start the game" });
       return;
     }
 
@@ -164,8 +163,8 @@ export default class Server implements Party.Server {
     this.gameState.countryCode = null;
     this.gameState.usedCountries = [];
     this.gameState.gameMode = gameMode;
+    this.roundGuesses.clear();
 
-    // Reset all players
     for (const p of this.gameState.players) {
       p.score = 0;
       p.currentRound = 1;
@@ -179,8 +178,8 @@ export default class Server implements Party.Server {
 
   private handleGuess(
     conn: Party.Connection,
-    lat: number,
-    lng: number,
+    countryGuess: string,
+    roundScore: number,
     round: number
   ) {
     if (this.gameState.status !== "playing") {
@@ -192,10 +191,7 @@ export default class Server implements Party.Server {
     if (!player) return;
 
     if (player.hasGuessed) {
-      this.send(conn, {
-        type: "error",
-        message: "You already guessed this round",
-      });
+      this.send(conn, { type: "error", message: "You already guessed this round" });
       return;
     }
 
@@ -204,29 +200,39 @@ export default class Server implements Party.Server {
       return;
     }
 
-    // Score calculation — placeholder using distance from (0, 0)
-    // The actual target coordinates will come from the Forvo data;
-    // for now we compute a simple score so the flow works end-to-end.
-    const distance = Math.sqrt(lat * lat + lng * lng);
-    const roundScore = Math.max(0, Math.round(5000 - distance * 10));
+    // Clamp score to valid range
+    const clampedScore = Math.max(0, Math.min(5000, Math.round(roundScore)));
 
     player.hasGuessed = true;
-    player.score += roundScore;
+    player.score += clampedScore;
 
-    // Check if all players have guessed
+    this.roundGuesses.set(conn.id, {
+      countryGuess,
+      roundScore: clampedScore,
+      distanceKm: null, // server doesn't compute this; client already showed it
+    });
+
     const allGuessed = this.gameState.players.every((p) => p.hasGuessed);
 
     if (allGuessed) {
-      const results = this.gameState.players.map((p) => ({
-        playerId: p.id,
-        score: p.id === conn.id ? roundScore : 0, // simplified — real impl tracks per-guess
-        totalScore: p.score,
-        distance: p.id === conn.id ? distance : 0,
-      }));
+      const results: RoundResultEntry[] = this.gameState.players.map((p) => {
+        const guess = this.roundGuesses.get(p.id);
+        return {
+          playerId: p.id,
+          playerName: p.name,
+          countryGuess: guess?.countryGuess ?? "Unknown",
+          roundScore: guess?.roundScore ?? 0,
+          totalScore: p.score,
+          distanceKm: guess?.distanceKm ?? null,
+        };
+      });
 
-      this.broadcast({ type: "round-result", results });
+      this.broadcast({
+        type: "round-result",
+        results,
+        correctCountryCode: this.gameState.countryCode ?? "",
+      });
 
-      // Check if game is over
       if (this.gameState.currentRound >= this.gameState.totalRounds) {
         this.gameState.status = "finished";
         const finalStandings = [...this.gameState.players].sort(
@@ -239,7 +245,6 @@ export default class Server implements Party.Server {
 
       this.syncAll();
     } else {
-      // Let everyone know someone guessed (via sync)
       this.syncAll();
     }
   }
@@ -248,18 +253,12 @@ export default class Server implements Party.Server {
 
   private handleNextRound(conn: Party.Connection) {
     if (conn.id !== this.gameState.hostId) {
-      this.send(conn, {
-        type: "error",
-        message: "Only the host can advance rounds",
-      });
+      this.send(conn, { type: "error", message: "Only the host can advance rounds" });
       return;
     }
 
     if (this.gameState.status !== "round-end") {
-      this.send(conn, {
-        type: "error",
-        message: "Cannot advance round right now",
-      });
+      this.send(conn, { type: "error", message: "Cannot advance round right now" });
       return;
     }
 
@@ -267,6 +266,7 @@ export default class Server implements Party.Server {
     this.gameState.status = "playing";
     this.gameState.audioUrl = null;
     this.gameState.countryCode = null;
+    this.roundGuesses.clear();
 
     for (const p of this.gameState.players) {
       p.hasGuessed = false;
@@ -275,14 +275,12 @@ export default class Server implements Party.Server {
 
     this.syncAll();
   }
+
   // ── Set Audio ─────────────────────────────────────────────
 
   private handleSetAudio(conn: Party.Connection, audioUrl: string, countryCode: string) {
     if (conn.id !== this.gameState.hostId) {
-      this.send(conn, {
-        type: "error",
-        message: "Only the host can set audio",
-      });
+      this.send(conn, { type: "error", message: "Only the host can set audio" });
       return;
     }
 

@@ -31,26 +31,26 @@ export interface GameState {
 
 export type ClientMessage =
   | { type: "join"; name: string }
-  | { type: "guess"; lat: number; lng: number; round: number }
+  | { type: "guess"; lat: number; lng: number; round: number; countryGuess: string; roundScore: number }
   | { type: "start-game"; gameMode: GameMode }
   | { type: "next-round" }
   | { type: "set-audio"; audioUrl: string; countryCode: string };
 
 // ===== Server → Client Messages =====
 
+export interface RoundResultEntry {
+  playerId: string;
+  playerName: string;
+  countryGuess: string;
+  roundScore: number;
+  totalScore: number;
+  distanceKm: number | null;
+}
+
 export type ServerMessage =
   | { type: "sync"; state: GameState }
   | { type: "player-joined"; player: Player }
   | { type: "player-left"; playerId: string }
-  | {
-      type: "round-result";
-      results: {
-        playerId: string;
-        score: number;
-        totalScore: number;
-        distance: number;
-      }[];
-    }
+  | { type: "round-result"; results: RoundResultEntry[]; correctCountryCode: string }
   | { type: "game-over"; finalStandings: Player[] }
   | { type: "error"; message: string };
-
