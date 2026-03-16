@@ -1,3 +1,7 @@
+// ===== Game Mode =====
+
+export type GameMode = "accent" | "language";
+
 // ===== Player & Game State =====
 
 export interface Player {
@@ -20,6 +24,7 @@ export interface GameState {
   audioUrl: string | null;
   countryCode: string | null;
   usedCountries: string[];
+  gameMode: GameMode;
 }
 
 // ===== Client → Server Messages =====
@@ -27,7 +32,7 @@ export interface GameState {
 export type ClientMessage =
   | { type: "join"; name: string }
   | { type: "guess"; lat: number; lng: number; round: number }
-  | { type: "start-game" }
+  | { type: "start-game"; gameMode: GameMode }
   | { type: "next-round" }
   | { type: "set-audio"; audioUrl: string; countryCode: string };
 
@@ -48,3 +53,4 @@ export type ServerMessage =
     }
   | { type: "game-over"; finalStandings: Player[] }
   | { type: "error"; message: string };
+

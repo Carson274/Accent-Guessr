@@ -17,13 +17,13 @@ export function Home() {
 
     const handleCreateRoom = () => {
         const code = generateRoomCode();
-        navigate(`/play/${code}`);
+        navigate(`/modes?room=${code}`);
     };
 
     const handleJoinRoom = () => {
         const code = joinCode.trim().toUpperCase();
         if (code.length === 4) {
-            navigate(`/play/${code}`);
+            navigate(`/modes?room=${code}`);
         }
     };
 
@@ -36,7 +36,7 @@ export function Home() {
 
                 {/* Solo Play */}
                 <button
-                    onClick={() => navigate("/play")}
+                    onClick={() => navigate("/modes")}
                     className="px-8 py-4 rounded-xl text-xl font-bold text-white shadow-lg transition duration-200 transform hover:scale-105"
                     style={{ backgroundColor: "#DA4F49" }}
                 >

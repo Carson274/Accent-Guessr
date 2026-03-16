@@ -2,13 +2,29 @@ const express = require('express')
 const rateLimit = require("express-rate-limit");
 const { loadEnvFile } = require('node:process');
 const { GoogleAuth } = require('google-auth-library');
-const { COUNTRY_MAP, COMMON_WORDS } = require('./constants');
+const textToSpeech = require('@google-cloud/text-to-speech');
+const { COUNTRY_MAP, COMMON_WORDS, SENTENCES } = require('./constants');
 const cors = require('cors');
 
 const auth = new GoogleAuth({
   keyFilename: './service-account-creds.json',
   scopes: ['https://www.googleapis.com/auth/cloud-translation'],
 });
+
+const ttsClient = new textToSpeech.TextToSpeechClient({
+  keyFilename: './service-account-creds.json',
+});
+
+async function synthesizeSpeech(text, languageCode) {
+  const [response] = await ttsClient.synthesizeSpeech({
+    input: { text },
+    voice: { languageCode, ssmlGender: 'NEUTRAL' },
+    audioConfig: { audioEncoding: 'MP3' },
+  });
+  // response.audioContent is a Buffer; convert to base64 data URI
+  const base64Audio = response.audioContent.toString('base64');
+  return `data:audio/mp3;base64,${base64Audio}`;
+}
 
 async function translateText(word, targetLanguageCode) {
   const client = await auth.getClient();
@@ -95,6 +111,39 @@ app.get('/audio', async (req, res) => {
       const translatedWord = await translateText(word, language);
       const audioUrl = await getForvoAudio(translatedWord, language, countryCode);
       return res.json({ audioUrl, countryCode });
+    } catch (e) {
+      console.log(e);
+      continue;
+    }
+  }
+
+  return res.status(404).json({ message: "No audio found for any available country" });
+})
+
+// Language mode: translate a sentence and synthesize TTS audio
+app.get('/language-audio', async (req, res) => {
+  const { usedCountries: usedCountriesRaw } = req.query;
+
+  const usedCountries = usedCountriesRaw
+    ? usedCountriesRaw.split(",").map(c => c.trim().toUpperCase())
+    : [];
+
+  const availableCountries = Object.entries(COUNTRY_MAP).filter(
+    ([code, { language }]) => !usedCountries.includes(code) && language !== 'en'
+  );
+
+  if (!availableCountries.length) {
+    return res.status(400).json({ message: "All countries have been used" });
+  }
+
+  const sentence = SENTENCES[Math.floor(Math.random() * SENTENCES.length)];
+  const shuffled = availableCountries.sort(() => Math.random() - 0.5);
+
+  for (const [countryCode, { language }] of shuffled) {
+    try {
+      const translatedSentence = await translateText(sentence, language);
+      const audioDataUri = await synthesizeSpeech(translatedSentence, language);
+      return res.json({ audioUrl: audioDataUri, countryCode });
     } catch (e) {
       console.log(e);
       continue;

@@ -2,6 +2,7 @@ import type * as Party from "partykit/server";
 import type {
   Player,
   GameState,
+  GameMode,
   ClientMessage,
   ServerMessage,
 } from "../src/types";
@@ -22,6 +23,7 @@ export default class Server implements Party.Server {
       audioUrl: null,
       countryCode: null,
       usedCountries: [],
+      gameMode: "accent",
     };
   }
 
@@ -89,7 +91,7 @@ export default class Server implements Party.Server {
         this.handleJoin(sender, msg.name);
         break;
       case "start-game":
-        this.handleStartGame(sender);
+        this.handleStartGame(sender, msg.gameMode);
         break;
       case "guess":
         this.handleGuess(sender, msg.lat, msg.lng, msg.round);
@@ -142,7 +144,7 @@ export default class Server implements Party.Server {
 
   // ── Start Game ───────────────────────────────────────────
 
-  private handleStartGame(conn: Party.Connection) {
+  private handleStartGame(conn: Party.Connection, gameMode: GameMode) {
     if (conn.id !== this.gameState.hostId) {
       this.send(conn, {
         type: "error",
@@ -161,6 +163,7 @@ export default class Server implements Party.Server {
     this.gameState.audioUrl = null;
     this.gameState.countryCode = null;
     this.gameState.usedCountries = [];
+    this.gameState.gameMode = gameMode;
 
     // Reset all players
     for (const p of this.gameState.players) {

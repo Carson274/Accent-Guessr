@@ -4,6 +4,29 @@ export const COMMON_WORDS = [
   "clock", "plant", "glass", "paper", "stone"
 ];
 
+export const SENTENCES = [
+  "The weather is beautiful today",
+  "I would like a glass of water please",
+  "Where is the nearest train station",
+  "Good morning, how are you doing",
+  "Can you help me find my way",
+  "The food at this restaurant is delicious",
+  "I am learning to speak a new language",
+  "What time does the store close tonight",
+  "My family is coming to visit next week",
+  "The mountains are covered in snow",
+  "She reads a book every evening before bed",
+  "We are going to the park this afternoon",
+  "The children are playing in the garden",
+  "I need to buy some groceries for dinner",
+  "The sun sets over the ocean every night",
+  "He works at the hospital as a doctor",
+  "Please tell me your name and address",
+  "The music from the concert was wonderful",
+  "They traveled across the country by train",
+  "I enjoy drinking coffee in the morning",
+];
+
 
 export const COUNTRY_MAP = {
   AFG: { language: "fa",  name: "Afghanistan" },
