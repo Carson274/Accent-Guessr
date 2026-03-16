@@ -7,11 +7,11 @@ interface LatLng {
 }
 
 type CountryFeature = Feature<
+  Geometry,
   {
     ADMIN?: string;
     ISO_A3?: string;
-  },
-  Geometry
+  }
 >;
 
 const EARTH_RADIUS_KM = 6371;
