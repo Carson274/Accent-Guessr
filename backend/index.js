@@ -6,13 +6,17 @@ const textToSpeech = require('@google-cloud/text-to-speech');
 const { ALL_COUNTRY_MAP, COMMON_WORDS, SENTENCES, EN_COUNTRY_MAP } = require('./constants');
 const cors = require('cors');
 
+const serviceAccountJson = process.env.GCP_SERVICE_ACCOUNT_JSON;
+if (!serviceAccountJson) {
+  throw new Error("GCP_SERVICE_ACCOUNT_JSON env var is not set");
+}
+const serviceAccount = JSON.parse(serviceAccountJson);
 const auth = new GoogleAuth({
-  keyFilename: './service-account-creds.json',
+  credentials: serviceAccount,
   scopes: ['https://www.googleapis.com/auth/cloud-translation'],
 });
-
 const ttsClient = new textToSpeech.TextToSpeechClient({
-  keyFilename: './service-account-creds.json',
+  credentials: serviceAccount,
 });
 
 async function synthesizeSpeech(text, languageCode) {
@@ -73,9 +77,17 @@ async function getForvoAudio(word, country) {
 const app = express()
 const port = 3000
 
-app.use(cors({ origin: 'http://localhost:5173' }));
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://accent-guessr-git-deployment-carson274s-projects.vercel.app",
+  "https://accent-guessr.vercel.app",
+];
 
-loadEnvFile('./.env')
+app.use(
+  cors({
+    origin: allowedOrigins,
+  })
+);
 
 const limiter = rateLimit({
   windowMs: 10 * 60 * 1000,
@@ -85,6 +97,10 @@ const limiter = rateLimit({
 
 app.use(limiter);
 app.use(express.json());
+
+app.get('/', (_, res) => {
+  return res.json({ message: "Hello!" });
+});
 
 // usedCountries should be a comma-separated list of Alpha-3 country codes e.g. "USA,FRA"
 app.get('/audio', async (req, res) => {
