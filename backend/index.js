@@ -80,12 +80,24 @@ const port = 3000
 const allowedOrigins = [
   "http://localhost:5173",
   "https://accent-guessr-game.vercel.app",
-  "https://accent-guessr-git-deployment-carson274s-projects.vercel.app",
 ];
 
 app.use(
   cors({
-    origin: allowedOrigins,
+    origin: (origin, callback) => {
+      if (!origin) return callback(null, true); // non-browser / curl
+
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+
+      // allow any accent-guessr-* preview on vercel
+      if (/^https:\/\/accent-guessr-.*\.vercel\.app$/.test(origin)) {
+        return callback(null, true);
+      }
+
+      return callback(new Error("Not allowed by CORS"));
+    },
   })
 );
 
