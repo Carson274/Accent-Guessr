@@ -99,7 +99,7 @@ app.use(limiter);
 app.use(express.json());
 
 app.get('/', (_, res) => {
-  return res.json({ message: "Hello, world!" });
+  return res.json({ message: "Hello!" });
 });
 
 // usedCountries should be a comma-separated list of Alpha-3 country codes e.g. "USA,FRA"
