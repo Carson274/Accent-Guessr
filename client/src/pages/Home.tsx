@@ -23,7 +23,9 @@ export function Home() {
     const handleJoinRoom = () => {
         const code = joinCode.trim().toUpperCase();
         if (code.length === 4) {
-            navigate(`/modes?room=${code}`);
+            // Join an existing room: go straight to the lobby.
+            // The actual game mode will come from the host's selection on the server.
+            navigate(`/play/${code}`);
         }
     };
 
