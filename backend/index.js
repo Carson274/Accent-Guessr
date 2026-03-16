@@ -3,7 +3,7 @@ const rateLimit = require("express-rate-limit");
 const { loadEnvFile } = require('node:process');
 const { GoogleAuth } = require('google-auth-library');
 const textToSpeech = require('@google-cloud/text-to-speech');
-const { COUNTRY_MAP, COMMON_WORDS, SENTENCES } = require('./constants');
+const { ALL_COUNTRY_MAP, COMMON_WORDS, SENTENCES, EN_COUNTRY_MAP } = require('./constants');
 const cors = require('cors');
 
 const auth = new GoogleAuth({
@@ -94,7 +94,7 @@ app.get('/audio', async (req, res) => {
     ? usedCountriesRaw.split(",").map(c => c.trim().toUpperCase())
     : [];
 
-  const availableCountries = Object.entries(COUNTRY_MAP).filter(([code]) => !usedCountries.includes(code));
+  const availableCountries = Object.entries(EN_COUNTRY_MAP).filter(([code]) => !usedCountries.includes(code));
 
   if (!availableCountries.length) {
     return res.status(400).json({ message: "All countries have been used" });
@@ -126,7 +126,7 @@ app.get('/language-audio', async (req, res) => {
     ? usedCountriesRaw.split(",").map(c => c.trim().toUpperCase())
     : [];
 
-  const availableCountries = Object.entries(COUNTRY_MAP).filter(
+  const availableCountries = Object.entries(ALL_COUNTRY_MAP).filter(
     ([code, { language }]) => !usedCountries.includes(code) && language !== 'en'
   );
 
