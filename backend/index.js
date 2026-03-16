@@ -79,7 +79,7 @@ const port = 3000
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://accent-guessr-game.vercel.app",
+  "accent-guessr-git-deployment-carson274s-projects.vercel.app",
 ];
 
 app.use(
