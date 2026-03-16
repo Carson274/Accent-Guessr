@@ -65,7 +65,7 @@ async function getForvoAudio(word, country) {
   if (!response.ok) throw new Error("Forvo API request failed");
 
   const data = await response.json();
-  if (!data.items?.length) throw new Error("No pronunciations found");
+  if (!data.items?.length) throw new Error(`No pronunciations of ${word} found for ${country}`);
 
   return data.items[0].pathmp3;
 }
@@ -107,6 +107,7 @@ app.get('/audio', async (req, res) => {
   for (const [countryCode] of shuffled) {
     try {
       const audioUrl = await getForvoAudio(word, countryCode);
+      console.log("\nFound URL for ", word, countryCode, "- here is the audioUrl:", audioUrl)
       return res.json({ audioUrl, countryCode });
     } catch (e) {
       console.log(e);

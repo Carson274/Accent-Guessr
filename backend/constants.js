@@ -1,6 +1,6 @@
 export const COMMON_WORDS = [
-  "apple", "house", "water", "table", "chair",
-  "book", "phone", "dog", "bread", 
+  "apple", "house", "water", "the", "good",
+  "have", "phone", "dog", "bread", 
   "where", "how", "hi", "hello"
 ];
 
@@ -35,24 +35,9 @@ export const COUNTRY_MAP = {
   AUS: { language: "en", name: "Australia" },
   NZL: { language: "en", name: "New Zealand" },
   IRL: { language: "en", name: "Ireland" },
-  IND: { language: "en", name: "India" },
-  PHL: { language: "en", name: "Philippines" },
+  IND: { language: "hi", name: "India" },
+  PHL: { language: "tl", name: "Philippines" },
   SGP: { language: "en", name: "Singapore" },
-  NGA: { language: "en", name: "Nigeria" },
-  UGA: { language: "en", name: "Uganda" },
-  ZAF: { language: "en", name: "South Africa" },
-  JAM: { language: "en", name: "Jamaica" },
-  TTO: { language: "en", name: "Trinidad and Tobago" },
-  DEU: { language: "en", name: "Germany" },
-  NLD: { language: "en", name: "Netherlands" },
-  SWE: { language: "en", name: "Sweden" },
-  DNK: { language: "en", name: "Denmark" },
-  FIN: { language: "en", name: "Finland" },
-  CHE: { language: "en", name: "Switzerland" },
-  AUT: { language: "en", name: "Austria" },
-  ESP: { language: "en", name: "Spain" },
-  ITA: { language: "en", name: "Italy" },
-  PRT: { language: "en", name: "Portugal" },
-  POL: { language: "en", name: "Poland" },
-  MEX: { language: "en", name: "Mexico" }
+  DEU: { language: "de", name: "Germany" },
+  MEX: { language: "es", name: "Mexico" }
 };
