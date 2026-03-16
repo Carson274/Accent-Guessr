@@ -5,14 +5,20 @@ import type { RootState } from "../../store/store";
 import { selectCountry } from "../../store/mapSlice";
 import Map from "../../components/Map";
 import { Scoreboard } from "../../components/Scoreboard";
-import { calculateRoundScore } from "../../utils/scoring";
+import {
+    calculateRoundScore,
+    getCountryNameFromCode,
+    type RoundScoreResult,
+} from "../../utils/scoring";
 import { useAudio } from "../../hooks/useAudio";
+import type { GameMode } from "../../types";
 
 interface SoloGameProps {
+    gameMode: GameMode;
     onGameOver: (finalScore: number) => void;
 }
 
-export function SoloGame({ onGameOver }: SoloGameProps) {
+export function SoloGame({ gameMode, onGameOver }: SoloGameProps) {
     const dispatch = useDispatch();
     const navigate = useNavigate();
     const selectedCountry = useSelector(
@@ -23,10 +29,16 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
     const [soloRound, setSoloRound] = useState(1);
     const [hasGuessed, setHasGuessed] = useState(false);
     const [usedCountries, setUsedCountries] = useState<string[]>([]);
+    const [roundResult, setRoundResult] = useState<{
+        correctCountryName: string | null;
+        guessedCountryName: string | null;
+        distanceKm: number | null;
+        roundScore: number;
+    } | null>(null);
     const soloTotalRounds = 5;
     const audioRef = useRef<HTMLAudioElement | null>(null);
 
-    const { data, isLoading, error } = useAudio({ usedCountries });
+    const { data, isLoading, error } = useAudio({ usedCountries, gameMode });
 
    useEffect(() => {
         if (data?.audioUrl) {
@@ -47,11 +59,23 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
     };
 
     const handleSubmitGuess = () => {
-        if (!selectedCountry) return;
+        if (!selectedCountry || !data?.countryCode) return;
 
-        const roundScore = calculateRoundScore(0, 0);
-        setSoloScore(soloScore + roundScore);
+        const result: RoundScoreResult = calculateRoundScore(
+            selectedCountry,
+            data.countryCode
+        );
+
+        const correctCountryName = getCountryNameFromCode(data.countryCode);
+
+        setSoloScore((prev) => prev + result.score);
         setHasGuessed(true);
+        setRoundResult({
+            correctCountryName,
+            guessedCountryName: selectedCountry,
+            distanceKm: result.distanceKm,
+            roundScore: result.score,
+        });
     };
 
     const handleNextRound = () => {
@@ -61,11 +85,17 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
             setSoloRound(soloRound + 1);
             dispatch(selectCountry(null));
             setHasGuessed(false);
-                    if (data?.countryCode) {
-            setUsedCountries(prev => [...prev, data.countryCode]);
-        }
+            setRoundResult(null);
+            if (data?.countryCode) {
+                setUsedCountries((prev) => [...prev, data.countryCode]);
+            }
         }
     };
+
+    const modeLabel = gameMode === "language" ? "Language" : "Accents";
+    const modeHint = gameMode === "language"
+        ? "Listen to the sentence and guess which country the language comes from."
+        : "Listen to the audio clip and click on the map to guess the origin.";
 
     return (
         <div className="h-screen w-screen" style={{ backgroundColor: "#EAE8DD" }}>
@@ -79,9 +109,9 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
                     ← Back
                 </button>
 
-                <h2 className="text-3xl font-bold mb-2 text-black">Solo Play</h2>
+                <h2 className="text-3xl font-bold mb-2 text-black">Solo Play — {modeLabel}</h2>
                 <p className="text-black mb-4">
-                    Listen to the audio clip and click on the map to guess the origin.
+                    {modeHint}
                 </p>
 
                 <div className="relative rounded-xl overflow-hidden h-[70vh] mb-4">
@@ -99,6 +129,34 @@ export function SoloGame({ onGameOver }: SoloGameProps) {
                                     <span className="font-semibold">Score:</span>
                                     <span className="font-mono font-bold">{soloScore}</span>
                                 </div>
+                                {hasGuessed && roundResult && (
+                                    <div className="mt-2 space-y-1 text-xs bg-white/10 rounded-lg px-3 py-2 text-white">
+                                        <div>
+                                            <span className="font-semibold">Correct:</span>{" "}
+                                            <span>
+                                                {roundResult.correctCountryName ?? "Unknown"}
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <span className="font-semibold">Your guess:</span>{" "}
+                                            <span>{roundResult.guessedCountryName}</span>
+                                        </div>
+                                        {roundResult.distanceKm !== null && (
+                                            <div>
+                                                <span className="font-semibold">Distance:</span>{" "}
+                                                <span>
+                                                    {Math.round(roundResult.distanceKm)} km
+                                                </span>
+                                            </div>
+                                        )}
+                                        <div>
+                                            <span className="font-semibold">Round points:</span>{" "}
+                                            <span className="font-mono font-bold">
+                                                +{roundResult.roundScore}
+                                            </span>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
                         </Scoreboard>
                     </div>

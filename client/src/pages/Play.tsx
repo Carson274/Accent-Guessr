@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import type { RootState } from "../store/store";
 import { selectCountry } from "../store/mapSlice";
 import { useState, useEffect, useRef } from "react";
-import { useParams, useNavigate, Navigate } from "react-router";
+import { useParams, useNavigate, useSearchParams, Navigate } from "react-router";
 import { usePartySocket } from "../hooks/usePartySocket";
 import { useAudio } from "../hooks/useAudio";
 import { SoloGame } from "./game/SoloGame";
@@ -10,11 +10,14 @@ import { SoloGameOver } from "./game/SoloGameOver";
 import { Lobby } from "../components/Lobby";
 import { MultiplayerScoreboard } from "../components/MultiplayerScoreboard";
 import Map from "../components/Map";
+import type { GameMode } from "../types";
 
 export function Play() {
     const dispatch = useDispatch();
     const { roomCode } = useParams<{ roomCode?: string }>();
     const navigate = useNavigate();
+    const [searchParams] = useSearchParams();
+    const gameMode = (searchParams.get("mode") as GameMode) || "accent";
 
     // Multiplayer name entry state
     const [playerName, setPlayerName] = useState("");
@@ -36,6 +39,9 @@ export function Play() {
         gameState?.players.find((p) => p.name === playerName)?.id ?? null;
     const isHost = currentPlayerId === gameState?.hostId;
 
+    // Use gameMode from gameState when available (multiplayer), otherwise from query param
+    const activeGameMode: GameMode = gameState?.gameMode ?? gameMode;
+
     // ── Audio for multiplayer (host fetches, shares with all) ──
     const shouldFetchAudio =
         isHost &&
@@ -44,6 +50,7 @@ export function Play() {
 
     const { data: audioData } = useAudio({
         usedCountries: gameState?.usedCountries ?? [],
+        gameMode: activeGameMode,
         enabled: shouldFetchAudio,
     });
 
@@ -98,6 +105,7 @@ export function Play() {
         // Show game screen
         return (
             <SoloGame
+                gameMode={gameMode}
                 onGameOver={(score) => {
                     setFinalScore(score);
                 }}
@@ -178,6 +186,11 @@ export function Play() {
         );
     }
 
+    const modeLabel = activeGameMode === "language" ? "Language" : "Accents";
+    const modeHint = activeGameMode === "language"
+        ? "Listen to the sentence and guess which country the language comes from."
+        : "Listen to the audio clip and click on the map to guess the origin.";
+
     // ── Multiplayer: lobby (waiting) ──────────────────────────
     if (gameState.status === "waiting") {
         return (
@@ -196,7 +209,7 @@ export function Play() {
                 <Lobby
                     gameState={gameState}
                     isHost={isHost}
-                    onStartGame={() => sendMessage({ type: "start-game" })}
+                    onStartGame={() => sendMessage({ type: "start-game", gameMode })}
                 />
             </div>
         );
@@ -222,10 +235,10 @@ export function Play() {
                         </button>
 
                         <h2 className="text-2xl font-bold mb-2 text-black">
-                            Round {gameState.currentRound} / {gameState.totalRounds}
+                            Round {gameState.currentRound} / {gameState.totalRounds} — {modeLabel}
                         </h2>
                         <p className="text-black mb-4">
-                            Listen to the audio clip and click on the map to guess the origin.
+                            {modeHint}
                         </p>
                         {/* Map + Scoreboard overlay container */}
                         <div className="relative rounded-xl overflow-hidden h-[70vh] mb-4">

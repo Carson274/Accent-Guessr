@@ -41,7 +41,7 @@ export function HowToPlay({ className }: { className: string }) {
                             <div className="flex flex-row justify-center gap-10 mb-10">
                                 <div className="flex flex-col items-center">
                                     <img className="w-120 mt-4 rounded-lg" src={HowTo1}/>
-                                    <p className="pt-3 text-center w-96">In this game, you will take turns taking guesses of the country from where a specific accent originates. You will make these gusses based on an audio clip played for you.</p>
+                                    <p className="pt-3 text-center w-96">In this game, you will take turns taking guesses of the country from where a specific accent or language originates. You will make these gusses based on an audio clip played for you.</p>
                                 </div>
                                 <div className="flex flex-col items-center">
                                     <img className="w-120 mt-4 rounded-lg" src={HowTo2}/>
