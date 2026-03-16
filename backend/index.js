@@ -80,6 +80,7 @@ const port = 3000
 const allowedOrigins = [
   "http://localhost:5173",
   "https://accent-guessr-git-deployment-carson274s-projects.vercel.app",
+  "https://accent-guessr-git-main-carson274s-projects.vercel.app",
   "https://accent-guessr.vercel.app",
 ];
 
