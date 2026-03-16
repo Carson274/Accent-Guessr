@@ -31,15 +31,6 @@ const highlightStyle = {
   fillOpacity: 0.45,
 };
 
-// Color to show the correct answer country
-const correctStyle = {
-  fillColor: "#22c55e",
-  weight: 3,
-  opacity: 1,
-  color: "#16a34a",
-  fillOpacity: 0.55,
-};
-
 // Style on hover (slightly brighter outline)
 const hoverStyle = {
   weight: 2,
@@ -57,7 +48,6 @@ const worldBounds = L.latLngBounds(
 
 interface MapProps {
   disabled?: boolean;
-  correctCountryCode?: string | null;
 }
 
 /**
@@ -65,9 +55,8 @@ interface MapProps {
  * Uses Redux for state management of the selected country.
  * Allows users to click countries to select/deselect them.
  * When `disabled` is true, click and hover interactions are suppressed.
- * When `correctCountryCode` is set, that country is highlighted in green.
  */
-export default function Map({ disabled = false, correctCountryCode = null }: MapProps) {
+export default function Map({ disabled = false }: MapProps) {
   // Redux dispatch and selector
   const dispatch = useDispatch();
   const selectedCountry = useSelector(
@@ -88,7 +77,6 @@ export default function Map({ disabled = false, correctCountryCode = null }: Map
   const onEachFeature = useCallback(
     (feature: Feature, layer: Layer) => {
       const countryName = feature.properties?.ADMIN as string;
-      const countryCode = feature.properties?.ISO_A3 as string;
 
       // Show country name on hover
       layer.bindTooltip(countryName, {
@@ -104,47 +92,41 @@ export default function Map({ disabled = false, correctCountryCode = null }: Map
           if (selectedCountry === countryName) {
             dispatch(selectCountry(null));
           } else {
-            dispatch(selectCountry({ name: countryName, code: countryCode }));
+            dispatch(selectCountry(countryName));
           }
         },
         mouseover: (e: LeafletMouseEvent) => {
           if (disabledRef.current) return;
           const target = e.target as Path;
-          // Don't override the selected or correct highlight
-          if (countryName !== selectedCountry && countryCode !== correctCountryCode) {
+          // Don't override the selected highlight
+          if (countryName !== selectedCountry) {
             target.setStyle(hoverStyle);
           }
         },
         mouseout: (e: LeafletMouseEvent) => {
           if (disabledRef.current) return;
           const target = e.target as Path;
-          if (countryName !== selectedCountry && countryCode !== correctCountryCode) {
+          if (countryName !== selectedCountry) {
             target.setStyle(defaultStyle);
           }
         },
       });
     },
-    [selectedCountry, correctCountryCode, dispatch]
+    [selectedCountry, dispatch]
   );
 
   /**
-   * Style each country based on selection state and correct answer.
+   * Style each country based on selection state.
+   * Returns highlighted style if country is selected, default style otherwise.
    */
   const styleFeature = useCallback(
     (feature: Feature | undefined) => {
       if (!feature) return defaultStyle;
-      const code = feature.properties?.ISO_A3;
-      const name = feature.properties?.ADMIN;
-
-      if (correctCountryCode && code === correctCountryCode) {
-        return correctStyle;
-      }
-      if (name === selectedCountry) {
-        return highlightStyle;
-      }
-      return defaultStyle;
+      return feature.properties?.ADMIN === selectedCountry
+        ? highlightStyle
+        : defaultStyle;
     },
-    [selectedCountry, correctCountryCode]
+    [selectedCountry]
   );
 
   // ── Render ───────────────────────────────────────────────────
@@ -167,7 +149,7 @@ export default function Map({ disabled = false, correctCountryCode = null }: Map
 
       {/* GeoJSON layer with country boundaries and click handlers */}
       <GeoJSON
-        key={`${selectedCountry}-${disabled}-${correctCountryCode}`}
+        key={`${selectedCountry}-${disabled}`}
         data={countriesData as GeoJsonObject}
         style={styleFeature}
         onEachFeature={onEachFeature}
