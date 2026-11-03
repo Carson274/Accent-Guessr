@@ -113,30 +113,30 @@ export function SoloGame({ gameMode, onGameOver }: SoloGameProps) {
 
                         {/* Play button / audio controls */}
                         <ClipControls player={player} isLoading={isLoading} hasError={!!error} />
-
-                        {/* Submit guess / Next round button */}
-                        {hasGuessed ? (
-                            <button
-                                onClick={handleNextRound}
-                                className="absolute bottom-4 right-4 sm:right-auto sm:left-1/2 sm:-translate-x-1/2 z-[1000] px-5 sm:px-6 py-3 rounded-lg font-semibold text-white transition hover:scale-105 transform"
-                                style={{ backgroundColor: "#DA4F49" }}
-                            >
-                                Next Round
-                            </button>
-                        ) : (
-                            <button
-                                onClick={handleSubmitGuess}
-                                disabled={!selectedCountry}
-                                className="absolute bottom-4 right-4 sm:right-auto sm:left-1/2 sm:-translate-x-1/2 z-[1000] px-5 sm:px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed hover:scale-105 transform"
-                                style={{ backgroundColor: "#DA4F49" }}
-                            >
-                                Submit Guess
-                            </button>
-                        )}
                     </div>
 
+                    {/* Submit guess / Next round: over the map on larger screens, full width below it on phones */}
+                    {hasGuessed ? (
+                        <button
+                            onClick={handleNextRound}
+                            className="mt-3 w-full sm:mt-0 sm:w-auto sm:absolute sm:bottom-4 sm:left-1/2 sm:-translate-x-1/2 sm:z-[1000] px-6 py-3 text-center rounded-lg font-semibold text-white transition hover:scale-105 transform"
+                            style={{ backgroundColor: "#DA4F49" }}
+                        >
+                            Next Round
+                        </button>
+                    ) : (
+                        <button
+                            onClick={handleSubmitGuess}
+                            disabled={!selectedCountry}
+                            className="mt-3 w-full sm:mt-0 sm:w-auto sm:absolute sm:bottom-4 sm:left-1/2 sm:-translate-x-1/2 sm:z-[1000] px-6 py-3 text-center rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed hover:scale-105 transform"
+                            style={{ backgroundColor: "#DA4F49" }}
+                        >
+                            Submit Guess
+                        </button>
+                    )}
+
                     {/* Scoreboard: over the map on larger screens, below it on phones */}
-                    <div className="mt-4 sm:mt-0 sm:absolute sm:top-4 sm:right-4 sm:z-[1000]">
+                    <div className="mt-3 sm:mt-0 sm:absolute sm:top-4 sm:right-4 sm:z-[1000]">
                         <Scoreboard
                             title="Score"
                             round={soloRound}
