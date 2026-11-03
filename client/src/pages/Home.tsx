@@ -31,13 +31,13 @@ export function Home() {
 
     return (
         <div
-            className="relative min-h-screen w-screen flex items-center justify-center py-16"
+            className="relative min-h-screen w-full flex items-center justify-center px-4 py-16"
             style={{ backgroundColor: "#EAE8DD" }}
         >
             <HowToPlay className="absolute top-2 right-2" />
-            <div className="flex flex-col items-center gap-10">
+            <div className="flex w-full flex-col items-center gap-8 sm:gap-10">
                 {/* Title */}
-                <h1 className="text-8xl text-center font-bold text-black logo">Accent-Guessr</h1>
+                <h1 className="text-6xl sm:text-8xl text-center font-bold text-black logo">Accent-Guessr</h1>
 
                 {/* Solo Play */}
                 <button

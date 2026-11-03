@@ -105,7 +105,7 @@ export function Play() {
     if (!nameSubmitted) {
         return (
             <div
-                className="relative min-h-screen w-screen flex items-center justify-center"
+                className="relative min-h-screen w-full flex items-center justify-center px-4 py-16"
                 style={{ backgroundColor: "#EAE8DD" }}
             >
                 <button
@@ -155,7 +155,7 @@ export function Play() {
     if (!connected || !gameState) {
         return (
             <div
-                className="min-h-screen w-screen flex items-center justify-center"
+                className="min-h-screen w-full flex items-center justify-center px-4"
                 style={{ backgroundColor: "#EAE8DD" }}
             >
                 <div className="text-center">
@@ -177,7 +177,7 @@ export function Play() {
     if (gameState.status === "waiting") {
         return (
             <div
-                className="relative min-h-screen w-screen flex items-center justify-center"
+                className="relative min-h-screen w-full flex items-center justify-center px-4 py-16"
                 style={{ backgroundColor: "#EAE8DD" }}
             >
                 <button
@@ -217,8 +217,8 @@ export function Play() {
     };
 
     return (
-        <div className="min-h-screen w-screen" style={{ backgroundColor: "#EAE8DD" }}>
-            <div className="p-6">
+        <div className="min-h-screen w-full" style={{ backgroundColor: "#EAE8DD" }}>
+            <div className="p-4 sm:p-6">
                 {(gameState.status === "playing" || gameState.status === "round-end") && (
                     <>
                         <button
@@ -229,30 +229,61 @@ export function Play() {
                             ← Back
                         </button>
 
-                        <h2 className="text-2xl font-bold mb-2 text-black">
+                        <h2 className="text-xl sm:text-2xl font-bold mb-2 text-black">
                             Round {gameState.currentRound} / {gameState.totalRounds} — {modeLabel}
                         </h2>
-                        <p className="text-black mb-4">{modeHint}</p>
+                        <p className="text-black mb-4 text-sm sm:text-base">{modeHint}</p>
 
-                        <div className="relative rounded-xl overflow-hidden h-[70vh] mb-4">
-                            <Map
-                                disabled={
-                                    gameState.status === "round-end" || alreadyGuessed
-                                }
-                                result={mapResult}
-                            />
-
-                            {/* Play button / audio controls */}
-                            {(gameState.status === "playing" || player.started) && (
-                                <ClipControls
-                                    player={player}
-                                    isLoading={gameState.status === "playing" && !gameState.audioUrl}
-                                    hasError={false}
+                        <div className="relative mb-4">
+                            <div className="relative rounded-xl overflow-hidden h-[60dvh] sm:h-[70vh]">
+                                <Map
+                                    disabled={
+                                        gameState.status === "round-end" || alreadyGuessed
+                                    }
+                                    result={mapResult}
                                 />
-                            )}
 
-                            {/* Scoreboard overlay */}
-                            <div className="absolute top-4 right-4 z-[1000]">
+                                {/* Play button / audio controls */}
+                                {(gameState.status === "playing" || player.started) && (
+                                    <ClipControls
+                                        player={player}
+                                        isLoading={gameState.status === "playing" && !gameState.audioUrl}
+                                        hasError={false}
+                                    />
+                                )}
+
+                                {/* Submit / Next round */}
+                                {gameState.status === "round-end" ? (
+                                    isHost ? (
+                                        <button
+                                            onClick={() => sendMessage({ type: "next-round" })}
+                                            className="absolute bottom-4 right-4 sm:right-auto sm:left-1/2 sm:-translate-x-1/2 z-[1000] px-5 sm:px-6 py-3 rounded-lg font-semibold text-white transition duration-300 ease-in-out transform hover:scale-105"
+                                            style={{ backgroundColor: "#DA4F49" }}
+                                        >
+                                            Next Round
+                                        </button>
+                                    ) : (
+                                        <div
+                                            className="absolute bottom-4 right-4 sm:right-auto sm:left-1/2 sm:-translate-x-1/2 z-[1000] px-5 sm:px-6 py-3 rounded-lg font-semibold text-white animate-pulse"
+                                            style={{ backgroundColor: "#DA4F49" }}
+                                        >
+                                            Waiting for host…
+                                        </div>
+                                    )
+                                ) : (
+                                    <button
+                                        onClick={handleSubmitGuess}
+                                        disabled={!selectedCountry || alreadyGuessed || !gameState.countryCode}
+                                        className="absolute bottom-4 right-4 sm:right-auto sm:left-1/2 sm:-translate-x-1/2 z-[1000] px-5 sm:px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed duration-300 ease-in-out transform hover:scale-105"
+                                        style={{ backgroundColor: "#DA4F49" }}
+                                    >
+                                        Submit Guess
+                                    </button>
+                                )}
+                            </div>
+
+                            {/* Scoreboard: over the map on larger screens, below it on phones */}
+                            <div className="mt-4 sm:mt-0 sm:absolute sm:top-4 sm:right-4 sm:z-[1000]">
                                 <MultiplayerScoreboard
                                     gameState={gameState}
                                     currentPlayerId={currentPlayerId}
@@ -260,35 +291,6 @@ export function Play() {
                                     correctCountryCode={gameState.status === "round-end" ? lastRoundCorrectCode : null}
                                 />
                             </div>
-
-                            {/* Submit / Next round */}
-                            {gameState.status === "round-end" ? (
-                                isHost ? (
-                                    <button
-                                        onClick={() => sendMessage({ type: "next-round" })}
-                                        className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition duration-300 ease-in-out transform hover:scale-105"
-                                        style={{ backgroundColor: "#DA4F49" }}
-                                    >
-                                        Next Round
-                                    </button>
-                                ) : (
-                                    <div
-                                        className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white animate-pulse"
-                                        style={{ backgroundColor: "#DA4F49" }}
-                                    >
-                                        Waiting for host…
-                                    </div>
-                                )
-                            ) : (
-                                <button
-                                    onClick={handleSubmitGuess}
-                                    disabled={!selectedCountry || alreadyGuessed || !gameState.countryCode}
-                                    className="absolute bottom-4 left-1/2 -translate-x-1/2 z-[1000] px-6 py-3 rounded-lg font-semibold text-white transition disabled:opacity-50 disabled:cursor-not-allowed duration-300 ease-in-out transform hover:scale-105"
-                                    style={{ backgroundColor: "#DA4F49" }}
-                                >
-                                    Submit Guess
-                                </button>
-                            )}
                         </div>
                     </>
                 )}

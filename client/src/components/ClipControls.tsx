@@ -41,7 +41,7 @@ export function ClipControls({ player, isLoading, hasError }: ClipControlsProps)
                 <button
                     onClick={player.toggle}
                     aria-label="Play clip"
-                    className="flex h-24 w-24 items-center justify-center rounded-full text-white shadow-xl transition hover:scale-110"
+                    className="flex h-20 w-20 sm:h-24 sm:w-24 items-center justify-center rounded-full text-white shadow-xl transition hover:scale-110"
                     style={{ backgroundColor: RED }}
                 >
                     <PlayIcon className="ml-1.5 h-10 w-10" />
@@ -54,16 +54,16 @@ export function ClipControls({ player, isLoading, hasError }: ClipControlsProps)
     }
 
     return (
-        <div className="absolute bottom-4 left-4 z-[1000] flex items-center gap-3 rounded-full bg-white px-3 py-2 shadow-lg">
+        <div className="absolute bottom-4 left-4 z-[1000] flex items-center gap-2 sm:gap-3 rounded-full bg-white px-2.5 sm:px-3 py-2 shadow-lg">
             <button
                 onClick={player.toggle}
                 aria-label={player.playing ? "Pause" : "Play"}
-                className="flex h-10 w-10 items-center justify-center rounded-full text-white transition hover:scale-105"
+                className="flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-full text-white transition hover:scale-105"
                 style={{ backgroundColor: RED }}
             >
                 {player.playing ? <PauseIcon className="h-5 w-5" /> : <PlayIcon className="ml-0.5 h-5 w-5" />}
             </button>
-            <div className="h-1.5 w-32 overflow-hidden rounded-full bg-black/10">
+            <div className="h-1.5 w-14 sm:w-32 overflow-hidden rounded-full bg-black/10">
                 <div
                     className="h-full rounded-full"
                     style={{ width: `${Math.round(player.progress * 100)}%`, backgroundColor: RED }}

@@ -15,7 +15,7 @@ export function Modes() {
 
     return (
         <div
-            className="relative min-h-screen w-screen flex items-center justify-center"
+            className="relative min-h-screen w-full flex items-center justify-center px-4 py-16"
             style={{ backgroundColor: "#EAE8DD" }}
         >
             {/* Back button */}
@@ -27,19 +27,19 @@ export function Modes() {
                 ← Back
             </button>
 
-            <div className="flex flex-col items-center gap-8">
-                <h1 className="text-5xl font-bold text-black logo">Choose a Gamemode</h1>
+            <div className="flex w-full flex-col items-center gap-6 sm:gap-8">
+                <h1 className="text-4xl sm:text-5xl text-center font-bold text-black logo">Choose a Gamemode</h1>
                 {roomCode && (
                     <p className="text-black/60 text-sm">
                         Room: <span className="font-mono font-bold tracking-widest text-black">{roomCode}</span>
                     </p>
                 )}
 
-                <div className="flex gap-6">
+                <div className="flex w-full flex-col items-center gap-4 sm:w-auto sm:flex-row sm:gap-6">
                     {/* Accents Mode */}
                     <button
                         onClick={() => handleSelectMode("accent")}
-                        className="group flex flex-col items-center gap-4 rounded-2xl shadow-lg p-8 w-64 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
+                        className="group flex flex-col items-center gap-3 sm:gap-4 rounded-2xl shadow-lg p-6 sm:p-8 w-full max-w-xs sm:w-64 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
                         style={{ backgroundColor: "#DA4F49" }}
                     >
                         <span className="text-5xl">🗣️</span>
@@ -52,7 +52,7 @@ export function Modes() {
                     {/* Language Mode */}
                     <button
                         onClick={() => handleSelectMode("language")}
-                        className="group flex flex-col items-center gap-4 rounded-2xl shadow-lg p-8 w-64 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
+                        className="group flex flex-col items-center gap-3 sm:gap-4 rounded-2xl shadow-lg p-6 sm:p-8 w-full max-w-xs sm:w-64 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
                         style={{ backgroundColor: "#DA4F49" }}
                     >
                         <span className="text-5xl">🌍</span>

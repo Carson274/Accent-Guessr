@@ -18,7 +18,7 @@ export function Scoreboard({
 }: ScoreboardProps) {
     return (
         <div
-            className="rounded-xl shadow-lg p-4 w-64"
+            className="rounded-xl shadow-lg p-4 w-full sm:w-64"
             style={{ backgroundColor: "#DA4F49" }}
         >
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white/80 mb-3 text-center">

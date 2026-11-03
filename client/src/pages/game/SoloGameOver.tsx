@@ -10,7 +10,7 @@ export function SoloGameOver({ finalScore, onPlayAgain }: SoloGameOverProps) {
 
     return (
         <div
-            className="min-h-screen w-screen flex items-center justify-center"
+            className="min-h-screen w-full flex items-center justify-center px-4"
             style={{ backgroundColor: "#EAE8DD" }}
         >
             <div className="text-center">

@@ -63,6 +63,9 @@ const worldBounds = L.latLngBounds(
   L.latLng(85, 180)
 );
 
+// Phones get one zoom level further out so more of the world fits on screen.
+const startZoom = () => (typeof window !== "undefined" && window.innerWidth < 640 ? 1 : 2);
+
 // ── Map Component ────────────────────────────────────────────
 
 /** Country names (ADMIN) to show once a round is over. */
@@ -165,11 +168,11 @@ export default function Map({ disabled = false, result = null }: MapProps) {
   return (
     <MapContainer
       center={[30, 0]}
-      zoom={2}
-      minZoom={2}
+      zoom={startZoom()}
+      minZoom={startZoom()}
       maxBounds={worldBounds}
       maxBoundsViscosity={1.0}
-      style={{ height: "100vh", width: "100%" }}
+      style={{ height: "100%", width: "100%" }}
     >
       {/* Base map tile layer (OpenStreetMap) */}
       <TileLayer
@@ -205,16 +208,18 @@ function ResultLayer({ result }: { result: MapResult | null }) {
 
   useEffect(() => {
     if (!correct) {
-      if (hadResult.current) map.flyTo([30, 0], 2, { duration: 0.6 });
+      if (hadResult.current) map.flyTo([30, 0], map.getMinZoom(), { duration: 0.6 });
       hadResult.current = false;
       return;
     }
     hadResult.current = true;
     if (guess) {
-      // Extra padding on the right and bottom keeps the pins clear of the scoreboard and buttons.
+      // Leave room for the pin labels (about 75px each side of a pin) and the buttons along the bottom.
+      // On wider screens the scoreboard also sits over the right side of the map.
+      const wide = map.getSize().x >= 640;
       map.flyToBounds(L.latLngBounds([guess, correct]), {
-        paddingTopLeft: [60, 60],
-        paddingBottomRight: [290, 90],
+        paddingTopLeft: wide ? [90, 60] : [80, 50],
+        paddingBottomRight: wide ? [290, 90] : [80, 80],
         maxZoom: 5,
         duration: 0.8,
       });
