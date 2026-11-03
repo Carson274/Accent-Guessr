@@ -1,0 +1,12 @@
+{
+  "name": "Accent Guessr",
+  "short_name": "Accent Guessr",
+  "icons": [
+    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "theme_color": "#EAE8DD",
+  "background_color": "#EAE8DD",
+  "display": "standalone",
+  "start_url": "/"
+}

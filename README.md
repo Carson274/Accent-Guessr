@@ -1,4 +1,4 @@
-# AccentGuessr 🗣️ - [Live Site](https://accent-guessr.vercel.app/)
+# <img src="client/public/favicon.svg" alt="" width="36" height="36" align="top"> AccentGuessr - [Live Site](https://accent-guessr.vercel.app/)
 ## About
 AccentGuessr is a game that allows the player to guess where different languages & accents are from. There are two primary gamemodes:
 - **Accents**: Players listen to a real person read a short English passage and then guess the country where the speaker grew up.

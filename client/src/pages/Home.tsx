@@ -30,9 +30,12 @@ export function Home() {
     };
 
     return (
-        <div className="min-h-screen w-screen" style={{ backgroundColor: "#EAE8DD" }}>
-            <HowToPlay className="p-2 justify-self-end" />
-            <div className="flex flex-col items-center pt-12 gap-10">
+        <div
+            className="relative min-h-screen w-screen flex items-center justify-center py-16"
+            style={{ backgroundColor: "#EAE8DD" }}
+        >
+            <HowToPlay className="absolute top-2 right-2" />
+            <div className="flex flex-col items-center gap-10">
                 {/* Title */}
                 <h1 className="text-8xl text-center font-bold text-black logo">Accent-Guessr</h1>
 
