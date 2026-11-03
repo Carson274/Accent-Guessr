@@ -28,7 +28,10 @@ const fetchAudio = async ({ usedCountries, gameMode }: AudioParams): Promise<Aud
     throw new Error(error.message ?? "Failed to fetch audio");
   }
 
-  return response.json();
+  const data: AudioResponse = await response.json();
+
+  // The backend returns clip paths like "/clips/a-1f2e.mp3", served from the backend's origin.
+  return { ...data, audioUrl: new URL(data.audioUrl, BACKEND_URL).href };
 };
 
 export const useAudio = (params: AudioParams) => {

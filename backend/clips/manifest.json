@@ -1,0 +1,6917 @@
+{
+  "accent": {
+    "AFG": [
+      {
+        "file": "a-88d6dc54680a47a3.mp3",
+        "source": "dari1.mp3",
+        "nativeLanguage": "dari",
+        "birthplace": "kabul, afghanistan",
+        "seconds": 14
+      },
+      {
+        "file": "a-e94caf59bedcb727.mp3",
+        "source": "dari11.mp3",
+        "nativeLanguage": "dari",
+        "birthplace": "kabul, afghanistan",
+        "seconds": 14
+      },
+      {
+        "file": "a-820e78189c327773.mp3",
+        "source": "dari6.mp3",
+        "nativeLanguage": "dari",
+        "birthplace": "kabul, afghanistan",
+        "seconds": 9.5
+      }
+    ],
+    "AGO": [
+      {
+        "file": "a-450ba2cd3d2307c1.mp3",
+        "source": "portuguese4.mp3",
+        "nativeLanguage": "portuguese",
+        "birthplace": "cabinda, angola",
+        "seconds": 12
+      },
+      {
+        "file": "a-dad68af559a45861.mp3",
+        "source": "portuguese5.mp3",
+        "nativeLanguage": "portuguese",
+        "birthplace": "lubango, angola",
+        "seconds": 11
+      },
+      {
+        "file": "a-67e8ec5e630431fd.mp3",
+        "source": "portuguese64.mp3",
+        "nativeLanguage": "portuguese",
+        "birthplace": "luanda, angola",
+        "seconds": 12.2
+      }
+    ],
+    "ALB": [
+      {
+        "file": "a-2c20e9d12a34f806.mp3",
+        "source": "albanian13.mp3",
+        "nativeLanguage": "albanian",
+        "birthplace": "durres, albania",
+        "seconds": 13.1
+      },
+      {
+        "file": "a-950532373265de55.mp3",
+        "source": "albanian2.mp3",
+        "nativeLanguage": "albanian",
+        "birthplace": "tirana, albania",
+        "seconds": 14
+      },
+      {
+        "file": "a-7878752e2a5f3f27.mp3",
+        "source": "albanian9.mp3",
+        "nativeLanguage": "albanian",
+        "birthplace": "tirana, albania",
+        "seconds": 12
+      }
+    ],
+    "AND": [
+      {
+        "file": "a-91d85ffb3cb2574e.mp3",
+        "source": "french41.mp3",
+        "nativeLanguage": "french",
+        "birthplace": "la massana, andorra",
+        "seconds": 13.6
+      }
+    ],
+    "ARE": [
+      {
+        "file": "a-ff894711e03413c7.mp3",
+        "source": "arabic137.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "al-ayn, united arab emirates",
+        "seconds": 11.6
+      },
+      {
+        "file": "a-cce44198b7ae3d91.mp3",
+        "source": "arabic22.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "abu dhabi, united arab emirates",
+        "seconds": 12.7
+      },
+      {
+        "file": "a-18326ce452d3bebb.mp3",
+        "source": "arabic4.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "sharjah, united arab emirates",
+        "seconds": 11.9
+      }
+    ],
+    "ARG": [
+      {
+        "file": "a-cda31d0432dc532f.mp3",
+        "source": "spanish30.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "buenos aires, argentina",
+        "seconds": 14
+      },
+      {
+        "file": "a-0e86faa1c67666c5.mp3",
+        "source": "spanish49.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "tandil, argentina",
+        "seconds": 14
+      },
+      {
+        "file": "a-139a81c64b93c8ad.mp3",
+        "source": "spanish85.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "buenos aires, argentina",
+        "seconds": 12
+      }
+    ],
+    "ARM": [
+      {
+        "file": "a-5cd7c319870ded14.mp3",
+        "source": "armenian1.mp3",
+        "nativeLanguage": "armenian",
+        "birthplace": "yerevan, armenia",
+        "seconds": 13.2
+      },
+      {
+        "file": "a-8b1d3684fd48ef8a.mp3",
+        "source": "armenian5.mp3",
+        "nativeLanguage": "armenian",
+        "birthplace": "yerevan, armenia",
+        "seconds": 14
+      }
+    ],
+    "ATG": [
+      {
+        "file": "a-a62c47634ce1bc94.mp3",
+        "source": "english209.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "saint johns, antigua and barbuda",
+        "seconds": 13.3
+      }
+    ],
+    "AUS": [
+      {
+        "file": "a-a4401aabaa0eb3ba.mp3",
+        "source": "english3.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "brisbane, australia",
+        "seconds": 14
+      },
+      {
+        "file": "a-e57358364538b0a4.mp3",
+        "source": "english77.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "melbourne, australia",
+        "seconds": 12.6
+      },
+      {
+        "file": "a-db7503b90c0af6cf.mp3",
+        "source": "english84.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "sydney, australia",
+        "seconds": 11.8
+      }
+    ],
+    "AUT": [
+      {
+        "file": "a-09c36aa94e69ac66.mp3",
+        "source": "german28.mp3",
+        "nativeLanguage": "german",
+        "birthplace": "vienna, austria",
+        "seconds": 13.5
+      },
+      {
+        "file": "a-594ac2505d76b50b.mp3",
+        "source": "german30.mp3",
+        "nativeLanguage": "german",
+        "birthplace": "radstadt, austria",
+        "seconds": 11.7
+      },
+      {
+        "file": "a-e24482dbc61559f2.mp3",
+        "source": "german6.mp3",
+        "nativeLanguage": "german",
+        "birthplace": "vienna, austria",
+        "seconds": 14
+      }
+    ],
+    "AZE": [
+      {
+        "file": "a-5380b372908a57a6.mp3",
+        "source": "azerbaijani1.mp3",
+        "nativeLanguage": "azerbaijani",
+        "birthplace": "naxcivan, azerbaijan",
+        "seconds": 10.8
+      },
+      {
+        "file": "a-ab97335bc3a6df09.mp3",
+        "source": "azerbaijani2.mp3",
+        "nativeLanguage": "azerbaijani",
+        "birthplace": "baku, azerbaijan",
+        "seconds": 12.5
+      },
+      {
+        "file": "a-1b1d7322a00811ed.mp3",
+        "source": "azerbaijani3.mp3",
+        "nativeLanguage": "azerbaijani",
+        "birthplace": "baku, azerbaijan",
+        "seconds": 12.5
+      }
+    ],
+    "BDI": [
+      {
+        "file": "a-0dd83d445741de90.mp3",
+        "source": "rundi1.mp3",
+        "nativeLanguage": "rundi",
+        "birthplace": "bururi, burundi",
+        "seconds": 11.8
+      }
+    ],
+    "BEL": [
+      {
+        "file": "a-f1d4009b12b844ed.mp3",
+        "source": "dutch10.mp3",
+        "nativeLanguage": "dutch",
+        "birthplace": "essen, belgium",
+        "seconds": 11.3
+      },
+      {
+        "file": "a-0718c87b6500d71d.mp3",
+        "source": "dutch16.mp3",
+        "nativeLanguage": "dutch",
+        "birthplace": "antwerp, belgium",
+        "seconds": 11.6
+      },
+      {
+        "file": "a-25564ca3f3b6cb57.mp3",
+        "source": "dutch4.mp3",
+        "nativeLanguage": "dutch",
+        "birthplace": "bilzen, belgium",
+        "seconds": 13.1
+      }
+    ],
+    "BEN": [
+      {
+        "file": "a-bc3c1e001eb3b358.mp3",
+        "source": "yoruba1.mp3",
+        "nativeLanguage": "yoruba",
+        "birthplace": "cotonou, benin",
+        "seconds": 12
+      }
+    ],
+    "BGD": [
+      {
+        "file": "a-acac0c73e892b4a6.mp3",
+        "source": "bengali1.mp3",
+        "nativeLanguage": "bengali",
+        "birthplace": "dhaka, bangladesh",
+        "seconds": 14
+      },
+      {
+        "file": "a-9614804629b2f080.mp3",
+        "source": "bengali3.mp3",
+        "nativeLanguage": "bengali",
+        "birthplace": "dhaka, bangladesh",
+        "seconds": 10.8
+      },
+      {
+        "file": "a-52f0347e57997b0a.mp3",
+        "source": "bengali4.mp3",
+        "nativeLanguage": "bengali",
+        "birthplace": "chittagong, bangladesh",
+        "seconds": 14
+      }
+    ],
+    "BGR": [
+      {
+        "file": "a-cbce0ccb70ec5c0c.mp3",
+        "source": "bulgarian10.mp3",
+        "nativeLanguage": "bulgarian",
+        "birthplace": "dobrich, bulgaria",
+        "seconds": 11
+      },
+      {
+        "file": "a-398538723f980a6d.mp3",
+        "source": "bulgarian4.mp3",
+        "nativeLanguage": "bulgarian",
+        "birthplace": "plovdiv, bulgaria",
+        "seconds": 14
+      },
+      {
+        "file": "a-5f80fbeaba6ff112.mp3",
+        "source": "bulgarian6.mp3",
+        "nativeLanguage": "bulgarian",
+        "birthplace": "ruse, bulgaria",
+        "seconds": 14
+      }
+    ],
+    "BHR": [
+      {
+        "file": "a-d1a5e01e889bcb05.mp3",
+        "source": "arabic61.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "manama, bahrain",
+        "seconds": 10.9
+      }
+    ],
+    "BHS": [
+      {
+        "file": "a-3b9e98dd9e4491da.mp3",
+        "source": "english436.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "freeport, the bahamas",
+        "seconds": 9.4
+      }
+    ],
+    "BIH": [
+      {
+        "file": "a-f352e632c2fe35d2.mp3",
+        "source": "bosnian1.mp3",
+        "nativeLanguage": "bosnian",
+        "birthplace": "doboj, bosnia and herzegovina",
+        "seconds": 10.7
+      },
+      {
+        "file": "a-73578041b293da7a.mp3",
+        "source": "bosnian2.mp3",
+        "nativeLanguage": "bosnian",
+        "birthplace": "sarajevo, bosnia and herzegovina",
+        "seconds": 10.9
+      },
+      {
+        "file": "a-56750d27501d6eda.mp3",
+        "source": "bosnian5.mp3",
+        "nativeLanguage": "bosnian",
+        "birthplace": "travnik, bosnia and herzegovina",
+        "seconds": 13.3
+      }
+    ],
+    "BLR": [
+      {
+        "file": "a-f1c8f214d6b8a938.mp3",
+        "source": "belarusan1.mp3",
+        "nativeLanguage": "belarusan",
+        "birthplace": "chamiancy, belarus",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-3f4aab1ffbee2e5e.mp3",
+        "source": "belarusan2.mp3",
+        "nativeLanguage": "belarusan",
+        "birthplace": "minsk, belarus",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-9e4d620d05fa9192.mp3",
+        "source": "belarusan3.mp3",
+        "nativeLanguage": "belarusan",
+        "birthplace": "gomel, belarus",
+        "seconds": 13.1
+      }
+    ],
+    "BLZ": [
+      {
+        "file": "a-369723dfc8d6666b.mp3",
+        "source": "english291.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "belize city, belize",
+        "seconds": 14
+      }
+    ],
+    "BOL": [
+      {
+        "file": "a-b007c429b01c0cef.mp3",
+        "source": "spanish18.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "la paz, bolivia",
+        "seconds": 14
+      },
+      {
+        "file": "a-a50df53af35c5fcf.mp3",
+        "source": "spanish211.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "la paz, bolivia",
+        "seconds": 13.2
+      },
+      {
+        "file": "a-bdca81a8be624fea.mp3",
+        "source": "spanish32.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "santa cruz, bolivia",
+        "seconds": 14
+      }
+    ],
+    "BRA": [
+      {
+        "file": "a-d411274f7be7ad1d.mp3",
+        "source": "portuguese2.mp3",
+        "nativeLanguage": "portuguese",
+        "birthplace": "brasilia, brazil",
+        "seconds": 12.4
+      },
+      {
+        "file": "a-0caeca2b2455092a.mp3",
+        "source": "portuguese6.mp3",
+        "nativeLanguage": "portuguese",
+        "birthplace": "sao paulo, brazil",
+        "seconds": 10.1
+      },
+      {
+        "file": "a-4c76bbdddbd8aa98.mp3",
+        "source": "portuguese7.mp3",
+        "nativeLanguage": "portuguese",
+        "birthplace": "vitoria, brazil",
+        "seconds": 13.1
+      }
+    ],
+    "BRB": [
+      {
+        "file": "a-e88965a8472f33dc.mp3",
+        "source": "english224.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "bridgetown, barbados",
+        "seconds": 12
+      }
+    ],
+    "CAN": [
+      {
+        "file": "a-966d30a6b05337c8.mp3",
+        "source": "english30.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "st. mary's, canada",
+        "seconds": 14
+      },
+      {
+        "file": "a-4e790ec1eb1d6998.mp3",
+        "source": "english43.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "vancouver, canada",
+        "seconds": 12.9
+      },
+      {
+        "file": "a-9f29a1dedebef70b.mp3",
+        "source": "english64.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "montreal, canada",
+        "seconds": 14
+      }
+    ],
+    "CHE": [
+      {
+        "file": "a-b9831f8b5110ca0f.mp3",
+        "source": "swissgerman3.mp3",
+        "nativeLanguage": "swiss german",
+        "birthplace": "muri, switzerland",
+        "seconds": 12.8
+      },
+      {
+        "file": "a-5514773ba9f6718a.mp3",
+        "source": "swissgerman9.mp3",
+        "nativeLanguage": "swiss german",
+        "birthplace": "zurich, switzerland",
+        "seconds": 11
+      }
+    ],
+    "CHL": [
+      {
+        "file": "a-1cd3bf7abdc841f3.mp3",
+        "source": "spanish21.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "santiago, chile",
+        "seconds": 14
+      },
+      {
+        "file": "a-e3e0de4230258a15.mp3",
+        "source": "spanish23.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "santiago, chile",
+        "seconds": 14
+      }
+    ],
+    "CHN": [
+      {
+        "file": "a-1d6a452f35dbce0e.mp3",
+        "source": "mandarin2.mp3",
+        "nativeLanguage": "mandarin",
+        "birthplace": "nanjing, china",
+        "seconds": 14
+      },
+      {
+        "file": "a-f2d9a0ed81eb78ee.mp3",
+        "source": "mandarin4.mp3",
+        "nativeLanguage": "mandarin",
+        "birthplace": "shanghai, china",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-80e6ffec062906ba.mp3",
+        "source": "mandarin9.mp3",
+        "nativeLanguage": "mandarin",
+        "birthplace": "shanghai, china",
+        "seconds": 14
+      }
+    ],
+    "CIV": [
+      {
+        "file": "a-2828c85b2c1b9b76.mp3",
+        "source": "french64.mp3",
+        "nativeLanguage": "french",
+        "birthplace": "abidjan, ivory coast",
+        "seconds": 13.3
+      },
+      {
+        "file": "a-97b3774e3c7de29d.mp3",
+        "source": "french80.mp3",
+        "nativeLanguage": "french",
+        "birthplace": "abidjan, ivory coast",
+        "seconds": 11.6
+      }
+    ],
+    "CMR": [
+      {
+        "file": "a-6742cecaaa6f0e52.mp3",
+        "source": "french5.mp3",
+        "nativeLanguage": "french",
+        "birthplace": "douala, cameroon",
+        "seconds": 10.3
+      },
+      {
+        "file": "a-bbe1b756a6bda901.mp3",
+        "source": "french72.mp3",
+        "nativeLanguage": "french",
+        "birthplace": "douala, cameroon",
+        "seconds": 11.4
+      }
+    ],
+    "COD": [
+      {
+        "file": "a-af732ff128235f2f.mp3",
+        "source": "french32.mp3",
+        "nativeLanguage": "french",
+        "birthplace": "kabinda, democratic republic of congo",
+        "seconds": 12.9
+      },
+      {
+        "file": "a-2da55b3aed36ad5a.mp3",
+        "source": "french42.mp3",
+        "nativeLanguage": "french",
+        "birthplace": "kinshasa, democratic republic of congo",
+        "seconds": 14
+      }
+    ],
+    "COL": [
+      {
+        "file": "a-a696bfc056832351.mp3",
+        "source": "spanish3.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "bogota, colombia",
+        "seconds": 14
+      },
+      {
+        "file": "a-e89fb31f594a9660.mp3",
+        "source": "spanish64.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "medellin, colombia",
+        "seconds": 12.4
+      },
+      {
+        "file": "a-d0ac272def9eff9b.mp3",
+        "source": "spanish7.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "bogota, colombia",
+        "seconds": 10.7
+      }
+    ],
+    "CRI": [
+      {
+        "file": "a-30522108acff01d2.mp3",
+        "source": "spanish25.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "san jose, costa rica",
+        "seconds": 11.1
+      },
+      {
+        "file": "a-95b0f0d4a0e64da1.mp3",
+        "source": "spanish40.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "cartago, costa rica",
+        "seconds": 14
+      }
+    ],
+    "CUB": [
+      {
+        "file": "a-01eb9b16057e7b80.mp3",
+        "source": "spanish19.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "havana, cuba",
+        "seconds": 14
+      }
+    ],
+    "CUW": [
+      {
+        "file": "a-38185a1590a0e39c.mp3",
+        "source": "papiamentu1.mp3",
+        "nativeLanguage": "papiamentu",
+        "birthplace": "willemstad, curacao",
+        "seconds": 11.7
+      }
+    ],
+    "CZE": [
+      {
+        "file": "a-685ab741f3f76e07.mp3",
+        "source": "czech1.mp3",
+        "nativeLanguage": "czech",
+        "birthplace": "prague, czech republic",
+        "seconds": 14
+      },
+      {
+        "file": "a-72d1e37e21652430.mp3",
+        "source": "czech2.mp3",
+        "nativeLanguage": "czech",
+        "birthplace": "velky osek, czech republic",
+        "seconds": 11.7
+      },
+      {
+        "file": "a-f96b2a5a52cdaa88.mp3",
+        "source": "czech6.mp3",
+        "nativeLanguage": "czech",
+        "birthplace": "ostrava, czech republic",
+        "seconds": 11.9
+      }
+    ],
+    "DEU": [
+      {
+        "file": "a-77f2a2f68b4372dd.mp3",
+        "source": "german2.mp3",
+        "nativeLanguage": "german",
+        "birthplace": "bemberg, germany",
+        "seconds": 12.5
+      },
+      {
+        "file": "a-458d4dc6bf88c87b.mp3",
+        "source": "german3.mp3",
+        "nativeLanguage": "german",
+        "birthplace": "meissen, germany",
+        "seconds": 14
+      },
+      {
+        "file": "a-d0073b2022f9b7f1.mp3",
+        "source": "german5.mp3",
+        "nativeLanguage": "german",
+        "birthplace": "halle, germany",
+        "seconds": 14
+      }
+    ],
+    "DNK": [
+      {
+        "file": "a-a9093d29e7fe210b.mp3",
+        "source": "danish2.mp3",
+        "nativeLanguage": "danish",
+        "birthplace": "haslev, denmark",
+        "seconds": 12.3
+      },
+      {
+        "file": "a-e257cbecba6ed050.mp3",
+        "source": "danish6.mp3",
+        "nativeLanguage": "danish",
+        "birthplace": "alborg, denmark",
+        "seconds": 12.7
+      },
+      {
+        "file": "a-d2da704cb3941598.mp3",
+        "source": "danish7.mp3",
+        "nativeLanguage": "danish",
+        "birthplace": "copenhagen, denmark",
+        "seconds": 10.8
+      }
+    ],
+    "DOM": [
+      {
+        "file": "a-e4b429efe0bd2964.mp3",
+        "source": "spanish45.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "santiago-dr, dominican republic",
+        "seconds": 12.9
+      },
+      {
+        "file": "a-6333c73433d74adb.mp3",
+        "source": "spanish47.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "santo domingo, dominican republic",
+        "seconds": 12.8
+      },
+      {
+        "file": "a-04f05296b655b82c.mp3",
+        "source": "spanish50.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "santo domingo, dominican republic",
+        "seconds": 14
+      }
+    ],
+    "DZA": [
+      {
+        "file": "a-bba6174ccb9b4bfe.mp3",
+        "source": "french24.mp3",
+        "nativeLanguage": "french",
+        "birthplace": "mostaganem, algeria",
+        "seconds": 14
+      }
+    ],
+    "ECU": [
+      {
+        "file": "a-7069afcd6d9ef083.mp3",
+        "source": "spanish130.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "guayaquil, ecuador",
+        "seconds": 11.9
+      },
+      {
+        "file": "a-99c5dd3bb94d2797.mp3",
+        "source": "spanish173.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "ambato, ecuador",
+        "seconds": 11.7
+      }
+    ],
+    "EGY": [
+      {
+        "file": "a-46f621159d2a2ce1.mp3",
+        "source": "arabic10.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "cairo, egypt",
+        "seconds": 12.8
+      },
+      {
+        "file": "a-ec029dbb66edb601.mp3",
+        "source": "arabic156.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "cairo, egypt",
+        "seconds": 11.8
+      },
+      {
+        "file": "a-bfe63c6fa99cf5fe.mp3",
+        "source": "arabic24.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "cairo, egypt",
+        "seconds": 11.3
+      }
+    ],
+    "ERI": [
+      {
+        "file": "a-475cff45138bb8a4.mp3",
+        "source": "tigrigna2.mp3",
+        "nativeLanguage": "tigrigna",
+        "birthplace": "asmara, eritrea",
+        "seconds": 14
+      }
+    ],
+    "ESP": [
+      {
+        "file": "a-1a5143d814bbd5db.mp3",
+        "source": "spanish22.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "madrid, spain",
+        "seconds": 12.6
+      },
+      {
+        "file": "a-2ce515c6e3b7c61b.mp3",
+        "source": "spanish26.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "burgos, spain",
+        "seconds": 12.6
+      },
+      {
+        "file": "a-814ba54eab682e58.mp3",
+        "source": "spanish27.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "zaragoza, spain",
+        "seconds": 12.6
+      }
+    ],
+    "EST": [
+      {
+        "file": "a-4c9887faf831654f.mp3",
+        "source": "estonian2.mp3",
+        "nativeLanguage": "estonian",
+        "birthplace": "viljandi, estonia",
+        "seconds": 14
+      },
+      {
+        "file": "a-fae6bbd4915243f1.mp3",
+        "source": "estonian5.mp3",
+        "nativeLanguage": "estonian",
+        "birthplace": "tallinn, estonia",
+        "seconds": 10.9
+      },
+      {
+        "file": "a-84051b5b213d00c2.mp3",
+        "source": "estonian6.mp3",
+        "nativeLanguage": "estonian",
+        "birthplace": "viljandi, estonia",
+        "seconds": 13
+      }
+    ],
+    "ETH": [
+      {
+        "file": "a-ed76b17cb9d5c8e1.mp3",
+        "source": "amharic1.mp3",
+        "nativeLanguage": "amharic",
+        "birthplace": "addis ababa, ethiopia",
+        "seconds": 11.2
+      },
+      {
+        "file": "a-097831bf8dd9a4c3.mp3",
+        "source": "amharic2.mp3",
+        "nativeLanguage": "amharic",
+        "birthplace": "arba minch, ethiopia",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-d887bcb16357e2b5.mp3",
+        "source": "amharic4.mp3",
+        "nativeLanguage": "amharic",
+        "birthplace": "addis ababa, ethiopia",
+        "seconds": 11.6
+      }
+    ],
+    "FIN": [
+      {
+        "file": "a-8197e011338b1d52.mp3",
+        "source": "finnish1.mp3",
+        "nativeLanguage": "finnish",
+        "birthplace": "lahti, finland",
+        "seconds": 14
+      },
+      {
+        "file": "a-81e48ccccfa44f67.mp3",
+        "source": "finnish2.mp3",
+        "nativeLanguage": "finnish",
+        "birthplace": "helsinki, finland",
+        "seconds": 14
+      },
+      {
+        "file": "a-64ffb1220d699902.mp3",
+        "source": "finnish6.mp3",
+        "nativeLanguage": "finnish",
+        "birthplace": "riihimaki, finland",
+        "seconds": 14
+      }
+    ],
+    "FRA": [
+      {
+        "file": "a-9b1598da090086b0.mp3",
+        "source": "french1.mp3",
+        "nativeLanguage": "french",
+        "birthplace": "st. laurent d'onay, france",
+        "seconds": 12
+      },
+      {
+        "file": "a-b6f38db45c5c17cf.mp3",
+        "source": "french13.mp3",
+        "nativeLanguage": "french",
+        "birthplace": "bordeaux, france",
+        "seconds": 14
+      },
+      {
+        "file": "a-d9ca496fd855dc15.mp3",
+        "source": "french3.mp3",
+        "nativeLanguage": "french",
+        "birthplace": "nice, france",
+        "seconds": 14
+      }
+    ],
+    "FRO": [
+      {
+        "file": "a-088d5dcae73e355e.mp3",
+        "source": "faroese1.mp3",
+        "nativeLanguage": "faroese",
+        "birthplace": "torshavn, faroe islands",
+        "seconds": 14
+      }
+    ],
+    "GAB": [
+      {
+        "file": "a-04d96d7dde86a017.mp3",
+        "source": "french6.mp3",
+        "nativeLanguage": "french",
+        "birthplace": "booue, gabon",
+        "seconds": 13.7
+      }
+    ],
+    "GBR": [
+      {
+        "file": "a-3d839be9b4e280c5.mp3",
+        "source": "english11.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "staffordshire, uk",
+        "seconds": 10.6
+      },
+      {
+        "file": "a-5f2db3245d3a9b98.mp3",
+        "source": "english56.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "londonderry, uk",
+        "seconds": 11.4
+      },
+      {
+        "file": "a-8cc406f65cf2ec8c.mp3",
+        "source": "english58.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "southhampton, uk",
+        "seconds": 14
+      }
+    ],
+    "GEO": [
+      {
+        "file": "a-544af78f265a756d.mp3",
+        "source": "georgian1.mp3",
+        "nativeLanguage": "georgian",
+        "birthplace": "tbilisi, republic of georgia",
+        "seconds": 14
+      },
+      {
+        "file": "a-4fd464b13dd10b74.mp3",
+        "source": "georgian2.mp3",
+        "nativeLanguage": "georgian",
+        "birthplace": "akhmeta, republic of georgia",
+        "seconds": 14
+      },
+      {
+        "file": "a-517c3caf14572e4a.mp3",
+        "source": "georgian5.mp3",
+        "nativeLanguage": "georgian",
+        "birthplace": "tbilisi, republic of georgia",
+        "seconds": 14
+      }
+    ],
+    "GHA": [
+      {
+        "file": "a-7ca84103398179b8.mp3",
+        "source": "twi2.mp3",
+        "nativeLanguage": "twi",
+        "birthplace": "ajumako, ghana",
+        "seconds": 14
+      },
+      {
+        "file": "a-3d479bff8599fdb9.mp3",
+        "source": "twi3.mp3",
+        "nativeLanguage": "twi",
+        "birthplace": "dormaa, ghana",
+        "seconds": 12.4
+      },
+      {
+        "file": "a-7edc76c08ec5c09e.mp3",
+        "source": "twi8.mp3",
+        "nativeLanguage": "twi",
+        "birthplace": "accra, ghana",
+        "seconds": 11.9
+      }
+    ],
+    "GIN": [
+      {
+        "file": "a-3aaee1bffb74f7f8.mp3",
+        "source": "baga1.mp3",
+        "nativeLanguage": "baga",
+        "birthplace": "conakry, guinea",
+        "seconds": 14
+      }
+    ],
+    "GNQ": [
+      {
+        "file": "a-b9a61a0073260ea9.mp3",
+        "source": "fang1.mp3",
+        "nativeLanguage": "fang",
+        "birthplace": "malabo, equatorial guinea",
+        "seconds": 14
+      }
+    ],
+    "GRC": [
+      {
+        "file": "a-2cd0f68797671fa0.mp3",
+        "source": "greek1.mp3",
+        "nativeLanguage": "greek",
+        "birthplace": "athens, greece",
+        "seconds": 9.2
+      },
+      {
+        "file": "a-1692cf601a0defa7.mp3",
+        "source": "greek2.mp3",
+        "nativeLanguage": "greek",
+        "birthplace": "athens, greece",
+        "seconds": 14
+      },
+      {
+        "file": "a-447b990b182b8b41.mp3",
+        "source": "greek4.mp3",
+        "nativeLanguage": "greek",
+        "birthplace": "ioannina, greece",
+        "seconds": 12.6
+      }
+    ],
+    "GUY": [
+      {
+        "file": "a-fffa52e5f9273dab.mp3",
+        "source": "english183.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "corriverton, guyana",
+        "seconds": 11.7
+      },
+      {
+        "file": "a-e8b550aa863df354.mp3",
+        "source": "english486.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "corentyne, guyana",
+        "seconds": 14
+      }
+    ],
+    "HND": [
+      {
+        "file": "a-cc4a65f827ba1969.mp3",
+        "source": "spanish148.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "la ceiba, honduras",
+        "seconds": 11.8
+      },
+      {
+        "file": "a-b593171f9607ccad.mp3",
+        "source": "spanish218.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "danli, honduras",
+        "seconds": 13
+      }
+    ],
+    "HRV": [
+      {
+        "file": "a-90decf9f9b164353.mp3",
+        "source": "croatian3.mp3",
+        "nativeLanguage": "croatian",
+        "birthplace": "split, croatia",
+        "seconds": 11.9
+      },
+      {
+        "file": "a-4e196fe9b054efde.mp3",
+        "source": "croatian4.mp3",
+        "nativeLanguage": "croatian",
+        "birthplace": "rijeka, croatia",
+        "seconds": 12.3
+      },
+      {
+        "file": "a-2681fa2f40786be5.mp3",
+        "source": "croatian7.mp3",
+        "nativeLanguage": "croatian",
+        "birthplace": "rijeka, croatia",
+        "seconds": 14
+      }
+    ],
+    "HTI": [
+      {
+        "file": "a-2b8f48bf9f487a0e.mp3",
+        "source": "haitiancreolefrench1.mp3",
+        "nativeLanguage": "haitian creole french",
+        "birthplace": "port-au-prince, haiti",
+        "seconds": 12.1
+      },
+      {
+        "file": "a-f0ccb6e65ed7c0cc.mp3",
+        "source": "haitiancreolefrench4.mp3",
+        "nativeLanguage": "haitian creole french",
+        "birthplace": "port-au-prince, haiti",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-235b8387f979cc33.mp3",
+        "source": "haitiancreolefrench6.mp3",
+        "nativeLanguage": "haitian creole french",
+        "birthplace": "ouanaminthe, haiti",
+        "seconds": 12.3
+      }
+    ],
+    "HUN": [
+      {
+        "file": "a-0590525daab23826.mp3",
+        "source": "hungarian12.mp3",
+        "nativeLanguage": "hungarian",
+        "birthplace": "szeged, hungary",
+        "seconds": 12
+      },
+      {
+        "file": "a-7f2a18cc23d81ad9.mp3",
+        "source": "hungarian4.mp3",
+        "nativeLanguage": "hungarian",
+        "birthplace": "szeged, hungary",
+        "seconds": 12
+      },
+      {
+        "file": "a-26c35f0969ac5637.mp3",
+        "source": "hungarian8.mp3",
+        "nativeLanguage": "hungarian",
+        "birthplace": "pinkoc, hungary",
+        "seconds": 11
+      }
+    ],
+    "IDN": [
+      {
+        "file": "a-0e2b787418b92bda.mp3",
+        "source": "indonesian10.mp3",
+        "nativeLanguage": "indonesian",
+        "birthplace": "banda aceh, indonesia",
+        "seconds": 11.3
+      },
+      {
+        "file": "a-5ca58e9ad6ef68c0.mp3",
+        "source": "indonesian2.mp3",
+        "nativeLanguage": "indonesian",
+        "birthplace": "jakarta, indonesia",
+        "seconds": 14
+      },
+      {
+        "file": "a-6d33a2754a794f95.mp3",
+        "source": "indonesian3.mp3",
+        "nativeLanguage": "indonesian",
+        "birthplace": "jakarta, indonesia",
+        "seconds": 14
+      }
+    ],
+    "IMN": [
+      {
+        "file": "a-385a5a884746d754.mp3",
+        "source": "english280.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "ramsey, isle of man",
+        "seconds": 14
+      }
+    ],
+    "IND": [
+      {
+        "file": "a-b18d23d943698960.mp3",
+        "source": "hindi13.mp3",
+        "nativeLanguage": "hindi",
+        "birthplace": "jaipur, india",
+        "seconds": 13.6
+      },
+      {
+        "file": "a-b86b0dae2df52de6.mp3",
+        "source": "hindi28.mp3",
+        "nativeLanguage": "hindi",
+        "birthplace": "patna, india",
+        "seconds": 12.1
+      },
+      {
+        "file": "a-2aa643833bdc170d.mp3",
+        "source": "hindi34.mp3",
+        "nativeLanguage": "hindi",
+        "birthplace": "pune, india",
+        "seconds": 12.6
+      }
+    ],
+    "IRL": [
+      {
+        "file": "a-d41c3f6869178366.mp3",
+        "source": "english300.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "dublin, ireland",
+        "seconds": 12.5
+      },
+      {
+        "file": "a-abe658479eb07d11.mp3",
+        "source": "english304.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "clare, ireland",
+        "seconds": 14
+      },
+      {
+        "file": "a-67ad3640b395db54.mp3",
+        "source": "english72.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "kilkenny, ireland",
+        "seconds": 10.3
+      }
+    ],
+    "IRN": [
+      {
+        "file": "a-aff4bd0d3912fa07.mp3",
+        "source": "farsi1.mp3",
+        "nativeLanguage": "farsi",
+        "birthplace": "tehran, iran",
+        "seconds": 14
+      },
+      {
+        "file": "a-077c6a38c36fe5ec.mp3",
+        "source": "farsi2.mp3",
+        "nativeLanguage": "farsi",
+        "birthplace": "esfahan, iran",
+        "seconds": 14
+      },
+      {
+        "file": "a-44481019293a59ea.mp3",
+        "source": "farsi9.mp3",
+        "nativeLanguage": "farsi",
+        "birthplace": "tehran, iran",
+        "seconds": 14
+      }
+    ],
+    "IRQ": [
+      {
+        "file": "a-fe30ff36fbb197a3.mp3",
+        "source": "arabic31.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "baghdad, iraq",
+        "seconds": 12.3
+      },
+      {
+        "file": "a-455603d7ae4e04f1.mp3",
+        "source": "arabic33.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "baghdad, iraq",
+        "seconds": 11.4
+      },
+      {
+        "file": "a-96132af3d05d4b53.mp3",
+        "source": "arabic92.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "baghdad, iraq",
+        "seconds": 11.8
+      }
+    ],
+    "ISL": [
+      {
+        "file": "a-9d4aae92e570bbc2.mp3",
+        "source": "icelandic1.mp3",
+        "nativeLanguage": "icelandic",
+        "birthplace": "reykjavik, iceland",
+        "seconds": 14
+      },
+      {
+        "file": "a-1acfc6734565c5bd.mp3",
+        "source": "icelandic2.mp3",
+        "nativeLanguage": "icelandic",
+        "birthplace": "akranes, iceland",
+        "seconds": 14
+      }
+    ],
+    "ISR": [
+      {
+        "file": "a-555213f163637d5f.mp3",
+        "source": "hebrew1.mp3",
+        "nativeLanguage": "hebrew",
+        "birthplace": "yehud, israel",
+        "seconds": 14
+      },
+      {
+        "file": "a-3d81837ab3160ad6.mp3",
+        "source": "hebrew2.mp3",
+        "nativeLanguage": "hebrew",
+        "birthplace": "jerusalem, israel",
+        "seconds": 14
+      },
+      {
+        "file": "a-c29a295c90a736ca.mp3",
+        "source": "hebrew6.mp3",
+        "nativeLanguage": "hebrew",
+        "birthplace": "rishon, israel",
+        "seconds": 11.8
+      }
+    ],
+    "ITA": [
+      {
+        "file": "a-ec8fd9e2034a36ce.mp3",
+        "source": "italian1.mp3",
+        "nativeLanguage": "italian",
+        "birthplace": "carbonia, italy",
+        "seconds": 14
+      },
+      {
+        "file": "a-9a85275d07154af9.mp3",
+        "source": "italian2.mp3",
+        "nativeLanguage": "italian",
+        "birthplace": "caltanissetta, italy",
+        "seconds": 11.8
+      },
+      {
+        "file": "a-6bb268ad71c6a296.mp3",
+        "source": "italian4.mp3",
+        "nativeLanguage": "italian",
+        "birthplace": "cremona, italy",
+        "seconds": 13.4
+      }
+    ],
+    "JAM": [
+      {
+        "file": "a-e64f98ae91505c02.mp3",
+        "source": "english489.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "kingston, jamaica",
+        "seconds": 11.3
+      },
+      {
+        "file": "a-9dfbfc1283ab9f1c.mp3",
+        "source": "english617.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "kingston, jamaica",
+        "seconds": 12
+      },
+      {
+        "file": "a-a94de50d12fa298d.mp3",
+        "source": "english91.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "kingston, jamaica",
+        "seconds": 10.6
+      }
+    ],
+    "JPN": [
+      {
+        "file": "a-9255e60e08175026.mp3",
+        "source": "japanese4.mp3",
+        "nativeLanguage": "japanese",
+        "birthplace": "tokyo, japan",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-e92cf7b7379aed9b.mp3",
+        "source": "japanese5.mp3",
+        "nativeLanguage": "japanese",
+        "birthplace": "chiba, japan",
+        "seconds": 14
+      },
+      {
+        "file": "a-d22d8c0cf8402feb.mp3",
+        "source": "japanese7.mp3",
+        "nativeLanguage": "japanese",
+        "birthplace": "osaka, japan",
+        "seconds": 14
+      }
+    ],
+    "KAZ": [
+      {
+        "file": "a-80d4c4c95a5d593e.mp3",
+        "source": "kazakh1.mp3",
+        "nativeLanguage": "kazakh",
+        "birthplace": "semey, kazakhstan",
+        "seconds": 14
+      },
+      {
+        "file": "a-040f49ae6db40cd4.mp3",
+        "source": "kazakh2.mp3",
+        "nativeLanguage": "kazakh",
+        "birthplace": "almaty, kazakhstan",
+        "seconds": 14
+      },
+      {
+        "file": "a-6c5fd8dfe7483a61.mp3",
+        "source": "kazakh4.mp3",
+        "nativeLanguage": "kazakh",
+        "birthplace": "kokshetau, kazakhstan",
+        "seconds": 9.1
+      }
+    ],
+    "KGZ": [
+      {
+        "file": "a-861d2b6e901fa1a1.mp3",
+        "source": "kirghiz2.mp3",
+        "nativeLanguage": "kyrgyz",
+        "birthplace": "bishkek, kyrgystan",
+        "seconds": 12.8
+      },
+      {
+        "file": "a-ed76f021b7e9bd34.mp3",
+        "source": "kirgiz1.mp3",
+        "nativeLanguage": "kyrgyz",
+        "birthplace": "bishkek, kyrgyzstan",
+        "seconds": 14
+      }
+    ],
+    "KHM": [
+      {
+        "file": "a-54d4e576ad7de9a2.mp3",
+        "source": "khmer1.mp3",
+        "nativeLanguage": "khmer",
+        "birthplace": "phnom penh, cambodia",
+        "seconds": 14
+      },
+      {
+        "file": "a-69526bfa9a8b3b24.mp3",
+        "source": "khmer2.mp3",
+        "nativeLanguage": "khmer",
+        "birthplace": "phnom penh, cambodia",
+        "seconds": 10.1
+      },
+      {
+        "file": "a-56c186de64460ca9.mp3",
+        "source": "khmer3.mp3",
+        "nativeLanguage": "khmer",
+        "birthplace": "baling, cambodia",
+        "seconds": 12
+      }
+    ],
+    "KOR": [
+      {
+        "file": "a-3f2419367dbe7317.mp3",
+        "source": "korean1.mp3",
+        "nativeLanguage": "korean",
+        "birthplace": "ui jong bu, south korea",
+        "seconds": 12.6
+      },
+      {
+        "file": "a-574c87cc5f21b23a.mp3",
+        "source": "korean2.mp3",
+        "nativeLanguage": "korean",
+        "birthplace": "taegu, south korea",
+        "seconds": 14
+      },
+      {
+        "file": "a-d74c828f99b9eda2.mp3",
+        "source": "korean6.mp3",
+        "nativeLanguage": "korean",
+        "birthplace": "sunchun, south korea",
+        "seconds": 14
+      }
+    ],
+    "KWT": [
+      {
+        "file": "a-fc9805a39c69e833.mp3",
+        "source": "arabic18.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "kuwait city, kuwait",
+        "seconds": 11.4
+      },
+      {
+        "file": "a-7c7101ad658d6dfe.mp3",
+        "source": "arabic87.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "kuwait city, kuwait",
+        "seconds": 12.8
+      },
+      {
+        "file": "a-b467009a1bfef127.mp3",
+        "source": "arabic95.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "kuwait city, kuwait",
+        "seconds": 12.6
+      }
+    ],
+    "LAO": [
+      {
+        "file": "a-7798e2fd63cdee44.mp3",
+        "source": "lao1.mp3",
+        "nativeLanguage": "lao",
+        "birthplace": "savannakhet, laos",
+        "seconds": 13.5
+      },
+      {
+        "file": "a-ff019a6ccaa5a966.mp3",
+        "source": "lao2.mp3",
+        "nativeLanguage": "lao",
+        "birthplace": "vientiane, laos",
+        "seconds": 11.3
+      }
+    ],
+    "LBN": [
+      {
+        "file": "a-75c233617750961b.mp3",
+        "source": "arabic13.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "zabbougha, lebanon",
+        "seconds": 14
+      },
+      {
+        "file": "a-8363a81a6174807f.mp3",
+        "source": "arabic20.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "chtaura, lebanon",
+        "seconds": 13.2
+      },
+      {
+        "file": "a-49aed7c22c033d5c.mp3",
+        "source": "arabic43.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "beirut, lebanon",
+        "seconds": 10.4
+      }
+    ],
+    "LBY": [
+      {
+        "file": "a-c0e7d360f1b1f2bb.mp3",
+        "source": "arabic169.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "tripoli, libya",
+        "seconds": 10.8
+      },
+      {
+        "file": "a-4eca1e821b9944a3.mp3",
+        "source": "arabic63.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "bani walid, libya",
+        "seconds": 13.4
+      }
+    ],
+    "LKA": [
+      {
+        "file": "a-e7aceaefde323df0.mp3",
+        "source": "sinhala10.mp3",
+        "nativeLanguage": "sinhala",
+        "birthplace": "colombo, sri lanka",
+        "seconds": 12.5
+      },
+      {
+        "file": "a-c73cb6adac9835b5.mp3",
+        "source": "sinhala3.mp3",
+        "nativeLanguage": "sinhala",
+        "birthplace": "colombo, sri lanka",
+        "seconds": 12.3
+      },
+      {
+        "file": "a-a9f60d243a8faf7f.mp3",
+        "source": "sinhala7.mp3",
+        "nativeLanguage": "sinhala",
+        "birthplace": "nuwara eliya, sri lanka",
+        "seconds": 11.9
+      }
+    ],
+    "LTU": [
+      {
+        "file": "a-bddfb924239cf6f0.mp3",
+        "source": "lithuanian1.mp3",
+        "nativeLanguage": "lithuanian",
+        "birthplace": "klaipeda, lithuania",
+        "seconds": 14
+      },
+      {
+        "file": "a-c61eb9644861948f.mp3",
+        "source": "lithuanian2.mp3",
+        "nativeLanguage": "lithuanian",
+        "birthplace": "vilnius, lithuania",
+        "seconds": 14
+      }
+    ],
+    "LUX": [
+      {
+        "file": "a-4c6933a40dfdc395.mp3",
+        "source": "luxembourgeois1.mp3",
+        "nativeLanguage": "luxembourgeois",
+        "birthplace": "luxembourg, luxembourg",
+        "seconds": 11.4
+      }
+    ],
+    "LVA": [
+      {
+        "file": "a-9d4e0e84feb4c6f6.mp3",
+        "source": "latvian1.mp3",
+        "nativeLanguage": "latvian",
+        "birthplace": "riga, latvia",
+        "seconds": 14
+      },
+      {
+        "file": "a-3206d1972b7c1e6e.mp3",
+        "source": "latvian3.mp3",
+        "nativeLanguage": "latvian",
+        "birthplace": "riga, latvia",
+        "seconds": 14
+      }
+    ],
+    "MAR": [
+      {
+        "file": "a-5679aa68cd21b7df.mp3",
+        "source": "arabic5.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "casablanca, morocco",
+        "seconds": 9.7
+      },
+      {
+        "file": "a-7ad22fc579ce64f4.mp3",
+        "source": "arabic7.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "casablanca, morocco",
+        "seconds": 14
+      },
+      {
+        "file": "a-b1f07790f40fbb02.mp3",
+        "source": "arabic8.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "casablanca, morocco",
+        "seconds": 12
+      }
+    ],
+    "MDA": [
+      {
+        "file": "a-c33723ecb603233e.mp3",
+        "source": "romanian14.mp3",
+        "nativeLanguage": "romanian",
+        "birthplace": "costesti, moldova",
+        "seconds": 14
+      },
+      {
+        "file": "a-3a9e372a902ffc8e.mp3",
+        "source": "romanian19.mp3",
+        "nativeLanguage": "romanian",
+        "birthplace": "chisinau, moldova",
+        "seconds": 12.4
+      }
+    ],
+    "MDG": [
+      {
+        "file": "a-120ef1e7774c8bf0.mp3",
+        "source": "malagasy1.mp3",
+        "nativeLanguage": "malagasy",
+        "birthplace": "antananarivo, madagascar",
+        "seconds": 11.3
+      },
+      {
+        "file": "a-3810f696f7d7f5b8.mp3",
+        "source": "malagasy2.mp3",
+        "nativeLanguage": "malagasy",
+        "birthplace": "antananarivo, madagascar",
+        "seconds": 13
+      }
+    ],
+    "MEX": [
+      {
+        "file": "a-a5593c47077c7fb7.mp3",
+        "source": "spanish227.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "durango, mexico",
+        "seconds": 9.2
+      },
+      {
+        "file": "a-3da99d1cc26101f7.mp3",
+        "source": "spanish24.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "mexico city, mexico",
+        "seconds": 11.4
+      },
+      {
+        "file": "a-6b39bbeebf1f56f1.mp3",
+        "source": "spanish56.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "monterrey, mexico",
+        "seconds": 12.8
+      }
+    ],
+    "MKD": [
+      {
+        "file": "a-1673ac87f845099f.mp3",
+        "source": "macedonian1.mp3",
+        "nativeLanguage": "macedonian",
+        "birthplace": "ohrid, macedonia",
+        "seconds": 11.8
+      },
+      {
+        "file": "a-16b5f4343851df24.mp3",
+        "source": "macedonian5.mp3",
+        "nativeLanguage": "macedonian",
+        "birthplace": "skopje, macedonia",
+        "seconds": 11.1
+      },
+      {
+        "file": "a-c107672264143438.mp3",
+        "source": "macedonian6.mp3",
+        "nativeLanguage": "macedonian",
+        "birthplace": "skopje, macedonia",
+        "seconds": 13.1
+      }
+    ],
+    "MLI": [
+      {
+        "file": "a-ac9ba71c099e0f78.mp3",
+        "source": "bambara1.mp3",
+        "nativeLanguage": "bambara",
+        "birthplace": "bamako, mali",
+        "seconds": 12.1
+      },
+      {
+        "file": "a-1494618da79702bb.mp3",
+        "source": "bambara2.mp3",
+        "nativeLanguage": "bambara",
+        "birthplace": "bamako, mali",
+        "seconds": 12.7
+      },
+      {
+        "file": "a-6e4d52ab64b0c9af.mp3",
+        "source": "bambara3.mp3",
+        "nativeLanguage": "bambara",
+        "birthplace": "bamako, mali",
+        "seconds": 11.6
+      }
+    ],
+    "MMR": [
+      {
+        "file": "a-819ef40fcbd198f9.mp3",
+        "source": "burmese1.mp3",
+        "nativeLanguage": "burmese",
+        "birthplace": "yangon, myanmar",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-871580db0fd2c964.mp3",
+        "source": "burmese2.mp3",
+        "nativeLanguage": "burmese",
+        "birthplace": "yangon, myanmar",
+        "seconds": 11.7
+      }
+    ],
+    "MNE": [
+      {
+        "file": "a-647c51c32e41703f.mp3",
+        "source": "serbian14.mp3",
+        "nativeLanguage": "serbian",
+        "birthplace": "podgorica, montenegro",
+        "seconds": 14
+      }
+    ],
+    "MNG": [
+      {
+        "file": "a-328eb2cbb36777d9.mp3",
+        "source": "mongolian1.mp3",
+        "nativeLanguage": "mongolian",
+        "birthplace": "ulaanbaatar, mongolia",
+        "seconds": 14
+      },
+      {
+        "file": "a-af82ea34e4712b06.mp3",
+        "source": "mongolian2.mp3",
+        "nativeLanguage": "mongolian",
+        "birthplace": "ulaanbaatar, mongolia",
+        "seconds": 14
+      },
+      {
+        "file": "a-cc685c820fd5cd87.mp3",
+        "source": "mongolian7.mp3",
+        "nativeLanguage": "mongolian",
+        "birthplace": "darhan, mongolia",
+        "seconds": 13
+      }
+    ],
+    "MUS": [
+      {
+        "file": "a-fe5721ef58c83493.mp3",
+        "source": "mauritian1.mp3",
+        "nativeLanguage": "mauritian",
+        "birthplace": "port louis, mauritius",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-67294a592a3e34c9.mp3",
+        "source": "mauritian3.mp3",
+        "nativeLanguage": "mauritian",
+        "birthplace": "rose hill, mauritius",
+        "seconds": 12.1
+      }
+    ],
+    "MYS": [
+      {
+        "file": "a-119e8e6404d00c24.mp3",
+        "source": "malay2.mp3",
+        "nativeLanguage": "malay",
+        "birthplace": "kuching, malaysia",
+        "seconds": 14
+      },
+      {
+        "file": "a-109250fe5b1b11a5.mp3",
+        "source": "malay4.mp3",
+        "nativeLanguage": "malay",
+        "birthplace": "kuala lumpur, malaysia",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-80e2336861961958.mp3",
+        "source": "malay6.mp3",
+        "nativeLanguage": "malay",
+        "birthplace": "johor bahru, malaysia",
+        "seconds": 14
+      }
+    ],
+    "NGA": [
+      {
+        "file": "a-41b6ef57a3b955d3.mp3",
+        "source": "hausa8.mp3",
+        "nativeLanguage": "hausa",
+        "birthplace": "katsina, nigeria",
+        "seconds": 14
+      }
+    ],
+    "NIC": [
+      {
+        "file": "a-2448f83272d76a1d.mp3",
+        "source": "miskito1.mp3",
+        "nativeLanguage": "miskito",
+        "birthplace": "krinkrin, nicaragua",
+        "seconds": 12.3
+      },
+      {
+        "file": "a-1bba685834ac75e6.mp3",
+        "source": "miskito2.mp3",
+        "nativeLanguage": "miskito",
+        "birthplace": "bilwi, nicaragua",
+        "seconds": 10.5
+      },
+      {
+        "file": "a-4eb8a605e5d174dc.mp3",
+        "source": "miskito3.mp3",
+        "nativeLanguage": "miskito",
+        "birthplace": "bilwi, nicaragua",
+        "seconds": 11.7
+      }
+    ],
+    "NLD": [
+      {
+        "file": "a-efc4b04333e776e2.mp3",
+        "source": "dutch1.mp3",
+        "nativeLanguage": "dutch",
+        "birthplace": "nijmegen, netherlands",
+        "seconds": 14
+      },
+      {
+        "file": "a-528fb673fbd3a0db.mp3",
+        "source": "dutch14.mp3",
+        "nativeLanguage": "dutch",
+        "birthplace": "zwolle, netherlands",
+        "seconds": 14
+      },
+      {
+        "file": "a-2bf20e27f8070908.mp3",
+        "source": "dutch2.mp3",
+        "nativeLanguage": "dutch",
+        "birthplace": "amsterdam, netherlands",
+        "seconds": 12.3
+      }
+    ],
+    "NOR": [
+      {
+        "file": "a-ad63b5923cbf6565.mp3",
+        "source": "norwegian1.mp3",
+        "nativeLanguage": "norwegian",
+        "birthplace": "drammen, norway",
+        "seconds": 11.8
+      },
+      {
+        "file": "a-09a9f8b2095f3f07.mp3",
+        "source": "norwegian3.mp3",
+        "nativeLanguage": "norwegian",
+        "birthplace": "volda, norway",
+        "seconds": 10.2
+      },
+      {
+        "file": "a-364bbe9b091ff217.mp3",
+        "source": "norwegian4.mp3",
+        "nativeLanguage": "norwegian",
+        "birthplace": "lakselv, norway",
+        "seconds": 11.7
+      }
+    ],
+    "NPL": [
+      {
+        "file": "a-409bc36a66efc54c.mp3",
+        "source": "nepali1.mp3",
+        "nativeLanguage": "nepali",
+        "birthplace": "kathmandu, nepal",
+        "seconds": 14
+      },
+      {
+        "file": "a-dae8ba7c7f28eadf.mp3",
+        "source": "nepali11.mp3",
+        "nativeLanguage": "nepali",
+        "birthplace": "kathmandu, nepal",
+        "seconds": 12
+      },
+      {
+        "file": "a-e5e81a61b4dd7413.mp3",
+        "source": "nepali8.mp3",
+        "nativeLanguage": "nepali",
+        "birthplace": "pokhara, nepal",
+        "seconds": 14
+      }
+    ],
+    "NZL": [
+      {
+        "file": "a-8b2311ace501bb53.mp3",
+        "source": "english354.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "christchurch, new zealand",
+        "seconds": 14
+      },
+      {
+        "file": "a-3b4f66317fcaf566.mp3",
+        "source": "english410.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "hamilton, new zealand",
+        "seconds": 11.9
+      },
+      {
+        "file": "a-a16276f3bfefe86a.mp3",
+        "source": "english490.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "auckland, new zealand",
+        "seconds": 11.2
+      }
+    ],
+    "OMN": [
+      {
+        "file": "a-1f7d72582f1255f2.mp3",
+        "source": "arabic65.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "samail, oman",
+        "seconds": 10.9
+      }
+    ],
+    "PAK": [
+      {
+        "file": "a-6dd71c878a4555c1.mp3",
+        "source": "urdu1.mp3",
+        "nativeLanguage": "urdu",
+        "birthplace": "karachi, pakistan",
+        "seconds": 11.9
+      },
+      {
+        "file": "a-e8086bc087faf3f5.mp3",
+        "source": "urdu15.mp3",
+        "nativeLanguage": "urdu",
+        "birthplace": "mandi bahauddin, pakistan",
+        "seconds": 11.1
+      },
+      {
+        "file": "a-e0865ccfd4c28e60.mp3",
+        "source": "urdu26.mp3",
+        "nativeLanguage": "urdu",
+        "birthplace": "lahore, pakistan",
+        "seconds": 12.4
+      }
+    ],
+    "PER": [
+      {
+        "file": "a-1b39a8f33fe807eb.mp3",
+        "source": "spanish207.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "ica, peru",
+        "seconds": 11.2
+      },
+      {
+        "file": "a-5b071ebf8db073eb.mp3",
+        "source": "spanish228.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "piura, peru",
+        "seconds": 12.3
+      },
+      {
+        "file": "a-0454330b5c30aa63.mp3",
+        "source": "spanish6.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "lima, peru",
+        "seconds": 12.4
+      }
+    ],
+    "PHL": [
+      {
+        "file": "a-f50bb2cc46e47345.mp3",
+        "source": "tagalog1.mp3",
+        "nativeLanguage": "tagalog",
+        "birthplace": "manila, philippines",
+        "seconds": 14
+      },
+      {
+        "file": "a-1c63afe97726f8ef.mp3",
+        "source": "tagalog2.mp3",
+        "nativeLanguage": "tagalog",
+        "birthplace": "urdaneta, philippines",
+        "seconds": 14
+      },
+      {
+        "file": "a-2c35b9ef3fcfd292.mp3",
+        "source": "tagalog21.mp3",
+        "nativeLanguage": "tagalog",
+        "birthplace": "manila, philippines",
+        "seconds": 10.6
+      }
+    ],
+    "PNG": [
+      {
+        "file": "a-3958839cc796bea5.mp3",
+        "source": "english48.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "port moresby, papua new guinea",
+        "seconds": 14
+      }
+    ],
+    "POL": [
+      {
+        "file": "a-e877017a85ac60f6.mp3",
+        "source": "polish1.mp3",
+        "nativeLanguage": "polish",
+        "birthplace": "janow, poland",
+        "seconds": 14
+      },
+      {
+        "file": "a-db3e59f0b2405f08.mp3",
+        "source": "polish2.mp3",
+        "nativeLanguage": "polish",
+        "birthplace": "mielec, poland",
+        "seconds": 11.3
+      },
+      {
+        "file": "a-a6567f7bb1950eb3.mp3",
+        "source": "polish5.mp3",
+        "nativeLanguage": "polish",
+        "birthplace": "ozarow maz, poland",
+        "seconds": 14
+      }
+    ],
+    "PRI": [
+      {
+        "file": "a-9f62bd799c6bb101.mp3",
+        "source": "spanish175.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "rio piedras, puerto rico",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-568002e01b8718f1.mp3",
+        "source": "spanish81.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "san juan, puerto rico",
+        "seconds": 14
+      }
+    ],
+    "PRT": [
+      {
+        "file": "a-c056aa96c49a9272.mp3",
+        "source": "portuguese12.mp3",
+        "nativeLanguage": "portuguese",
+        "birthplace": "lisbon, portugal",
+        "seconds": 11.3
+      },
+      {
+        "file": "a-735e03206e30f8f2.mp3",
+        "source": "portuguese46.mp3",
+        "nativeLanguage": "portuguese",
+        "birthplace": "cascais, portugal",
+        "seconds": 10.5
+      },
+      {
+        "file": "a-73ffb8a869d109b3.mp3",
+        "source": "portuguese65.mp3",
+        "nativeLanguage": "portuguese",
+        "birthplace": "almada, portugal",
+        "seconds": 12
+      }
+    ],
+    "PRY": [
+      {
+        "file": "a-4d94335fd879821a.mp3",
+        "source": "spanish163.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "asuncion, paraguay",
+        "seconds": 11.6
+      }
+    ],
+    "QAT": [
+      {
+        "file": "a-bc2bb82528e1188d.mp3",
+        "source": "arabic29.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "doha, qatar",
+        "seconds": 9.4
+      },
+      {
+        "file": "a-898f71838b9f004d.mp3",
+        "source": "arabic3.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "doha, qatar",
+        "seconds": 14
+      }
+    ],
+    "ROU": [
+      {
+        "file": "a-b7fab4186128838c.mp3",
+        "source": "romanian1.mp3",
+        "nativeLanguage": "romanian",
+        "birthplace": "timisoara, romania",
+        "seconds": 12.7
+      },
+      {
+        "file": "a-8ba1eee2a259eee5.mp3",
+        "source": "romanian15.mp3",
+        "nativeLanguage": "romanian",
+        "birthplace": "bucharest, romania",
+        "seconds": 14
+      },
+      {
+        "file": "a-9169f1ff5688f208.mp3",
+        "source": "romanian4.mp3",
+        "nativeLanguage": "romanian",
+        "birthplace": "bucharest, romania",
+        "seconds": 14
+      }
+    ],
+    "RUS": [
+      {
+        "file": "a-eb8c27c7f483c892.mp3",
+        "source": "russian10.mp3",
+        "nativeLanguage": "russian",
+        "birthplace": "moscow, russia",
+        "seconds": 14
+      },
+      {
+        "file": "a-d7e1e21197d5114b.mp3",
+        "source": "russian5.mp3",
+        "nativeLanguage": "russian",
+        "birthplace": "khabarovsk, russia",
+        "seconds": 14
+      },
+      {
+        "file": "a-2f64c5fcfb068bdd.mp3",
+        "source": "russian9.mp3",
+        "nativeLanguage": "russian",
+        "birthplace": "moscow, russia",
+        "seconds": 14
+      }
+    ],
+    "SAU": [
+      {
+        "file": "a-e48581e495bc000b.mp3",
+        "source": "arabic1.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "riyadh, saudi arabia",
+        "seconds": 14
+      },
+      {
+        "file": "a-bafc5f2d9bb6cbe1.mp3",
+        "source": "arabic40.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "jiddah, saudi arabia",
+        "seconds": 11.6
+      }
+    ],
+    "SEN": [
+      {
+        "file": "a-85665e7818d2e1d7.mp3",
+        "source": "wolof1.mp3",
+        "nativeLanguage": "wolof",
+        "birthplace": "dakar, senegal",
+        "seconds": 11.7
+      },
+      {
+        "file": "a-0b7a9c682960d4f5.mp3",
+        "source": "wolof3.mp3",
+        "nativeLanguage": "wolof",
+        "birthplace": "khombole, senegal",
+        "seconds": 14
+      },
+      {
+        "file": "a-68524ccefc0da0cb.mp3",
+        "source": "wolof5.mp3",
+        "nativeLanguage": "wolof",
+        "birthplace": "saint louis, senegal",
+        "seconds": 11.2
+      }
+    ],
+    "SGP": [
+      {
+        "file": "a-7ac7dd08ec2023e9.mp3",
+        "source": "english279.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "singapore, singapore",
+        "seconds": 14
+      },
+      {
+        "file": "a-31fee00865807dc9.mp3",
+        "source": "english287.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "singapore, singapore",
+        "seconds": 14
+      },
+      {
+        "file": "a-d80fe8283122d6e2.mp3",
+        "source": "english655.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "singapore, singapore",
+        "seconds": 12.5
+      }
+    ],
+    "SLV": [
+      {
+        "file": "a-8b7762d354520613.mp3",
+        "source": "spanish28.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "san miguel, el salvador",
+        "seconds": 12.4
+      },
+      {
+        "file": "a-2c54ae912c1eda6e.mp3",
+        "source": "spanish4.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "cabanas, el salvador",
+        "seconds": 12.7
+      },
+      {
+        "file": "a-d50b7a57037dbc7a.mp3",
+        "source": "spanish8.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "san salvador, el salvador",
+        "seconds": 11.8
+      }
+    ],
+    "SOM": [
+      {
+        "file": "a-d83f3593723af718.mp3",
+        "source": "somali1.mp3",
+        "nativeLanguage": "somali",
+        "birthplace": "mogadishu, somalia",
+        "seconds": 11.6
+      },
+      {
+        "file": "a-d135ce94eda158da.mp3",
+        "source": "somali3.mp3",
+        "nativeLanguage": "somali",
+        "birthplace": "borama, somalia",
+        "seconds": 11.6
+      }
+    ],
+    "SRB": [
+      {
+        "file": "a-56cea6034cf694d1.mp3",
+        "source": "serbian17.mp3",
+        "nativeLanguage": "serbian",
+        "birthplace": "belgrade, serbia",
+        "seconds": 13
+      },
+      {
+        "file": "a-346e99d497dd4fe6.mp3",
+        "source": "serbian2.mp3",
+        "nativeLanguage": "serbian",
+        "birthplace": "zrenjanin, serbia",
+        "seconds": 11.7
+      },
+      {
+        "file": "a-53f8787376e4a1a5.mp3",
+        "source": "serbian4.mp3",
+        "nativeLanguage": "serbian",
+        "birthplace": "velika plana, serbia",
+        "seconds": 14
+      }
+    ],
+    "SVK": [
+      {
+        "file": "a-c5387b1142b0dd13.mp3",
+        "source": "slovak1.mp3",
+        "nativeLanguage": "slovak",
+        "birthplace": "kosice, slovak republic",
+        "seconds": 9
+      },
+      {
+        "file": "a-78e3302fc96d4898.mp3",
+        "source": "slovak2.mp3",
+        "nativeLanguage": "slovak",
+        "birthplace": "piestany, slovak republic",
+        "seconds": 12.5
+      }
+    ],
+    "SVN": [
+      {
+        "file": "a-6f1ef3e840b22514.mp3",
+        "source": "slovenian1.mp3",
+        "nativeLanguage": "slovenian",
+        "birthplace": "slovenj gradec, slovenia",
+        "seconds": 11.1
+      }
+    ],
+    "SWE": [
+      {
+        "file": "a-b4831f35dd65a86d.mp3",
+        "source": "swedish2.mp3",
+        "nativeLanguage": "swedish",
+        "birthplace": "uppsala, sweden",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-68e63279867df9a9.mp3",
+        "source": "swedish23.mp3",
+        "nativeLanguage": "swedish",
+        "birthplace": "lulea, sweden",
+        "seconds": 12.4
+      },
+      {
+        "file": "a-c44be3c239c840a1.mp3",
+        "source": "swedish3.mp3",
+        "nativeLanguage": "swedish",
+        "birthplace": "stockholm, sweden",
+        "seconds": 11.5
+      }
+    ],
+    "SYR": [
+      {
+        "file": "a-69f86802838b36c0.mp3",
+        "source": "arabic82.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "damascus, syria",
+        "seconds": 11.9
+      }
+    ],
+    "TCD": [
+      {
+        "file": "a-49a001f9d90e6c11.mp3",
+        "source": "sarua1.mp3",
+        "nativeLanguage": "sarua",
+        "birthplace": "ndjamena, chad",
+        "seconds": 12.3
+      }
+    ],
+    "THA": [
+      {
+        "file": "a-4e5fcd3f7782f396.mp3",
+        "source": "thai1.mp3",
+        "nativeLanguage": "thai",
+        "birthplace": "khon kaen, thailand",
+        "seconds": 10.5
+      },
+      {
+        "file": "a-20964f0993bb8b8f.mp3",
+        "source": "thai4.mp3",
+        "nativeLanguage": "thai",
+        "birthplace": "songkhla, thailand",
+        "seconds": 14
+      },
+      {
+        "file": "a-a0ad950fea081c26.mp3",
+        "source": "thai5.mp3",
+        "nativeLanguage": "thai",
+        "birthplace": "bangkok, thailand",
+        "seconds": 14
+      }
+    ],
+    "TJK": [
+      {
+        "file": "a-5caf3b0d26ebe377.mp3",
+        "source": "tajiki2.mp3",
+        "nativeLanguage": "tajiki",
+        "birthplace": "khujand, tajikistan",
+        "seconds": 14
+      },
+      {
+        "file": "a-0ac45e5fd0013ca3.mp3",
+        "source": "tajiki3.mp3",
+        "nativeLanguage": "tajiki",
+        "birthplace": "khujand, tajikistan",
+        "seconds": 14
+      },
+      {
+        "file": "a-4cf4bd91c9796336.mp3",
+        "source": "tajiki6.mp3",
+        "nativeLanguage": "tajiki",
+        "birthplace": "shaidon, tajikistan",
+        "seconds": 11.9
+      }
+    ],
+    "TKM": [
+      {
+        "file": "a-f4875290275243c4.mp3",
+        "source": "turkmen1.mp3",
+        "nativeLanguage": "turkmen",
+        "birthplace": "balkanabat, turkmenistan",
+        "seconds": 10.4
+      },
+      {
+        "file": "a-5021212bf3362d52.mp3",
+        "source": "turkmen2.mp3",
+        "nativeLanguage": "turkmen",
+        "birthplace": "turkmenabat, turkmenistan",
+        "seconds": 13.9
+      }
+    ],
+    "TLS": [
+      {
+        "file": "a-9250175d88216dff.mp3",
+        "source": "fataluku1.mp3",
+        "nativeLanguage": "fataluku",
+        "birthplace": "lautem, timor-leste",
+        "seconds": 14
+      }
+    ],
+    "TTO": [
+      {
+        "file": "a-9e1ef8cde361faad.mp3",
+        "source": "english31.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "st. augustine, trinidad",
+        "seconds": 12.7
+      }
+    ],
+    "TUN": [
+      {
+        "file": "a-1e4a8a913671abd5.mp3",
+        "source": "arabic11.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "monastir, tunisia",
+        "seconds": 11.7
+      }
+    ],
+    "TUR": [
+      {
+        "file": "a-86b0133bb7f26217.mp3",
+        "source": "turkish1.mp3",
+        "nativeLanguage": "turkish",
+        "birthplace": "bingol, turkey",
+        "seconds": 11.4
+      },
+      {
+        "file": "a-bdd2505c86c3af84.mp3",
+        "source": "turkish6.mp3",
+        "nativeLanguage": "turkish",
+        "birthplace": "istanbul, turkey",
+        "seconds": 11.4
+      },
+      {
+        "file": "a-f3e5b91247b362eb.mp3",
+        "source": "turkish7.mp3",
+        "nativeLanguage": "turkish",
+        "birthplace": "izmir, turkey",
+        "seconds": 12
+      }
+    ],
+    "TWN": [
+      {
+        "file": "a-9f7edc5849ae60f3.mp3",
+        "source": "mandarin13.mp3",
+        "nativeLanguage": "mandarin",
+        "birthplace": "nantou, taiwan",
+        "seconds": 11.2
+      },
+      {
+        "file": "a-585d8ec537fee21d.mp3",
+        "source": "mandarin18.mp3",
+        "nativeLanguage": "mandarin",
+        "birthplace": "taoyuan, taiwan",
+        "seconds": 12.2
+      }
+    ],
+    "TZA": [
+      {
+        "file": "a-84b3c4192c1ce53c.mp3",
+        "source": "kiswahili1.mp3",
+        "nativeLanguage": "kiswahili",
+        "birthplace": "dar-es-salaam, tanzania",
+        "seconds": 14
+      },
+      {
+        "file": "a-92e92c0d8bcc646b.mp3",
+        "source": "kiswahili2.mp3",
+        "nativeLanguage": "kiswahili",
+        "birthplace": "kigoma, tanzania",
+        "seconds": 14
+      }
+    ],
+    "UKR": [
+      {
+        "file": "a-1d1af7db7362d726.mp3",
+        "source": "ukrainian12.mp3",
+        "nativeLanguage": "ukrainian",
+        "birthplace": "kiev, ukraine",
+        "seconds": 13.2
+      },
+      {
+        "file": "a-7901274d02517a55.mp3",
+        "source": "ukrainian4.mp3",
+        "nativeLanguage": "ukrainian",
+        "birthplace": "kiev, ukraine",
+        "seconds": 10.6
+      },
+      {
+        "file": "a-76fcf7ff07b3bef7.mp3",
+        "source": "ukrainian5.mp3",
+        "nativeLanguage": "ukrainian",
+        "birthplace": "kiev, ukraine",
+        "seconds": 11.5
+      }
+    ],
+    "URY": [
+      {
+        "file": "a-9302d11491c0758c.mp3",
+        "source": "spanish36.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "montevideo, uruguay",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-50f6998bc79901c0.mp3",
+        "source": "spanish57.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "montevideo, uruguay",
+        "seconds": 14
+      }
+    ],
+    "USA": [
+      {
+        "file": "a-4a49228b5e42a47d.mp3",
+        "source": "english36.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "arcadia, usa",
+        "seconds": 10.7
+      },
+      {
+        "file": "a-96dee0ba5726cd11.mp3",
+        "source": "english45.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "pine bluff, usa",
+        "seconds": 11.8
+      },
+      {
+        "file": "a-1087d51228d38975.mp3",
+        "source": "english83.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "winnfield, usa",
+        "seconds": 10.7
+      }
+    ],
+    "UZB": [
+      {
+        "file": "a-b2a7817288b7fb34.mp3",
+        "source": "uzbek1.mp3",
+        "nativeLanguage": "uzbek",
+        "birthplace": "samarkand, uzbekistan",
+        "seconds": 12.3
+      }
+    ],
+    "VEN": [
+      {
+        "file": "a-9dbdbfbcbb1181d8.mp3",
+        "source": "spanish1.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "caracas, venezuela",
+        "seconds": 14
+      },
+      {
+        "file": "a-5e15ffba834e4c0f.mp3",
+        "source": "spanish174.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "falcon, venezuela",
+        "seconds": 14
+      },
+      {
+        "file": "a-806fbad7f315a6b0.mp3",
+        "source": "spanish2.mp3",
+        "nativeLanguage": "spanish",
+        "birthplace": "puerto la cruz, venezuela",
+        "seconds": 11.7
+      }
+    ],
+    "VIR": [
+      {
+        "file": "a-baf73bd0f24bee39.mp3",
+        "source": "english112.mp3",
+        "nativeLanguage": "english",
+        "birthplace": "st. thomas, us virgin islands",
+        "seconds": 13.9
+      }
+    ],
+    "VNM": [
+      {
+        "file": "a-49969a1e0bea7bd4.mp3",
+        "source": "vietnamese1.mp3",
+        "nativeLanguage": "vietnamese",
+        "birthplace": "can tho, vietnam",
+        "seconds": 12.2
+      },
+      {
+        "file": "a-b5b7d667bd842869.mp3",
+        "source": "vietnamese3.mp3",
+        "nativeLanguage": "vietnamese",
+        "birthplace": "vinh long, vietnam",
+        "seconds": 14
+      },
+      {
+        "file": "a-8bf50af4f1a23afd.mp3",
+        "source": "vietnamese4.mp3",
+        "nativeLanguage": "vietnamese",
+        "birthplace": "hanoi, vietnam",
+        "seconds": 11.8
+      }
+    ],
+    "YEM": [
+      {
+        "file": "a-188f7418e13d41de.mp3",
+        "source": "arabic157.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "sanaa, yemen",
+        "seconds": 14
+      },
+      {
+        "file": "a-2da07b3010a0887c.mp3",
+        "source": "arabic6.mp3",
+        "nativeLanguage": "arabic",
+        "birthplace": "sanaa, yemen",
+        "seconds": 12.8
+      }
+    ],
+    "ZAF": [
+      {
+        "file": "a-f6139f34dbcecae3.mp3",
+        "source": "afrikaans1.mp3",
+        "nativeLanguage": "afrikaans",
+        "birthplace": "virginia, south africa",
+        "seconds": 14
+      }
+    ],
+    "ZWE": [
+      {
+        "file": "a-5e0699ad41e84603.mp3",
+        "source": "shona3.mp3",
+        "nativeLanguage": "shona",
+        "birthplace": "chinhoyi, zimbabwe",
+        "seconds": 14
+      }
+    ]
+  },
+  "language": {
+    "AGO": [
+      {
+        "file": "l-fba1edd7b4c3ce80.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Ela lê um livro todas as noites antes de dormir."
+      },
+      {
+        "file": "l-325a2f0bae811cb6.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "As montanhas estão cobertas de neve."
+      },
+      {
+        "file": "l-f6b74ef05d57fbbe.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Estou aprendendo a falar um novo idioma."
+      },
+      {
+        "file": "l-0d0f4db6a41c9f7b.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "Bom dia, como vai você?"
+      },
+      {
+        "file": "l-8a49cb0521c69ff4.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Vamos ao parque esta tarde."
+      },
+      {
+        "file": "l-b28751b0e4afd20f.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "A comida deste restaurante é deliciosa."
+      }
+    ],
+    "ARE": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "ARG": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "AUT": [
+      {
+        "file": "l-057d9810af56cbe5.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Kore",
+        "text": "Guten Morgen, wie geht es Ihnen?"
+      },
+      {
+        "file": "l-146818d0d83ae0a6.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Charon",
+        "text": "Um wie viel Uhr schließt das Geschäft heute Abend?"
+      },
+      {
+        "file": "l-ed7c057925833809.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Kore",
+        "text": "Die Berge sind mit Schnee bedeckt"
+      },
+      {
+        "file": "l-dc634ca12b17efba.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Charon",
+        "text": "Wir gehen heute Nachmittag in den Park."
+      },
+      {
+        "file": "l-63b4f91e4260febf.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Kore",
+        "text": "Sie reisten mit dem Zug quer durchs Land."
+      },
+      {
+        "file": "l-38ece896d1f60325.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Charon",
+        "text": "Er arbeitet als Arzt im Krankenhaus."
+      }
+    ],
+    "BDI": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "BEL": [
+      {
+        "file": "l-b1ab8b7c3ce3170c.mp3",
+        "locale": "nl-BE",
+        "voice": "nl-BE-Chirp3-HD-Kore",
+        "text": "Kunt u mij uw naam en adres doorgeven?"
+      },
+      {
+        "file": "l-c695b615aca6b16b.mp3",
+        "locale": "nl-BE",
+        "voice": "nl-BE-Chirp3-HD-Charon",
+        "text": "Ik moet boodschappen doen voor het avondeten."
+      },
+      {
+        "file": "l-88e8202d3beb1761.mp3",
+        "locale": "nl-BE",
+        "voice": "nl-BE-Chirp3-HD-Kore",
+        "text": "De bergen zijn bedekt met sneeuw."
+      },
+      {
+        "file": "l-a0f2cd565c821292.mp3",
+        "locale": "nl-BE",
+        "voice": "nl-BE-Chirp3-HD-Charon",
+        "text": "Hij werkt als arts in het ziekenhuis."
+      },
+      {
+        "file": "l-fa97da564a5dde7b.mp3",
+        "locale": "nl-BE",
+        "voice": "nl-BE-Chirp3-HD-Kore",
+        "text": "Ik vind het fijn om 's ochtends koffie te drinken."
+      },
+      {
+        "file": "l-1fd92c0ad61c6778.mp3",
+        "locale": "nl-BE",
+        "voice": "nl-BE-Chirp3-HD-Charon",
+        "text": "Ik leer een nieuwe taal spreken."
+      }
+    ],
+    "BEN": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "BFA": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "BGD": [
+      {
+        "file": "l-915c74be048f2e96.mp3",
+        "locale": "bn-IN",
+        "voice": "bn-IN-Chirp3-HD-Kore",
+        "text": "আমি সকালে কফি খেতে পছন্দ করি।"
+      },
+      {
+        "file": "l-b5f8db034bc3639e.mp3",
+        "locale": "bn-IN",
+        "voice": "bn-IN-Chirp3-HD-Charon",
+        "text": "তারা ট্রেনে করে দেশজুড়ে ভ্রমণ করেছিলেন।"
+      },
+      {
+        "file": "l-147f90be2253406b.mp3",
+        "locale": "bn-IN",
+        "voice": "bn-IN-Chirp3-HD-Kore",
+        "text": "এই রেস্তোরাঁর খাবার সুস্বাদু।"
+      },
+      {
+        "file": "l-7bf26d77555c7431.mp3",
+        "locale": "bn-IN",
+        "voice": "bn-IN-Chirp3-HD-Charon",
+        "text": "আমরা আজ বিকেলে পার্কে যাচ্ছি"
+      },
+      {
+        "file": "l-216c20c312debcdf.mp3",
+        "locale": "bn-IN",
+        "voice": "bn-IN-Chirp3-HD-Kore",
+        "text": "আপনি কি আমাকে পথ খুঁজে পেতে সাহায্য করতে পারেন?"
+      },
+      {
+        "file": "l-fe20421785f18ab5.mp3",
+        "locale": "bn-IN",
+        "voice": "bn-IN-Chirp3-HD-Charon",
+        "text": "আজ রাতে দোকানটি কখন বন্ধ হবে?"
+      }
+    ],
+    "BGR": [
+      {
+        "file": "l-2657a87871250eb1.mp3",
+        "locale": "bg-BG",
+        "voice": "bg-BG-Chirp3-HD-Kore",
+        "text": "Слънцето залязва над океана всяка нощ"
+      },
+      {
+        "file": "l-c1b49af71283354c.mp3",
+        "locale": "bg-BG",
+        "voice": "bg-BG-Chirp3-HD-Charon",
+        "text": "Той работи в болницата като лекар"
+      },
+      {
+        "file": "l-142bd31feca4f555.mp3",
+        "locale": "bg-BG",
+        "voice": "bg-BG-Chirp3-HD-Kore",
+        "text": "Планините са покрити със сняг"
+      },
+      {
+        "file": "l-0da61ac1ac2e5b06.mp3",
+        "locale": "bg-BG",
+        "voice": "bg-BG-Chirp3-HD-Charon",
+        "text": "Къде е най-близката жп гара"
+      },
+      {
+        "file": "l-8316f24a2094fa59.mp3",
+        "locale": "bg-BG",
+        "voice": "bg-BG-Chirp3-HD-Kore",
+        "text": "Добро утро, как сте?"
+      },
+      {
+        "file": "l-eb83697a91fd0dc9.mp3",
+        "locale": "bg-BG",
+        "voice": "bg-BG-Chirp3-HD-Charon",
+        "text": "Обичам да пия кафе сутрин"
+      }
+    ],
+    "BHR": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "BIH": [
+      {
+        "file": "l-ff7d9f9c4f33428e.mp3",
+        "locale": "hr-HR",
+        "voice": "hr-HR-Chirp3-HD-Kore",
+        "text": "Planine su prekrivene snijegom"
+      },
+      {
+        "file": "l-4641633402c704a9.mp3",
+        "locale": "hr-HR",
+        "voice": "hr-HR-Chirp3-HD-Charon",
+        "text": "Moja porodica dolazi u posjetu sljedeće sedmice"
+      },
+      {
+        "file": "l-24ac76f017f30fdb.mp3",
+        "locale": "hr-HR",
+        "voice": "hr-HR-Chirp3-HD-Kore",
+        "text": "Sunce zalazi nad okeanom svake noći"
+      },
+      {
+        "file": "l-b9be8327b14a3e35.mp3",
+        "locale": "hr-HR",
+        "voice": "hr-HR-Chirp3-HD-Charon",
+        "text": "Idemo u park danas popodne"
+      },
+      {
+        "file": "l-fb55ada8fc2c86e9.mp3",
+        "locale": "hr-HR",
+        "voice": "hr-HR-Chirp3-HD-Kore",
+        "text": "Putovali su vozom preko cijele zemlje"
+      },
+      {
+        "file": "l-c002acac45ecca64.mp3",
+        "locale": "hr-HR",
+        "voice": "hr-HR-Chirp3-HD-Charon",
+        "text": "Molim vas, dajte mi čašu vode."
+      }
+    ],
+    "BOL": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "BRA": [
+      {
+        "file": "l-e5331b306d5c503a.mp3",
+        "locale": "pt-BR",
+        "voice": "pt-BR-Chirp3-HD-Kore",
+        "text": "As montanhas estão cobertas de neve."
+      },
+      {
+        "file": "l-80639cb9d7f83520.mp3",
+        "locale": "pt-BR",
+        "voice": "pt-BR-Chirp3-HD-Charon",
+        "text": "Eu gostaria de um copo d'água, por favor."
+      },
+      {
+        "file": "l-2a476ae2caf2d7f1.mp3",
+        "locale": "pt-BR",
+        "voice": "pt-BR-Chirp3-HD-Kore",
+        "text": "Bom dia, como vai você?"
+      },
+      {
+        "file": "l-6ee981544a4ff6ea.mp3",
+        "locale": "pt-BR",
+        "voice": "pt-BR-Chirp3-HD-Charon",
+        "text": "O sol se põe sobre o oceano todas as noites."
+      },
+      {
+        "file": "l-e08420444001b9b0.mp3",
+        "locale": "pt-BR",
+        "voice": "pt-BR-Chirp3-HD-Kore",
+        "text": "Preciso comprar alguns mantimentos para o jantar."
+      },
+      {
+        "file": "l-0def85a5a7c5e80c.mp3",
+        "locale": "pt-BR",
+        "voice": "pt-BR-Chirp3-HD-Charon",
+        "text": "Minha família virá me visitar na próxima semana."
+      }
+    ],
+    "BRN": [
+      {
+        "file": "l-cced61215ee11d4a.mp3",
+        "locale": "ms-MY",
+        "voice": "ms-MY-Wavenet-A",
+        "text": "Keluarga saya akan datang melawat minggu hadapan"
+      },
+      {
+        "file": "l-01d89700658005bc.mp3",
+        "locale": "ms-MY",
+        "voice": "ms-MY-Wavenet-B",
+        "text": "Saya suka minum kopi pada waktu pagi"
+      },
+      {
+        "file": "l-35a953252240f510.mp3",
+        "locale": "ms-MY",
+        "voice": "ms-MY-Wavenet-A",
+        "text": "Mereka mengembara ke seluruh negara dengan kereta api"
+      },
+      {
+        "file": "l-163f595f1c14a960.mp3",
+        "locale": "ms-MY",
+        "voice": "ms-MY-Wavenet-B",
+        "text": "Saya ingin segelas air, silakan"
+      },
+      {
+        "file": "l-9799b7871e08395a.mp3",
+        "locale": "ms-MY",
+        "voice": "ms-MY-Wavenet-A",
+        "text": "Muzik dari konsert itu sungguh indah"
+      },
+      {
+        "file": "l-869f058843e2b2e2.mp3",
+        "locale": "ms-MY",
+        "voice": "ms-MY-Wavenet-B",
+        "text": "Bolehkah awak bantu saya mencari jalan saya"
+      }
+    ],
+    "CAF": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "CHE": [
+      {
+        "file": "l-057d9810af56cbe5.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Kore",
+        "text": "Guten Morgen, wie geht es Ihnen?"
+      },
+      {
+        "file": "l-146818d0d83ae0a6.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Charon",
+        "text": "Um wie viel Uhr schließt das Geschäft heute Abend?"
+      },
+      {
+        "file": "l-ed7c057925833809.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Kore",
+        "text": "Die Berge sind mit Schnee bedeckt"
+      },
+      {
+        "file": "l-dc634ca12b17efba.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Charon",
+        "text": "Wir gehen heute Nachmittag in den Park."
+      },
+      {
+        "file": "l-63b4f91e4260febf.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Kore",
+        "text": "Sie reisten mit dem Zug quer durchs Land."
+      },
+      {
+        "file": "l-38ece896d1f60325.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Charon",
+        "text": "Er arbeitet als Arzt im Krankenhaus."
+      }
+    ],
+    "CHL": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "CHN": [
+      {
+        "file": "l-55c04cdd8995088c.mp3",
+        "locale": "cmn-CN",
+        "voice": "cmn-CN-Chirp3-HD-Kore",
+        "text": "音乐会上的音乐太棒了！"
+      },
+      {
+        "file": "l-46a63492beb84120.mp3",
+        "locale": "cmn-CN",
+        "voice": "cmn-CN-Chirp3-HD-Charon",
+        "text": "我们今天下午要去公园。"
+      },
+      {
+        "file": "l-62dce7e2c64f6715.mp3",
+        "locale": "cmn-CN",
+        "voice": "cmn-CN-Chirp3-HD-Kore",
+        "text": "孩子们在花园里玩耍"
+      },
+      {
+        "file": "l-0022938844bcfbc6.mp3",
+        "locale": "cmn-CN",
+        "voice": "cmn-CN-Chirp3-HD-Charon",
+        "text": "群山被白雪覆盖。"
+      },
+      {
+        "file": "l-1672de1c8a556dc5.mp3",
+        "locale": "cmn-CN",
+        "voice": "cmn-CN-Chirp3-HD-Kore",
+        "text": "早上好，你好吗？"
+      },
+      {
+        "file": "l-fe4f73bfede314c9.mp3",
+        "locale": "cmn-CN",
+        "voice": "cmn-CN-Chirp3-HD-Charon",
+        "text": "他在医院当医生。"
+      }
+    ],
+    "CMR": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "COD": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "COG": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "COL": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "COM": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "CPV": [
+      {
+        "file": "l-fba1edd7b4c3ce80.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Ela lê um livro todas as noites antes de dormir."
+      },
+      {
+        "file": "l-325a2f0bae811cb6.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "As montanhas estão cobertas de neve."
+      },
+      {
+        "file": "l-f6b74ef05d57fbbe.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Estou aprendendo a falar um novo idioma."
+      },
+      {
+        "file": "l-0d0f4db6a41c9f7b.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "Bom dia, como vai você?"
+      },
+      {
+        "file": "l-8a49cb0521c69ff4.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Vamos ao parque esta tarde."
+      },
+      {
+        "file": "l-b28751b0e4afd20f.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "A comida deste restaurante é deliciosa."
+      }
+    ],
+    "CRI": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "CUB": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "CYP": [
+      {
+        "file": "l-653db52d1b2f2011.mp3",
+        "locale": "el-GR",
+        "voice": "el-GR-Chirp3-HD-Kore",
+        "text": "Ο ήλιος δύει πάνω από τον ωκεανό κάθε βράδυ"
+      },
+      {
+        "file": "l-80952713d5a090ca.mp3",
+        "locale": "el-GR",
+        "voice": "el-GR-Chirp3-HD-Charon",
+        "text": "Η μουσική από τη συναυλία ήταν υπέροχη"
+      },
+      {
+        "file": "l-295ad362c25b6053.mp3",
+        "locale": "el-GR",
+        "voice": "el-GR-Chirp3-HD-Kore",
+        "text": "Εργάζεται στο νοσοκομείο ως γιατρός"
+      },
+      {
+        "file": "l-b4fc887364f9554a.mp3",
+        "locale": "el-GR",
+        "voice": "el-GR-Chirp3-HD-Charon",
+        "text": "Θα ήθελα ένα ποτήρι νερό παρακαλώ"
+      },
+      {
+        "file": "l-ada6666095d8bba5.mp3",
+        "locale": "el-GR",
+        "voice": "el-GR-Chirp3-HD-Kore",
+        "text": "Παρακαλώ πείτε μου το όνομα και τη διεύθυνσή σας"
+      },
+      {
+        "file": "l-8d347e4a71af6deb.mp3",
+        "locale": "el-GR",
+        "voice": "el-GR-Chirp3-HD-Charon",
+        "text": "Τα παιδιά παίζουν στον κήπο"
+      }
+    ],
+    "CZE": [
+      {
+        "file": "l-68223e4c1fee1dc5.mp3",
+        "locale": "cs-CZ",
+        "voice": "cs-CZ-Chirp3-HD-Kore",
+        "text": "Potřebuji koupit nějaké potraviny na večeři."
+      },
+      {
+        "file": "l-d5189db824fde791.mp3",
+        "locale": "cs-CZ",
+        "voice": "cs-CZ-Chirp3-HD-Charon",
+        "text": "Učím se mluvit novým jazykem"
+      },
+      {
+        "file": "l-e4654d3b66296efa.mp3",
+        "locale": "cs-CZ",
+        "voice": "cs-CZ-Chirp3-HD-Kore",
+        "text": "Děti si hrají na zahradě"
+      },
+      {
+        "file": "l-23599cd6411acc3a.mp3",
+        "locale": "cs-CZ",
+        "voice": "cs-CZ-Chirp3-HD-Charon",
+        "text": "Dnes je krásné počasí"
+      },
+      {
+        "file": "l-37cbdacca0663571.mp3",
+        "locale": "cs-CZ",
+        "voice": "cs-CZ-Chirp3-HD-Kore",
+        "text": "Prosím, sdělte mi své jméno a adresu"
+      },
+      {
+        "file": "l-37fb1642c99bf760.mp3",
+        "locale": "cs-CZ",
+        "voice": "cs-CZ-Chirp3-HD-Charon",
+        "text": "Jídlo v této restauraci je vynikající"
+      }
+    ],
+    "DEU": [
+      {
+        "file": "l-057d9810af56cbe5.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Kore",
+        "text": "Guten Morgen, wie geht es Ihnen?"
+      },
+      {
+        "file": "l-146818d0d83ae0a6.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Charon",
+        "text": "Um wie viel Uhr schließt das Geschäft heute Abend?"
+      },
+      {
+        "file": "l-ed7c057925833809.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Kore",
+        "text": "Die Berge sind mit Schnee bedeckt"
+      },
+      {
+        "file": "l-dc634ca12b17efba.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Charon",
+        "text": "Wir gehen heute Nachmittag in den Park."
+      },
+      {
+        "file": "l-63b4f91e4260febf.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Kore",
+        "text": "Sie reisten mit dem Zug quer durchs Land."
+      },
+      {
+        "file": "l-38ece896d1f60325.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Charon",
+        "text": "Er arbeitet als Arzt im Krankenhaus."
+      }
+    ],
+    "DJI": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "DNK": [
+      {
+        "file": "l-4b7414af4302f0d6.mp3",
+        "locale": "da-DK",
+        "voice": "da-DK-Chirp3-HD-Kore",
+        "text": "Solen går ned over havet hver nat"
+      },
+      {
+        "file": "l-c9b9ddc89ef7e58f.mp3",
+        "locale": "da-DK",
+        "voice": "da-DK-Chirp3-HD-Charon",
+        "text": "Vi skal i parken i eftermiddag"
+      },
+      {
+        "file": "l-397d27e637a69c6f.mp3",
+        "locale": "da-DK",
+        "voice": "da-DK-Chirp3-HD-Kore",
+        "text": "Kan du hjælpe mig med at finde vej"
+      },
+      {
+        "file": "l-c671b4b2ea7d66c3.mp3",
+        "locale": "da-DK",
+        "voice": "da-DK-Chirp3-HD-Charon",
+        "text": "Hvad tid lukker butikken i aften"
+      },
+      {
+        "file": "l-37a35fb5dd68ad32.mp3",
+        "locale": "da-DK",
+        "voice": "da-DK-Chirp3-HD-Kore",
+        "text": "Jeg skal købe nogle dagligvarer til aftensmad"
+      },
+      {
+        "file": "l-ee95564dd2869124.mp3",
+        "locale": "da-DK",
+        "voice": "da-DK-Chirp3-HD-Charon",
+        "text": "Maden på denne restaurant er lækker"
+      }
+    ],
+    "DOM": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "DZA": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "ECU": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "EGY": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "ESP": [
+      {
+        "file": "l-501e6dbc41a501c0.mp3",
+        "locale": "es-ES",
+        "voice": "es-ES-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-efede549965f7151.mp3",
+        "locale": "es-ES",
+        "voice": "es-ES-Chirp3-HD-Charon",
+        "text": "Me gusta tomar café por la mañana."
+      },
+      {
+        "file": "l-959d615abce540d9.mp3",
+        "locale": "es-ES",
+        "voice": "es-ES-Chirp3-HD-Kore",
+        "text": "¿Dónde está la estación de tren más cercana?"
+      },
+      {
+        "file": "l-5faf025a095120c6.mp3",
+        "locale": "es-ES",
+        "voice": "es-ES-Chirp3-HD-Charon",
+        "text": "Viajaron por todo el país en tren."
+      },
+      {
+        "file": "l-648a0f18c29ff5e3.mp3",
+        "locale": "es-ES",
+        "voice": "es-ES-Chirp3-HD-Kore",
+        "text": "Por favor, dígame su nombre y dirección."
+      },
+      {
+        "file": "l-f1d7a5569b2f079e.mp3",
+        "locale": "es-ES",
+        "voice": "es-ES-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      }
+    ],
+    "EST": [
+      {
+        "file": "l-30618548133dd538.mp3",
+        "locale": "et-EE",
+        "voice": "et-EE-Chirp3-HD-Kore",
+        "text": "Mu pere tuleb järgmisel nädalal külla"
+      },
+      {
+        "file": "l-501cc110c022d3d7.mp3",
+        "locale": "et-EE",
+        "voice": "et-EE-Chirp3-HD-Charon",
+        "text": "Selle restorani toit on maitsev"
+      },
+      {
+        "file": "l-4d41f2be66808fdb.mp3",
+        "locale": "et-EE",
+        "voice": "et-EE-Chirp3-HD-Kore",
+        "text": "Tere hommikust, kuidas sul läheb?"
+      },
+      {
+        "file": "l-8838461eb91e7e7b.mp3",
+        "locale": "et-EE",
+        "voice": "et-EE-Chirp3-HD-Charon",
+        "text": "Kus on lähim rongijaam"
+      },
+      {
+        "file": "l-c1e34c6d8774ac09.mp3",
+        "locale": "et-EE",
+        "voice": "et-EE-Chirp3-HD-Kore",
+        "text": "Päike loojub igal õhtul ookeani kohal"
+      },
+      {
+        "file": "l-83e0a22948c33e37.mp3",
+        "locale": "et-EE",
+        "voice": "et-EE-Chirp3-HD-Charon",
+        "text": "Mäed on lumega kaetud"
+      }
+    ],
+    "ETH": [
+      {
+        "file": "l-29e9b2861381470f.mp3",
+        "locale": "am-ET",
+        "voice": "am-ET-Wavenet-A",
+        "text": "በጣም ቅርብ የሆነው የባቡር ጣቢያ የት ነው?"
+      },
+      {
+        "file": "l-f02b186861fa3fe0.mp3",
+        "locale": "am-ET",
+        "voice": "am-ET-Wavenet-B",
+        "text": "መንገዴን እንዳገኝ ልትረዱኝ ትችላላችሁ?"
+      },
+      {
+        "file": "l-5d3af5f28c2132f7.mp3",
+        "locale": "am-ET",
+        "voice": "am-ET-Wavenet-A",
+        "text": "እንደምን አደርክ፣ እንዴት ነህ?"
+      },
+      {
+        "file": "l-cb4bb0105b5b791d.mp3",
+        "locale": "am-ET",
+        "voice": "am-ET-Wavenet-B",
+        "text": "በባቡር በመላ አገሪቱ ተጉዘዋል"
+      },
+      {
+        "file": "l-762baa3b82014a31.mp3",
+        "locale": "am-ET",
+        "voice": "am-ET-Wavenet-A",
+        "text": "የአየር ሁኔታ ዛሬ ውብ ነው"
+      },
+      {
+        "file": "l-8e9a5331202f63d3.mp3",
+        "locale": "am-ET",
+        "voice": "am-ET-Wavenet-B",
+        "text": "እባክህ አንድ ብርጭቆ ውሃ እፈልጋለሁ"
+      }
+    ],
+    "FIN": [
+      {
+        "file": "l-dbf690ec110db7be.mp3",
+        "locale": "fi-FI",
+        "voice": "fi-FI-Chirp3-HD-Kore",
+        "text": "Vuoret ovat lumen peitossa"
+      },
+      {
+        "file": "l-0d0c50d478a6e9e4.mp3",
+        "locale": "fi-FI",
+        "voice": "fi-FI-Chirp3-HD-Charon",
+        "text": "Kerrothan nimesi ja osoitteesi"
+      },
+      {
+        "file": "l-678fb67996279939.mp3",
+        "locale": "fi-FI",
+        "voice": "fi-FI-Chirp3-HD-Kore",
+        "text": "Mihin aikaan kauppa sulkeutuu tänä iltana"
+      },
+      {
+        "file": "l-740dc53806fd1a7c.mp3",
+        "locale": "fi-FI",
+        "voice": "fi-FI-Chirp3-HD-Charon",
+        "text": "Haluaisin lasillisen vettä, kiitos."
+      },
+      {
+        "file": "l-00c3f41bab2217a3.mp3",
+        "locale": "fi-FI",
+        "voice": "fi-FI-Chirp3-HD-Kore",
+        "text": "Sää on kaunis tänään"
+      },
+      {
+        "file": "l-e85e35ab03a52139.mp3",
+        "locale": "fi-FI",
+        "voice": "fi-FI-Chirp3-HD-Charon",
+        "text": "Hän lukee kirjan joka ilta ennen nukkumaanmenoa"
+      }
+    ],
+    "FRA": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "GAB": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "GIN": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "GNB": [
+      {
+        "file": "l-fba1edd7b4c3ce80.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Ela lê um livro todas as noites antes de dormir."
+      },
+      {
+        "file": "l-325a2f0bae811cb6.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "As montanhas estão cobertas de neve."
+      },
+      {
+        "file": "l-f6b74ef05d57fbbe.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Estou aprendendo a falar um novo idioma."
+      },
+      {
+        "file": "l-0d0f4db6a41c9f7b.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "Bom dia, como vai você?"
+      },
+      {
+        "file": "l-8a49cb0521c69ff4.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Vamos ao parque esta tarde."
+      },
+      {
+        "file": "l-b28751b0e4afd20f.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "A comida deste restaurante é deliciosa."
+      }
+    ],
+    "GNQ": [
+      {
+        "file": "l-501e6dbc41a501c0.mp3",
+        "locale": "es-ES",
+        "voice": "es-ES-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-efede549965f7151.mp3",
+        "locale": "es-ES",
+        "voice": "es-ES-Chirp3-HD-Charon",
+        "text": "Me gusta tomar café por la mañana."
+      },
+      {
+        "file": "l-959d615abce540d9.mp3",
+        "locale": "es-ES",
+        "voice": "es-ES-Chirp3-HD-Kore",
+        "text": "¿Dónde está la estación de tren más cercana?"
+      },
+      {
+        "file": "l-5faf025a095120c6.mp3",
+        "locale": "es-ES",
+        "voice": "es-ES-Chirp3-HD-Charon",
+        "text": "Viajaron por todo el país en tren."
+      },
+      {
+        "file": "l-648a0f18c29ff5e3.mp3",
+        "locale": "es-ES",
+        "voice": "es-ES-Chirp3-HD-Kore",
+        "text": "Por favor, dígame su nombre y dirección."
+      },
+      {
+        "file": "l-f1d7a5569b2f079e.mp3",
+        "locale": "es-ES",
+        "voice": "es-ES-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      }
+    ],
+    "GRC": [
+      {
+        "file": "l-653db52d1b2f2011.mp3",
+        "locale": "el-GR",
+        "voice": "el-GR-Chirp3-HD-Kore",
+        "text": "Ο ήλιος δύει πάνω από τον ωκεανό κάθε βράδυ"
+      },
+      {
+        "file": "l-80952713d5a090ca.mp3",
+        "locale": "el-GR",
+        "voice": "el-GR-Chirp3-HD-Charon",
+        "text": "Η μουσική από τη συναυλία ήταν υπέροχη"
+      },
+      {
+        "file": "l-295ad362c25b6053.mp3",
+        "locale": "el-GR",
+        "voice": "el-GR-Chirp3-HD-Kore",
+        "text": "Εργάζεται στο νοσοκομείο ως γιατρός"
+      },
+      {
+        "file": "l-b4fc887364f9554a.mp3",
+        "locale": "el-GR",
+        "voice": "el-GR-Chirp3-HD-Charon",
+        "text": "Θα ήθελα ένα ποτήρι νερό παρακαλώ"
+      },
+      {
+        "file": "l-ada6666095d8bba5.mp3",
+        "locale": "el-GR",
+        "voice": "el-GR-Chirp3-HD-Kore",
+        "text": "Παρακαλώ πείτε μου το όνομα και τη διεύθυνσή σας"
+      },
+      {
+        "file": "l-8d347e4a71af6deb.mp3",
+        "locale": "el-GR",
+        "voice": "el-GR-Chirp3-HD-Charon",
+        "text": "Τα παιδιά παίζουν στον κήπο"
+      }
+    ],
+    "GTM": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "HND": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "HRV": [
+      {
+        "file": "l-225944b5cf9031f3.mp3",
+        "locale": "hr-HR",
+        "voice": "hr-HR-Chirp3-HD-Kore",
+        "text": "Djeca se igraju u vrtu"
+      },
+      {
+        "file": "l-24f0936dfcaa9bdb.mp3",
+        "locale": "hr-HR",
+        "voice": "hr-HR-Chirp3-HD-Charon",
+        "text": "Svake večeri prije spavanja čita knjigu"
+      },
+      {
+        "file": "l-ca290727d075561b.mp3",
+        "locale": "hr-HR",
+        "voice": "hr-HR-Chirp3-HD-Kore",
+        "text": "Moram kupiti neke namirnice za večeru"
+      },
+      {
+        "file": "l-92e4487e39a4695a.mp3",
+        "locale": "hr-HR",
+        "voice": "hr-HR-Chirp3-HD-Charon",
+        "text": "Vrijeme je danas prekrasno"
+      },
+      {
+        "file": "l-1ac78842269b0a78.mp3",
+        "locale": "hr-HR",
+        "voice": "hr-HR-Chirp3-HD-Kore",
+        "text": "U koje vrijeme se trgovina zatvara večeras"
+      },
+      {
+        "file": "l-f1e46b91b3c83a97.mp3",
+        "locale": "hr-HR",
+        "voice": "hr-HR-Chirp3-HD-Charon",
+        "text": "Putovali su vlakom po cijeloj zemlji"
+      }
+    ],
+    "HUN": [
+      {
+        "file": "l-398ffbf8aa6dae23.mp3",
+        "locale": "hu-HU",
+        "voice": "hu-HU-Chirp3-HD-Kore",
+        "text": "A családom jövő héten meglátogat"
+      },
+      {
+        "file": "l-6ff0eeed95daf6af.mp3",
+        "locale": "hu-HU",
+        "voice": "hu-HU-Chirp3-HD-Charon",
+        "text": "Gyönyörű az idő ma"
+      },
+      {
+        "file": "l-054b2bcf04b4c925.mp3",
+        "locale": "hu-HU",
+        "voice": "hu-HU-Chirp3-HD-Kore",
+        "text": "Az étel ebben az étteremben finom"
+      },
+      {
+        "file": "l-f7f51ac4647f4fdb.mp3",
+        "locale": "hu-HU",
+        "voice": "hu-HU-Chirp3-HD-Charon",
+        "text": "Vennem kell pár élelmiszert vacsorára"
+      },
+      {
+        "file": "l-caf740c87a9b8d1f.mp3",
+        "locale": "hu-HU",
+        "voice": "hu-HU-Chirp3-HD-Kore",
+        "text": "A gyerekek a kertben játszanak"
+      },
+      {
+        "file": "l-3d11aeaac429e4f4.mp3",
+        "locale": "hu-HU",
+        "voice": "hu-HU-Chirp3-HD-Charon",
+        "text": "A hegyeket hó borítja"
+      }
+    ],
+    "IDN": [
+      {
+        "file": "l-155b8d77f456689c.mp3",
+        "locale": "id-ID",
+        "voice": "id-ID-Chirp3-HD-Kore",
+        "text": "Anak-anak sedang bermain di taman."
+      },
+      {
+        "file": "l-c4600322045e2eb6.mp3",
+        "locale": "id-ID",
+        "voice": "id-ID-Chirp3-HD-Charon",
+        "text": "Tolong sebutkan nama dan alamat Anda."
+      },
+      {
+        "file": "l-3f2ea3cadbe0c991.mp3",
+        "locale": "id-ID",
+        "voice": "id-ID-Chirp3-HD-Kore",
+        "text": "Jam berapa toko tutup malam ini?"
+      },
+      {
+        "file": "l-b29c348605c60ab9.mp3",
+        "locale": "id-ID",
+        "voice": "id-ID-Chirp3-HD-Charon",
+        "text": "Dia bekerja di rumah sakit sebagai dokter."
+      },
+      {
+        "file": "l-50263c0871334156.mp3",
+        "locale": "id-ID",
+        "voice": "id-ID-Chirp3-HD-Kore",
+        "text": "Di manakah stasiun kereta terdekat?"
+      },
+      {
+        "file": "l-65d526aa91253446.mp3",
+        "locale": "id-ID",
+        "voice": "id-ID-Chirp3-HD-Charon",
+        "text": "Kita akan pergi ke taman sore ini."
+      }
+    ],
+    "IND": [
+      {
+        "file": "l-59b6780350472788.mp3",
+        "locale": "hi-IN",
+        "voice": "hi-IN-Chirp3-HD-Kore",
+        "text": "नज़दीकी रेलवे स्टेशन कहां है"
+      },
+      {
+        "file": "l-dec5f4489c51102e.mp3",
+        "locale": "hi-IN",
+        "voice": "hi-IN-Chirp3-HD-Charon",
+        "text": "उन्होंने ट्रेन से पूरे देश की यात्रा की।"
+      },
+      {
+        "file": "l-4d120365fc294414.mp3",
+        "locale": "hi-IN",
+        "voice": "hi-IN-Chirp3-HD-Kore",
+        "text": "क्या आप मुझे रास्ता ढूंढने में मदद कर सकते हैं?"
+      },
+      {
+        "file": "l-61f1efe0879f977f.mp3",
+        "locale": "hi-IN",
+        "voice": "hi-IN-Chirp3-HD-Charon",
+        "text": "हम आज दोपहर पार्क जा रहे हैं"
+      },
+      {
+        "file": "l-3fd1fd9d2d8745d6.mp3",
+        "locale": "hi-IN",
+        "voice": "hi-IN-Chirp3-HD-Kore",
+        "text": "मुझे एक गिलास पानी चाहिए।"
+      },
+      {
+        "file": "l-6d8925a33d63d0fa.mp3",
+        "locale": "hi-IN",
+        "voice": "hi-IN-Chirp3-HD-Charon",
+        "text": "आज मौसम बहुत सुहावना है।"
+      }
+    ],
+    "IRQ": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "ISR": [
+      {
+        "file": "l-ac34978b34df81e5.mp3",
+        "locale": "he-IL",
+        "voice": "he-IL-Chirp3-HD-Kore",
+        "text": "באיזו שעה החנות נסגרת הערב"
+      },
+      {
+        "file": "l-24391b196082f7c3.mp3",
+        "locale": "he-IL",
+        "voice": "he-IL-Chirp3-HD-Charon",
+        "text": "האם תוכל לעזור לי למצוא את דרכי"
+      },
+      {
+        "file": "l-9eaab41cf279927e.mp3",
+        "locale": "he-IL",
+        "voice": "he-IL-Chirp3-HD-Kore",
+        "text": "איפה תחנת הרכבת הקרובה ביותר"
+      },
+      {
+        "file": "l-6cb47eeffbe48702.mp3",
+        "locale": "he-IL",
+        "voice": "he-IL-Chirp3-HD-Charon",
+        "text": "ההרים מכוסים בשלג"
+      },
+      {
+        "file": "l-6fd8a0bff0169afe.mp3",
+        "locale": "he-IL",
+        "voice": "he-IL-Chirp3-HD-Kore",
+        "text": "אנחנו הולכים לפארק היום אחר הצהריים"
+      },
+      {
+        "file": "l-abd5b6e7242b5a9d.mp3",
+        "locale": "he-IL",
+        "voice": "he-IL-Chirp3-HD-Charon",
+        "text": "המוזיקה מהקונצרט הייתה נפלאה"
+      }
+    ],
+    "ITA": [
+      {
+        "file": "l-19e34ab38363879a.mp3",
+        "locale": "it-IT",
+        "voice": "it-IT-Chirp3-HD-Kore",
+        "text": "Dove si trova la stazione ferroviaria più vicina"
+      },
+      {
+        "file": "l-1d01bc0b4c0ca9a8.mp3",
+        "locale": "it-IT",
+        "voice": "it-IT-Chirp3-HD-Charon",
+        "text": "Mi piace bere il caffè al mattino."
+      },
+      {
+        "file": "l-4d220c2cca8b7a0f.mp3",
+        "locale": "it-IT",
+        "voice": "it-IT-Chirp3-HD-Kore",
+        "text": "Ogni sera prima di andare a letto legge un libro."
+      },
+      {
+        "file": "l-7deaca23866c7b7c.mp3",
+        "locale": "it-IT",
+        "voice": "it-IT-Chirp3-HD-Charon",
+        "text": "I bambini stanno giocando in giardino."
+      },
+      {
+        "file": "l-6c2ec4535200074c.mp3",
+        "locale": "it-IT",
+        "voice": "it-IT-Chirp3-HD-Kore",
+        "text": "Sto imparando a parlare una nuova lingua"
+      },
+      {
+        "file": "l-9f237f3bd519dce4.mp3",
+        "locale": "it-IT",
+        "voice": "it-IT-Chirp3-HD-Charon",
+        "text": "A che ora chiude il negozio stasera?"
+      }
+    ],
+    "JOR": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "JPN": [
+      {
+        "file": "l-89a11874eaaf68f3.mp3",
+        "locale": "ja-JP",
+        "voice": "ja-JP-Chirp3-HD-Kore",
+        "text": "コンサートの音楽は素晴らしかった"
+      },
+      {
+        "file": "l-40d0a74659b7af26.mp3",
+        "locale": "ja-JP",
+        "voice": "ja-JP-Chirp3-HD-Charon",
+        "text": "私は朝にコーヒーを飲むのが好きです"
+      },
+      {
+        "file": "l-7bddc706a6c54c9d.mp3",
+        "locale": "ja-JP",
+        "voice": "ja-JP-Chirp3-HD-Kore",
+        "text": "道案内をしてもらえますか？"
+      },
+      {
+        "file": "l-0b3c9c2529d1a141.mp3",
+        "locale": "ja-JP",
+        "voice": "ja-JP-Chirp3-HD-Charon",
+        "text": "私たちは今日の午後、公園に行く予定です。"
+      },
+      {
+        "file": "l-006dc31a3e292bb6.mp3",
+        "locale": "ja-JP",
+        "voice": "ja-JP-Chirp3-HD-Kore",
+        "text": "今夜、お店は何時に閉まりますか？"
+      },
+      {
+        "file": "l-0cdaaf58a09a2a67.mp3",
+        "locale": "ja-JP",
+        "voice": "ja-JP-Chirp3-HD-Charon",
+        "text": "山々は雪に覆われている"
+      }
+    ],
+    "KEN": [
+      {
+        "file": "l-c480eb0aa43119f3.mp3",
+        "locale": "sw-KE",
+        "voice": "sw-KE-Chirp3-HD-Kore",
+        "text": "Walisafiri kote nchini kwa treni"
+      },
+      {
+        "file": "l-914d530897414229.mp3",
+        "locale": "sw-KE",
+        "voice": "sw-KE-Chirp3-HD-Charon",
+        "text": "Duka linafungwa saa ngapi usiku wa leo"
+      },
+      {
+        "file": "l-0880872cf31a97c1.mp3",
+        "locale": "sw-KE",
+        "voice": "sw-KE-Chirp3-HD-Kore",
+        "text": "Ninajifunza kuzungumza lugha mpya"
+      },
+      {
+        "file": "l-416cccaac76d8289.mp3",
+        "locale": "sw-KE",
+        "voice": "sw-KE-Chirp3-HD-Charon",
+        "text": "Naomba glasi ya maji tafadhali"
+      },
+      {
+        "file": "l-4b8694226874161a.mp3",
+        "locale": "sw-KE",
+        "voice": "sw-KE-Chirp3-HD-Kore",
+        "text": "Familia yangu inakuja kututembelea wiki ijayo"
+      },
+      {
+        "file": "l-d78250a7b64055e6.mp3",
+        "locale": "sw-KE",
+        "voice": "sw-KE-Chirp3-HD-Charon",
+        "text": "Watoto wanacheza bustanini"
+      }
+    ],
+    "KOR": [
+      {
+        "file": "l-2abafd3c77ad51b2.mp3",
+        "locale": "ko-KR",
+        "voice": "ko-KR-Chirp3-HD-Kore",
+        "text": "그녀는 매일 밤 잠자리에 들기 전에 책을 읽습니다."
+      },
+      {
+        "file": "l-618fd4d70374d8fa.mp3",
+        "locale": "ko-KR",
+        "voice": "ko-KR-Chirp3-HD-Charon",
+        "text": "매일 밤 태양은 바다 위로 진다"
+      },
+      {
+        "file": "l-26c3ed72ccf1138a.mp3",
+        "locale": "ko-KR",
+        "voice": "ko-KR-Chirp3-HD-Kore",
+        "text": "성함과 주소를 알려주세요."
+      },
+      {
+        "file": "l-4f2ff118639635c2.mp3",
+        "locale": "ko-KR",
+        "voice": "ko-KR-Chirp3-HD-Charon",
+        "text": "우리는 오늘 오후에 공원에 갈 거예요."
+      },
+      {
+        "file": "l-b8f7ac4fce762bbc.mp3",
+        "locale": "ko-KR",
+        "voice": "ko-KR-Chirp3-HD-Kore",
+        "text": "오늘 밤 가게는 몇 시에 문을 닫나요?"
+      },
+      {
+        "file": "l-aa0737fe4875184c.mp3",
+        "locale": "ko-KR",
+        "voice": "ko-KR-Chirp3-HD-Charon",
+        "text": "저는 아침에 커피 마시는 것을 좋아합니다."
+      }
+    ],
+    "KWT": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "LBN": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "LBY": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "LIE": [
+      {
+        "file": "l-057d9810af56cbe5.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Kore",
+        "text": "Guten Morgen, wie geht es Ihnen?"
+      },
+      {
+        "file": "l-146818d0d83ae0a6.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Charon",
+        "text": "Um wie viel Uhr schließt das Geschäft heute Abend?"
+      },
+      {
+        "file": "l-ed7c057925833809.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Kore",
+        "text": "Die Berge sind mit Schnee bedeckt"
+      },
+      {
+        "file": "l-dc634ca12b17efba.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Charon",
+        "text": "Wir gehen heute Nachmittag in den Park."
+      },
+      {
+        "file": "l-63b4f91e4260febf.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Kore",
+        "text": "Sie reisten mit dem Zug quer durchs Land."
+      },
+      {
+        "file": "l-38ece896d1f60325.mp3",
+        "locale": "de-DE",
+        "voice": "de-DE-Chirp3-HD-Charon",
+        "text": "Er arbeitet als Arzt im Krankenhaus."
+      }
+    ],
+    "LTU": [
+      {
+        "file": "l-394e77608b18234b.mp3",
+        "locale": "lt-LT",
+        "voice": "lt-LT-Chirp3-HD-Kore",
+        "text": "Mėgstu ryte gerti kavą"
+      },
+      {
+        "file": "l-b7c353cde50459a8.mp3",
+        "locale": "lt-LT",
+        "voice": "lt-LT-Chirp3-HD-Charon",
+        "text": "Mano šeima atvyks aplankyti kitą savaitę"
+      },
+      {
+        "file": "l-4989a088b7ca8b29.mp3",
+        "locale": "lt-LT",
+        "voice": "lt-LT-Chirp3-HD-Kore",
+        "text": "Saulė kiekvieną naktį leidžiasi virš vandenyno"
+      },
+      {
+        "file": "l-a62339aa50bb332a.mp3",
+        "locale": "lt-LT",
+        "voice": "lt-LT-Chirp3-HD-Charon",
+        "text": "Norėčiau stiklinės vandens, prašau"
+      },
+      {
+        "file": "l-4384fbe9a1facc1d.mp3",
+        "locale": "lt-LT",
+        "voice": "lt-LT-Chirp3-HD-Kore",
+        "text": "Aš mokausi kalbėti nauja kalba"
+      },
+      {
+        "file": "l-fe7384c7815457b8.mp3",
+        "locale": "lt-LT",
+        "voice": "lt-LT-Chirp3-HD-Charon",
+        "text": "Šio restorano maistas yra skanus"
+      }
+    ],
+    "LVA": [
+      {
+        "file": "l-860a7256fe44ee13.mp3",
+        "locale": "lv-LV",
+        "voice": "lv-LV-Chirp3-HD-Kore",
+        "text": "Mana ģimene nākamnedēļ brauc ciemos"
+      },
+      {
+        "file": "l-389ab047bb140780.mp3",
+        "locale": "lv-LV",
+        "voice": "lv-LV-Chirp3-HD-Charon",
+        "text": "Kalni ir klāti ar sniegu"
+      },
+      {
+        "file": "l-5a21ae40a9282eba.mp3",
+        "locale": "lv-LV",
+        "voice": "lv-LV-Chirp3-HD-Kore",
+        "text": "Katru nakti saule riet pār okeānu"
+      },
+      {
+        "file": "l-11a7a3550462453c.mp3",
+        "locale": "lv-LV",
+        "voice": "lv-LV-Chirp3-HD-Charon",
+        "text": "Es vēlētos glāzi ūdens, lūdzu"
+      },
+      {
+        "file": "l-a6a693a25ba9f31d.mp3",
+        "locale": "lv-LV",
+        "voice": "lv-LV-Chirp3-HD-Kore",
+        "text": "Laiks šodien ir skaists"
+      },
+      {
+        "file": "l-0c940e5c4b0a748b.mp3",
+        "locale": "lv-LV",
+        "voice": "lv-LV-Chirp3-HD-Charon",
+        "text": "Kur atrodas tuvākā dzelzceļa stacija"
+      }
+    ],
+    "MAR": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "MCO": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "MDA": [
+      {
+        "file": "l-a5c979032986ea59.mp3",
+        "locale": "ro-RO",
+        "voice": "ro-RO-Chirp3-HD-Kore",
+        "text": "Îmi place să beau cafea dimineața"
+      },
+      {
+        "file": "l-1da3d92a41faf526.mp3",
+        "locale": "ro-RO",
+        "voice": "ro-RO-Chirp3-HD-Charon",
+        "text": "Bună dimineața, ce mai faci?"
+      },
+      {
+        "file": "l-8fd6aa599cb34b67.mp3",
+        "locale": "ro-RO",
+        "voice": "ro-RO-Chirp3-HD-Kore",
+        "text": "Munții sunt acoperiți de zăpadă"
+      },
+      {
+        "file": "l-e2ace22601601e9b.mp3",
+        "locale": "ro-RO",
+        "voice": "ro-RO-Chirp3-HD-Charon",
+        "text": "Aș dori un pahar cu apă, vă rog"
+      },
+      {
+        "file": "l-4cea5e5bc9c9f8a6.mp3",
+        "locale": "ro-RO",
+        "voice": "ro-RO-Chirp3-HD-Kore",
+        "text": "Vă rog să-mi spuneți numele și adresa dumneavoastră."
+      },
+      {
+        "file": "l-d9accf82f51be92d.mp3",
+        "locale": "ro-RO",
+        "voice": "ro-RO-Chirp3-HD-Charon",
+        "text": "Soarele apune peste ocean în fiecare noapte"
+      }
+    ],
+    "MEX": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "MLI": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "MNE": [
+      {
+        "file": "l-081e95d74ad9a100.mp3",
+        "locale": "sr-RS",
+        "voice": "sr-RS-Chirp3-HD-Kore",
+        "text": "У колико сати се продавница затвара вечерас"
+      },
+      {
+        "file": "l-b64e71aa600adedf.mp3",
+        "locale": "sr-RS",
+        "voice": "sr-RS-Chirp3-HD-Charon",
+        "text": "Идемо у парк данас поподне"
+      },
+      {
+        "file": "l-12e4783c42a618dc.mp3",
+        "locale": "sr-RS",
+        "voice": "sr-RS-Chirp3-HD-Kore",
+        "text": "Путовали су преко земље возом"
+      },
+      {
+        "file": "l-0d3671c30cbeb5d3.mp3",
+        "locale": "sr-RS",
+        "voice": "sr-RS-Chirp3-HD-Charon",
+        "text": "Сунце залази над океаном сваке ноћи"
+      },
+      {
+        "file": "l-ffb174b2e47c6755.mp3",
+        "locale": "sr-RS",
+        "voice": "sr-RS-Chirp3-HD-Kore",
+        "text": "Планине су прекривене снегом"
+      },
+      {
+        "file": "l-d2c28a4801c7a33b.mp3",
+        "locale": "sr-RS",
+        "voice": "sr-RS-Chirp3-HD-Charon",
+        "text": "Она чита књигу сваке вечери пре спавања"
+      }
+    ],
+    "MOZ": [
+      {
+        "file": "l-fba1edd7b4c3ce80.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Ela lê um livro todas as noites antes de dormir."
+      },
+      {
+        "file": "l-325a2f0bae811cb6.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "As montanhas estão cobertas de neve."
+      },
+      {
+        "file": "l-f6b74ef05d57fbbe.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Estou aprendendo a falar um novo idioma."
+      },
+      {
+        "file": "l-0d0f4db6a41c9f7b.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "Bom dia, como vai você?"
+      },
+      {
+        "file": "l-8a49cb0521c69ff4.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Vamos ao parque esta tarde."
+      },
+      {
+        "file": "l-b28751b0e4afd20f.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "A comida deste restaurante é deliciosa."
+      }
+    ],
+    "MRT": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "MYS": [
+      {
+        "file": "l-cced61215ee11d4a.mp3",
+        "locale": "ms-MY",
+        "voice": "ms-MY-Wavenet-A",
+        "text": "Keluarga saya akan datang melawat minggu hadapan"
+      },
+      {
+        "file": "l-01d89700658005bc.mp3",
+        "locale": "ms-MY",
+        "voice": "ms-MY-Wavenet-B",
+        "text": "Saya suka minum kopi pada waktu pagi"
+      },
+      {
+        "file": "l-35a953252240f510.mp3",
+        "locale": "ms-MY",
+        "voice": "ms-MY-Wavenet-A",
+        "text": "Mereka mengembara ke seluruh negara dengan kereta api"
+      },
+      {
+        "file": "l-163f595f1c14a960.mp3",
+        "locale": "ms-MY",
+        "voice": "ms-MY-Wavenet-B",
+        "text": "Saya ingin segelas air, silakan"
+      },
+      {
+        "file": "l-9799b7871e08395a.mp3",
+        "locale": "ms-MY",
+        "voice": "ms-MY-Wavenet-A",
+        "text": "Muzik dari konsert itu sungguh indah"
+      },
+      {
+        "file": "l-869f058843e2b2e2.mp3",
+        "locale": "ms-MY",
+        "voice": "ms-MY-Wavenet-B",
+        "text": "Bolehkah awak bantu saya mencari jalan saya"
+      }
+    ],
+    "NER": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "NIC": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "NLD": [
+      {
+        "file": "l-f58cf77888a7a591.mp3",
+        "locale": "nl-NL",
+        "voice": "nl-NL-Chirp3-HD-Kore",
+        "text": "De kinderen spelen in de tuin."
+      },
+      {
+        "file": "l-89a9ec8fa42c3b0d.mp3",
+        "locale": "nl-NL",
+        "voice": "nl-NL-Chirp3-HD-Charon",
+        "text": "Waar is het dichtstbijzijnde station"
+      },
+      {
+        "file": "l-c19a662197124c6f.mp3",
+        "locale": "nl-NL",
+        "voice": "nl-NL-Chirp3-HD-Kore",
+        "text": "Het eten in dit restaurant is heerlijk."
+      },
+      {
+        "file": "l-943baf969599d47b.mp3",
+        "locale": "nl-NL",
+        "voice": "nl-NL-Chirp3-HD-Charon",
+        "text": "De bergen zijn bedekt met sneeuw."
+      },
+      {
+        "file": "l-f40142f79c4e2777.mp3",
+        "locale": "nl-NL",
+        "voice": "nl-NL-Chirp3-HD-Kore",
+        "text": "Ik moet boodschappen doen voor het avondeten."
+      },
+      {
+        "file": "l-8184eb3f1167b91a.mp3",
+        "locale": "nl-NL",
+        "voice": "nl-NL-Chirp3-HD-Charon",
+        "text": "Ik vind het fijn om 's ochtends koffie te drinken."
+      }
+    ],
+    "NOR": [
+      {
+        "file": "l-6ee234092daa5cf3.mp3",
+        "locale": "nb-NO",
+        "voice": "nb-NO-Chirp3-HD-Kore",
+        "text": "Vi skal til parken i ettermiddag"
+      },
+      {
+        "file": "l-c2738d13dc8e7833.mp3",
+        "locale": "nb-NO",
+        "voice": "nb-NO-Chirp3-HD-Charon",
+        "text": "De reiste tvers over landet med tog"
+      },
+      {
+        "file": "l-93fb299f7ff92f9c.mp3",
+        "locale": "nb-NO",
+        "voice": "nb-NO-Chirp3-HD-Kore",
+        "text": "Fjellene er dekket av snø"
+      },
+      {
+        "file": "l-1737b405949c8f38.mp3",
+        "locale": "nb-NO",
+        "voice": "nb-NO-Chirp3-HD-Charon",
+        "text": "Kan du hjelpe meg å finne veien"
+      },
+      {
+        "file": "l-40cf04f501ff3f11.mp3",
+        "locale": "nb-NO",
+        "voice": "nb-NO-Chirp3-HD-Kore",
+        "text": "Hun leser en bok hver kveld før hun legger seg"
+      },
+      {
+        "file": "l-42b7180b5df6813f.mp3",
+        "locale": "nb-NO",
+        "voice": "nb-NO-Chirp3-HD-Charon",
+        "text": "Jeg liker å drikke kaffe om morgenen"
+      }
+    ],
+    "OMN": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "PAK": [
+      {
+        "file": "l-1403b77609c8481d.mp3",
+        "locale": "ur-IN",
+        "voice": "ur-IN-Chirp3-HD-Kore",
+        "text": "سورج ہر رات سمندر پر غروب ہوتا ہے۔"
+      },
+      {
+        "file": "l-117d3f648bcf86a3.mp3",
+        "locale": "ur-IN",
+        "voice": "ur-IN-Chirp3-HD-Charon",
+        "text": "مجھے صبح کافی پینا اچھا لگتا ہے۔"
+      },
+      {
+        "file": "l-0766991537a280b0.mp3",
+        "locale": "ur-IN",
+        "voice": "ur-IN-Chirp3-HD-Kore",
+        "text": "انہوں نے ٹرین کے ذریعے ملک بھر کا سفر کیا۔"
+      },
+      {
+        "file": "l-e90f4bd9c1fd2f01.mp3",
+        "locale": "ur-IN",
+        "voice": "ur-IN-Chirp3-HD-Charon",
+        "text": "پہاڑ برف سے ڈھکے ہوئے ہیں۔"
+      },
+      {
+        "file": "l-e58bae55f797d95f.mp3",
+        "locale": "ur-IN",
+        "voice": "ur-IN-Chirp3-HD-Kore",
+        "text": "اپنا نام اور پتہ بتائیں"
+      },
+      {
+        "file": "l-7af27f8c774c77ed.mp3",
+        "locale": "ur-IN",
+        "voice": "ur-IN-Chirp3-HD-Charon",
+        "text": "مجھے رات کے کھانے کے لیے کچھ گروسری خریدنی ہے۔"
+      }
+    ],
+    "PAN": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "PER": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "PHL": [
+      {
+        "file": "l-b17672182f03cbb5.mp3",
+        "locale": "fil-PH",
+        "voice": "fil-ph-Neural2-A",
+        "text": "Pupunta kami sa parke ngayong hapon"
+      },
+      {
+        "file": "l-9f376576fbf5d25c.mp3",
+        "locale": "fil-PH",
+        "voice": "fil-ph-Neural2-D",
+        "text": "Nagbabasa siya ng libro tuwing gabi bago matulog"
+      },
+      {
+        "file": "l-b854aeed7b8571a6.mp3",
+        "locale": "fil-PH",
+        "voice": "fil-ph-Neural2-A",
+        "text": "Kailangan kong bumili ng mga grocery para sa hapunan"
+      },
+      {
+        "file": "l-aef70417560729cc.mp3",
+        "locale": "fil-PH",
+        "voice": "fil-ph-Neural2-D",
+        "text": "Nagtatrabaho siya sa ospital bilang isang doktor"
+      },
+      {
+        "file": "l-a26e812b11b4a4da.mp3",
+        "locale": "fil-PH",
+        "voice": "fil-ph-Neural2-A",
+        "text": "Matutulungan mo ba akong mahanap ang aking daan"
+      },
+      {
+        "file": "l-287831af51e6f49b.mp3",
+        "locale": "fil-PH",
+        "voice": "fil-ph-Neural2-D",
+        "text": "Lumulubog ang araw sa ibabaw ng karagatan tuwing gabi"
+      }
+    ],
+    "POL": [
+      {
+        "file": "l-3e5b27364d58984e.mp3",
+        "locale": "pl-PL",
+        "voice": "pl-PL-Chirp3-HD-Kore",
+        "text": "Góry pokryte są śniegiem"
+      },
+      {
+        "file": "l-7ff5774b5a34b6fc.mp3",
+        "locale": "pl-PL",
+        "voice": "pl-PL-Chirp3-HD-Charon",
+        "text": "O której godzinie zamyka się dziś sklep?"
+      },
+      {
+        "file": "l-66a51783072e7fd0.mp3",
+        "locale": "pl-PL",
+        "voice": "pl-PL-Chirp3-HD-Kore",
+        "text": "Muzyka na koncercie była cudowna"
+      },
+      {
+        "file": "l-d9d76d9a372d4a00.mp3",
+        "locale": "pl-PL",
+        "voice": "pl-PL-Chirp3-HD-Charon",
+        "text": "Pracuje w szpitalu jako lekarz"
+      },
+      {
+        "file": "l-2ef5bb72c149ca71.mp3",
+        "locale": "pl-PL",
+        "voice": "pl-PL-Chirp3-HD-Kore",
+        "text": "Dzień dobry, jak się masz?"
+      },
+      {
+        "file": "l-6135f62d5e60c503.mp3",
+        "locale": "pl-PL",
+        "voice": "pl-PL-Chirp3-HD-Charon",
+        "text": "Moja rodzina przyjeżdża w przyszłym tygodniu"
+      }
+    ],
+    "PRK": [
+      {
+        "file": "l-2abafd3c77ad51b2.mp3",
+        "locale": "ko-KR",
+        "voice": "ko-KR-Chirp3-HD-Kore",
+        "text": "그녀는 매일 밤 잠자리에 들기 전에 책을 읽습니다."
+      },
+      {
+        "file": "l-618fd4d70374d8fa.mp3",
+        "locale": "ko-KR",
+        "voice": "ko-KR-Chirp3-HD-Charon",
+        "text": "매일 밤 태양은 바다 위로 진다"
+      },
+      {
+        "file": "l-26c3ed72ccf1138a.mp3",
+        "locale": "ko-KR",
+        "voice": "ko-KR-Chirp3-HD-Kore",
+        "text": "성함과 주소를 알려주세요."
+      },
+      {
+        "file": "l-4f2ff118639635c2.mp3",
+        "locale": "ko-KR",
+        "voice": "ko-KR-Chirp3-HD-Charon",
+        "text": "우리는 오늘 오후에 공원에 갈 거예요."
+      },
+      {
+        "file": "l-b8f7ac4fce762bbc.mp3",
+        "locale": "ko-KR",
+        "voice": "ko-KR-Chirp3-HD-Kore",
+        "text": "오늘 밤 가게는 몇 시에 문을 닫나요?"
+      },
+      {
+        "file": "l-aa0737fe4875184c.mp3",
+        "locale": "ko-KR",
+        "voice": "ko-KR-Chirp3-HD-Charon",
+        "text": "저는 아침에 커피 마시는 것을 좋아합니다."
+      }
+    ],
+    "PRT": [
+      {
+        "file": "l-fba1edd7b4c3ce80.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Ela lê um livro todas as noites antes de dormir."
+      },
+      {
+        "file": "l-325a2f0bae811cb6.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "As montanhas estão cobertas de neve."
+      },
+      {
+        "file": "l-f6b74ef05d57fbbe.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Estou aprendendo a falar um novo idioma."
+      },
+      {
+        "file": "l-0d0f4db6a41c9f7b.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "Bom dia, como vai você?"
+      },
+      {
+        "file": "l-8a49cb0521c69ff4.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Vamos ao parque esta tarde."
+      },
+      {
+        "file": "l-b28751b0e4afd20f.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "A comida deste restaurante é deliciosa."
+      }
+    ],
+    "PRY": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "QAT": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "ROU": [
+      {
+        "file": "l-a5c979032986ea59.mp3",
+        "locale": "ro-RO",
+        "voice": "ro-RO-Chirp3-HD-Kore",
+        "text": "Îmi place să beau cafea dimineața"
+      },
+      {
+        "file": "l-1da3d92a41faf526.mp3",
+        "locale": "ro-RO",
+        "voice": "ro-RO-Chirp3-HD-Charon",
+        "text": "Bună dimineața, ce mai faci?"
+      },
+      {
+        "file": "l-8fd6aa599cb34b67.mp3",
+        "locale": "ro-RO",
+        "voice": "ro-RO-Chirp3-HD-Kore",
+        "text": "Munții sunt acoperiți de zăpadă"
+      },
+      {
+        "file": "l-e2ace22601601e9b.mp3",
+        "locale": "ro-RO",
+        "voice": "ro-RO-Chirp3-HD-Charon",
+        "text": "Aș dori un pahar cu apă, vă rog"
+      },
+      {
+        "file": "l-4cea5e5bc9c9f8a6.mp3",
+        "locale": "ro-RO",
+        "voice": "ro-RO-Chirp3-HD-Kore",
+        "text": "Vă rog să-mi spuneți numele și adresa dumneavoastră."
+      },
+      {
+        "file": "l-d9accf82f51be92d.mp3",
+        "locale": "ro-RO",
+        "voice": "ro-RO-Chirp3-HD-Charon",
+        "text": "Soarele apune peste ocean în fiecare noapte"
+      }
+    ],
+    "RUS": [
+      {
+        "file": "l-ac24e05726364aea.mp3",
+        "locale": "ru-RU",
+        "voice": "ru-RU-Chirp3-HD-Kore",
+        "text": "Пожалуйста, сообщите мне ваше имя и адрес."
+      },
+      {
+        "file": "l-bc87fa0819f58ed3.mp3",
+        "locale": "ru-RU",
+        "voice": "ru-RU-Chirp3-HD-Charon",
+        "text": "Мне нравится пить кофе по утрам."
+      },
+      {
+        "file": "l-6db40442b1eebbab.mp3",
+        "locale": "ru-RU",
+        "voice": "ru-RU-Chirp3-HD-Kore",
+        "text": "Где здесь ближайший ЖД вокзал"
+      },
+      {
+        "file": "l-19eb6125d7e33341.mp3",
+        "locale": "ru-RU",
+        "voice": "ru-RU-Chirp3-HD-Charon",
+        "text": "Он работает в больнице врачом."
+      },
+      {
+        "file": "l-71d845ee169b3522.mp3",
+        "locale": "ru-RU",
+        "voice": "ru-RU-Chirp3-HD-Kore",
+        "text": "Еда в этом ресторане восхитительна."
+      },
+      {
+        "file": "l-5a2b1af1401a0313.mp3",
+        "locale": "ru-RU",
+        "voice": "ru-RU-Chirp3-HD-Charon",
+        "text": "Каждый вечер перед сном она читает книгу."
+      }
+    ],
+    "SAU": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "SDN": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "SEN": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "SLV": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "SRB": [
+      {
+        "file": "l-081e95d74ad9a100.mp3",
+        "locale": "sr-RS",
+        "voice": "sr-RS-Chirp3-HD-Kore",
+        "text": "У колико сати се продавница затвара вечерас"
+      },
+      {
+        "file": "l-b64e71aa600adedf.mp3",
+        "locale": "sr-RS",
+        "voice": "sr-RS-Chirp3-HD-Charon",
+        "text": "Идемо у парк данас поподне"
+      },
+      {
+        "file": "l-12e4783c42a618dc.mp3",
+        "locale": "sr-RS",
+        "voice": "sr-RS-Chirp3-HD-Kore",
+        "text": "Путовали су преко земље возом"
+      },
+      {
+        "file": "l-0d3671c30cbeb5d3.mp3",
+        "locale": "sr-RS",
+        "voice": "sr-RS-Chirp3-HD-Charon",
+        "text": "Сунце залази над океаном сваке ноћи"
+      },
+      {
+        "file": "l-ffb174b2e47c6755.mp3",
+        "locale": "sr-RS",
+        "voice": "sr-RS-Chirp3-HD-Kore",
+        "text": "Планине су прекривене снегом"
+      },
+      {
+        "file": "l-d2c28a4801c7a33b.mp3",
+        "locale": "sr-RS",
+        "voice": "sr-RS-Chirp3-HD-Charon",
+        "text": "Она чита књигу сваке вечери пре спавања"
+      }
+    ],
+    "SUR": [
+      {
+        "file": "l-f58cf77888a7a591.mp3",
+        "locale": "nl-NL",
+        "voice": "nl-NL-Chirp3-HD-Kore",
+        "text": "De kinderen spelen in de tuin."
+      },
+      {
+        "file": "l-89a9ec8fa42c3b0d.mp3",
+        "locale": "nl-NL",
+        "voice": "nl-NL-Chirp3-HD-Charon",
+        "text": "Waar is het dichtstbijzijnde station"
+      },
+      {
+        "file": "l-c19a662197124c6f.mp3",
+        "locale": "nl-NL",
+        "voice": "nl-NL-Chirp3-HD-Kore",
+        "text": "Het eten in dit restaurant is heerlijk."
+      },
+      {
+        "file": "l-943baf969599d47b.mp3",
+        "locale": "nl-NL",
+        "voice": "nl-NL-Chirp3-HD-Charon",
+        "text": "De bergen zijn bedekt met sneeuw."
+      },
+      {
+        "file": "l-f40142f79c4e2777.mp3",
+        "locale": "nl-NL",
+        "voice": "nl-NL-Chirp3-HD-Kore",
+        "text": "Ik moet boodschappen doen voor het avondeten."
+      },
+      {
+        "file": "l-8184eb3f1167b91a.mp3",
+        "locale": "nl-NL",
+        "voice": "nl-NL-Chirp3-HD-Charon",
+        "text": "Ik vind het fijn om 's ochtends koffie te drinken."
+      }
+    ],
+    "SVK": [
+      {
+        "file": "l-2747b637c7b9ec96.mp3",
+        "locale": "sk-SK",
+        "voice": "sk-SK-Chirp3-HD-Kore",
+        "text": "Moja rodina príde na návštevu budúci týždeň"
+      },
+      {
+        "file": "l-cec1802b312fb858.mp3",
+        "locale": "sk-SK",
+        "voice": "sk-SK-Chirp3-HD-Charon",
+        "text": "Hory sú pokryté snehom"
+      },
+      {
+        "file": "l-e40b7d59137d045c.mp3",
+        "locale": "sk-SK",
+        "voice": "sk-SK-Chirp3-HD-Kore",
+        "text": "Musím kúpiť nejaké potraviny na večeru"
+      },
+      {
+        "file": "l-c3be5a8ffe5f0930.mp3",
+        "locale": "sk-SK",
+        "voice": "sk-SK-Chirp3-HD-Charon",
+        "text": "Kde je najbližšia vlaková stanica"
+      },
+      {
+        "file": "l-3040ffb4bd565050.mp3",
+        "locale": "sk-SK",
+        "voice": "sk-SK-Chirp3-HD-Kore",
+        "text": "Ideme dnes poobede do parku"
+      },
+      {
+        "file": "l-d438b6ef442d96b8.mp3",
+        "locale": "sk-SK",
+        "voice": "sk-SK-Chirp3-HD-Charon",
+        "text": "Hudba z koncertu bola úžasná"
+      }
+    ],
+    "SVN": [
+      {
+        "file": "l-ea2fe5e682d6a90d.mp3",
+        "locale": "sl-SI",
+        "voice": "sl-SI-Chirp3-HD-Kore",
+        "text": "Mi lahko pomagaš najti pot"
+      },
+      {
+        "file": "l-3bccc20b4c1709d7.mp3",
+        "locale": "sl-SI",
+        "voice": "sl-SI-Chirp3-HD-Charon",
+        "text": "Dobro jutro, kako si?"
+      },
+      {
+        "file": "l-7e0194b8a6b283bf.mp3",
+        "locale": "sl-SI",
+        "voice": "sl-SI-Chirp3-HD-Kore",
+        "text": "Moram kupiti nekaj živil za večerjo"
+      },
+      {
+        "file": "l-6dd7d1375535f1be.mp3",
+        "locale": "sl-SI",
+        "voice": "sl-SI-Chirp3-HD-Charon",
+        "text": "Otroci se igrajo na vrtu"
+      },
+      {
+        "file": "l-d88b117caf7587ac.mp3",
+        "locale": "sl-SI",
+        "voice": "sl-SI-Chirp3-HD-Kore",
+        "text": "Popoldne gremo v park"
+      },
+      {
+        "file": "l-eacbb21b72d45ac7.mp3",
+        "locale": "sl-SI",
+        "voice": "sl-SI-Chirp3-HD-Charon",
+        "text": "Kje je najbližja železniška postaja"
+      }
+    ],
+    "SWE": [
+      {
+        "file": "l-8ce299018e0295d7.mp3",
+        "locale": "sv-SE",
+        "voice": "sv-SE-Chirp3-HD-Kore",
+        "text": "Vädret är vackert idag"
+      },
+      {
+        "file": "l-4667c08b0a3db002.mp3",
+        "locale": "sv-SE",
+        "voice": "sv-SE-Chirp3-HD-Charon",
+        "text": "Vilken tid stänger butiken ikväll"
+      },
+      {
+        "file": "l-47183f50ae99f294.mp3",
+        "locale": "sv-SE",
+        "voice": "sv-SE-Chirp3-HD-Kore",
+        "text": "Jag behöver köpa lite mat till middag"
+      },
+      {
+        "file": "l-4b5f20c1212522ce.mp3",
+        "locale": "sv-SE",
+        "voice": "sv-SE-Chirp3-HD-Charon",
+        "text": "Vi ska till parken i eftermiddag"
+      },
+      {
+        "file": "l-6ead4928933ad319.mp3",
+        "locale": "sv-SE",
+        "voice": "sv-SE-Chirp3-HD-Kore",
+        "text": "Jag lär mig att tala ett nytt språk"
+      },
+      {
+        "file": "l-cbb400063a888818.mp3",
+        "locale": "sv-SE",
+        "voice": "sv-SE-Chirp3-HD-Charon",
+        "text": "Jag skulle vilja ha ett glas vatten, tack"
+      }
+    ],
+    "SYR": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "TCD": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "TGO": [
+      {
+        "file": "l-a9c21415b5cbbf84.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Je dois faire des courses pour le dîner."
+      },
+      {
+        "file": "l-173a0c4f4e974d50.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il fait beau aujourd'hui"
+      },
+      {
+        "file": "l-3579164be6348768.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "Le soleil se couche sur l'océan tous les soirs"
+      },
+      {
+        "file": "l-93c11e11cc17ce42.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Il travaille à l'hôpital comme médecin."
+      },
+      {
+        "file": "l-b1a913deec645f69.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Kore",
+        "text": "J'apprends à parler une nouvelle langue"
+      },
+      {
+        "file": "l-fbe5158f465a044d.mp3",
+        "locale": "fr-FR",
+        "voice": "fr-FR-Chirp3-HD-Charon",
+        "text": "Nous allons au parc cet après-midi"
+      }
+    ],
+    "THA": [
+      {
+        "file": "l-2992b918ebb5837c.mp3",
+        "locale": "th-TH",
+        "voice": "th-TH-Chirp3-HD-Kore",
+        "text": "คุณช่วยหาทางให้ฉันได้ไหม"
+      },
+      {
+        "file": "l-53785a2ef86fa317.mp3",
+        "locale": "th-TH",
+        "voice": "th-TH-Chirp3-HD-Charon",
+        "text": "ภูเขาถูกปกคลุมด้วยหิมะ"
+      },
+      {
+        "file": "l-31cd94b44dd4e83d.mp3",
+        "locale": "th-TH",
+        "voice": "th-TH-Chirp3-HD-Kore",
+        "text": "เขาทำงานเป็นแพทย์ที่โรงพยาบาลแห่งนี้"
+      },
+      {
+        "file": "l-5a43bb884e33f656.mp3",
+        "locale": "th-TH",
+        "voice": "th-TH-Chirp3-HD-Charon",
+        "text": "ดนตรีจากคอนเสิร์ตนั้นยอดเยี่ยมมาก"
+      },
+      {
+        "file": "l-b7cb51cfb3aabe4d.mp3",
+        "locale": "th-TH",
+        "voice": "th-TH-Chirp3-HD-Kore",
+        "text": "เราจะไปสวนสาธารณะกันบ่ายนี้"
+      },
+      {
+        "file": "l-c75074d6a0d8026b.mp3",
+        "locale": "th-TH",
+        "voice": "th-TH-Chirp3-HD-Charon",
+        "text": "พวกเขาเดินทางข้ามประเทศโดยรถไฟ"
+      }
+    ],
+    "TLS": [
+      {
+        "file": "l-fba1edd7b4c3ce80.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Ela lê um livro todas as noites antes de dormir."
+      },
+      {
+        "file": "l-325a2f0bae811cb6.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "As montanhas estão cobertas de neve."
+      },
+      {
+        "file": "l-f6b74ef05d57fbbe.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Estou aprendendo a falar um novo idioma."
+      },
+      {
+        "file": "l-0d0f4db6a41c9f7b.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "Bom dia, como vai você?"
+      },
+      {
+        "file": "l-8a49cb0521c69ff4.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-E",
+        "text": "Vamos ao parque esta tarde."
+      },
+      {
+        "file": "l-b28751b0e4afd20f.mp3",
+        "locale": "pt-PT",
+        "voice": "pt-PT-Wavenet-F",
+        "text": "A comida deste restaurante é deliciosa."
+      }
+    ],
+    "TUN": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ],
+    "TUR": [
+      {
+        "file": "l-4f1aabc427d28690.mp3",
+        "locale": "tr-TR",
+        "voice": "tr-TR-Chirp3-HD-Kore",
+        "text": "En yakın tren istasyonu nerede"
+      },
+      {
+        "file": "l-6987c1348feb401e.mp3",
+        "locale": "tr-TR",
+        "voice": "tr-TR-Chirp3-HD-Charon",
+        "text": "Bu restorandaki yemekler çok lezzetli."
+      },
+      {
+        "file": "l-9875abf564935785.mp3",
+        "locale": "tr-TR",
+        "voice": "tr-TR-Chirp3-HD-Kore",
+        "text": "Güneş her gece okyanusun üzerinden batıyor."
+      },
+      {
+        "file": "l-17532b215b639419.mp3",
+        "locale": "tr-TR",
+        "voice": "tr-TR-Chirp3-HD-Charon",
+        "text": "Bugün hava çok güzel."
+      },
+      {
+        "file": "l-8404bb03405f753d.mp3",
+        "locale": "tr-TR",
+        "voice": "tr-TR-Chirp3-HD-Kore",
+        "text": "Sabahları kahve içmekten keyif alıyorum."
+      },
+      {
+        "file": "l-65257a55f2f4a993.mp3",
+        "locale": "tr-TR",
+        "voice": "tr-TR-Chirp3-HD-Charon",
+        "text": "Çocuklar bahçede oynuyorlar."
+      }
+    ],
+    "TWN": [
+      {
+        "file": "l-b81cfb436afe95f8.mp3",
+        "locale": "cmn-TW",
+        "voice": "cmn-TW-Wavenet-A",
+        "text": "他們乘火車穿越了整個國家。"
+      },
+      {
+        "file": "l-6edaa802a69022a8.mp3",
+        "locale": "cmn-TW",
+        "voice": "cmn-TW-Wavenet-B",
+        "text": "你能幫我找到路嗎？"
+      },
+      {
+        "file": "l-9e8250e91c84c6d0.mp3",
+        "locale": "cmn-TW",
+        "voice": "cmn-TW-Wavenet-A",
+        "text": "最近的火車站哪"
+      },
+      {
+        "file": "l-e99ad9808e32197d.mp3",
+        "locale": "cmn-TW",
+        "voice": "cmn-TW-Wavenet-B",
+        "text": "早安，你好嗎？"
+      },
+      {
+        "file": "l-d441635758a7c495.mp3",
+        "locale": "cmn-TW",
+        "voice": "cmn-TW-Wavenet-A",
+        "text": "我喜歡早上喝咖啡。"
+      },
+      {
+        "file": "l-c57a450e2b1f0651.mp3",
+        "locale": "cmn-TW",
+        "voice": "cmn-TW-Wavenet-B",
+        "text": "每天晚上，太陽都會落入大海。"
+      }
+    ],
+    "TZA": [
+      {
+        "file": "l-c480eb0aa43119f3.mp3",
+        "locale": "sw-KE",
+        "voice": "sw-KE-Chirp3-HD-Kore",
+        "text": "Walisafiri kote nchini kwa treni"
+      },
+      {
+        "file": "l-914d530897414229.mp3",
+        "locale": "sw-KE",
+        "voice": "sw-KE-Chirp3-HD-Charon",
+        "text": "Duka linafungwa saa ngapi usiku wa leo"
+      },
+      {
+        "file": "l-0880872cf31a97c1.mp3",
+        "locale": "sw-KE",
+        "voice": "sw-KE-Chirp3-HD-Kore",
+        "text": "Ninajifunza kuzungumza lugha mpya"
+      },
+      {
+        "file": "l-416cccaac76d8289.mp3",
+        "locale": "sw-KE",
+        "voice": "sw-KE-Chirp3-HD-Charon",
+        "text": "Naomba glasi ya maji tafadhali"
+      },
+      {
+        "file": "l-4b8694226874161a.mp3",
+        "locale": "sw-KE",
+        "voice": "sw-KE-Chirp3-HD-Kore",
+        "text": "Familia yangu inakuja kututembelea wiki ijayo"
+      },
+      {
+        "file": "l-d78250a7b64055e6.mp3",
+        "locale": "sw-KE",
+        "voice": "sw-KE-Chirp3-HD-Charon",
+        "text": "Watoto wanacheza bustanini"
+      }
+    ],
+    "UKR": [
+      {
+        "file": "l-7dd2f60e6f571327.mp3",
+        "locale": "uk-UA",
+        "voice": "uk-UA-Chirp3-HD-Kore",
+        "text": "Мені потрібно купити продукти на вечерю"
+      },
+      {
+        "file": "l-54189b6a925828b9.mp3",
+        "locale": "uk-UA",
+        "voice": "uk-UA-Chirp3-HD-Charon",
+        "text": "Я вчуся розмовляти новою мовою"
+      },
+      {
+        "file": "l-3bfe044b2d29b7af.mp3",
+        "locale": "uk-UA",
+        "voice": "uk-UA-Chirp3-HD-Kore",
+        "text": "Де знаходиться найближча залізнична станція"
+      },
+      {
+        "file": "l-db71f616c8ef5e98.mp3",
+        "locale": "uk-UA",
+        "voice": "uk-UA-Chirp3-HD-Charon",
+        "text": "Він працює в лікарні лікарем"
+      },
+      {
+        "file": "l-4d0c40fd85153a46.mp3",
+        "locale": "uk-UA",
+        "voice": "uk-UA-Chirp3-HD-Kore",
+        "text": "Гори вкриті снігом"
+      },
+      {
+        "file": "l-7e641c0ce1e22803.mp3",
+        "locale": "uk-UA",
+        "voice": "uk-UA-Chirp3-HD-Charon",
+        "text": "Ми йдемо в парк сьогодні вдень"
+      }
+    ],
+    "URY": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "VEN": [
+      {
+        "file": "l-417a79b064cb94f3.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "¿Puedes ayudarme a encontrar mi camino?"
+      },
+      {
+        "file": "l-c8eaa80a90f1f9ac.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Los niños están jugando en el jardín."
+      },
+      {
+        "file": "l-5ef6c1d420dfa36c.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Mi familia viene de visita la semana que viene."
+      },
+      {
+        "file": "l-06f30d17fbb7f954.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Vamos al parque esta tarde."
+      },
+      {
+        "file": "l-5cd4d794e283c300.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Kore",
+        "text": "Trabaja en el hospital como médico."
+      },
+      {
+        "file": "l-9a02b859aed31ad7.mp3",
+        "locale": "es-US",
+        "voice": "es-US-Chirp3-HD-Charon",
+        "text": "Estoy aprendiendo a hablar un nuevo idioma."
+      }
+    ],
+    "VNM": [
+      {
+        "file": "l-88c0fee702ccefd2.mp3",
+        "locale": "vi-VN",
+        "voice": "vi-VN-Chirp3-HD-Kore",
+        "text": "Những ngọn núi được bao phủ bởi tuyết."
+      },
+      {
+        "file": "l-841a8666e5e62349.mp3",
+        "locale": "vi-VN",
+        "voice": "vi-VN-Chirp3-HD-Charon",
+        "text": "Tôi thích uống cà phê vào buổi sáng."
+      },
+      {
+        "file": "l-d368144f7cf9d0e1.mp3",
+        "locale": "vi-VN",
+        "voice": "vi-VN-Chirp3-HD-Kore",
+        "text": "Vui lòng cho tôi biết tên và địa chỉ của bạn."
+      },
+      {
+        "file": "l-adfcf05a29688c7e.mp3",
+        "locale": "vi-VN",
+        "voice": "vi-VN-Chirp3-HD-Charon",
+        "text": "Họ đã đi xuyên quốc gia bằng tàu hỏa."
+      },
+      {
+        "file": "l-061dd1ff41d68af0.mp3",
+        "locale": "vi-VN",
+        "voice": "vi-VN-Chirp3-HD-Kore",
+        "text": "Cô ấy đọc sách mỗi tối trước khi đi ngủ."
+      },
+      {
+        "file": "l-09e931d57a2afff2.mp3",
+        "locale": "vi-VN",
+        "voice": "vi-VN-Chirp3-HD-Charon",
+        "text": "Cửa hàng đóng cửa lúc mấy giờ tối nay?"
+      }
+    ],
+    "YEM": [
+      {
+        "file": "l-6c9f9265297a2495.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أريد كوبًا من الماء من فضلك"
+      },
+      {
+        "file": "l-881066ceb49da70c.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطقس جميل اليوم"
+      },
+      {
+        "file": "l-55f1e034f48b0261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "أين أقرب محطة قطار؟"
+      },
+      {
+        "file": "l-b59fc0828d821543.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "أرجو إخباري باسمك وعنوانك"
+      },
+      {
+        "file": "l-12094cde4531e261.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Kore",
+        "text": "متى يغلق المتجر الليلة؟"
+      },
+      {
+        "file": "l-443b559fe8f9a251.mp3",
+        "locale": "ar-XA",
+        "voice": "ar-XA-Chirp3-HD-Charon",
+        "text": "الطعام في هذا المطعم لذيذ"
+      }
+    ]
+  }
+}

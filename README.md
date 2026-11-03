@@ -1,14 +1,14 @@
 # AccentGuessr 🗣️ - [Live Site](https://accent-guessr.vercel.app/)
 ## About
 AccentGuessr is a game that allows the player to guess where different languages & accents are from. There are two primary gamemodes:
-- **Accents**: Players can listen to a word spoken with an accent and then guess the speaker's country of origin.
+- **Accents**: Players listen to a real person read a short English passage and then guess the country where the speaker grew up.
 - **Language**: Players listen to a full sentence spoken in a foreign language and are tasked with identifying the location of origin.
 
 Players can enjoy AccentGuessr in both singleplayer mode and multiplayer mode.
 
 ![Screenshot of AccentGuessr Gameplay](/client/src/images/ReadMeImage.png)
 
-This game leverages the [Forvo](https://api.forvo.com/) API, which is utilized to supply the game with dozens of voice clips across all languages in a variety of pronunciations. Users listen to these audio clips in both singleplayer and multiplayer mode to guess accents and languages.
+Accents mode uses recordings of real speakers from more than 140 countries, taken from the [Speech Accent Archive](https://accent.gmu.edu). Language mode uses sentences translated with Google Cloud Translation and voiced with Google's natural-sounding Text-to-Speech voices. All clips are generated ahead of time and served as static files, so playing the game doesn't call any paid API.
 
 This application is deployed with [Vercel](https://vercel.com/) and can be accessed via the link [here](https://accent-guessr.vercel.app/).
 
@@ -19,7 +19,11 @@ In `backend/`, run the following:
 cd backend && npm install
 npm run dev
 ```
-Then, you will need to create a `.env` file in this directory containing variables for your `FORVO_API_KEY` and `GCP_SERVICE_ACCOUNT_JSON`.
+The server needs no environment variables. It serves the pre-generated clips in `backend/public/clips`, listed in `backend/clips/manifest.json`.
+
+#### Regenerating the audio clips
+- **Accents**: `npm run clips:accents` downloads each speaker in `clips/accent-speakers.json` from the archive, trims it to the first ~12 seconds and evens out the volume. Requires [ffmpeg](https://ffmpeg.org/). Edit `accent-speakers.json` to add or remove speakers (`file` is the archive's file name, `country` is the Alpha-3 code).
+- **Language**: `npm run clips:language` translates and voices 6 sentences per language. Requires a `.env` file with `GCP_SERVICE_ACCOUNT_JSON`. Languages without a good Google voice are left out.
 
 ### Frontend
 In `client/`, run the following:
@@ -41,8 +45,9 @@ AccentGuessr is built with the following technologies:
 
 - **Backend**
   - [Node.js](https://nodejs.org/) with [Express](https://expressjs.com/) for the API server
-  - [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech) for generating synthetic audio
-  - [Forvo API](https://api.forvo.com/) for authentic native speaker pronunciations
+  - [Google Cloud Translation](https://cloud.google.com/translate) and [Text-to-Speech](https://cloud.google.com/text-to-speech) (Chirp 3 HD voices) for the Language mode clips
+  - [Speech Accent Archive](https://accent.gmu.edu) for real speaker recordings in Accents mode
+  - [ffmpeg](https://ffmpeg.org/) for trimming and normalizing the accent clips
 
 - **Deployment**
   - [Vercel](https://vercel.com/) for hosting the frontend and backend
@@ -55,7 +60,9 @@ AccentGuessr is built with the following technologies:
 
 ## Acknowledgements
 
-This project was created for OSU's Advanced Web Development class (CS 494). Shoutout to Rob Hess for being a great teacher!  
+This project was created for OSU's Advanced Web Development class (CS 494). Shoutout to Rob Hess for being a great teacher!
+
+Accent recordings come from the [Speech Accent Archive](https://accent.gmu.edu) by Steven H. Weinberger and Matthew C. Kelley, George Mason University, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The clips in `backend/public/clips` that start with `a-` are trimmed and volume-normalized versions of those recordings and are shared under the same license.  
 
 -----
 

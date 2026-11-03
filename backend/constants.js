@@ -1,9 +1,4 @@
-export const COMMON_WORDS = [
-  "apple", "house", "water", "the", "good",
-  "have", "phone", "dog", "bread", 
-  "where", "how", "hi", "hello"
-];
-
+// Used by scripts/build-language-clips.js to generate the Language mode clips.
 export const SENTENCES = [
   "The weather is beautiful today",
   "I would like a glass of water please",
@@ -26,21 +21,6 @@ export const SENTENCES = [
   "They traveled across the country by train",
   "I enjoy drinking coffee in the morning",
 ];
-
-
-export const EN_COUNTRY_MAP = {
-  USA: { language: "en", name: "United States" },
-  GBR: { language: "en", name: "United Kingdom" },
-  CAN: { language: "en", name: "Canada" },
-  AUS: { language: "en", name: "Australia" },
-  NZL: { language: "en", name: "New Zealand" },
-  IRL: { language: "en", name: "Ireland" },
-  IND: { language: "hi", name: "India" },
-  PHL: { language: "tl", name: "Philippines" },
-  SGP: { language: "en", name: "Singapore" },
-  DEU: { language: "de", name: "Germany" },
-  MEX: { language: "es", name: "Mexico" }
-};
 
 export const ALL_COUNTRY_MAP = {
   AFG: { language: "fa",  name: "Afghanistan" },
@@ -115,7 +95,7 @@ export const ALL_COUNTRY_MAP = {
   HUN: { language: "hu",  name: "Hungary" },
   ISL: { language: "is",  name: "Iceland" },
   IND: { language: "hi",  name: "India" },
-  IDN: { language: "ind", name: "Indonesia" },
+  IDN: { language: "id", name: "Indonesia" },
   IRN: { language: "fa",  name: "Iran" },
   IRQ: { language: "ar",  name: "Iraq" },
   IRL: { language: "en",  name: "Ireland" },

@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "dev": "node index.js "
+    "dev": "node index.js",
+    "clips:accents": "node scripts/build-accent-clips.js",
+    "clips:language": "node scripts/build-language-clips.js"
   },
   "dependencies": {
     "@google-cloud/text-to-speech": "^6.4.0",

@@ -45,7 +45,7 @@ export function Modes() {
                         <span className="text-5xl">🗣️</span>
                         <h2 className="text-2xl font-bold text-white">Accents</h2>
                         <p className="text-white/80 text-sm text-center">
-                            Listen to a word spoken with a real accent and guess the country of origin.
+                            Listen to a real person read a short passage in English and guess where they grew up.
                         </p>
                     </button>
 
@@ -62,6 +62,18 @@ export function Modes() {
                         </p>
                     </button>
                 </div>
+
+                <p className="text-black/50 text-xs text-center max-w-md">
+                    Accent recordings from the{" "}
+                    <a href="https://accent.gmu.edu" target="_blank" rel="noreferrer" className="underline">
+                        Speech Accent Archive
+                    </a>{" "}
+                    (Weinberger &amp; Kelley, George Mason University), trimmed and used under{" "}
+                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer" className="underline">
+                        CC BY-NC-SA 4.0
+                    </a>
+                    .
+                </p>
             </div>
         </div>
     );
