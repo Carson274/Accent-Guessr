@@ -2,2619 +2,2936 @@
   "accent": {
     "AFG": [
       {
-        "file": "a-88d6dc54680a47a3.mp3",
+        "file": "a-4ee2c93f631d890d.mp3",
         "source": "dari1.mp3",
         "nativeLanguage": "dari",
         "birthplace": "kabul, afghanistan",
-        "seconds": 14
+        "sourceStart": 22.9,
+        "seconds": 17.9
       },
       {
-        "file": "a-e94caf59bedcb727.mp3",
+        "file": "a-5b3e1ab6018ff9bd.mp3",
         "source": "dari11.mp3",
         "nativeLanguage": "dari",
         "birthplace": "kabul, afghanistan",
-        "seconds": 14
+        "sourceStart": 12.72,
+        "seconds": 11.7
       },
       {
-        "file": "a-820e78189c327773.mp3",
+        "file": "a-febba79f43d7c988.mp3",
         "source": "dari6.mp3",
         "nativeLanguage": "dari",
         "birthplace": "kabul, afghanistan",
-        "seconds": 9.5
+        "sourceStart": 16.58,
+        "seconds": 15.7
       }
     ],
     "AGO": [
       {
-        "file": "a-450ba2cd3d2307c1.mp3",
+        "file": "a-7daf44a98ed30563.mp3",
         "source": "portuguese4.mp3",
         "nativeLanguage": "portuguese",
         "birthplace": "cabinda, angola",
-        "seconds": 12
+        "sourceStart": 16.64,
+        "seconds": 17.3
       },
       {
-        "file": "a-dad68af559a45861.mp3",
+        "file": "a-b1b38a65a6ee8eaa.mp3",
         "source": "portuguese5.mp3",
         "nativeLanguage": "portuguese",
         "birthplace": "lubango, angola",
-        "seconds": 11
+        "sourceStart": 15.04,
+        "seconds": 8.3
       },
       {
-        "file": "a-67e8ec5e630431fd.mp3",
+        "file": "a-ce503b6416552fc6.mp3",
         "source": "portuguese64.mp3",
         "nativeLanguage": "portuguese",
         "birthplace": "luanda, angola",
-        "seconds": 12.2
+        "sourceStart": 13.89,
+        "seconds": 11.2
       }
     ],
     "ALB": [
       {
-        "file": "a-2c20e9d12a34f806.mp3",
+        "file": "a-b23d04cbd75d1de0.mp3",
         "source": "albanian13.mp3",
         "nativeLanguage": "albanian",
         "birthplace": "durres, albania",
-        "seconds": 13.1
+        "sourceStart": 9.89,
+        "seconds": 8.9
       },
       {
-        "file": "a-950532373265de55.mp3",
+        "file": "a-b631fd56c1f3e4ff.mp3",
         "source": "albanian2.mp3",
         "nativeLanguage": "albanian",
         "birthplace": "tirana, albania",
-        "seconds": 14
+        "sourceStart": 18.5,
+        "seconds": 6.1
       },
       {
-        "file": "a-7878752e2a5f3f27.mp3",
+        "file": "a-bacac97e00aea364.mp3",
         "source": "albanian9.mp3",
         "nativeLanguage": "albanian",
         "birthplace": "tirana, albania",
-        "seconds": 12
+        "sourceStart": 13.06,
+        "seconds": 10.3
       }
     ],
     "AND": [
       {
-        "file": "a-91d85ffb3cb2574e.mp3",
+        "file": "a-bcbcc637e5abe45c.mp3",
         "source": "french41.mp3",
         "nativeLanguage": "french",
         "birthplace": "la massana, andorra",
-        "seconds": 13.6
+        "sourceStart": 10.25,
+        "seconds": 9
       }
     ],
     "ARE": [
       {
-        "file": "a-ff894711e03413c7.mp3",
+        "file": "a-d78c3a122ef41c8c.mp3",
         "source": "arabic137.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "al-ayn, united arab emirates",
-        "seconds": 11.6
+        "sourceStart": 25.87,
+        "seconds": 11.1
       },
       {
-        "file": "a-cce44198b7ae3d91.mp3",
+        "file": "a-01146a0877a102ec.mp3",
         "source": "arabic22.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "abu dhabi, united arab emirates",
-        "seconds": 12.7
+        "sourceStart": 16.55,
+        "seconds": 11.6
       },
       {
-        "file": "a-18326ce452d3bebb.mp3",
+        "file": "a-c94a852f179b0842.mp3",
         "source": "arabic4.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "sharjah, united arab emirates",
-        "seconds": 11.9
+        "sourceStart": 11.95,
+        "seconds": 11.4
       }
     ],
     "ARG": [
       {
-        "file": "a-cda31d0432dc532f.mp3",
+        "file": "a-9eb45fbdfb2cc9c3.mp3",
         "source": "spanish30.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "buenos aires, argentina",
-        "seconds": 14
+        "sourceStart": 11.08,
+        "seconds": 10.2
       },
       {
-        "file": "a-0e86faa1c67666c5.mp3",
+        "file": "a-4cc08dfd0f6332d7.mp3",
         "source": "spanish49.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "tandil, argentina",
-        "seconds": 14
+        "sourceStart": 11.56,
+        "seconds": 9.5
       },
       {
-        "file": "a-139a81c64b93c8ad.mp3",
+        "file": "a-c1b2e876aef195cc.mp3",
         "source": "spanish85.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "buenos aires, argentina",
-        "seconds": 12
+        "sourceStart": 15.44,
+        "seconds": 14.7
       }
     ],
     "ARM": [
       {
-        "file": "a-5cd7c319870ded14.mp3",
+        "file": "a-08d4d823b1870781.mp3",
         "source": "armenian1.mp3",
         "nativeLanguage": "armenian",
         "birthplace": "yerevan, armenia",
-        "seconds": 13.2
+        "sourceStart": 11.44,
+        "seconds": 12.4
       },
       {
-        "file": "a-8b1d3684fd48ef8a.mp3",
+        "file": "a-129e86b943508be7.mp3",
         "source": "armenian5.mp3",
         "nativeLanguage": "armenian",
         "birthplace": "yerevan, armenia",
-        "seconds": 14
+        "sourceStart": 12.86,
+        "seconds": 13.5
       }
     ],
     "ATG": [
       {
-        "file": "a-a62c47634ce1bc94.mp3",
+        "file": "a-2eb89f856f6eae34.mp3",
         "source": "english209.mp3",
         "nativeLanguage": "english",
         "birthplace": "saint johns, antigua and barbuda",
-        "seconds": 13.3
+        "sourceStart": 13.44,
+        "seconds": 10.9
       }
     ],
     "AUS": [
       {
-        "file": "a-a4401aabaa0eb3ba.mp3",
+        "file": "a-49b905a785126402.mp3",
         "source": "english3.mp3",
         "nativeLanguage": "english",
         "birthplace": "brisbane, australia",
-        "seconds": 14
+        "sourceStart": 9.52,
+        "seconds": 9.8
       },
       {
-        "file": "a-e57358364538b0a4.mp3",
+        "file": "a-6be7e54d7aeba55b.mp3",
         "source": "english77.mp3",
         "nativeLanguage": "english",
         "birthplace": "melbourne, australia",
-        "seconds": 12.6
+        "sourceStart": 13.21,
+        "seconds": 10.3
       },
       {
-        "file": "a-db7503b90c0af6cf.mp3",
+        "file": "a-887b7ff6551a68e7.mp3",
         "source": "english84.mp3",
         "nativeLanguage": "english",
         "birthplace": "sydney, australia",
-        "seconds": 11.8
+        "sourceStart": 12.35,
+        "seconds": 10.2
       }
     ],
     "AUT": [
       {
-        "file": "a-09c36aa94e69ac66.mp3",
+        "file": "a-6b71ae8c9b24d347.mp3",
         "source": "german28.mp3",
         "nativeLanguage": "german",
         "birthplace": "vienna, austria",
-        "seconds": 13.5
+        "sourceStart": 9.99,
+        "seconds": 8.8
       },
       {
-        "file": "a-594ac2505d76b50b.mp3",
+        "file": "a-9761a304269a4b71.mp3",
         "source": "german30.mp3",
         "nativeLanguage": "german",
         "birthplace": "radstadt, austria",
-        "seconds": 11.7
+        "sourceStart": 12.3,
+        "seconds": 10.5
       },
       {
-        "file": "a-e24482dbc61559f2.mp3",
+        "file": "a-43e74c241165424c.mp3",
         "source": "german6.mp3",
         "nativeLanguage": "german",
         "birthplace": "vienna, austria",
-        "seconds": 14
+        "sourceStart": 13.84,
+        "seconds": 11.8
       }
     ],
     "AZE": [
       {
-        "file": "a-5380b372908a57a6.mp3",
+        "file": "a-c97e7c0fed9f551e.mp3",
         "source": "azerbaijani1.mp3",
         "nativeLanguage": "azerbaijani",
         "birthplace": "naxcivan, azerbaijan",
-        "seconds": 10.8
+        "sourceStart": 14.48,
+        "seconds": 14.4
       },
       {
-        "file": "a-ab97335bc3a6df09.mp3",
+        "file": "a-2505b5a6ee36439a.mp3",
         "source": "azerbaijani2.mp3",
         "nativeLanguage": "azerbaijani",
         "birthplace": "baku, azerbaijan",
-        "seconds": 12.5
+        "sourceStart": 30.23,
+        "seconds": 7.9
       },
       {
-        "file": "a-1b1d7322a00811ed.mp3",
+        "file": "a-1672416eb891cd48.mp3",
         "source": "azerbaijani3.mp3",
         "nativeLanguage": "azerbaijani",
         "birthplace": "baku, azerbaijan",
-        "seconds": 12.5
+        "sourceStart": 13.47,
+        "seconds": 11.8
       }
     ],
     "BDI": [
       {
-        "file": "a-0dd83d445741de90.mp3",
+        "file": "a-477474d310b29558.mp3",
         "source": "rundi1.mp3",
         "nativeLanguage": "rundi",
         "birthplace": "bururi, burundi",
-        "seconds": 11.8
+        "sourceStart": 15.64,
+        "seconds": 14.1
       }
     ],
     "BEL": [
       {
-        "file": "a-f1d4009b12b844ed.mp3",
+        "file": "a-d930f430f96dd4f9.mp3",
         "source": "dutch10.mp3",
         "nativeLanguage": "dutch",
         "birthplace": "essen, belgium",
-        "seconds": 11.3
+        "sourceStart": 15.1,
+        "seconds": 12.1
       },
       {
-        "file": "a-0718c87b6500d71d.mp3",
+        "file": "a-34e6f327e20ed5d0.mp3",
         "source": "dutch16.mp3",
         "nativeLanguage": "dutch",
         "birthplace": "antwerp, belgium",
-        "seconds": 11.6
+        "sourceStart": 11.22,
+        "seconds": 11.4
       },
       {
-        "file": "a-25564ca3f3b6cb57.mp3",
+        "file": "a-46139cc9c402d0ad.mp3",
         "source": "dutch4.mp3",
         "nativeLanguage": "dutch",
         "birthplace": "bilzen, belgium",
-        "seconds": 13.1
+        "sourceStart": 13.79,
+        "seconds": 11.8
       }
     ],
     "BEN": [
       {
-        "file": "a-bc3c1e001eb3b358.mp3",
+        "file": "a-e08f294832291e17.mp3",
         "source": "yoruba1.mp3",
         "nativeLanguage": "yoruba",
         "birthplace": "cotonou, benin",
-        "seconds": 12
+        "sourceStart": 19.39,
+        "seconds": 7.2
       }
     ],
     "BGD": [
       {
-        "file": "a-acac0c73e892b4a6.mp3",
+        "file": "a-b2be7d92eadffeab.mp3",
         "source": "bengali1.mp3",
         "nativeLanguage": "bengali",
         "birthplace": "dhaka, bangladesh",
-        "seconds": 14
+        "sourceStart": 14.81,
+        "seconds": 13.3
       },
       {
-        "file": "a-9614804629b2f080.mp3",
+        "file": "a-345e301284958734.mp3",
         "source": "bengali3.mp3",
         "nativeLanguage": "bengali",
         "birthplace": "dhaka, bangladesh",
-        "seconds": 10.8
+        "sourceStart": 14.35,
+        "seconds": 12.9
       },
       {
-        "file": "a-52f0347e57997b0a.mp3",
+        "file": "a-e1ffccb96f0ee6ba.mp3",
         "source": "bengali4.mp3",
         "nativeLanguage": "bengali",
         "birthplace": "chittagong, bangladesh",
-        "seconds": 14
+        "sourceStart": 16.28,
+        "seconds": 13.4
       }
     ],
     "BGR": [
       {
-        "file": "a-cbce0ccb70ec5c0c.mp3",
+        "file": "a-5e00a5a08a3b4f1b.mp3",
         "source": "bulgarian10.mp3",
         "nativeLanguage": "bulgarian",
         "birthplace": "dobrich, bulgaria",
-        "seconds": 11
+        "sourceStart": 11.6,
+        "seconds": 13.2
       },
       {
-        "file": "a-398538723f980a6d.mp3",
+        "file": "a-a0cd2b0838a8179f.mp3",
         "source": "bulgarian4.mp3",
         "nativeLanguage": "bulgarian",
         "birthplace": "plovdiv, bulgaria",
+        "sourceStart": 14.24,
         "seconds": 14
       },
       {
-        "file": "a-5f80fbeaba6ff112.mp3",
+        "file": "a-25b296175a9d23aa.mp3",
         "source": "bulgarian6.mp3",
         "nativeLanguage": "bulgarian",
         "birthplace": "ruse, bulgaria",
-        "seconds": 14
+        "sourceStart": 10.02,
+        "seconds": 8.8
       }
     ],
     "BHR": [
       {
-        "file": "a-d1a5e01e889bcb05.mp3",
+        "file": "a-04bb25f6e0444716.mp3",
         "source": "arabic61.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "manama, bahrain",
-        "seconds": 10.9
+        "sourceStart": 11.92,
+        "seconds": 9.3
       }
     ],
     "BHS": [
       {
-        "file": "a-3b9e98dd9e4491da.mp3",
+        "file": "a-a3b250bff9b19ad9.mp3",
         "source": "english436.mp3",
         "nativeLanguage": "english",
         "birthplace": "freeport, the bahamas",
-        "seconds": 9.4
+        "sourceStart": 14.78,
+        "seconds": 14.3
       }
     ],
     "BIH": [
       {
-        "file": "a-f352e632c2fe35d2.mp3",
+        "file": "a-be5097a949a4032e.mp3",
         "source": "bosnian1.mp3",
         "nativeLanguage": "bosnian",
         "birthplace": "doboj, bosnia and herzegovina",
-        "seconds": 10.7
+        "sourceStart": 15.24,
+        "seconds": 17.7
       },
       {
-        "file": "a-73578041b293da7a.mp3",
+        "file": "a-af4a91001282ae53.mp3",
         "source": "bosnian2.mp3",
         "nativeLanguage": "bosnian",
         "birthplace": "sarajevo, bosnia and herzegovina",
-        "seconds": 10.9
+        "sourceStart": 14.21,
+        "seconds": 11.9
       },
       {
-        "file": "a-56750d27501d6eda.mp3",
+        "file": "a-c3fa2e549f13b157.mp3",
         "source": "bosnian5.mp3",
         "nativeLanguage": "bosnian",
         "birthplace": "travnik, bosnia and herzegovina",
-        "seconds": 13.3
+        "sourceStart": 13.94,
+        "seconds": 13.9
       }
     ],
     "BLR": [
       {
-        "file": "a-f1c8f214d6b8a938.mp3",
+        "file": "a-4993097e02a39296.mp3",
         "source": "belarusan1.mp3",
         "nativeLanguage": "belarusan",
         "birthplace": "chamiancy, belarus",
-        "seconds": 12.2
+        "sourceStart": 12.8,
+        "seconds": 12
       },
       {
-        "file": "a-3f4aab1ffbee2e5e.mp3",
+        "file": "a-38cf5d7640fe8435.mp3",
         "source": "belarusan2.mp3",
         "nativeLanguage": "belarusan",
         "birthplace": "minsk, belarus",
-        "seconds": 12.2
+        "sourceStart": 12.81,
+        "seconds": 12.3
       },
       {
-        "file": "a-9e4d620d05fa9192.mp3",
+        "file": "a-d05d66c6e6f79027.mp3",
         "source": "belarusan3.mp3",
         "nativeLanguage": "belarusan",
         "birthplace": "gomel, belarus",
-        "seconds": 13.1
+        "sourceStart": 13.45,
+        "seconds": 12.2
       }
     ],
     "BLZ": [
       {
-        "file": "a-369723dfc8d6666b.mp3",
+        "file": "a-8764225913e12fab.mp3",
         "source": "english291.mp3",
         "nativeLanguage": "english",
         "birthplace": "belize city, belize",
-        "seconds": 14
+        "sourceStart": 10.34,
+        "seconds": 9.2
       }
     ],
     "BOL": [
       {
-        "file": "a-b007c429b01c0cef.mp3",
+        "file": "a-b5553cf88e5a7261.mp3",
         "source": "spanish18.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "la paz, bolivia",
-        "seconds": 14
+        "sourceStart": 16.76,
+        "seconds": 11.5
       },
       {
-        "file": "a-a50df53af35c5fcf.mp3",
+        "file": "a-010eed8e6392dcb2.mp3",
         "source": "spanish211.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "la paz, bolivia",
-        "seconds": 13.2
+        "sourceStart": 15.84,
+        "seconds": 12
       },
       {
-        "file": "a-bdca81a8be624fea.mp3",
+        "file": "a-374d77550638b05a.mp3",
         "source": "spanish32.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "santa cruz, bolivia",
-        "seconds": 14
+        "sourceStart": 22.2,
+        "seconds": 10.3
       }
     ],
     "BRA": [
       {
-        "file": "a-d411274f7be7ad1d.mp3",
+        "file": "a-64b4e0a7ab7ea239.mp3",
         "source": "portuguese2.mp3",
         "nativeLanguage": "portuguese",
         "birthplace": "brasilia, brazil",
-        "seconds": 12.4
+        "sourceStart": 12.82,
+        "seconds": 11.8
       },
       {
-        "file": "a-0caeca2b2455092a.mp3",
+        "file": "a-64902a4ab5dc7f64.mp3",
         "source": "portuguese6.mp3",
         "nativeLanguage": "portuguese",
         "birthplace": "sao paulo, brazil",
-        "seconds": 10.1
+        "sourceStart": 10.72,
+        "seconds": 9.3
       },
       {
-        "file": "a-4c76bbdddbd8aa98.mp3",
+        "file": "a-9526eefa3dcead0a.mp3",
         "source": "portuguese7.mp3",
         "nativeLanguage": "portuguese",
         "birthplace": "vitoria, brazil",
-        "seconds": 13.1
+        "sourceStart": 13.64,
+        "seconds": 11.9
       }
     ],
     "BRB": [
       {
-        "file": "a-e88965a8472f33dc.mp3",
+        "file": "a-42d5d94bfd131433.mp3",
         "source": "english224.mp3",
         "nativeLanguage": "english",
         "birthplace": "bridgetown, barbados",
-        "seconds": 12
+        "sourceStart": 12,
+        "seconds": 9.6
       }
     ],
     "CAN": [
       {
-        "file": "a-966d30a6b05337c8.mp3",
+        "file": "a-803850ecf0247309.mp3",
         "source": "english30.mp3",
         "nativeLanguage": "english",
         "birthplace": "st. mary's, canada",
-        "seconds": 14
+        "sourceStart": 12.49,
+        "seconds": 11.7
       },
       {
-        "file": "a-4e790ec1eb1d6998.mp3",
+        "file": "a-9dab8371aeeed3ba.mp3",
         "source": "english43.mp3",
         "nativeLanguage": "english",
         "birthplace": "vancouver, canada",
-        "seconds": 12.9
+        "sourceStart": 10.84,
+        "seconds": 10.1
       },
       {
-        "file": "a-9f29a1dedebef70b.mp3",
+        "file": "a-6006be0780ceecfc.mp3",
         "source": "english64.mp3",
         "nativeLanguage": "english",
         "birthplace": "montreal, canada",
-        "seconds": 14
+        "sourceStart": 12.86,
+        "seconds": 10.4
       }
     ],
     "CHE": [
       {
-        "file": "a-b9831f8b5110ca0f.mp3",
+        "file": "a-0ec1cfa6fdb6e2d7.mp3",
         "source": "swissgerman3.mp3",
         "nativeLanguage": "swiss german",
         "birthplace": "muri, switzerland",
-        "seconds": 12.8
+        "sourceStart": 13.34,
+        "seconds": 12
       },
       {
-        "file": "a-5514773ba9f6718a.mp3",
+        "file": "a-cbe9fb9235b46d81.mp3",
         "source": "swissgerman9.mp3",
         "nativeLanguage": "swiss german",
         "birthplace": "zurich, switzerland",
-        "seconds": 11
+        "sourceStart": 13.68,
+        "seconds": 12.4
       }
     ],
     "CHL": [
       {
-        "file": "a-1cd3bf7abdc841f3.mp3",
+        "file": "a-da7f2009ba141d2a.mp3",
         "source": "spanish21.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "santiago, chile",
-        "seconds": 14
+        "sourceStart": 18.06,
+        "seconds": 18
       },
       {
-        "file": "a-e3e0de4230258a15.mp3",
+        "file": "a-e80bee7ce9347822.mp3",
         "source": "spanish23.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "santiago, chile",
-        "seconds": 14
+        "sourceStart": 11,
+        "seconds": 9.6
       }
     ],
     "CHN": [
       {
-        "file": "a-1d6a452f35dbce0e.mp3",
+        "file": "a-af72c5cc8b45c1fd.mp3",
         "source": "mandarin2.mp3",
         "nativeLanguage": "mandarin",
         "birthplace": "nanjing, china",
-        "seconds": 14
+        "sourceStart": 18.16,
+        "seconds": 9.1
       },
       {
-        "file": "a-f2d9a0ed81eb78ee.mp3",
+        "file": "a-a6f312060a37de8b.mp3",
         "source": "mandarin4.mp3",
         "nativeLanguage": "mandarin",
         "birthplace": "shanghai, china",
-        "seconds": 12.2
+        "sourceStart": 15.88,
+        "seconds": 15.3
       },
       {
-        "file": "a-80e6ffec062906ba.mp3",
+        "file": "a-2bc06004b6899b43.mp3",
         "source": "mandarin9.mp3",
         "nativeLanguage": "mandarin",
         "birthplace": "shanghai, china",
-        "seconds": 14
+        "sourceStart": 18.3,
+        "seconds": 17.2
       }
     ],
     "CIV": [
       {
-        "file": "a-2828c85b2c1b9b76.mp3",
+        "file": "a-2752cfd7cf2db421.mp3",
         "source": "french64.mp3",
         "nativeLanguage": "french",
         "birthplace": "abidjan, ivory coast",
-        "seconds": 13.3
+        "sourceStart": 18.29,
+        "seconds": 7.1
       },
       {
-        "file": "a-97b3774e3c7de29d.mp3",
+        "file": "a-19b91e3b797a6313.mp3",
         "source": "french80.mp3",
         "nativeLanguage": "french",
         "birthplace": "abidjan, ivory coast",
-        "seconds": 11.6
+        "sourceStart": 20.58,
+        "seconds": 15.2
       }
     ],
     "CMR": [
       {
-        "file": "a-6742cecaaa6f0e52.mp3",
+        "file": "a-4dbbbdcaa70a46b4.mp3",
         "source": "french5.mp3",
         "nativeLanguage": "french",
         "birthplace": "douala, cameroon",
-        "seconds": 10.3
+        "sourceStart": 17.52,
+        "seconds": 11.3
       },
       {
-        "file": "a-bbe1b756a6bda901.mp3",
+        "file": "a-5ad6cfe72f339160.mp3",
         "source": "french72.mp3",
         "nativeLanguage": "french",
         "birthplace": "douala, cameroon",
+        "sourceStart": 14.04,
         "seconds": 11.4
       }
     ],
     "COD": [
       {
-        "file": "a-af732ff128235f2f.mp3",
+        "file": "a-39357be7ae901b07.mp3",
         "source": "french32.mp3",
         "nativeLanguage": "french",
         "birthplace": "kabinda, democratic republic of congo",
-        "seconds": 12.9
+        "sourceStart": 23.28,
+        "seconds": 6.6
       },
       {
-        "file": "a-2da55b3aed36ad5a.mp3",
+        "file": "a-5e532916c6ffa425.mp3",
         "source": "french42.mp3",
         "nativeLanguage": "french",
         "birthplace": "kinshasa, democratic republic of congo",
-        "seconds": 14
+        "sourceStart": 21.14,
+        "seconds": 17.5
       }
     ],
     "COL": [
       {
-        "file": "a-a696bfc056832351.mp3",
+        "file": "a-aaf67923c6a53768.mp3",
         "source": "spanish3.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "bogota, colombia",
-        "seconds": 14
+        "sourceStart": 18.6,
+        "seconds": 6.6
       },
       {
-        "file": "a-e89fb31f594a9660.mp3",
+        "file": "a-42e0d29f365ff710.mp3",
         "source": "spanish64.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "medellin, colombia",
-        "seconds": 12.4
+        "sourceStart": 12.97,
+        "seconds": 11.1
       },
       {
-        "file": "a-d0ac272def9eff9b.mp3",
+        "file": "a-20bdfaa292502e36.mp3",
         "source": "spanish7.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "bogota, colombia",
-        "seconds": 10.7
+        "sourceStart": 18.26,
+        "seconds": 17.7
       }
     ],
     "CRI": [
       {
-        "file": "a-30522108acff01d2.mp3",
+        "file": "a-5935e5d1802ae19a.mp3",
         "source": "spanish25.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "san jose, costa rica",
-        "seconds": 11.1
+        "sourceStart": 10.54,
+        "seconds": 13.8
       },
       {
-        "file": "a-95b0f0d4a0e64da1.mp3",
+        "file": "a-755fba0e6f27620b.mp3",
         "source": "spanish40.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "cartago, costa rica",
-        "seconds": 14
+        "sourceStart": 10.73,
+        "seconds": 8
       }
     ],
     "CUB": [
       {
-        "file": "a-01eb9b16057e7b80.mp3",
+        "file": "a-0745ed2b93f87be7.mp3",
         "source": "spanish19.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "havana, cuba",
-        "seconds": 14
+        "sourceStart": 15.46,
+        "seconds": 5.5
       }
     ],
     "CUW": [
       {
-        "file": "a-38185a1590a0e39c.mp3",
+        "file": "a-3ab26453aa2cf739.mp3",
         "source": "papiamentu1.mp3",
         "nativeLanguage": "papiamentu",
         "birthplace": "willemstad, curacao",
-        "seconds": 11.7
+        "sourceStart": 15.46,
+        "seconds": 12.3
       }
     ],
     "CZE": [
       {
-        "file": "a-685ab741f3f76e07.mp3",
+        "file": "a-b325a3ef89f12483.mp3",
         "source": "czech1.mp3",
         "nativeLanguage": "czech",
         "birthplace": "prague, czech republic",
-        "seconds": 14
+        "sourceStart": 12.14,
+        "seconds": 10.8
       },
       {
-        "file": "a-72d1e37e21652430.mp3",
+        "file": "a-724a4be199e10108.mp3",
         "source": "czech2.mp3",
         "nativeLanguage": "czech",
         "birthplace": "velky osek, czech republic",
-        "seconds": 11.7
+        "sourceStart": 18.42,
+        "seconds": 16.8
       },
       {
-        "file": "a-f96b2a5a52cdaa88.mp3",
+        "file": "a-7de72974511dcd8b.mp3",
         "source": "czech6.mp3",
         "nativeLanguage": "czech",
         "birthplace": "ostrava, czech republic",
-        "seconds": 11.9
+        "sourceStart": 12.53,
+        "seconds": 10.6
       }
     ],
     "DEU": [
       {
-        "file": "a-77f2a2f68b4372dd.mp3",
+        "file": "a-fbb1465685700047.mp3",
         "source": "german2.mp3",
         "nativeLanguage": "german",
         "birthplace": "bemberg, germany",
-        "seconds": 12.5
+        "sourceStart": 13.19,
+        "seconds": 10.6
       },
       {
-        "file": "a-458d4dc6bf88c87b.mp3",
+        "file": "a-09197f459c8575f4.mp3",
         "source": "german3.mp3",
         "nativeLanguage": "german",
         "birthplace": "meissen, germany",
-        "seconds": 14
+        "sourceStart": 12.2,
+        "seconds": 10.2
       },
       {
-        "file": "a-d0073b2022f9b7f1.mp3",
+        "file": "a-88a1d30a99eaac08.mp3",
         "source": "german5.mp3",
         "nativeLanguage": "german",
         "birthplace": "halle, germany",
-        "seconds": 14
+        "sourceStart": 15.15,
+        "seconds": 13.7
       }
     ],
     "DNK": [
       {
-        "file": "a-a9093d29e7fe210b.mp3",
+        "file": "a-ac3eeafaaa2bbdf6.mp3",
         "source": "danish2.mp3",
         "nativeLanguage": "danish",
         "birthplace": "haslev, denmark",
-        "seconds": 12.3
+        "sourceStart": 12.89,
+        "seconds": 10.8
       },
       {
-        "file": "a-e257cbecba6ed050.mp3",
+        "file": "a-b3d4007ad7c2b576.mp3",
         "source": "danish6.mp3",
         "nativeLanguage": "danish",
         "birthplace": "alborg, denmark",
-        "seconds": 12.7
+        "sourceStart": 14.33,
+        "seconds": 10.7
       },
       {
-        "file": "a-d2da704cb3941598.mp3",
+        "file": "a-395ad06b966f8810.mp3",
         "source": "danish7.mp3",
         "nativeLanguage": "danish",
         "birthplace": "copenhagen, denmark",
-        "seconds": 10.8
+        "sourceStart": 11.34,
+        "seconds": 8.7
       }
     ],
     "DOM": [
       {
-        "file": "a-e4b429efe0bd2964.mp3",
+        "file": "a-62b4326c6fd4efbb.mp3",
         "source": "spanish45.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "santiago-dr, dominican republic",
-        "seconds": 12.9
+        "sourceStart": 21.8,
+        "seconds": 17.8
       },
       {
-        "file": "a-6333c73433d74adb.mp3",
+        "file": "a-8e391f3b5b94d367.mp3",
         "source": "spanish47.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "santo domingo, dominican republic",
+        "sourceStart": 13.81,
         "seconds": 12.8
       },
       {
-        "file": "a-04f05296b655b82c.mp3",
+        "file": "a-54fa0e72df66ef1c.mp3",
         "source": "spanish50.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "santo domingo, dominican republic",
-        "seconds": 14
+        "sourceStart": 12.3,
+        "seconds": 10.7
       }
     ],
     "DZA": [
       {
-        "file": "a-bba6174ccb9b4bfe.mp3",
+        "file": "a-346081ec3c7d9f86.mp3",
         "source": "french24.mp3",
         "nativeLanguage": "french",
         "birthplace": "mostaganem, algeria",
-        "seconds": 14
+        "sourceStart": 13.88,
+        "seconds": 11.4
       }
     ],
     "ECU": [
       {
-        "file": "a-7069afcd6d9ef083.mp3",
+        "file": "a-20e4f3c48e942b54.mp3",
         "source": "spanish130.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "guayaquil, ecuador",
-        "seconds": 11.9
+        "sourceStart": 11.95,
+        "seconds": 11.4
       },
       {
-        "file": "a-99c5dd3bb94d2797.mp3",
+        "file": "a-9628eb5cd8ea7020.mp3",
         "source": "spanish173.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "ambato, ecuador",
-        "seconds": 11.7
+        "sourceStart": 22.26,
+        "seconds": 11.2
       }
     ],
     "EGY": [
       {
-        "file": "a-46f621159d2a2ce1.mp3",
+        "file": "a-205d705b6a44e6cf.mp3",
         "source": "arabic10.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "cairo, egypt",
-        "seconds": 12.8
+        "sourceStart": 20.46,
+        "seconds": 16.4
       },
       {
-        "file": "a-ec029dbb66edb601.mp3",
+        "file": "a-657f7de45a39eff7.mp3",
         "source": "arabic156.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "cairo, egypt",
-        "seconds": 11.8
+        "sourceStart": 12.31,
+        "seconds": 10.7
       },
       {
-        "file": "a-bfe63c6fa99cf5fe.mp3",
+        "file": "a-8e8ef3b75feb0410.mp3",
         "source": "arabic24.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "cairo, egypt",
-        "seconds": 11.3
+        "sourceStart": 22.2,
+        "seconds": 6.8
       }
     ],
     "ERI": [
       {
-        "file": "a-475cff45138bb8a4.mp3",
+        "file": "a-a31afcd96d447e64.mp3",
         "source": "tigrigna2.mp3",
         "nativeLanguage": "tigrigna",
         "birthplace": "asmara, eritrea",
-        "seconds": 14
+        "sourceStart": 16.72,
+        "seconds": 16
       }
     ],
     "ESP": [
       {
-        "file": "a-1a5143d814bbd5db.mp3",
+        "file": "a-04b476e5541f5bae.mp3",
         "source": "spanish22.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "madrid, spain",
-        "seconds": 12.6
+        "sourceStart": 13.37,
+        "seconds": 12.7
       },
       {
-        "file": "a-2ce515c6e3b7c61b.mp3",
+        "file": "a-9343f3e2b2042e66.mp3",
         "source": "spanish26.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "burgos, spain",
-        "seconds": 12.6
+        "sourceStart": 13.49,
+        "seconds": 12.1
       },
       {
-        "file": "a-814ba54eab682e58.mp3",
+        "file": "a-d0684a2e208a9bc9.mp3",
         "source": "spanish27.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "zaragoza, spain",
-        "seconds": 12.6
+        "sourceStart": 13.45,
+        "seconds": 12.1
       }
     ],
     "EST": [
       {
-        "file": "a-4c9887faf831654f.mp3",
+        "file": "a-2b44ed628a9d2dcc.mp3",
         "source": "estonian2.mp3",
         "nativeLanguage": "estonian",
         "birthplace": "viljandi, estonia",
-        "seconds": 14
+        "sourceStart": 11.65,
+        "seconds": 11.5
       },
       {
-        "file": "a-fae6bbd4915243f1.mp3",
+        "file": "a-37a4a698a95ce91e.mp3",
         "source": "estonian5.mp3",
         "nativeLanguage": "estonian",
         "birthplace": "tallinn, estonia",
-        "seconds": 10.9
+        "sourceStart": 17.37,
+        "seconds": 12.6
       },
       {
-        "file": "a-84051b5b213d00c2.mp3",
+        "file": "a-81780c1cc6bf04f6.mp3",
         "source": "estonian6.mp3",
         "nativeLanguage": "estonian",
         "birthplace": "viljandi, estonia",
-        "seconds": 13
+        "sourceStart": 16.47,
+        "seconds": 12.5
       }
     ],
     "ETH": [
       {
-        "file": "a-ed76b17cb9d5c8e1.mp3",
+        "file": "a-79e53320450a95d5.mp3",
         "source": "amharic1.mp3",
         "nativeLanguage": "amharic",
         "birthplace": "addis ababa, ethiopia",
-        "seconds": 11.2
+        "sourceStart": 18.94,
+        "seconds": 17.8
       },
       {
-        "file": "a-097831bf8dd9a4c3.mp3",
+        "file": "a-5b6cd1f6375ccac0.mp3",
         "source": "amharic2.mp3",
         "nativeLanguage": "amharic",
         "birthplace": "arba minch, ethiopia",
-        "seconds": 12.2
+        "sourceStart": 22.72,
+        "seconds": 11.9
       },
       {
-        "file": "a-d887bcb16357e2b5.mp3",
+        "file": "a-6ecb7fab8738612b.mp3",
         "source": "amharic4.mp3",
         "nativeLanguage": "amharic",
         "birthplace": "addis ababa, ethiopia",
-        "seconds": 11.6
+        "sourceStart": 23.04,
+        "seconds": 7.9
       }
     ],
     "FIN": [
       {
-        "file": "a-8197e011338b1d52.mp3",
+        "file": "a-4608a8afbbc8af1f.mp3",
         "source": "finnish1.mp3",
         "nativeLanguage": "finnish",
         "birthplace": "lahti, finland",
-        "seconds": 14
+        "sourceStart": 13.58,
+        "seconds": 10.6
       },
       {
-        "file": "a-81e48ccccfa44f67.mp3",
+        "file": "a-ed9182424265f1d9.mp3",
         "source": "finnish2.mp3",
         "nativeLanguage": "finnish",
         "birthplace": "helsinki, finland",
-        "seconds": 14
+        "sourceStart": 10.6,
+        "seconds": 9.1
       },
       {
-        "file": "a-64ffb1220d699902.mp3",
+        "file": "a-c00e5b6d1c7eb165.mp3",
         "source": "finnish6.mp3",
         "nativeLanguage": "finnish",
         "birthplace": "riihimaki, finland",
-        "seconds": 14
+        "sourceStart": 11.26,
+        "seconds": 10.7
       }
     ],
     "FRA": [
       {
-        "file": "a-9b1598da090086b0.mp3",
+        "file": "a-ed2203b13f034ace.mp3",
         "source": "french1.mp3",
         "nativeLanguage": "french",
         "birthplace": "st. laurent d'onay, france",
+        "sourceStart": 14.64,
         "seconds": 12
       },
       {
-        "file": "a-b6f38db45c5c17cf.mp3",
+        "file": "a-57854436700b9405.mp3",
         "source": "french13.mp3",
         "nativeLanguage": "french",
         "birthplace": "bordeaux, france",
-        "seconds": 14
+        "sourceStart": 11.32,
+        "seconds": 9.8
       },
       {
-        "file": "a-d9ca496fd855dc15.mp3",
+        "file": "a-5823232621053dcf.mp3",
         "source": "french3.mp3",
         "nativeLanguage": "french",
         "birthplace": "nice, france",
-        "seconds": 14
+        "sourceStart": 13.66,
+        "seconds": 12.9
       }
     ],
     "FRO": [
       {
-        "file": "a-088d5dcae73e355e.mp3",
+        "file": "a-c8727ce616234d9d.mp3",
         "source": "faroese1.mp3",
         "nativeLanguage": "faroese",
         "birthplace": "torshavn, faroe islands",
-        "seconds": 14
+        "sourceStart": 11.34,
+        "seconds": 9.6
       }
     ],
     "GAB": [
       {
-        "file": "a-04d96d7dde86a017.mp3",
+        "file": "a-47129033ff10f509.mp3",
         "source": "french6.mp3",
         "nativeLanguage": "french",
         "birthplace": "booue, gabon",
-        "seconds": 13.7
+        "sourceStart": 13.67,
+        "seconds": 13.3
       }
     ],
     "GBR": [
       {
-        "file": "a-3d839be9b4e280c5.mp3",
+        "file": "a-479832afbe8f92a8.mp3",
         "source": "english11.mp3",
         "nativeLanguage": "english",
         "birthplace": "staffordshire, uk",
-        "seconds": 10.6
+        "sourceStart": 11.01,
+        "seconds": 9.6
       },
       {
-        "file": "a-5f2db3245d3a9b98.mp3",
+        "file": "a-fa464251a433991a.mp3",
         "source": "english56.mp3",
         "nativeLanguage": "english",
         "birthplace": "londonderry, uk",
-        "seconds": 11.4
+        "sourceStart": 11.95,
+        "seconds": 10.1
       },
       {
-        "file": "a-8cc406f65cf2ec8c.mp3",
+        "file": "a-50ef1964e982d5c2.mp3",
         "source": "english58.mp3",
         "nativeLanguage": "english",
         "birthplace": "southhampton, uk",
-        "seconds": 14
+        "sourceStart": 13.51,
+        "seconds": 11.8
       }
     ],
     "GEO": [
       {
-        "file": "a-544af78f265a756d.mp3",
+        "file": "a-cf4e8385c0d5fdea.mp3",
         "source": "georgian1.mp3",
         "nativeLanguage": "georgian",
         "birthplace": "tbilisi, republic of georgia",
-        "seconds": 14
+        "sourceStart": 13.24,
+        "seconds": 13.9
       },
       {
-        "file": "a-4fd464b13dd10b74.mp3",
+        "file": "a-4829d3eb08ba1a81.mp3",
         "source": "georgian2.mp3",
         "nativeLanguage": "georgian",
         "birthplace": "akhmeta, republic of georgia",
-        "seconds": 14
+        "sourceStart": 17.18,
+        "seconds": 10
       },
       {
-        "file": "a-517c3caf14572e4a.mp3",
+        "file": "a-c62bec5dc8596d05.mp3",
         "source": "georgian5.mp3",
         "nativeLanguage": "georgian",
         "birthplace": "tbilisi, republic of georgia",
-        "seconds": 14
+        "sourceStart": 24.84,
+        "seconds": 11.7
       }
     ],
     "GHA": [
       {
-        "file": "a-7ca84103398179b8.mp3",
+        "file": "a-da7b193507bd94ec.mp3",
         "source": "twi2.mp3",
         "nativeLanguage": "twi",
         "birthplace": "ajumako, ghana",
-        "seconds": 14
+        "sourceStart": 24.22,
+        "seconds": 18
       },
       {
-        "file": "a-3d479bff8599fdb9.mp3",
+        "file": "a-08711619ad477694.mp3",
         "source": "twi3.mp3",
         "nativeLanguage": "twi",
         "birthplace": "dormaa, ghana",
-        "seconds": 12.4
+        "sourceStart": 14.99,
+        "seconds": 11.7
       },
       {
-        "file": "a-7edc76c08ec5c09e.mp3",
+        "file": "a-3b0ca7f786653b16.mp3",
         "source": "twi8.mp3",
         "nativeLanguage": "twi",
         "birthplace": "accra, ghana",
-        "seconds": 11.9
+        "sourceStart": 12.83,
+        "seconds": 11.2
       }
     ],
     "GIN": [
       {
-        "file": "a-3aaee1bffb74f7f8.mp3",
+        "file": "a-ca7b291cfbbeba95.mp3",
         "source": "baga1.mp3",
         "nativeLanguage": "baga",
         "birthplace": "conakry, guinea",
-        "seconds": 14
+        "sourceStart": 22.5,
+        "seconds": 7.6
       }
     ],
     "GNQ": [
       {
-        "file": "a-b9a61a0073260ea9.mp3",
+        "file": "a-758ba92868703022.mp3",
         "source": "fang1.mp3",
         "nativeLanguage": "fang",
         "birthplace": "malabo, equatorial guinea",
-        "seconds": 14
+        "sourceStart": 14.3,
+        "seconds": 11.3
       }
     ],
     "GRC": [
       {
-        "file": "a-2cd0f68797671fa0.mp3",
+        "file": "a-f755bedc02ece775.mp3",
         "source": "greek1.mp3",
         "nativeLanguage": "greek",
         "birthplace": "athens, greece",
-        "seconds": 9.2
+        "sourceStart": 19.71,
+        "seconds": 15.6
       },
       {
-        "file": "a-1692cf601a0defa7.mp3",
+        "file": "a-b93b38f20e170e50.mp3",
         "source": "greek2.mp3",
         "nativeLanguage": "greek",
         "birthplace": "athens, greece",
-        "seconds": 14
+        "sourceStart": 13.98,
+        "seconds": 13.1
       },
       {
-        "file": "a-447b990b182b8b41.mp3",
+        "file": "a-6ce20fc389458e98.mp3",
         "source": "greek4.mp3",
         "nativeLanguage": "greek",
         "birthplace": "ioannina, greece",
-        "seconds": 12.6
+        "sourceStart": 15.88,
+        "seconds": 13.5
       }
     ],
     "GUY": [
       {
-        "file": "a-fffa52e5f9273dab.mp3",
+        "file": "a-8bc4e43b9915b05b.mp3",
         "source": "english183.mp3",
         "nativeLanguage": "english",
         "birthplace": "corriverton, guyana",
-        "seconds": 11.7
+        "sourceStart": 14.77,
+        "seconds": 13.9
       },
       {
-        "file": "a-e8b550aa863df354.mp3",
+        "file": "a-1970a552bc2091f4.mp3",
         "source": "english486.mp3",
         "nativeLanguage": "english",
         "birthplace": "corentyne, guyana",
-        "seconds": 14
+        "sourceStart": 13.34,
+        "seconds": 13
       }
     ],
     "HND": [
       {
-        "file": "a-cc4a65f827ba1969.mp3",
+        "file": "a-a21c3dfda5e2d7fe.mp3",
         "source": "spanish148.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "la ceiba, honduras",
-        "seconds": 11.8
+        "sourceStart": 19.38,
+        "seconds": 7.1
       },
       {
-        "file": "a-b593171f9607ccad.mp3",
+        "file": "a-3dab4d817e22f133.mp3",
         "source": "spanish218.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "danli, honduras",
-        "seconds": 13
+        "sourceStart": 14.22,
+        "seconds": 12.8
       }
     ],
     "HRV": [
       {
-        "file": "a-90decf9f9b164353.mp3",
+        "file": "a-8589fdcbe0562217.mp3",
         "source": "croatian3.mp3",
         "nativeLanguage": "croatian",
         "birthplace": "split, croatia",
-        "seconds": 11.9
+        "sourceStart": 12.4,
+        "seconds": 10.8
       },
       {
-        "file": "a-4e196fe9b054efde.mp3",
+        "file": "a-49e8e6251e22edd3.mp3",
         "source": "croatian4.mp3",
         "nativeLanguage": "croatian",
         "birthplace": "rijeka, croatia",
-        "seconds": 12.3
+        "sourceStart": 12.74,
+        "seconds": 13
       },
       {
-        "file": "a-2681fa2f40786be5.mp3",
+        "file": "a-a092bf034024294d.mp3",
         "source": "croatian7.mp3",
         "nativeLanguage": "croatian",
         "birthplace": "rijeka, croatia",
-        "seconds": 14
+        "sourceStart": 11.6,
+        "seconds": 9.6
       }
     ],
     "HTI": [
       {
-        "file": "a-2b8f48bf9f487a0e.mp3",
+        "file": "a-1d32a9638d8feb24.mp3",
         "source": "haitiancreolefrench1.mp3",
         "nativeLanguage": "haitian creole french",
         "birthplace": "port-au-prince, haiti",
-        "seconds": 12.1
+        "sourceStart": 24.8,
+        "seconds": 9.9
       },
       {
-        "file": "a-f0ccb6e65ed7c0cc.mp3",
+        "file": "a-5956c7bb0f271d2d.mp3",
         "source": "haitiancreolefrench4.mp3",
         "nativeLanguage": "haitian creole french",
         "birthplace": "port-au-prince, haiti",
-        "seconds": 12.2
+        "sourceStart": 32.94,
+        "seconds": 17.5
       },
       {
-        "file": "a-235b8387f979cc33.mp3",
+        "file": "a-5b296bb9ccf93fa4.mp3",
         "source": "haitiancreolefrench6.mp3",
         "nativeLanguage": "haitian creole french",
         "birthplace": "ouanaminthe, haiti",
-        "seconds": 12.3
+        "sourceStart": 25.79,
+        "seconds": 18
       }
     ],
     "HUN": [
       {
-        "file": "a-0590525daab23826.mp3",
+        "file": "a-747d261fa4435020.mp3",
         "source": "hungarian12.mp3",
         "nativeLanguage": "hungarian",
         "birthplace": "szeged, hungary",
-        "seconds": 12
+        "sourceStart": 13.29,
+        "seconds": 11.5
       },
       {
-        "file": "a-7f2a18cc23d81ad9.mp3",
+        "file": "a-aa222c2a0b4a7c75.mp3",
         "source": "hungarian4.mp3",
         "nativeLanguage": "hungarian",
         "birthplace": "szeged, hungary",
-        "seconds": 12
+        "sourceStart": 15.72,
+        "seconds": 12.5
       },
       {
-        "file": "a-26c35f0969ac5637.mp3",
+        "file": "a-3e94828276abfe99.mp3",
         "source": "hungarian8.mp3",
         "nativeLanguage": "hungarian",
         "birthplace": "pinkoc, hungary",
-        "seconds": 11
+        "sourceStart": 34.01,
+        "seconds": 13.6
       }
     ],
     "IDN": [
       {
-        "file": "a-0e2b787418b92bda.mp3",
+        "file": "a-86169f45ce651b49.mp3",
         "source": "indonesian10.mp3",
         "nativeLanguage": "indonesian",
         "birthplace": "banda aceh, indonesia",
-        "seconds": 11.3
+        "sourceStart": 12.12,
+        "seconds": 10.3
       },
       {
-        "file": "a-5ca58e9ad6ef68c0.mp3",
+        "file": "a-ab5bbab761b97e24.mp3",
         "source": "indonesian2.mp3",
         "nativeLanguage": "indonesian",
         "birthplace": "jakarta, indonesia",
-        "seconds": 14
+        "sourceStart": 10.9,
+        "seconds": 9.7
       },
       {
-        "file": "a-6d33a2754a794f95.mp3",
+        "file": "a-73e793060b86459a.mp3",
         "source": "indonesian3.mp3",
         "nativeLanguage": "indonesian",
         "birthplace": "jakarta, indonesia",
-        "seconds": 14
+        "sourceStart": 16.48,
+        "seconds": 14.7
       }
     ],
     "IMN": [
       {
-        "file": "a-385a5a884746d754.mp3",
+        "file": "a-59cb41db78f30dc0.mp3",
         "source": "english280.mp3",
         "nativeLanguage": "english",
         "birthplace": "ramsey, isle of man",
-        "seconds": 14
+        "sourceStart": 10.58,
+        "seconds": 9.7
       }
     ],
     "IND": [
       {
-        "file": "a-b18d23d943698960.mp3",
+        "file": "a-b4ba6640863da93a.mp3",
         "source": "hindi13.mp3",
         "nativeLanguage": "hindi",
         "birthplace": "jaipur, india",
-        "seconds": 13.6
+        "sourceStart": 16.78,
+        "seconds": 18
       },
       {
-        "file": "a-b86b0dae2df52de6.mp3",
+        "file": "a-2bf1bee8f3dcdf7e.mp3",
         "source": "hindi28.mp3",
         "nativeLanguage": "hindi",
         "birthplace": "patna, india",
-        "seconds": 12.1
+        "sourceStart": 13.25,
+        "seconds": 10.6
       },
       {
-        "file": "a-2aa643833bdc170d.mp3",
+        "file": "a-c047c4247b196f20.mp3",
         "source": "hindi34.mp3",
         "nativeLanguage": "hindi",
         "birthplace": "pune, india",
+        "sourceStart": 14.56,
         "seconds": 12.6
       }
     ],
     "IRL": [
       {
-        "file": "a-d41c3f6869178366.mp3",
+        "file": "a-c42e6b436c45c558.mp3",
         "source": "english300.mp3",
         "nativeLanguage": "english",
         "birthplace": "dublin, ireland",
-        "seconds": 12.5
+        "sourceStart": 9.54,
+        "seconds": 8.2
       },
       {
-        "file": "a-abe658479eb07d11.mp3",
+        "file": "a-6e6d7d91ae771504.mp3",
         "source": "english304.mp3",
         "nativeLanguage": "english",
         "birthplace": "clare, ireland",
-        "seconds": 14
+        "sourceStart": 11.94,
+        "seconds": 8.8
       },
       {
-        "file": "a-67ad3640b395db54.mp3",
+        "file": "a-d38f4be3d213762b.mp3",
         "source": "english72.mp3",
         "nativeLanguage": "english",
         "birthplace": "kilkenny, ireland",
-        "seconds": 10.3
+        "sourceStart": 11.03,
+        "seconds": 9.9
       }
     ],
     "IRN": [
       {
-        "file": "a-aff4bd0d3912fa07.mp3",
+        "file": "a-b4de4ebffaa179f7.mp3",
         "source": "farsi1.mp3",
         "nativeLanguage": "farsi",
         "birthplace": "tehran, iran",
-        "seconds": 14
+        "sourceStart": 15.52,
+        "seconds": 13.2
       },
       {
-        "file": "a-077c6a38c36fe5ec.mp3",
+        "file": "a-23ca1099c9c261cb.mp3",
         "source": "farsi2.mp3",
         "nativeLanguage": "farsi",
         "birthplace": "esfahan, iran",
-        "seconds": 14
+        "sourceStart": 17.96,
+        "seconds": 16.2
       },
       {
-        "file": "a-44481019293a59ea.mp3",
+        "file": "a-1222013ace2d0eed.mp3",
         "source": "farsi9.mp3",
         "nativeLanguage": "farsi",
         "birthplace": "tehran, iran",
-        "seconds": 14
+        "sourceStart": 14.44,
+        "seconds": 11.5
       }
     ],
     "IRQ": [
       {
-        "file": "a-fe30ff36fbb197a3.mp3",
+        "file": "a-7cb650a5f26e6e7c.mp3",
         "source": "arabic31.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "baghdad, iraq",
-        "seconds": 12.3
+        "sourceStart": 28.1,
+        "seconds": 9
       },
       {
-        "file": "a-455603d7ae4e04f1.mp3",
+        "file": "a-4efd553b05b76d2d.mp3",
         "source": "arabic33.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "baghdad, iraq",
-        "seconds": 11.4
+        "sourceStart": 18.92,
+        "seconds": 6.8
       },
       {
-        "file": "a-96132af3d05d4b53.mp3",
+        "file": "a-70e695dcbb17677e.mp3",
         "source": "arabic92.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "baghdad, iraq",
-        "seconds": 11.8
+        "sourceStart": 20.33,
+        "seconds": 9.9
       }
     ],
     "ISL": [
       {
-        "file": "a-9d4aae92e570bbc2.mp3",
+        "file": "a-a59bdf4e7eff570b.mp3",
         "source": "icelandic1.mp3",
         "nativeLanguage": "icelandic",
         "birthplace": "reykjavik, iceland",
-        "seconds": 14
+        "sourceStart": 15.1,
+        "seconds": 12.7
       },
       {
-        "file": "a-1acfc6734565c5bd.mp3",
+        "file": "a-889c63f19b4258a2.mp3",
         "source": "icelandic2.mp3",
         "nativeLanguage": "icelandic",
         "birthplace": "akranes, iceland",
-        "seconds": 14
+        "sourceStart": 12.12,
+        "seconds": 11.3
       }
     ],
     "ISR": [
       {
-        "file": "a-555213f163637d5f.mp3",
+        "file": "a-7d6fbc88b607ad52.mp3",
         "source": "hebrew1.mp3",
         "nativeLanguage": "hebrew",
         "birthplace": "yehud, israel",
-        "seconds": 14
+        "sourceStart": 10.84,
+        "seconds": 13.7
       },
       {
-        "file": "a-3d81837ab3160ad6.mp3",
+        "file": "a-8dd9f1ab6a690d95.mp3",
         "source": "hebrew2.mp3",
         "nativeLanguage": "hebrew",
         "birthplace": "jerusalem, israel",
-        "seconds": 14
+        "sourceStart": 11.1,
+        "seconds": 10.1
       },
       {
-        "file": "a-c29a295c90a736ca.mp3",
+        "file": "a-d918dab4535716e6.mp3",
         "source": "hebrew6.mp3",
         "nativeLanguage": "hebrew",
         "birthplace": "rishon, israel",
-        "seconds": 11.8
+        "sourceStart": 11.92,
+        "seconds": 11.6
       }
     ],
     "ITA": [
       {
-        "file": "a-ec8fd9e2034a36ce.mp3",
+        "file": "a-31a54922317ca095.mp3",
         "source": "italian1.mp3",
         "nativeLanguage": "italian",
         "birthplace": "carbonia, italy",
-        "seconds": 14
+        "sourceStart": 14.8,
+        "seconds": 14.9
       },
       {
-        "file": "a-9a85275d07154af9.mp3",
+        "file": "a-bbc83478c9455ce3.mp3",
         "source": "italian2.mp3",
         "nativeLanguage": "italian",
         "birthplace": "caltanissetta, italy",
-        "seconds": 11.8
+        "sourceStart": 22.66,
+        "seconds": 9.3
       },
       {
-        "file": "a-6bb268ad71c6a296.mp3",
+        "file": "a-f66262beef14a1f1.mp3",
         "source": "italian4.mp3",
         "nativeLanguage": "italian",
         "birthplace": "cremona, italy",
-        "seconds": 13.4
+        "sourceStart": 9.96,
+        "seconds": 9.9
       }
     ],
     "JAM": [
       {
-        "file": "a-e64f98ae91505c02.mp3",
+        "file": "a-1c3d2f0f4d563577.mp3",
         "source": "english489.mp3",
         "nativeLanguage": "english",
         "birthplace": "kingston, jamaica",
-        "seconds": 11.3
+        "sourceStart": 16.96,
+        "seconds": 15.8
       },
       {
-        "file": "a-9dfbfc1283ab9f1c.mp3",
+        "file": "a-716fdba0f36cd391.mp3",
         "source": "english617.mp3",
         "nativeLanguage": "english",
         "birthplace": "kingston, jamaica",
-        "seconds": 12
+        "sourceStart": 12.21,
+        "seconds": 10.7
       },
       {
-        "file": "a-a94de50d12fa298d.mp3",
+        "file": "a-dee6982680043492.mp3",
         "source": "english91.mp3",
         "nativeLanguage": "english",
         "birthplace": "kingston, jamaica",
-        "seconds": 10.6
+        "sourceStart": 11.2,
+        "seconds": 8.6
       }
     ],
     "JPN": [
       {
-        "file": "a-9255e60e08175026.mp3",
+        "file": "a-88746cc8f50c3798.mp3",
         "source": "japanese4.mp3",
         "nativeLanguage": "japanese",
         "birthplace": "tokyo, japan",
-        "seconds": 12.2
+        "sourceStart": 21.54,
+        "seconds": 8
       },
       {
-        "file": "a-e92cf7b7379aed9b.mp3",
+        "file": "a-18ef9b6ca5e74e73.mp3",
         "source": "japanese5.mp3",
         "nativeLanguage": "japanese",
         "birthplace": "chiba, japan",
-        "seconds": 14
+        "sourceStart": 20.94,
+        "seconds": 15.1
       },
       {
-        "file": "a-d22d8c0cf8402feb.mp3",
+        "file": "a-7d2dd2e44cfc2a20.mp3",
         "source": "japanese7.mp3",
         "nativeLanguage": "japanese",
         "birthplace": "osaka, japan",
-        "seconds": 14
+        "sourceStart": 13.6,
+        "seconds": 11.3
       }
     ],
     "KAZ": [
       {
-        "file": "a-80d4c4c95a5d593e.mp3",
+        "file": "a-63785e180c287cc2.mp3",
         "source": "kazakh1.mp3",
         "nativeLanguage": "kazakh",
         "birthplace": "semey, kazakhstan",
-        "seconds": 14
+        "sourceStart": 10.64,
+        "seconds": 9.9
       },
       {
-        "file": "a-040f49ae6db40cd4.mp3",
+        "file": "a-cdffc7fb24a7c913.mp3",
         "source": "kazakh2.mp3",
         "nativeLanguage": "kazakh",
         "birthplace": "almaty, kazakhstan",
-        "seconds": 14
+        "sourceStart": 11.26,
+        "seconds": 10
       },
       {
-        "file": "a-6c5fd8dfe7483a61.mp3",
+        "file": "a-56a7dcc33515cd57.mp3",
         "source": "kazakh4.mp3",
         "nativeLanguage": "kazakh",
         "birthplace": "kokshetau, kazakhstan",
-        "seconds": 9.1
+        "sourceStart": 14.46,
+        "seconds": 14.3
       }
     ],
     "KGZ": [
       {
-        "file": "a-861d2b6e901fa1a1.mp3",
+        "file": "a-0984ab3b841ed34e.mp3",
         "source": "kirghiz2.mp3",
         "nativeLanguage": "kyrgyz",
         "birthplace": "bishkek, kyrgystan",
-        "seconds": 12.8
+        "sourceStart": 13.68,
+        "seconds": 13.6
       },
       {
-        "file": "a-ed76f021b7e9bd34.mp3",
+        "file": "a-b5d5a95aba62563c.mp3",
         "source": "kirgiz1.mp3",
         "nativeLanguage": "kyrgyz",
         "birthplace": "bishkek, kyrgyzstan",
-        "seconds": 14
+        "sourceStart": 17.92,
+        "seconds": 17.7
       }
     ],
     "KHM": [
       {
-        "file": "a-54d4e576ad7de9a2.mp3",
+        "file": "a-4123285c192f9cbc.mp3",
         "source": "khmer1.mp3",
         "nativeLanguage": "khmer",
         "birthplace": "phnom penh, cambodia",
-        "seconds": 14
+        "sourceStart": 17.14,
+        "seconds": 16.9
       },
       {
-        "file": "a-69526bfa9a8b3b24.mp3",
+        "file": "a-ec81a057728132ee.mp3",
         "source": "khmer2.mp3",
         "nativeLanguage": "khmer",
         "birthplace": "phnom penh, cambodia",
-        "seconds": 10.1
+        "sourceStart": 14.71,
+        "seconds": 13.5
       },
       {
-        "file": "a-56c186de64460ca9.mp3",
+        "file": "a-07e413b5f7fb7bab.mp3",
         "source": "khmer3.mp3",
         "nativeLanguage": "khmer",
         "birthplace": "baling, cambodia",
-        "seconds": 12
+        "sourceStart": 22.35,
+        "seconds": 7.8
       }
     ],
     "KOR": [
       {
-        "file": "a-3f2419367dbe7317.mp3",
+        "file": "a-15bc19613504e7c5.mp3",
         "source": "korean1.mp3",
         "nativeLanguage": "korean",
         "birthplace": "ui jong bu, south korea",
-        "seconds": 12.6
+        "sourceStart": 20.12,
+        "seconds": 7.8
       },
       {
-        "file": "a-574c87cc5f21b23a.mp3",
+        "file": "a-f8279cf83aae443b.mp3",
         "source": "korean2.mp3",
         "nativeLanguage": "korean",
         "birthplace": "taegu, south korea",
-        "seconds": 14
+        "sourceStart": 15.2,
+        "seconds": 13.5
       },
       {
-        "file": "a-d74c828f99b9eda2.mp3",
+        "file": "a-16c195a0a63c37d6.mp3",
         "source": "korean6.mp3",
         "nativeLanguage": "korean",
         "birthplace": "sunchun, south korea",
-        "seconds": 14
+        "sourceStart": 12.4,
+        "seconds": 10.8
       }
     ],
     "KWT": [
       {
-        "file": "a-fc9805a39c69e833.mp3",
+        "file": "a-4727cac138ee275c.mp3",
         "source": "arabic18.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "kuwait city, kuwait",
-        "seconds": 11.4
+        "sourceStart": 15.17,
+        "seconds": 12.9
       },
       {
-        "file": "a-7c7101ad658d6dfe.mp3",
+        "file": "a-59c24f7f2f8dcece.mp3",
         "source": "arabic87.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "kuwait city, kuwait",
-        "seconds": 12.8
+        "sourceStart": 15.93,
+        "seconds": 8.6
       },
       {
-        "file": "a-b467009a1bfef127.mp3",
+        "file": "a-d165f1e9772090c4.mp3",
         "source": "arabic95.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "kuwait city, kuwait",
-        "seconds": 12.6
+        "sourceStart": 22.96,
+        "seconds": 10
       }
     ],
     "LAO": [
       {
-        "file": "a-7798e2fd63cdee44.mp3",
+        "file": "a-859b5be39cde4c6b.mp3",
         "source": "lao1.mp3",
         "nativeLanguage": "lao",
         "birthplace": "savannakhet, laos",
-        "seconds": 13.5
+        "sourceStart": 17.17,
+        "seconds": 16.2
       },
       {
-        "file": "a-ff019a6ccaa5a966.mp3",
+        "file": "a-7470a001460a9157.mp3",
         "source": "lao2.mp3",
         "nativeLanguage": "lao",
         "birthplace": "vientiane, laos",
+        "sourceStart": 27.9,
         "seconds": 11.3
       }
     ],
     "LBN": [
       {
-        "file": "a-75c233617750961b.mp3",
+        "file": "a-7664d63b246a0bb7.mp3",
         "source": "arabic13.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "zabbougha, lebanon",
-        "seconds": 14
+        "sourceStart": 14.75,
+        "seconds": 15.2
       },
       {
-        "file": "a-8363a81a6174807f.mp3",
+        "file": "a-0f99bde27bb52c31.mp3",
         "source": "arabic20.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "chtaura, lebanon",
-        "seconds": 13.2
+        "sourceStart": 14.07,
+        "seconds": 12.1
       },
       {
-        "file": "a-49aed7c22c033d5c.mp3",
+        "file": "a-52a1f903bbdd1146.mp3",
         "source": "arabic43.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "beirut, lebanon",
-        "seconds": 10.4
+        "sourceStart": 16.94,
+        "seconds": 13.8
       }
     ],
     "LBY": [
       {
-        "file": "a-c0e7d360f1b1f2bb.mp3",
+        "file": "a-5c9fdf87a87577dd.mp3",
         "source": "arabic169.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "tripoli, libya",
-        "seconds": 10.8
+        "sourceStart": 11.8,
+        "seconds": 9.1
       },
       {
-        "file": "a-4eca1e821b9944a3.mp3",
+        "file": "a-c96108fb699031be.mp3",
         "source": "arabic63.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "bani walid, libya",
-        "seconds": 13.4
+        "sourceStart": 20.4,
+        "seconds": 18
       }
     ],
     "LKA": [
       {
-        "file": "a-e7aceaefde323df0.mp3",
+        "file": "a-e6be0b6eadfab91e.mp3",
         "source": "sinhala10.mp3",
         "nativeLanguage": "sinhala",
         "birthplace": "colombo, sri lanka",
-        "seconds": 12.5
+        "sourceStart": 13.58,
+        "seconds": 12.6
       },
       {
-        "file": "a-c73cb6adac9835b5.mp3",
+        "file": "a-fa81ca3bb3b76c8e.mp3",
         "source": "sinhala3.mp3",
         "nativeLanguage": "sinhala",
         "birthplace": "colombo, sri lanka",
-        "seconds": 12.3
+        "sourceStart": 21.19,
+        "seconds": 17.6
       },
       {
-        "file": "a-a9f60d243a8faf7f.mp3",
+        "file": "a-9b444f203ed25276.mp3",
         "source": "sinhala7.mp3",
         "nativeLanguage": "sinhala",
         "birthplace": "nuwara eliya, sri lanka",
-        "seconds": 11.9
+        "sourceStart": 18.36,
+        "seconds": 15.5
       }
     ],
     "LTU": [
       {
-        "file": "a-bddfb924239cf6f0.mp3",
+        "file": "a-b3d0c60555b6e776.mp3",
         "source": "lithuanian1.mp3",
         "nativeLanguage": "lithuanian",
         "birthplace": "klaipeda, lithuania",
-        "seconds": 14
+        "sourceStart": 12.84,
+        "seconds": 11.3
       },
       {
-        "file": "a-c61eb9644861948f.mp3",
+        "file": "a-3cadc37f34e29734.mp3",
         "source": "lithuanian2.mp3",
         "nativeLanguage": "lithuanian",
         "birthplace": "vilnius, lithuania",
-        "seconds": 14
+        "sourceStart": 18.91,
+        "seconds": 17.5
       }
     ],
     "LUX": [
       {
-        "file": "a-4c6933a40dfdc395.mp3",
+        "file": "a-a1a9dd0d780f8350.mp3",
         "source": "luxembourgeois1.mp3",
         "nativeLanguage": "luxembourgeois",
         "birthplace": "luxembourg, luxembourg",
-        "seconds": 11.4
+        "sourceStart": 11.94,
+        "seconds": 11.6
       }
     ],
     "LVA": [
       {
-        "file": "a-9d4e0e84feb4c6f6.mp3",
+        "file": "a-a42e6b880573a0b5.mp3",
         "source": "latvian1.mp3",
         "nativeLanguage": "latvian",
         "birthplace": "riga, latvia",
-        "seconds": 14
+        "sourceStart": 12.96,
+        "seconds": 11.7
       },
       {
-        "file": "a-3206d1972b7c1e6e.mp3",
+        "file": "a-0f2fc7f839b7e7f5.mp3",
         "source": "latvian3.mp3",
         "nativeLanguage": "latvian",
         "birthplace": "riga, latvia",
-        "seconds": 14
+        "sourceStart": 12.68,
+        "seconds": 10.6
       }
     ],
     "MAR": [
       {
-        "file": "a-5679aa68cd21b7df.mp3",
+        "file": "a-42bbdfa1cd1b5806.mp3",
         "source": "arabic5.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "casablanca, morocco",
-        "seconds": 9.7
+        "sourceStart": 14.61,
+        "seconds": 16
       },
       {
-        "file": "a-7ad22fc579ce64f4.mp3",
+        "file": "a-d763adc98a4fcb80.mp3",
         "source": "arabic7.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "casablanca, morocco",
-        "seconds": 14
+        "sourceStart": 14.81,
+        "seconds": 15.4
       },
       {
-        "file": "a-b1f07790f40fbb02.mp3",
+        "file": "a-2d393c8844019c3e.mp3",
         "source": "arabic8.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "casablanca, morocco",
-        "seconds": 12
+        "sourceStart": 16.52,
+        "seconds": 11.6
       }
     ],
     "MDA": [
       {
-        "file": "a-c33723ecb603233e.mp3",
+        "file": "a-eada0466e0aa05a9.mp3",
         "source": "romanian14.mp3",
         "nativeLanguage": "romanian",
         "birthplace": "costesti, moldova",
-        "seconds": 14
+        "sourceStart": 13.49,
+        "seconds": 13.1
       },
       {
-        "file": "a-3a9e372a902ffc8e.mp3",
+        "file": "a-05ecb456a854c31c.mp3",
         "source": "romanian19.mp3",
         "nativeLanguage": "romanian",
         "birthplace": "chisinau, moldova",
-        "seconds": 12.4
+        "sourceStart": 9.65,
+        "seconds": 8
       }
     ],
     "MDG": [
       {
-        "file": "a-120ef1e7774c8bf0.mp3",
+        "file": "a-2ad62e988757bb8e.mp3",
         "source": "malagasy1.mp3",
         "nativeLanguage": "malagasy",
         "birthplace": "antananarivo, madagascar",
-        "seconds": 11.3
+        "sourceStart": 26.87,
+        "seconds": 7.9
       },
       {
-        "file": "a-3810f696f7d7f5b8.mp3",
+        "file": "a-42336219095b9967.mp3",
         "source": "malagasy2.mp3",
         "nativeLanguage": "malagasy",
         "birthplace": "antananarivo, madagascar",
-        "seconds": 13
+        "sourceStart": 14.96,
+        "seconds": 12.1
       }
     ],
     "MEX": [
       {
-        "file": "a-a5593c47077c7fb7.mp3",
+        "file": "a-8b80b7c5437272d7.mp3",
         "source": "spanish227.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "durango, mexico",
-        "seconds": 9.2
+        "sourceStart": 16.43,
+        "seconds": 15.1
       },
       {
-        "file": "a-3da99d1cc26101f7.mp3",
+        "file": "a-9e46b2af76478e5f.mp3",
         "source": "spanish24.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "mexico city, mexico",
-        "seconds": 11.4
+        "sourceStart": 15.24,
+        "seconds": 13.5
       },
       {
-        "file": "a-6b39bbeebf1f56f1.mp3",
+        "file": "a-61d9257ae703435d.mp3",
         "source": "spanish56.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "monterrey, mexico",
-        "seconds": 12.8
+        "sourceStart": 10.82,
+        "seconds": 9.7
       }
     ],
     "MKD": [
       {
-        "file": "a-1673ac87f845099f.mp3",
+        "file": "a-7c4992aba2eb971a.mp3",
         "source": "macedonian1.mp3",
         "nativeLanguage": "macedonian",
         "birthplace": "ohrid, macedonia",
-        "seconds": 11.8
+        "sourceStart": 11.96,
+        "seconds": 11.6
       },
       {
-        "file": "a-16b5f4343851df24.mp3",
+        "file": "a-1ea242259f997a26.mp3",
         "source": "macedonian5.mp3",
         "nativeLanguage": "macedonian",
         "birthplace": "skopje, macedonia",
-        "seconds": 11.1
+        "sourceStart": 11.47,
+        "seconds": 9.5
       },
       {
-        "file": "a-c107672264143438.mp3",
+        "file": "a-0266b7ebf10c5cac.mp3",
         "source": "macedonian6.mp3",
         "nativeLanguage": "macedonian",
         "birthplace": "skopje, macedonia",
-        "seconds": 13.1
+        "sourceStart": 11.1,
+        "seconds": 11.4
       }
     ],
     "MLI": [
       {
-        "file": "a-ac9ba71c099e0f78.mp3",
+        "file": "a-930b98627af5d16d.mp3",
         "source": "bambara1.mp3",
         "nativeLanguage": "bambara",
         "birthplace": "bamako, mali",
-        "seconds": 12.1
+        "sourceStart": 17.18,
+        "seconds": 17.4
       },
       {
-        "file": "a-1494618da79702bb.mp3",
+        "file": "a-adaad0b69e3acf9c.mp3",
         "source": "bambara2.mp3",
         "nativeLanguage": "bambara",
         "birthplace": "bamako, mali",
-        "seconds": 12.7
+        "sourceStart": 16.46,
+        "seconds": 13.8
       },
       {
-        "file": "a-6e4d52ab64b0c9af.mp3",
+        "file": "a-df31a027b5cbc121.mp3",
         "source": "bambara3.mp3",
         "nativeLanguage": "bambara",
         "birthplace": "bamako, mali",
-        "seconds": 11.6
+        "sourceStart": 19.56,
+        "seconds": 14.4
       }
     ],
     "MMR": [
       {
-        "file": "a-819ef40fcbd198f9.mp3",
+        "file": "a-5f37ff03544a4fc9.mp3",
         "source": "burmese1.mp3",
         "nativeLanguage": "burmese",
         "birthplace": "yangon, myanmar",
-        "seconds": 12.2
+        "sourceStart": 16.92,
+        "seconds": 15.5
       },
       {
-        "file": "a-871580db0fd2c964.mp3",
+        "file": "a-471ba19c1b9952c7.mp3",
         "source": "burmese2.mp3",
         "nativeLanguage": "burmese",
         "birthplace": "yangon, myanmar",
-        "seconds": 11.7
+        "sourceStart": 14.66,
+        "seconds": 12.6
       }
     ],
     "MNE": [
       {
-        "file": "a-647c51c32e41703f.mp3",
+        "file": "a-d34de623513cdf0a.mp3",
         "source": "serbian14.mp3",
         "nativeLanguage": "serbian",
         "birthplace": "podgorica, montenegro",
-        "seconds": 14
+        "sourceStart": 17.02,
+        "seconds": 12.9
       }
     ],
     "MNG": [
       {
-        "file": "a-328eb2cbb36777d9.mp3",
+        "file": "a-70f53e7d4d252299.mp3",
         "source": "mongolian1.mp3",
         "nativeLanguage": "mongolian",
         "birthplace": "ulaanbaatar, mongolia",
-        "seconds": 14
+        "sourceStart": 17.28,
+        "seconds": 6.7
       },
       {
-        "file": "a-af82ea34e4712b06.mp3",
+        "file": "a-acc76a2bddc674ff.mp3",
         "source": "mongolian2.mp3",
         "nativeLanguage": "mongolian",
         "birthplace": "ulaanbaatar, mongolia",
-        "seconds": 14
-      },
-      {
-        "file": "a-cc685c820fd5cd87.mp3",
-        "source": "mongolian7.mp3",
-        "nativeLanguage": "mongolian",
-        "birthplace": "darhan, mongolia",
-        "seconds": 13
+        "sourceStart": 17.34,
+        "seconds": 15.9
       }
     ],
     "MUS": [
       {
-        "file": "a-fe5721ef58c83493.mp3",
+        "file": "a-9225a52055946277.mp3",
         "source": "mauritian1.mp3",
         "nativeLanguage": "mauritian",
         "birthplace": "port louis, mauritius",
-        "seconds": 12.2
+        "sourceStart": 15.36,
+        "seconds": 16.5
       },
       {
-        "file": "a-67294a592a3e34c9.mp3",
+        "file": "a-2317adb8de1e367c.mp3",
         "source": "mauritian3.mp3",
         "nativeLanguage": "mauritian",
         "birthplace": "rose hill, mauritius",
-        "seconds": 12.1
+        "sourceStart": 14.78,
+        "seconds": 12.3
       }
     ],
     "MYS": [
       {
-        "file": "a-119e8e6404d00c24.mp3",
+        "file": "a-05fdf346f84c9493.mp3",
         "source": "malay2.mp3",
         "nativeLanguage": "malay",
         "birthplace": "kuching, malaysia",
-        "seconds": 14
+        "sourceStart": 12.94,
+        "seconds": 13.3
       },
       {
-        "file": "a-109250fe5b1b11a5.mp3",
+        "file": "a-cad4803fa9b8cd1b.mp3",
         "source": "malay4.mp3",
         "nativeLanguage": "malay",
         "birthplace": "kuala lumpur, malaysia",
-        "seconds": 12.2
+        "sourceStart": 12.88,
+        "seconds": 11.9
       },
       {
-        "file": "a-80e2336861961958.mp3",
+        "file": "a-fe4a9ce9c9f5dddf.mp3",
         "source": "malay6.mp3",
         "nativeLanguage": "malay",
         "birthplace": "johor bahru, malaysia",
-        "seconds": 14
+        "sourceStart": 10.83,
+        "seconds": 10.1
       }
     ],
     "NGA": [
       {
-        "file": "a-41b6ef57a3b955d3.mp3",
+        "file": "a-6c207a8f1cd516d9.mp3",
         "source": "hausa8.mp3",
         "nativeLanguage": "hausa",
         "birthplace": "katsina, nigeria",
-        "seconds": 14
+        "sourceStart": 17.46,
+        "seconds": 13.5
       }
     ],
     "NIC": [
       {
-        "file": "a-2448f83272d76a1d.mp3",
+        "file": "a-16ecab1f0dfd5104.mp3",
         "source": "miskito1.mp3",
         "nativeLanguage": "miskito",
         "birthplace": "krinkrin, nicaragua",
-        "seconds": 12.3
+        "sourceStart": 20.81,
+        "seconds": 17.4
       },
       {
-        "file": "a-1bba685834ac75e6.mp3",
+        "file": "a-30d35daa81d6d952.mp3",
         "source": "miskito2.mp3",
         "nativeLanguage": "miskito",
         "birthplace": "bilwi, nicaragua",
-        "seconds": 10.5
+        "sourceStart": 16.32,
+        "seconds": 16.4
       },
       {
-        "file": "a-4eb8a605e5d174dc.mp3",
+        "file": "a-2eda912c2e7b0b9c.mp3",
         "source": "miskito3.mp3",
         "nativeLanguage": "miskito",
         "birthplace": "bilwi, nicaragua",
-        "seconds": 11.7
+        "sourceStart": 11.82,
+        "seconds": 11.1
       }
     ],
     "NLD": [
       {
-        "file": "a-efc4b04333e776e2.mp3",
+        "file": "a-848c93abbfd0dd9c.mp3",
         "source": "dutch1.mp3",
         "nativeLanguage": "dutch",
         "birthplace": "nijmegen, netherlands",
-        "seconds": 14
+        "sourceStart": 19.36,
+        "seconds": 15.7
       },
       {
-        "file": "a-528fb673fbd3a0db.mp3",
+        "file": "a-9ecae053136a3797.mp3",
         "source": "dutch14.mp3",
         "nativeLanguage": "dutch",
         "birthplace": "zwolle, netherlands",
-        "seconds": 14
+        "sourceStart": 16.44,
+        "seconds": 12.1
       },
       {
-        "file": "a-2bf20e27f8070908.mp3",
+        "file": "a-49516bc824ef76f4.mp3",
         "source": "dutch2.mp3",
         "nativeLanguage": "dutch",
         "birthplace": "amsterdam, netherlands",
-        "seconds": 12.3
+        "sourceStart": 13.28,
+        "seconds": 9.7
       }
     ],
     "NOR": [
       {
-        "file": "a-ad63b5923cbf6565.mp3",
+        "file": "a-2104b22d3d7f553f.mp3",
         "source": "norwegian1.mp3",
         "nativeLanguage": "norwegian",
         "birthplace": "drammen, norway",
-        "seconds": 11.8
+        "sourceStart": 12.34,
+        "seconds": 10.3
       },
       {
-        "file": "a-09a9f8b2095f3f07.mp3",
+        "file": "a-780ea00361bb551d.mp3",
         "source": "norwegian3.mp3",
         "nativeLanguage": "norwegian",
         "birthplace": "volda, norway",
-        "seconds": 10.2
+        "sourceStart": 10.85,
+        "seconds": 8.5
       },
       {
-        "file": "a-364bbe9b091ff217.mp3",
+        "file": "a-a97f4c18fc48905e.mp3",
         "source": "norwegian4.mp3",
         "nativeLanguage": "norwegian",
         "birthplace": "lakselv, norway",
-        "seconds": 11.7
+        "sourceStart": 11.99,
+        "seconds": 10
       }
     ],
     "NPL": [
       {
-        "file": "a-409bc36a66efc54c.mp3",
+        "file": "a-0358cd73c61591bf.mp3",
         "source": "nepali1.mp3",
         "nativeLanguage": "nepali",
         "birthplace": "kathmandu, nepal",
-        "seconds": 14
+        "sourceStart": 13.66,
+        "seconds": 14.5
       },
       {
-        "file": "a-dae8ba7c7f28eadf.mp3",
+        "file": "a-7d9b914dd73044e0.mp3",
         "source": "nepali11.mp3",
         "nativeLanguage": "nepali",
         "birthplace": "kathmandu, nepal",
-        "seconds": 12
+        "sourceStart": 24.12,
+        "seconds": 11
       },
       {
-        "file": "a-e5e81a61b4dd7413.mp3",
+        "file": "a-1ea9baa2839893ce.mp3",
         "source": "nepali8.mp3",
         "nativeLanguage": "nepali",
         "birthplace": "pokhara, nepal",
-        "seconds": 14
+        "sourceStart": 13.14,
+        "seconds": 11.1
       }
     ],
     "NZL": [
       {
-        "file": "a-8b2311ace501bb53.mp3",
+        "file": "a-45eb78f00d408fbc.mp3",
         "source": "english354.mp3",
         "nativeLanguage": "english",
         "birthplace": "christchurch, new zealand",
-        "seconds": 14
+        "sourceStart": 11.24,
+        "seconds": 10.6
       },
       {
-        "file": "a-3b4f66317fcaf566.mp3",
+        "file": "a-17783d28669a3f3f.mp3",
         "source": "english410.mp3",
         "nativeLanguage": "english",
         "birthplace": "hamilton, new zealand",
-        "seconds": 11.9
+        "sourceStart": 14.72,
+        "seconds": 10.7
       },
       {
-        "file": "a-a16276f3bfefe86a.mp3",
+        "file": "a-c8ac4710c1cbfba7.mp3",
         "source": "english490.mp3",
         "nativeLanguage": "english",
         "birthplace": "auckland, new zealand",
-        "seconds": 11.2
+        "sourceStart": 11.66,
+        "seconds": 9.6
       }
     ],
     "OMN": [
       {
-        "file": "a-1f7d72582f1255f2.mp3",
+        "file": "a-8cba96074a126e07.mp3",
         "source": "arabic65.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "samail, oman",
-        "seconds": 10.9
+        "sourceStart": 15.67,
+        "seconds": 12.6
       }
     ],
     "PAK": [
       {
-        "file": "a-6dd71c878a4555c1.mp3",
+        "file": "a-57bed7941a2916f9.mp3",
         "source": "urdu1.mp3",
         "nativeLanguage": "urdu",
         "birthplace": "karachi, pakistan",
-        "seconds": 11.9
+        "sourceStart": 25.06,
+        "seconds": 10
       },
       {
-        "file": "a-e8086bc087faf3f5.mp3",
+        "file": "a-6034e115052fc8c9.mp3",
         "source": "urdu15.mp3",
         "nativeLanguage": "urdu",
         "birthplace": "mandi bahauddin, pakistan",
-        "seconds": 11.1
+        "sourceStart": 11.78,
+        "seconds": 11.3
       },
       {
-        "file": "a-e0865ccfd4c28e60.mp3",
+        "file": "a-261d16d5d5a21674.mp3",
         "source": "urdu26.mp3",
         "nativeLanguage": "urdu",
         "birthplace": "lahore, pakistan",
-        "seconds": 12.4
+        "sourceStart": 14.13,
+        "seconds": 12
       }
     ],
     "PER": [
       {
-        "file": "a-1b39a8f33fe807eb.mp3",
+        "file": "a-de48834321d5f779.mp3",
         "source": "spanish207.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "ica, peru",
-        "seconds": 11.2
+        "sourceStart": 17.33,
+        "seconds": 6.2
       },
       {
-        "file": "a-5b071ebf8db073eb.mp3",
+        "file": "a-0b6815b1a306d45b.mp3",
         "source": "spanish228.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "piura, peru",
-        "seconds": 12.3
+        "sourceStart": 15.14,
+        "seconds": 12.7
       },
       {
-        "file": "a-0454330b5c30aa63.mp3",
+        "file": "a-2fb1d23fa1da7aae.mp3",
         "source": "spanish6.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "lima, peru",
-        "seconds": 12.4
+        "sourceStart": 15.32,
+        "seconds": 13.1
       }
     ],
     "PHL": [
       {
-        "file": "a-f50bb2cc46e47345.mp3",
+        "file": "a-acfd211cdb424502.mp3",
         "source": "tagalog1.mp3",
         "nativeLanguage": "tagalog",
         "birthplace": "manila, philippines",
-        "seconds": 14
+        "sourceStart": 12.16,
+        "seconds": 10.5
       },
       {
-        "file": "a-1c63afe97726f8ef.mp3",
+        "file": "a-878e52bd3bbaf360.mp3",
         "source": "tagalog2.mp3",
         "nativeLanguage": "tagalog",
         "birthplace": "urdaneta, philippines",
-        "seconds": 14
+        "sourceStart": 15.73,
+        "seconds": 12.8
       },
       {
-        "file": "a-2c35b9ef3fcfd292.mp3",
+        "file": "a-97d069660947654c.mp3",
         "source": "tagalog21.mp3",
         "nativeLanguage": "tagalog",
         "birthplace": "manila, philippines",
-        "seconds": 10.6
+        "sourceStart": 17.58,
+        "seconds": 8.4
       }
     ],
     "PNG": [
       {
-        "file": "a-3958839cc796bea5.mp3",
+        "file": "a-1105bd3837d18d8a.mp3",
         "source": "english48.mp3",
         "nativeLanguage": "english",
         "birthplace": "port moresby, papua new guinea",
-        "seconds": 14
+        "sourceStart": 11.52,
+        "seconds": 13.3
       }
     ],
     "POL": [
       {
-        "file": "a-e877017a85ac60f6.mp3",
+        "file": "a-4c3473d0cdbf5271.mp3",
         "source": "polish1.mp3",
         "nativeLanguage": "polish",
         "birthplace": "janow, poland",
-        "seconds": 14
+        "sourceStart": 16.22,
+        "seconds": 16.7
       },
       {
-        "file": "a-db3e59f0b2405f08.mp3",
+        "file": "a-43c0cedfbf19152b.mp3",
         "source": "polish2.mp3",
         "nativeLanguage": "polish",
         "birthplace": "mielec, poland",
-        "seconds": 11.3
+        "sourceStart": 18.38,
+        "seconds": 18
       },
       {
-        "file": "a-a6567f7bb1950eb3.mp3",
+        "file": "a-10dd9424294b3dfd.mp3",
         "source": "polish5.mp3",
         "nativeLanguage": "polish",
         "birthplace": "ozarow maz, poland",
-        "seconds": 14
+        "sourceStart": 11.92,
+        "seconds": 10.9
       }
     ],
     "PRI": [
       {
-        "file": "a-9f62bd799c6bb101.mp3",
+        "file": "a-ca65d0948f4d8073.mp3",
         "source": "spanish175.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "rio piedras, puerto rico",
-        "seconds": 12.2
-      },
-      {
-        "file": "a-568002e01b8718f1.mp3",
-        "source": "spanish81.mp3",
-        "nativeLanguage": "spanish",
-        "birthplace": "san juan, puerto rico",
-        "seconds": 14
+        "sourceStart": 13.26,
+        "seconds": 10.7
       }
     ],
     "PRT": [
       {
-        "file": "a-c056aa96c49a9272.mp3",
+        "file": "a-c80ede1e21d4f9ac.mp3",
         "source": "portuguese12.mp3",
         "nativeLanguage": "portuguese",
         "birthplace": "lisbon, portugal",
-        "seconds": 11.3
+        "sourceStart": 11.91,
+        "seconds": 10.3
       },
       {
-        "file": "a-735e03206e30f8f2.mp3",
+        "file": "a-536de93c350ed516.mp3",
         "source": "portuguese46.mp3",
         "nativeLanguage": "portuguese",
         "birthplace": "cascais, portugal",
-        "seconds": 10.5
+        "sourceStart": 18.49,
+        "seconds": 13
       },
       {
-        "file": "a-73ffb8a869d109b3.mp3",
+        "file": "a-53879d26d5f11cc2.mp3",
         "source": "portuguese65.mp3",
         "nativeLanguage": "portuguese",
         "birthplace": "almada, portugal",
-        "seconds": 12
+        "sourceStart": 12.76,
+        "seconds": 9.9
       }
     ],
     "PRY": [
       {
-        "file": "a-4d94335fd879821a.mp3",
+        "file": "a-bfe0a128dece92b8.mp3",
         "source": "spanish163.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "asuncion, paraguay",
-        "seconds": 11.6
+        "sourceStart": 16.2,
+        "seconds": 14.7
       }
     ],
     "QAT": [
       {
-        "file": "a-bc2bb82528e1188d.mp3",
+        "file": "a-f36c2055e9d031d0.mp3",
         "source": "arabic29.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "doha, qatar",
-        "seconds": 9.4
+        "sourceStart": 17.8,
+        "seconds": 17.5
       },
       {
-        "file": "a-898f71838b9f004d.mp3",
+        "file": "a-5320230729fca352.mp3",
         "source": "arabic3.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "doha, qatar",
-        "seconds": 14
+        "sourceStart": 22.26,
+        "seconds": 12.3
       }
     ],
     "ROU": [
       {
-        "file": "a-b7fab4186128838c.mp3",
+        "file": "a-6459cbe24731d31a.mp3",
         "source": "romanian1.mp3",
         "nativeLanguage": "romanian",
         "birthplace": "timisoara, romania",
-        "seconds": 12.7
+        "sourceStart": 13.71,
+        "seconds": 11.2
       },
       {
-        "file": "a-8ba1eee2a259eee5.mp3",
+        "file": "a-313a7a10a9160aa9.mp3",
         "source": "romanian15.mp3",
         "nativeLanguage": "romanian",
         "birthplace": "bucharest, romania",
-        "seconds": 14
+        "sourceStart": 14.48,
+        "seconds": 12.3
       },
       {
-        "file": "a-9169f1ff5688f208.mp3",
+        "file": "a-313fe5cd6c99f384.mp3",
         "source": "romanian4.mp3",
         "nativeLanguage": "romanian",
         "birthplace": "bucharest, romania",
-        "seconds": 14
+        "sourceStart": 14.12,
+        "seconds": 12.7
       }
     ],
     "RUS": [
       {
-        "file": "a-eb8c27c7f483c892.mp3",
+        "file": "a-799011aa011ee893.mp3",
         "source": "russian10.mp3",
         "nativeLanguage": "russian",
         "birthplace": "moscow, russia",
-        "seconds": 14
+        "sourceStart": 10.21,
+        "seconds": 8.2
       },
       {
-        "file": "a-d7e1e21197d5114b.mp3",
+        "file": "a-147719dbb430946a.mp3",
         "source": "russian5.mp3",
         "nativeLanguage": "russian",
         "birthplace": "khabarovsk, russia",
-        "seconds": 14
+        "sourceStart": 15.9,
+        "seconds": 14.6
       },
       {
-        "file": "a-2f64c5fcfb068bdd.mp3",
+        "file": "a-3e81563aba5d6e4a.mp3",
         "source": "russian9.mp3",
         "nativeLanguage": "russian",
         "birthplace": "moscow, russia",
-        "seconds": 14
+        "sourceStart": 12.8,
+        "seconds": 9.7
       }
     ],
     "SAU": [
       {
-        "file": "a-e48581e495bc000b.mp3",
+        "file": "a-3b1721614ae2559a.mp3",
         "source": "arabic1.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "riyadh, saudi arabia",
-        "seconds": 14
+        "sourceStart": 22.2,
+        "seconds": 10.4
       },
       {
-        "file": "a-bafc5f2d9bb6cbe1.mp3",
+        "file": "a-35edb0f468bfd894.mp3",
         "source": "arabic40.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "jiddah, saudi arabia",
-        "seconds": 11.6
+        "sourceStart": 17.26,
+        "seconds": 17.2
       }
     ],
     "SEN": [
       {
-        "file": "a-85665e7818d2e1d7.mp3",
+        "file": "a-53e1ecd02659d33d.mp3",
         "source": "wolof1.mp3",
         "nativeLanguage": "wolof",
         "birthplace": "dakar, senegal",
-        "seconds": 11.7
+        "sourceStart": 18.46,
+        "seconds": 14.9
       },
       {
-        "file": "a-0b7a9c682960d4f5.mp3",
+        "file": "a-f2205f6b0685fc15.mp3",
         "source": "wolof3.mp3",
         "nativeLanguage": "wolof",
         "birthplace": "khombole, senegal",
-        "seconds": 14
+        "sourceStart": 13.72,
+        "seconds": 11.5
       },
       {
-        "file": "a-68524ccefc0da0cb.mp3",
+        "file": "a-b4d29adf216ed3f1.mp3",
         "source": "wolof5.mp3",
         "nativeLanguage": "wolof",
         "birthplace": "saint louis, senegal",
-        "seconds": 11.2
+        "sourceStart": 16.53,
+        "seconds": 8
       }
     ],
     "SGP": [
       {
-        "file": "a-7ac7dd08ec2023e9.mp3",
+        "file": "a-02cb0bff742445c5.mp3",
         "source": "english279.mp3",
         "nativeLanguage": "english",
         "birthplace": "singapore, singapore",
-        "seconds": 14
+        "sourceStart": 10.85,
+        "seconds": 9.3
       },
       {
-        "file": "a-31fee00865807dc9.mp3",
+        "file": "a-381281c43fad8800.mp3",
         "source": "english287.mp3",
         "nativeLanguage": "english",
         "birthplace": "singapore, singapore",
-        "seconds": 14
+        "sourceStart": 9.65,
+        "seconds": 8.7
       },
       {
-        "file": "a-d80fe8283122d6e2.mp3",
+        "file": "a-02b6a2ac6c022adc.mp3",
         "source": "english655.mp3",
         "nativeLanguage": "english",
         "birthplace": "singapore, singapore",
-        "seconds": 12.5
+        "sourceStart": 13.41,
+        "seconds": 11.2
       }
     ],
     "SLV": [
       {
-        "file": "a-8b7762d354520613.mp3",
+        "file": "a-e890278e682bfdd7.mp3",
         "source": "spanish28.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "san miguel, el salvador",
-        "seconds": 12.4
+        "sourceStart": 17.87,
+        "seconds": 17.4
       },
       {
-        "file": "a-2c54ae912c1eda6e.mp3",
+        "file": "a-c699e18b330c52ce.mp3",
         "source": "spanish4.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "cabanas, el salvador",
-        "seconds": 12.7
+        "sourceStart": 21.24,
+        "seconds": 8.9
       },
       {
-        "file": "a-d50b7a57037dbc7a.mp3",
+        "file": "a-9d37dc3959a6f5d7.mp3",
         "source": "spanish8.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "san salvador, el salvador",
-        "seconds": 11.8
+        "sourceStart": 15.17,
+        "seconds": 14.5
       }
     ],
     "SOM": [
       {
-        "file": "a-d83f3593723af718.mp3",
+        "file": "a-0d8030feaf20245d.mp3",
         "source": "somali1.mp3",
         "nativeLanguage": "somali",
         "birthplace": "mogadishu, somalia",
-        "seconds": 11.6
+        "sourceStart": 20.3,
+        "seconds": 17.7
       },
       {
-        "file": "a-d135ce94eda158da.mp3",
+        "file": "a-e902eb70c4d3bf7f.mp3",
         "source": "somali3.mp3",
         "nativeLanguage": "somali",
         "birthplace": "borama, somalia",
-        "seconds": 11.6
+        "sourceStart": 26.42,
+        "seconds": 18
       }
     ],
     "SRB": [
       {
-        "file": "a-56cea6034cf694d1.mp3",
+        "file": "a-86092ac12a0fe575.mp3",
         "source": "serbian17.mp3",
         "nativeLanguage": "serbian",
         "birthplace": "belgrade, serbia",
-        "seconds": 13
+        "sourceStart": 13.82,
+        "seconds": 12.6
       },
       {
-        "file": "a-346e99d497dd4fe6.mp3",
+        "file": "a-035e1ee8df8df0a8.mp3",
         "source": "serbian2.mp3",
         "nativeLanguage": "serbian",
         "birthplace": "zrenjanin, serbia",
-        "seconds": 11.7
+        "sourceStart": 17.83,
+        "seconds": 7.5
       },
       {
-        "file": "a-53f8787376e4a1a5.mp3",
+        "file": "a-99ef380d024b6b76.mp3",
         "source": "serbian4.mp3",
         "nativeLanguage": "serbian",
         "birthplace": "velika plana, serbia",
-        "seconds": 14
+        "sourceStart": 16.12,
+        "seconds": 14.4
       }
     ],
     "SVK": [
       {
-        "file": "a-c5387b1142b0dd13.mp3",
+        "file": "a-c74aa10a4c9edbf5.mp3",
         "source": "slovak1.mp3",
         "nativeLanguage": "slovak",
         "birthplace": "kosice, slovak republic",
-        "seconds": 9
+        "sourceStart": 11.02,
+        "seconds": 11.2
       },
       {
-        "file": "a-78e3302fc96d4898.mp3",
+        "file": "a-97d796bd089f772d.mp3",
         "source": "slovak2.mp3",
         "nativeLanguage": "slovak",
         "birthplace": "piestany, slovak republic",
-        "seconds": 12.5
+        "sourceStart": 12.68,
+        "seconds": 10.8
       }
     ],
     "SVN": [
       {
-        "file": "a-6f1ef3e840b22514.mp3",
+        "file": "a-bdf6ffdb6cc42a11.mp3",
         "source": "slovenian1.mp3",
         "nativeLanguage": "slovenian",
         "birthplace": "slovenj gradec, slovenia",
-        "seconds": 11.1
+        "sourceStart": 11.14,
+        "seconds": 9.4
       }
     ],
     "SWE": [
       {
-        "file": "a-b4831f35dd65a86d.mp3",
+        "file": "a-b74a27be6fdf789c.mp3",
         "source": "swedish2.mp3",
         "nativeLanguage": "swedish",
         "birthplace": "uppsala, sweden",
-        "seconds": 12.2
+        "sourceStart": 13.15,
+        "seconds": 11.4
       },
       {
-        "file": "a-68e63279867df9a9.mp3",
+        "file": "a-a92323fffccab7e9.mp3",
         "source": "swedish23.mp3",
         "nativeLanguage": "swedish",
         "birthplace": "lulea, sweden",
-        "seconds": 12.4
+        "sourceStart": 16.18,
+        "seconds": 12.1
       },
       {
-        "file": "a-c44be3c239c840a1.mp3",
+        "file": "a-cd61ca0d1d62152f.mp3",
         "source": "swedish3.mp3",
         "nativeLanguage": "swedish",
         "birthplace": "stockholm, sweden",
-        "seconds": 11.5
+        "sourceStart": 11.96,
+        "seconds": 10.5
       }
     ],
     "SYR": [
       {
-        "file": "a-69f86802838b36c0.mp3",
+        "file": "a-3cc4163b6473dc01.mp3",
         "source": "arabic82.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "damascus, syria",
-        "seconds": 11.9
+        "sourceStart": 16.78,
+        "seconds": 14.8
       }
     ],
     "TCD": [
       {
-        "file": "a-49a001f9d90e6c11.mp3",
+        "file": "a-2da1e24796516976.mp3",
         "source": "sarua1.mp3",
         "nativeLanguage": "sarua",
         "birthplace": "ndjamena, chad",
-        "seconds": 12.3
+        "sourceStart": 26.01,
+        "seconds": 14.9
       }
     ],
     "THA": [
       {
-        "file": "a-4e5fcd3f7782f396.mp3",
+        "file": "a-dca2fd4cd6479248.mp3",
         "source": "thai1.mp3",
         "nativeLanguage": "thai",
         "birthplace": "khon kaen, thailand",
-        "seconds": 10.5
+        "sourceStart": 15.4,
+        "seconds": 13.4
       },
       {
-        "file": "a-20964f0993bb8b8f.mp3",
+        "file": "a-51e2e1bdf08f1c9b.mp3",
         "source": "thai4.mp3",
         "nativeLanguage": "thai",
         "birthplace": "songkhla, thailand",
-        "seconds": 14
+        "sourceStart": 14.72,
+        "seconds": 14.5
       },
       {
-        "file": "a-a0ad950fea081c26.mp3",
+        "file": "a-cf2ec4e10626271f.mp3",
         "source": "thai5.mp3",
         "nativeLanguage": "thai",
         "birthplace": "bangkok, thailand",
-        "seconds": 14
+        "sourceStart": 13.36,
+        "seconds": 11.2
       }
     ],
     "TJK": [
       {
-        "file": "a-5caf3b0d26ebe377.mp3",
+        "file": "a-6c04985fdb679a4f.mp3",
         "source": "tajiki2.mp3",
         "nativeLanguage": "tajiki",
         "birthplace": "khujand, tajikistan",
-        "seconds": 14
+        "sourceStart": 11.64,
+        "seconds": 10.7
       },
       {
-        "file": "a-0ac45e5fd0013ca3.mp3",
+        "file": "a-f6c5a374529fae03.mp3",
         "source": "tajiki3.mp3",
         "nativeLanguage": "tajiki",
         "birthplace": "khujand, tajikistan",
-        "seconds": 14
+        "sourceStart": 15.53,
+        "seconds": 15
       },
       {
-        "file": "a-4cf4bd91c9796336.mp3",
+        "file": "a-be7d62be81457aba.mp3",
         "source": "tajiki6.mp3",
         "nativeLanguage": "tajiki",
         "birthplace": "shaidon, tajikistan",
-        "seconds": 11.9
+        "sourceStart": 12.5,
+        "seconds": 10.8
       }
     ],
     "TKM": [
       {
-        "file": "a-f4875290275243c4.mp3",
+        "file": "a-cbba136136ba43ba.mp3",
         "source": "turkmen1.mp3",
         "nativeLanguage": "turkmen",
         "birthplace": "balkanabat, turkmenistan",
-        "seconds": 10.4
+        "sourceStart": 14.98,
+        "seconds": 12
       },
       {
-        "file": "a-5021212bf3362d52.mp3",
+        "file": "a-824bd2e56fa7c09e.mp3",
         "source": "turkmen2.mp3",
         "nativeLanguage": "turkmen",
         "birthplace": "turkmenabat, turkmenistan",
-        "seconds": 13.9
+        "sourceStart": 14.79,
+        "seconds": 14.2
       }
     ],
     "TLS": [
       {
-        "file": "a-9250175d88216dff.mp3",
+        "file": "a-235af6152f7661bd.mp3",
         "source": "fataluku1.mp3",
         "nativeLanguage": "fataluku",
         "birthplace": "lautem, timor-leste",
-        "seconds": 14
+        "sourceStart": 15.98,
+        "seconds": 14.3
       }
     ],
     "TTO": [
       {
-        "file": "a-9e1ef8cde361faad.mp3",
+        "file": "a-8fd7530a73be9ef4.mp3",
         "source": "english31.mp3",
         "nativeLanguage": "english",
         "birthplace": "st. augustine, trinidad",
-        "seconds": 12.7
+        "sourceStart": 11.1,
+        "seconds": 11.9
       }
     ],
     "TUN": [
       {
-        "file": "a-1e4a8a913671abd5.mp3",
+        "file": "a-fcf4350a827c6f82.mp3",
         "source": "arabic11.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "monastir, tunisia",
-        "seconds": 11.7
+        "sourceStart": 17.31,
+        "seconds": 14.8
       }
     ],
     "TUR": [
       {
-        "file": "a-86b0133bb7f26217.mp3",
+        "file": "a-002e183042a596f5.mp3",
         "source": "turkish1.mp3",
         "nativeLanguage": "turkish",
         "birthplace": "bingol, turkey",
-        "seconds": 11.4
+        "sourceStart": 17.23,
+        "seconds": 15.6
       },
       {
-        "file": "a-bdd2505c86c3af84.mp3",
+        "file": "a-2db2a2d295d3fc3d.mp3",
         "source": "turkish6.mp3",
         "nativeLanguage": "turkish",
         "birthplace": "istanbul, turkey",
-        "seconds": 11.4
+        "sourceStart": 12.19,
+        "seconds": 9.8
       },
       {
-        "file": "a-f3e5b91247b362eb.mp3",
+        "file": "a-e87f5b6c9ef1a87b.mp3",
         "source": "turkish7.mp3",
         "nativeLanguage": "turkish",
         "birthplace": "izmir, turkey",
-        "seconds": 12
+        "sourceStart": 12.61,
+        "seconds": 10.7
       }
     ],
     "TWN": [
       {
-        "file": "a-9f7edc5849ae60f3.mp3",
+        "file": "a-a7600aa2de62f021.mp3",
         "source": "mandarin13.mp3",
         "nativeLanguage": "mandarin",
         "birthplace": "nantou, taiwan",
-        "seconds": 11.2
+        "sourceStart": 11.59,
+        "seconds": 10.3
       },
       {
-        "file": "a-585d8ec537fee21d.mp3",
+        "file": "a-53e02419ad4d5629.mp3",
         "source": "mandarin18.mp3",
         "nativeLanguage": "mandarin",
         "birthplace": "taoyuan, taiwan",
-        "seconds": 12.2
+        "sourceStart": 16.48,
+        "seconds": 15.6
       }
     ],
     "TZA": [
       {
-        "file": "a-84b3c4192c1ce53c.mp3",
+        "file": "a-3923e5a443e94204.mp3",
         "source": "kiswahili1.mp3",
         "nativeLanguage": "kiswahili",
         "birthplace": "dar-es-salaam, tanzania",
-        "seconds": 14
+        "sourceStart": 11.58,
+        "seconds": 10.2
       },
       {
-        "file": "a-92e92c0d8bcc646b.mp3",
+        "file": "a-014bb236c055e544.mp3",
         "source": "kiswahili2.mp3",
         "nativeLanguage": "kiswahili",
         "birthplace": "kigoma, tanzania",
-        "seconds": 14
+        "sourceStart": 15.76,
+        "seconds": 15.9
       }
     ],
     "UKR": [
       {
-        "file": "a-1d1af7db7362d726.mp3",
+        "file": "a-a4a60fcdfb8ccb19.mp3",
         "source": "ukrainian12.mp3",
         "nativeLanguage": "ukrainian",
         "birthplace": "kiev, ukraine",
-        "seconds": 13.2
+        "sourceStart": 14.05,
+        "seconds": 14
       },
       {
-        "file": "a-7901274d02517a55.mp3",
+        "file": "a-58a88b5a2a07711e.mp3",
         "source": "ukrainian4.mp3",
         "nativeLanguage": "ukrainian",
         "birthplace": "kiev, ukraine",
-        "seconds": 10.6
+        "sourceStart": 11.45,
+        "seconds": 10.8
       },
       {
-        "file": "a-76fcf7ff07b3bef7.mp3",
+        "file": "a-82da46e4d948b392.mp3",
         "source": "ukrainian5.mp3",
         "nativeLanguage": "ukrainian",
         "birthplace": "kiev, ukraine",
-        "seconds": 11.5
+        "sourceStart": 17.46,
+        "seconds": 7.8
       }
     ],
     "URY": [
       {
-        "file": "a-9302d11491c0758c.mp3",
+        "file": "a-e104d789108b1e18.mp3",
         "source": "spanish36.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "montevideo, uruguay",
-        "seconds": 12.2
+        "sourceStart": 12.53,
+        "seconds": 10.4
       },
       {
-        "file": "a-50f6998bc79901c0.mp3",
+        "file": "a-7a07caa823c5a559.mp3",
         "source": "spanish57.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "montevideo, uruguay",
-        "seconds": 14
+        "sourceStart": 12.36,
+        "seconds": 9.8
       }
     ],
     "USA": [
       {
-        "file": "a-4a49228b5e42a47d.mp3",
+        "file": "a-fab97794b62405f7.mp3",
         "source": "english36.mp3",
         "nativeLanguage": "english",
         "birthplace": "arcadia, usa",
-        "seconds": 10.7
+        "sourceStart": 11,
+        "seconds": 9.7
       },
       {
-        "file": "a-96dee0ba5726cd11.mp3",
+        "file": "a-30fc500cb958999b.mp3",
         "source": "english45.mp3",
         "nativeLanguage": "english",
         "birthplace": "pine bluff, usa",
-        "seconds": 11.8
+        "sourceStart": 15.42,
+        "seconds": 15.5
       },
       {
-        "file": "a-1087d51228d38975.mp3",
+        "file": "a-abac07c2653bf170.mp3",
         "source": "english83.mp3",
         "nativeLanguage": "english",
         "birthplace": "winnfield, usa",
-        "seconds": 10.7
+        "sourceStart": 14.16,
+        "seconds": 11.4
       }
     ],
     "UZB": [
       {
-        "file": "a-b2a7817288b7fb34.mp3",
+        "file": "a-ea033bc4376fd508.mp3",
         "source": "uzbek1.mp3",
         "nativeLanguage": "uzbek",
         "birthplace": "samarkand, uzbekistan",
-        "seconds": 12.3
+        "sourceStart": 20.23,
+        "seconds": 7.5
       }
     ],
     "VEN": [
       {
-        "file": "a-9dbdbfbcbb1181d8.mp3",
+        "file": "a-da4fbcc5359cf575.mp3",
         "source": "spanish1.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "caracas, venezuela",
-        "seconds": 14
+        "sourceStart": 17.15,
+        "seconds": 16.6
       },
       {
-        "file": "a-5e15ffba834e4c0f.mp3",
+        "file": "a-0dba4162c82ee1a6.mp3",
         "source": "spanish174.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "falcon, venezuela",
-        "seconds": 14
+        "sourceStart": 13.04,
+        "seconds": 11.7
       },
       {
-        "file": "a-806fbad7f315a6b0.mp3",
+        "file": "a-c35268b874940c43.mp3",
         "source": "spanish2.mp3",
         "nativeLanguage": "spanish",
         "birthplace": "puerto la cruz, venezuela",
-        "seconds": 11.7
+        "sourceStart": 18.83,
+        "seconds": 16.3
       }
     ],
     "VIR": [
       {
-        "file": "a-baf73bd0f24bee39.mp3",
+        "file": "a-15ca6843193c6c05.mp3",
         "source": "english112.mp3",
         "nativeLanguage": "english",
         "birthplace": "st. thomas, us virgin islands",
-        "seconds": 13.9
+        "sourceStart": 16,
+        "seconds": 15.8
       }
     ],
     "VNM": [
       {
-        "file": "a-49969a1e0bea7bd4.mp3",
+        "file": "a-7c3b7afb12ffc1d3.mp3",
         "source": "vietnamese1.mp3",
         "nativeLanguage": "vietnamese",
         "birthplace": "can tho, vietnam",
-        "seconds": 12.2
+        "sourceStart": 21.5,
+        "seconds": 8.8
       },
       {
-        "file": "a-b5b7d667bd842869.mp3",
+        "file": "a-d8e9e4ae2ff5ea38.mp3",
         "source": "vietnamese3.mp3",
         "nativeLanguage": "vietnamese",
         "birthplace": "vinh long, vietnam",
-        "seconds": 14
+        "sourceStart": 17.9,
+        "seconds": 14.7
       },
       {
-        "file": "a-8bf50af4f1a23afd.mp3",
+        "file": "a-a51ab9f04d601b3d.mp3",
         "source": "vietnamese4.mp3",
         "nativeLanguage": "vietnamese",
         "birthplace": "hanoi, vietnam",
-        "seconds": 11.8
+        "sourceStart": 12.42,
+        "seconds": 11.4
       }
     ],
     "YEM": [
       {
-        "file": "a-188f7418e13d41de.mp3",
+        "file": "a-252e7d788f8d467e.mp3",
         "source": "arabic157.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "sanaa, yemen",
-        "seconds": 14
+        "sourceStart": 16.33,
+        "seconds": 14.7
       },
       {
-        "file": "a-2da07b3010a0887c.mp3",
+        "file": "a-98d09bc3060f6f96.mp3",
         "source": "arabic6.mp3",
         "nativeLanguage": "arabic",
         "birthplace": "sanaa, yemen",
-        "seconds": 12.8
+        "sourceStart": 13.33,
+        "seconds": 12.6
       }
     ],
     "ZAF": [
       {
-        "file": "a-f6139f34dbcecae3.mp3",
+        "file": "a-021bf20ca25a2603.mp3",
         "source": "afrikaans1.mp3",
         "nativeLanguage": "afrikaans",
         "birthplace": "virginia, south africa",
-        "seconds": 14
+        "sourceStart": 11.1,
+        "seconds": 8.8
       }
     ],
     "ZWE": [
       {
-        "file": "a-5e0699ad41e84603.mp3",
+        "file": "a-7390fb62e841e060.mp3",
         "source": "shona3.mp3",
         "nativeLanguage": "shona",
         "birthplace": "chinhoyi, zimbabwe",
-        "seconds": 14
+        "sourceStart": 17.24,
+        "seconds": 15.2
       }
     ]
   },

@@ -22,7 +22,7 @@ npm run dev
 The server needs no environment variables. It serves the pre-generated clips in `backend/public/clips`, listed in `backend/clips/manifest.json`.
 
 #### Regenerating the audio clips
-- **Accents**: `npm run clips:accents` downloads each speaker in `clips/accent-speakers.json` from the archive, trims it to the first ~12 seconds and evens out the volume. Requires [ffmpeg](https://ffmpeg.org/). Edit `accent-speakers.json` to add or remove speakers (`file` is the archive's file name, `country` is the Alpha-3 code).
+- **Accents**: `npm run clips:accents` downloads each speaker in `clips/accent-speakers.json` from the archive, cuts out the last two sentences of the paragraph they read ("We also need a small plastic snake… train station", which doesn't mention anyone by name) and evens out the volume. Requires [ffmpeg](https://ffmpeg.org/). Edit `accent-speakers.json` to add or remove speakers (`file` is the archive's file name, `country` is the Alpha-3 code). `start` and `end` mark where those sentences are in the recording; for new speakers without them, the script finds them with [Whisper](https://github.com/openai/whisper) (`pip install openai-whisper`; set `WHISPER_PYTHON` if it's installed for a Python other than `python3`).
 - **Language**: `npm run clips:language` translates and voices 6 sentences per language. Requires a `.env` file with `GCP_SERVICE_ACCOUNT_JSON`. Languages without a good Google voice are left out.
 
 ### Frontend

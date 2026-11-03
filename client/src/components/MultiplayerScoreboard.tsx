@@ -1,6 +1,7 @@
 import type { GameState, RoundResultEntry } from "../types";
 import { Scoreboard } from "./Scoreboard";
 import { getCountryNameFromCode } from "../utils/scoring";
+import { CORRECT_COLOR, GUESS_COLOR } from "../utils/constants";
 
 interface MultiplayerScoreboardProps {
     gameState: GameState;
@@ -28,22 +29,35 @@ export function MultiplayerScoreboard({
         >
             {/* Round result breakdown — shown after everyone guesses */}
             {roundResults && roundResults.length > 0 && (
-                <div className="mb-3 space-y-1 text-xs bg-white/10 rounded-lg px-3 py-2 text-white">
+                <div className="mb-3 space-y-2 rounded-lg bg-white p-3 text-black">
                     {correctCountryName && (
-                        <div className="mb-1.5 font-semibold text-center text-white/90">
-                            Answer: {correctCountryName}
+                        <div className="flex items-start gap-2 text-sm leading-snug">
+                            <span className="mt-1 h-3 w-3 shrink-0 rounded-full" style={{ backgroundColor: CORRECT_COLOR }} />
+                            <span className="text-black/60">Answer</span>
+                            <span className="min-w-0 font-semibold break-words">{correctCountryName}</span>
                         </div>
                     )}
-                    {roundResults
-                        .slice()
-                        .sort((a, b) => b.roundScore - a.roundScore)
-                        .map((r) => (
-                            <div key={r.playerId} className="flex justify-between gap-2">
-                                <span className="truncate max-w-[100px]">{r.playerName}</span>
-                                <span className="text-white/80 truncate max-w-[80px]">{r.countryGuess}</span>
-                                <span className="font-mono font-bold shrink-0">+{r.roundScore}</span>
-                            </div>
-                        ))}
+                    <div className="space-y-1 border-t border-black/10 pt-2 text-xs">
+                        {roundResults
+                            .slice()
+                            .sort((a, b) => b.roundScore - a.roundScore)
+                            .map((r) => {
+                                const isMe = r.playerId === currentPlayerId;
+                                const isRight = r.countryGuess === correctCountryName;
+                                return (
+                                    <div key={r.playerId} className={`flex items-center gap-2 ${isMe ? "font-semibold" : ""}`}>
+                                        <span className="truncate max-w-[80px]">{isMe ? "You" : r.playerName}</span>
+                                        <span
+                                            className="truncate flex-1 text-right"
+                                            style={{ color: isRight ? CORRECT_COLOR : GUESS_COLOR }}
+                                        >
+                                            {r.countryGuess}
+                                        </span>
+                                        <span className="font-mono font-bold shrink-0">+{r.roundScore.toLocaleString()}</span>
+                                    </div>
+                                );
+                            })}
+                    </div>
                 </div>
             )}
 

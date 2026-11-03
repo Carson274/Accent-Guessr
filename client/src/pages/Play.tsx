@@ -1,16 +1,18 @@
 import { useSelector, useDispatch } from "react-redux";
 import type { RootState } from "../store/store";
 import { selectCountry } from "../store/mapSlice";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useParams, useNavigate, useSearchParams, Navigate } from "react-router";
 import { usePartySocket } from "../hooks/usePartySocket";
 import { useAudio } from "../hooks/useAudio";
+import { useClipPlayer } from "../hooks/useClipPlayer";
+import { ClipControls } from "../components/ClipControls";
 import { SoloGame } from "./game/SoloGame";
 import { SoloGameOver } from "./game/SoloGameOver";
 import { Lobby } from "../components/Lobby";
 import { MultiplayerScoreboard } from "../components/MultiplayerScoreboard";
 import Map from "../components/Map";
-import { calculateRoundScore } from "../utils/scoring";
+import { calculateRoundScore, getCountryNameFromCode } from "../utils/scoring";
 import type { GameMode } from "../types";
 
 export function Play() {
@@ -63,27 +65,19 @@ export function Play() {
 
     // Clear round results tracking is now handled in usePartySocket via sync events
 
-    const audioRef = useRef<HTMLAudioElement | null>(null);
-    const lastPlayedUrl = useRef<string | null>(null);
+    // Each player presses play themselves; the clip stops when they leave or the round changes.
+    const player = useClipPlayer(gameState?.audioUrl ?? null);
 
-    useEffect(() => {
-        if (gameState?.audioUrl && gameState.audioUrl !== lastPlayedUrl.current) {
-            if (audioRef.current) {
-                audioRef.current.pause();
-                audioRef.current.currentTime = 0;
-            }
-            audioRef.current = new Audio(gameState.audioUrl);
-            audioRef.current.play();
-            lastPlayedUrl.current = gameState.audioUrl;
-        }
-    }, [gameState?.audioUrl]);
-
-    const handleReplayAudio = () => {
-        if (audioRef.current) {
-            audioRef.current.currentTime = 0;
-            audioRef.current.play();
-        }
-    };
+    // After a round: the answer in green and this player's guess in red on the map.
+    const isRoundEnd = gameState?.status === "round-end";
+    const myLastGuess = lastRoundResults?.find((r) => r.playerId === currentPlayerId)?.countryGuess ?? null;
+    const mapResult = useMemo(
+        () =>
+            isRoundEnd && lastRoundCorrectCode
+                ? { correctCountry: getCountryNameFromCode(lastRoundCorrectCode), guessedCountry: myLastGuess }
+                : null,
+        [isRoundEnd, lastRoundCorrectCode, myLastGuess]
+    );
 
     // ── Solo play (no room code) ──────────────────────────────
     if (!roomCode) {
@@ -177,7 +171,7 @@ export function Play() {
     const modeLabel = activeGameMode === "language" ? "Language" : "Accents";
     const modeHint = activeGameMode === "language"
         ? "Listen to the sentence and guess which country the language comes from."
-        : "Listen to the audio clip and click on the map to guess the origin.";
+        : "Listen to the speaker and click the country where you think they grew up.";
 
     // ── Lobby ─────────────────────────────────────────────────
     if (gameState.status === "waiting") {
@@ -245,7 +239,17 @@ export function Play() {
                                 disabled={
                                     gameState.status === "round-end" || alreadyGuessed
                                 }
+                                result={mapResult}
                             />
+
+                            {/* Play button / audio controls */}
+                            {(gameState.status === "playing" || player.started) && (
+                                <ClipControls
+                                    player={player}
+                                    isLoading={gameState.status === "playing" && !gameState.audioUrl}
+                                    hasError={false}
+                                />
+                            )}
 
                             {/* Scoreboard overlay */}
                             <div className="absolute top-4 right-4 z-[1000]">
@@ -255,18 +259,6 @@ export function Play() {
                                     roundResults={gameState.status === "round-end" ? lastRoundResults : null}
                                     correctCountryCode={gameState.status === "round-end" ? lastRoundCorrectCode : null}
                                 />
-                            </div>
-
-                            {/* Audio replay */}
-                            <div className="absolute bottom-4 left-4 z-[1000] flex gap-2">
-                                <button
-                                    onClick={handleReplayAudio}
-                                    disabled={!gameState.audioUrl}
-                                    className="px-4 py-2 rounded-lg font-semibold text-white transition hover:scale-105 transform disabled:opacity-50 disabled:cursor-not-allowed"
-                                    style={{ backgroundColor: "#DA4F49" }}
-                                >
-                                    {!gameState.audioUrl && gameState.status === "playing" ? "Loading..." : "🔊 Replay"}
-                                </button>
                             </div>
 
                             {/* Submit / Next round */}

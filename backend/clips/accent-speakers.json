@@ -5,7 +5,9 @@
     "nativeLanguage": "dari",
     "birthplace": "kabul, afghanistan",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 23,
+    "end": 40.4
   },
   {
     "file": "dari6.mp3",
@@ -13,7 +15,9 @@
     "nativeLanguage": "dari",
     "birthplace": "kabul, afghanistan",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "start": 16.66,
+    "end": 31.56
   },
   {
     "file": "dari11.mp3",
@@ -21,7 +25,9 @@
     "nativeLanguage": "dari",
     "birthplace": "kabul, afghanistan",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "start": 12.76,
+    "end": 24
   },
   {
     "file": "portuguese4.mp3",
@@ -29,7 +35,9 @@
     "nativeLanguage": "portuguese",
     "birthplace": "cabinda, angola",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 16.62,
+    "end": 33.58
   },
   {
     "file": "portuguese5.mp3",
@@ -37,7 +45,10 @@
     "nativeLanguage": "portuguese",
     "birthplace": "lubango, angola",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "start": 15.14,
+    "end": 32.98,
+    "firstEnd": 23.04
   },
   {
     "file": "portuguese64.mp3",
@@ -45,7 +56,9 @@
     "nativeLanguage": "portuguese",
     "birthplace": "luanda, angola",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 13.92,
+    "end": 24.7
   },
   {
     "file": "albanian2.mp3",
@@ -53,7 +66,10 @@
     "nativeLanguage": "albanian",
     "birthplace": "tirana, albania",
     "gender": "male",
-    "age": 33
+    "age": 33,
+    "start": 18.48,
+    "end": 36.76,
+    "firstEnd": 24.28
   },
   {
     "file": "albanian9.mp3",
@@ -61,7 +77,9 @@
     "nativeLanguage": "albanian",
     "birthplace": "tirana, albania",
     "gender": "female",
-    "age": 22
+    "age": 22,
+    "start": 13.14,
+    "end": 23.06
   },
   {
     "file": "albanian13.mp3",
@@ -69,7 +87,9 @@
     "nativeLanguage": "albanian",
     "birthplace": "durres, albania",
     "gender": "female",
-    "age": 18
+    "age": 18,
+    "start": 9.98,
+    "end": 18.52
   },
   {
     "file": "french41.mp3",
@@ -77,7 +97,9 @@
     "nativeLanguage": "french",
     "birthplace": "la massana, andorra",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "start": 10.54,
+    "end": 18.88
   },
   {
     "file": "arabic4.mp3",
@@ -85,7 +107,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "sharjah, united arab emirates",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 12.06,
+    "end": 22.34
   },
   {
     "file": "arabic22.mp3",
@@ -93,7 +117,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "abu dhabi, united arab emirates",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "start": 16.96,
+    "end": 27.92
   },
   {
     "file": "arabic137.mp3",
@@ -101,7 +127,10 @@
     "nativeLanguage": "arabic",
     "birthplace": "al-ayn, united arab emirates",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 25.97,
+    "end": 54.68,
+    "firstEnd": 36.78
   },
   {
     "file": "spanish30.mp3",
@@ -109,7 +138,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "buenos aires, argentina",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 11.18,
+    "end": 20.98
   },
   {
     "file": "spanish49.mp3",
@@ -117,7 +148,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "tandil, argentina",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "start": 11.66,
+    "end": 20.78
   },
   {
     "file": "spanish85.mp3",
@@ -125,7 +158,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "buenos aires, argentina",
     "gender": "female",
-    "age": 44
+    "age": 44,
+    "start": 15.42,
+    "end": 29.86
   },
   {
     "file": "armenian1.mp3",
@@ -133,7 +168,9 @@
     "nativeLanguage": "armenian",
     "birthplace": "yerevan, armenia",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 11.54,
+    "end": 23.5
   },
   {
     "file": "armenian5.mp3",
@@ -141,7 +178,9 @@
     "nativeLanguage": "armenian",
     "birthplace": "yerevan, armenia",
     "gender": "female",
-    "age": 21
+    "age": 21,
+    "start": 12.96,
+    "end": 25.98
   },
   {
     "file": "english209.mp3",
@@ -149,7 +188,9 @@
     "nativeLanguage": "english",
     "birthplace": "saint johns, antigua and barbuda",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "start": 13.46,
+    "end": 24
   },
   {
     "file": "english3.mp3",
@@ -157,7 +198,9 @@
     "nativeLanguage": "english",
     "birthplace": "brisbane, australia",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "start": 9.62,
+    "end": 18.36
   },
   {
     "file": "english77.mp3",
@@ -165,7 +208,9 @@
     "nativeLanguage": "english",
     "birthplace": "melbourne, australia",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "start": 13.3,
+    "end": 23.26
   },
   {
     "file": "english84.mp3",
@@ -173,7 +218,9 @@
     "nativeLanguage": "english",
     "birthplace": "sydney, australia",
     "gender": "male",
-    "age": 45
+    "age": 45,
+    "start": 12.42,
+    "end": 22.16
   },
   {
     "file": "german6.mp3",
@@ -181,7 +228,9 @@
     "nativeLanguage": "german",
     "birthplace": "vienna, austria",
     "gender": "male",
-    "age": 28
+    "age": 28,
+    "start": 13.94,
+    "end": 25.34
   },
   {
     "file": "german30.mp3",
@@ -189,7 +238,9 @@
     "nativeLanguage": "german",
     "birthplace": "radstadt, austria",
     "gender": "female",
-    "age": 32
+    "age": 32,
+    "start": 12.56,
+    "end": 22.46
   },
   {
     "file": "german28.mp3",
@@ -197,7 +248,9 @@
     "nativeLanguage": "german",
     "birthplace": "vienna, austria",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 10.06,
+    "end": 18.54
   },
   {
     "file": "azerbaijani1.mp3",
@@ -205,7 +258,9 @@
     "nativeLanguage": "azerbaijani",
     "birthplace": "naxcivan, azerbaijan",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "start": 14.56,
+    "end": 28.54
   },
   {
     "file": "azerbaijani2.mp3",
@@ -213,7 +268,10 @@
     "nativeLanguage": "azerbaijani",
     "birthplace": "baku, azerbaijan",
     "gender": "female",
-    "age": 42
+    "age": 42,
+    "start": 30.46,
+    "end": 52.9,
+    "firstEnd": 37.94
   },
   {
     "file": "azerbaijani3.mp3",
@@ -221,7 +279,9 @@
     "nativeLanguage": "azerbaijani",
     "birthplace": "baku, azerbaijan",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "start": 13.5,
+    "end": 24.96
   },
   {
     "file": "rundi1.mp3",
@@ -229,7 +289,9 @@
     "nativeLanguage": "rundi",
     "birthplace": "bururi, burundi",
     "gender": "male",
-    "age": 36
+    "age": 36,
+    "start": 15.68,
+    "end": 29.44
   },
   {
     "file": "dutch4.mp3",
@@ -237,7 +299,9 @@
     "nativeLanguage": "dutch",
     "birthplace": "bilzen, belgium",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 13.74,
+    "end": 25.24
   },
   {
     "file": "dutch10.mp3",
@@ -245,7 +309,9 @@
     "nativeLanguage": "dutch",
     "birthplace": "essen, belgium",
     "gender": "male",
-    "age": 39
+    "age": 39,
+    "start": 15.2,
+    "end": 26.72
   },
   {
     "file": "dutch16.mp3",
@@ -253,7 +319,9 @@
     "nativeLanguage": "dutch",
     "birthplace": "antwerp, belgium",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "start": 11.32,
+    "end": 22.28
   },
   {
     "file": "yoruba1.mp3",
@@ -261,7 +329,10 @@
     "nativeLanguage": "yoruba",
     "birthplace": "cotonou, benin",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 19.48,
+    "end": 38.18,
+    "firstEnd": 26.36
   },
   {
     "file": "bengali1.mp3",
@@ -269,7 +340,9 @@
     "nativeLanguage": "bengali",
     "birthplace": "dhaka, bangladesh",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "start": 15.1,
+    "end": 27.7
   },
   {
     "file": "bengali4.mp3",
@@ -277,7 +350,9 @@
     "nativeLanguage": "bengali",
     "birthplace": "chittagong, bangladesh",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "start": 16.38,
+    "end": 29.34
   },
   {
     "file": "bengali3.mp3",
@@ -285,7 +360,9 @@
     "nativeLanguage": "bengali",
     "birthplace": "dhaka, bangladesh",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 14.42,
+    "end": 26.92
   },
   {
     "file": "bulgarian4.mp3",
@@ -293,7 +370,9 @@
     "nativeLanguage": "bulgarian",
     "birthplace": "plovdiv, bulgaria",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 14.66,
+    "end": 28.04
   },
   {
     "file": "bulgarian6.mp3",
@@ -301,7 +380,9 @@
     "nativeLanguage": "bulgarian",
     "birthplace": "ruse, bulgaria",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "start": 10.12,
+    "end": 18.06
   },
   {
     "file": "bulgarian10.mp3",
@@ -309,7 +390,9 @@
     "nativeLanguage": "bulgarian",
     "birthplace": "dobrich, bulgaria",
     "gender": "female",
-    "age": 21
+    "age": 21,
+    "start": 11.66,
+    "end": 24.2
   },
   {
     "file": "arabic61.mp3",
@@ -317,7 +400,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "manama, bahrain",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 11.96,
+    "end": 20.98
   },
   {
     "file": "english436.mp3",
@@ -325,7 +410,9 @@
     "nativeLanguage": "english",
     "birthplace": "freeport, the bahamas",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 14.88,
+    "end": 28.8
   },
   {
     "file": "bosnian2.mp3",
@@ -333,7 +420,9 @@
     "nativeLanguage": "bosnian",
     "birthplace": "sarajevo, bosnia and herzegovina",
     "gender": "male",
-    "age": 21
+    "age": 21,
+    "start": 14.28,
+    "end": 25.74
   },
   {
     "file": "bosnian1.mp3",
@@ -341,7 +430,9 @@
     "nativeLanguage": "bosnian",
     "birthplace": "doboj, bosnia and herzegovina",
     "gender": "male",
-    "age": 39
+    "age": 39,
+    "start": 15.18,
+    "end": 32.66
   },
   {
     "file": "bosnian5.mp3",
@@ -349,7 +440,9 @@
     "nativeLanguage": "bosnian",
     "birthplace": "travnik, bosnia and herzegovina",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 14.02,
+    "end": 27.5
   },
   {
     "file": "belarusan1.mp3",
@@ -357,7 +450,9 @@
     "nativeLanguage": "belarusan",
     "birthplace": "chamiancy, belarus",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "start": 12.82,
+    "end": 24.46
   },
   {
     "file": "belarusan3.mp3",
@@ -365,7 +460,9 @@
     "nativeLanguage": "belarusan",
     "birthplace": "gomel, belarus",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 13.46,
+    "end": 25.36
   },
   {
     "file": "belarusan2.mp3",
@@ -373,7 +470,9 @@
     "nativeLanguage": "belarusan",
     "birthplace": "minsk, belarus",
     "gender": "female",
-    "age": 43
+    "age": 43,
+    "start": 12.96,
+    "end": 24.8
   },
   {
     "file": "english291.mp3",
@@ -381,7 +480,9 @@
     "nativeLanguage": "english",
     "birthplace": "belize city, belize",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 10.44,
+    "end": 19.28
   },
   {
     "file": "spanish18.mp3",
@@ -389,7 +490,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "la paz, bolivia",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 16.86,
+    "end": 27.92
   },
   {
     "file": "spanish32.mp3",
@@ -397,7 +500,10 @@
     "nativeLanguage": "spanish",
     "birthplace": "santa cruz, bolivia",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "start": 22.3,
+    "end": 45.26,
+    "firstEnd": 32.22
   },
   {
     "file": "spanish211.mp3",
@@ -405,7 +511,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "la paz, bolivia",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 15.98,
+    "end": 27.64
   },
   {
     "file": "portuguese7.mp3",
@@ -413,7 +521,9 @@
     "nativeLanguage": "portuguese",
     "birthplace": "vitoria, brazil",
     "gender": "male",
-    "age": 40
+    "age": 40,
+    "start": 13.72,
+    "end": 25.26
   },
   {
     "file": "portuguese6.mp3",
@@ -421,7 +531,9 @@
     "nativeLanguage": "portuguese",
     "birthplace": "sao paulo, brazil",
     "gender": "male",
-    "age": 44
+    "age": 44,
+    "start": 10.72,
+    "end": 19.66
   },
   {
     "file": "portuguese2.mp3",
@@ -429,7 +541,9 @@
     "nativeLanguage": "portuguese",
     "birthplace": "brasilia, brazil",
     "gender": "female",
-    "age": 18
+    "age": 18,
+    "start": 12.9,
+    "end": 24.38
   },
   {
     "file": "english224.mp3",
@@ -437,7 +551,9 @@
     "nativeLanguage": "english",
     "birthplace": "bridgetown, barbados",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 12,
+    "end": 21.26
   },
   {
     "file": "english64.mp3",
@@ -445,7 +561,9 @@
     "nativeLanguage": "english",
     "birthplace": "montreal, canada",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 12.96,
+    "end": 22.96
   },
   {
     "file": "english43.mp3",
@@ -453,7 +571,9 @@
     "nativeLanguage": "english",
     "birthplace": "vancouver, canada",
     "gender": "male",
-    "age": 47
+    "age": 47,
+    "start": 11.14,
+    "end": 20.68
   },
   {
     "file": "english30.mp3",
@@ -461,7 +581,9 @@
     "nativeLanguage": "english",
     "birthplace": "st. mary's, canada",
     "gender": "female",
-    "age": 30
+    "age": 30,
+    "start": 12.54,
+    "end": 23.92
   },
   {
     "file": "swissgerman3.mp3",
@@ -469,7 +591,9 @@
     "nativeLanguage": "swiss german",
     "birthplace": "muri, switzerland",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "start": 13.44,
+    "end": 24.86
   },
   {
     "file": "swissgerman9.mp3",
@@ -477,7 +601,9 @@
     "nativeLanguage": "swiss german",
     "birthplace": "zurich, switzerland",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "start": 13.72,
+    "end": 25.12
   },
   {
     "file": "spanish21.mp3",
@@ -485,7 +611,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "santiago, chile",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "start": 18.16,
+    "end": 37.66
   },
   {
     "file": "spanish23.mp3",
@@ -493,7 +621,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "santiago, chile",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 11.1,
+    "end": 20.22
   },
   {
     "file": "mandarin2.mp3",
@@ -501,7 +631,10 @@
     "nativeLanguage": "mandarin",
     "birthplace": "nanjing, china",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "start": 18.14,
+    "end": 37.3,
+    "firstEnd": 26.38
   },
   {
     "file": "mandarin4.mp3",
@@ -509,7 +642,9 @@
     "nativeLanguage": "mandarin",
     "birthplace": "shanghai, china",
     "gender": "female",
-    "age": 24
+    "age": 24,
+    "start": 15.74,
+    "end": 30.92
   },
   {
     "file": "mandarin9.mp3",
@@ -517,7 +652,9 @@
     "nativeLanguage": "mandarin",
     "birthplace": "shanghai, china",
     "gender": "male",
-    "age": 38
+    "age": 38,
+    "start": 18.4,
+    "end": 35.22
   },
   {
     "file": "french80.mp3",
@@ -525,7 +662,9 @@
     "nativeLanguage": "french",
     "birthplace": "abidjan, ivory coast",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 20.52,
+    "end": 35.4
   },
   {
     "file": "french64.mp3",
@@ -533,7 +672,10 @@
     "nativeLanguage": "french",
     "birthplace": "abidjan, ivory coast",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "start": 18.16,
+    "end": 36,
+    "firstEnd": 25.04
   },
   {
     "file": "french5.mp3",
@@ -541,7 +683,10 @@
     "nativeLanguage": "french",
     "birthplace": "douala, cameroon",
     "gender": "female",
-    "age": 36
+    "age": 36,
+    "start": 17.7,
+    "end": 39.06,
+    "firstEnd": 28.4
   },
   {
     "file": "french72.mp3",
@@ -549,7 +694,9 @@
     "nativeLanguage": "french",
     "birthplace": "douala, cameroon",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "start": 14.14,
+    "end": 25.14
   },
   {
     "file": "french32.mp3",
@@ -557,7 +704,10 @@
     "nativeLanguage": "french",
     "birthplace": "kabinda, democratic republic of congo",
     "gender": "male",
-    "age": 60
+    "age": 60,
+    "start": 23.38,
+    "end": 40.94,
+    "firstEnd": 29.7
   },
   {
     "file": "french42.mp3",
@@ -565,7 +715,9 @@
     "nativeLanguage": "french",
     "birthplace": "kinshasa, democratic republic of congo",
     "gender": "female",
-    "age": 22
+    "age": 22,
+    "start": 21.24,
+    "end": 38
   },
   {
     "file": "spanish3.mp3",
@@ -573,7 +725,10 @@
     "nativeLanguage": "spanish",
     "birthplace": "bogota, colombia",
     "gender": "female",
-    "age": 17
+    "age": 17,
+    "start": 18.7,
+    "end": 36.38,
+    "firstEnd": 24.94
   },
   {
     "file": "spanish7.mp3",
@@ -581,7 +736,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "bogota, colombia",
     "gender": "female",
-    "age": 21
+    "age": 21,
+    "start": 18.14,
+    "end": 35.48
   },
   {
     "file": "spanish64.mp3",
@@ -589,7 +746,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "medellin, colombia",
     "gender": "male",
-    "age": 28
+    "age": 28,
+    "start": 13.06,
+    "end": 23.8
   },
   {
     "file": "spanish25.mp3",
@@ -597,7 +756,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "san jose, costa rica",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "start": 10.64,
+    "end": 23.84
   },
   {
     "file": "spanish40.mp3",
@@ -605,7 +766,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "cartago, costa rica",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 10.78,
+    "end": 18.54
   },
   {
     "file": "spanish19.mp3",
@@ -613,7 +776,10 @@
     "nativeLanguage": "spanish",
     "birthplace": "havana, cuba",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 15.94,
+    "end": 35.34,
+    "firstEnd": 20.34
   },
   {
     "file": "papiamentu1.mp3",
@@ -621,7 +787,9 @@
     "nativeLanguage": "papiamentu",
     "birthplace": "willemstad, curacao",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "start": 15.48,
+    "end": 27.46
   },
   {
     "file": "czech1.mp3",
@@ -629,7 +797,9 @@
     "nativeLanguage": "czech",
     "birthplace": "prague, czech republic",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "start": 12.24,
+    "end": 22.6
   },
   {
     "file": "czech2.mp3",
@@ -637,7 +807,9 @@
     "nativeLanguage": "czech",
     "birthplace": "velky osek, czech republic",
     "gender": "male",
-    "age": 60
+    "age": 60,
+    "start": 18.52,
+    "end": 34.9
   },
   {
     "file": "czech6.mp3",
@@ -645,7 +817,9 @@
     "nativeLanguage": "czech",
     "birthplace": "ostrava, czech republic",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 12.62,
+    "end": 22.94
   },
   {
     "file": "german5.mp3",
@@ -653,7 +827,9 @@
     "nativeLanguage": "german",
     "birthplace": "halle, germany",
     "gender": "male",
-    "age": 47
+    "age": 47,
+    "start": 15.24,
+    "end": 28.52
   },
   {
     "file": "german2.mp3",
@@ -661,7 +837,9 @@
     "nativeLanguage": "german",
     "birthplace": "bemberg, germany",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "start": 13.18,
+    "end": 23.38
   },
   {
     "file": "german3.mp3",
@@ -669,7 +847,9 @@
     "nativeLanguage": "german",
     "birthplace": "meissen, germany",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 12.3,
+    "end": 22.1
   },
   {
     "file": "danish2.mp3",
@@ -677,7 +857,9 @@
     "nativeLanguage": "danish",
     "birthplace": "haslev, denmark",
     "gender": "female",
-    "age": 37
+    "age": 37,
+    "start": 12.98,
+    "end": 23.34
   },
   {
     "file": "danish6.mp3",
@@ -685,7 +867,9 @@
     "nativeLanguage": "danish",
     "birthplace": "alborg, denmark",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 14.38,
+    "end": 24.72
   },
   {
     "file": "danish7.mp3",
@@ -693,7 +877,9 @@
     "nativeLanguage": "danish",
     "birthplace": "copenhagen, denmark",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 11.46,
+    "end": 19.74
   },
   {
     "file": "spanish50.mp3",
@@ -701,7 +887,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "santo domingo, dominican republic",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "start": 12.4,
+    "end": 22.68
   },
   {
     "file": "spanish45.mp3",
@@ -709,7 +897,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "santiago-dr, dominican republic",
     "gender": "female",
-    "age": 47
+    "age": 47,
+    "start": 21.9,
+    "end": 39.26
   },
   {
     "file": "spanish47.mp3",
@@ -717,7 +907,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "santo domingo, dominican republic",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 13.84,
+    "end": 26.28
   },
   {
     "file": "french24.mp3",
@@ -725,7 +917,9 @@
     "nativeLanguage": "french",
     "birthplace": "mostaganem, algeria",
     "gender": "male",
-    "age": 47
+    "age": 47,
+    "start": 13.98,
+    "end": 24.96
   },
   {
     "file": "spanish130.mp3",
@@ -733,7 +927,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "guayaquil, ecuador",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "start": 11.88,
+    "end": 23.08
   },
   {
     "file": "spanish173.mp3",
@@ -741,7 +937,10 @@
     "nativeLanguage": "spanish",
     "birthplace": "ambato, ecuador",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "start": 22.36,
+    "end": 48.18,
+    "firstEnd": 33.28
   },
   {
     "file": "arabic10.mp3",
@@ -749,7 +948,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "cairo, egypt",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "start": 20.48,
+    "end": 36.52
   },
   {
     "file": "arabic24.mp3",
@@ -757,7 +958,10 @@
     "nativeLanguage": "arabic",
     "birthplace": "cairo, egypt",
     "gender": "male",
-    "age": 40
+    "age": 40,
+    "start": 22.3,
+    "end": 40.42,
+    "firstEnd": 28.84
   },
   {
     "file": "arabic156.mp3",
@@ -765,7 +969,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "cairo, egypt",
     "gender": "female",
-    "age": 18
+    "age": 18,
+    "start": 12.28,
+    "end": 22.68
   },
   {
     "file": "tigrigna2.mp3",
@@ -773,7 +979,9 @@
     "nativeLanguage": "tigrigna",
     "birthplace": "asmara, eritrea",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "start": 16.82,
+    "end": 32.44
   },
   {
     "file": "spanish26.mp3",
@@ -781,7 +989,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "burgos, spain",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 13.58,
+    "end": 25.18
   },
   {
     "file": "spanish27.mp3",
@@ -789,7 +999,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "zaragoza, spain",
     "gender": "male",
-    "age": 34
+    "age": 34,
+    "start": 13.48,
+    "end": 25.16
   },
   {
     "file": "spanish22.mp3",
@@ -797,7 +1009,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "madrid, spain",
     "gender": "female",
-    "age": 32
+    "age": 32,
+    "start": 13.46,
+    "end": 25.82
   },
   {
     "file": "estonian2.mp3",
@@ -805,7 +1019,9 @@
     "nativeLanguage": "estonian",
     "birthplace": "viljandi, estonia",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "start": 11.74,
+    "end": 22.76
   },
   {
     "file": "estonian5.mp3",
@@ -813,7 +1029,9 @@
     "nativeLanguage": "estonian",
     "birthplace": "tallinn, estonia",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 17.28,
+    "end": 29.46
   },
   {
     "file": "estonian6.mp3",
@@ -821,7 +1039,9 @@
     "nativeLanguage": "estonian",
     "birthplace": "viljandi, estonia",
     "gender": "female",
-    "age": 32
+    "age": 32,
+    "start": 16.48,
+    "end": 28.6
   },
   {
     "file": "amharic1.mp3",
@@ -829,7 +1049,9 @@
     "nativeLanguage": "amharic",
     "birthplace": "addis ababa, ethiopia",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "start": 19.04,
+    "end": 36.08
   },
   {
     "file": "amharic2.mp3",
@@ -837,7 +1059,10 @@
     "nativeLanguage": "amharic",
     "birthplace": "arba minch, ethiopia",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "start": 22.82,
+    "end": 52.34,
+    "firstEnd": 34.28
   },
   {
     "file": "amharic4.mp3",
@@ -845,7 +1070,10 @@
     "nativeLanguage": "amharic",
     "birthplace": "addis ababa, ethiopia",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 23,
+    "end": 42.38,
+    "firstEnd": 30.68
   },
   {
     "file": "finnish2.mp3",
@@ -853,7 +1081,9 @@
     "nativeLanguage": "finnish",
     "birthplace": "helsinki, finland",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 10.7,
+    "end": 19.4
   },
   {
     "file": "finnish1.mp3",
@@ -861,7 +1091,9 @@
     "nativeLanguage": "finnish",
     "birthplace": "lahti, finland",
     "gender": "female",
-    "age": 22
+    "age": 22,
+    "start": 13.68,
+    "end": 23.84
   },
   {
     "file": "finnish6.mp3",
@@ -869,7 +1101,9 @@
     "nativeLanguage": "finnish",
     "birthplace": "riihimaki, finland",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 11.36,
+    "end": 21.66
   },
   {
     "file": "french3.mp3",
@@ -877,7 +1111,9 @@
     "nativeLanguage": "french",
     "birthplace": "nice, france",
     "gender": "female",
-    "age": 22
+    "age": 22,
+    "start": 13.76,
+    "end": 26.26
   },
   {
     "file": "french1.mp3",
@@ -885,7 +1121,9 @@
     "nativeLanguage": "french",
     "birthplace": "st. laurent d'onay, france",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "start": 14.62,
+    "end": 25.88
   },
   {
     "file": "french13.mp3",
@@ -893,7 +1131,9 @@
     "nativeLanguage": "french",
     "birthplace": "bordeaux, france",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 11.42,
+    "end": 20.84
   },
   {
     "file": "faroese1.mp3",
@@ -901,7 +1141,9 @@
     "nativeLanguage": "faroese",
     "birthplace": "torshavn, faroe islands",
     "gender": "male",
-    "age": 28
+    "age": 28,
+    "start": 11.44,
+    "end": 20.6
   },
   {
     "file": "french6.mp3",
@@ -909,7 +1151,9 @@
     "nativeLanguage": "french",
     "birthplace": "booue, gabon",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "start": 13.92,
+    "end": 26.64
   },
   {
     "file": "english11.mp3",
@@ -917,7 +1161,9 @@
     "nativeLanguage": "english",
     "birthplace": "staffordshire, uk",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "start": 11.32,
+    "end": 20.4
   },
   {
     "file": "english56.mp3",
@@ -925,7 +1171,9 @@
     "nativeLanguage": "english",
     "birthplace": "londonderry, uk",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 12,
+    "end": 21.8
   },
   {
     "file": "english58.mp3",
@@ -933,7 +1181,9 @@
     "nativeLanguage": "english",
     "birthplace": "southhampton, uk",
     "gender": "female",
-    "age": 46
+    "age": 46,
+    "start": 13.58,
+    "end": 25
   },
   {
     "file": "georgian1.mp3",
@@ -941,7 +1191,9 @@
     "nativeLanguage": "georgian",
     "birthplace": "tbilisi, republic of georgia",
     "gender": "female",
-    "age": 30
+    "age": 30,
+    "start": 13.34,
+    "end": 26.86
   },
   {
     "file": "georgian2.mp3",
@@ -949,7 +1201,10 @@
     "nativeLanguage": "georgian",
     "birthplace": "akhmeta, republic of georgia",
     "gender": "female",
-    "age": 41
+    "age": 41,
+    "start": 17.28,
+    "end": 38.5,
+    "firstEnd": 26.86
   },
   {
     "file": "georgian5.mp3",
@@ -957,7 +1212,10 @@
     "nativeLanguage": "georgian",
     "birthplace": "tbilisi, republic of georgia",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "start": 24.94,
+    "end": 49.92,
+    "firstEnd": 36.2
   },
   {
     "file": "twi2.mp3",
@@ -965,7 +1223,9 @@
     "nativeLanguage": "twi",
     "birthplace": "ajumako, ghana",
     "gender": "male",
-    "age": 33
+    "age": 33,
+    "start": 24.32,
+    "end": 45.52
   },
   {
     "file": "twi3.mp3",
@@ -973,7 +1233,9 @@
     "nativeLanguage": "twi",
     "birthplace": "dormaa, ghana",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "start": 15.04,
+    "end": 26.44
   },
   {
     "file": "twi8.mp3",
@@ -981,7 +1243,9 @@
     "nativeLanguage": "twi",
     "birthplace": "accra, ghana",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 12.94,
+    "end": 23.82
   },
   {
     "file": "baga1.mp3",
@@ -989,7 +1253,10 @@
     "nativeLanguage": "baga",
     "birthplace": "conakry, guinea",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "start": 22.6,
+    "end": 41.58,
+    "firstEnd": 29.84
   },
   {
     "file": "fang1.mp3",
@@ -997,7 +1264,9 @@
     "nativeLanguage": "fang",
     "birthplace": "malabo, equatorial guinea",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "start": 14.4,
+    "end": 25.28
   },
   {
     "file": "greek1.mp3",
@@ -1005,7 +1274,9 @@
     "nativeLanguage": "greek",
     "birthplace": "athens, greece",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 19.76,
+    "end": 34.6
   },
   {
     "file": "greek2.mp3",
@@ -1013,7 +1284,9 @@
     "nativeLanguage": "greek",
     "birthplace": "athens, greece",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "start": 14.08,
+    "end": 26.74
   },
   {
     "file": "greek4.mp3",
@@ -1021,7 +1294,9 @@
     "nativeLanguage": "greek",
     "birthplace": "ioannina, greece",
     "gender": "male",
-    "age": 37
+    "age": 37,
+    "start": 15.98,
+    "end": 28.98
   },
   {
     "file": "english486.mp3",
@@ -1029,7 +1304,9 @@
     "nativeLanguage": "english",
     "birthplace": "corentyne, guyana",
     "gender": "female",
-    "age": 53
+    "age": 53,
+    "start": 13.46,
+    "end": 25.3
   },
   {
     "file": "english183.mp3",
@@ -1037,7 +1314,9 @@
     "nativeLanguage": "english",
     "birthplace": "corriverton, guyana",
     "gender": "female",
-    "age": 55
+    "age": 55,
+    "start": 14.78,
+    "end": 28.42
   },
   {
     "file": "spanish148.mp3",
@@ -1045,7 +1324,10 @@
     "nativeLanguage": "spanish",
     "birthplace": "la ceiba, honduras",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 19.6,
+    "end": 38.92,
+    "firstEnd": 26.18
   },
   {
     "file": "spanish218.mp3",
@@ -1053,7 +1335,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "danli, honduras",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 14.2,
+    "end": 26.7
   },
   {
     "file": "croatian3.mp3",
@@ -1061,7 +1345,9 @@
     "nativeLanguage": "croatian",
     "birthplace": "split, croatia",
     "gender": "female",
-    "age": 44
+    "age": 44,
+    "start": 12.82,
+    "end": 22.9
   },
   {
     "file": "croatian7.mp3",
@@ -1069,7 +1355,9 @@
     "nativeLanguage": "croatian",
     "birthplace": "rijeka, croatia",
     "gender": "female",
-    "age": 21
+    "age": 21,
+    "start": 11.7,
+    "end": 20.8
   },
   {
     "file": "croatian4.mp3",
@@ -1077,7 +1365,9 @@
     "nativeLanguage": "croatian",
     "birthplace": "rijeka, croatia",
     "gender": "male",
-    "age": 38
+    "age": 38,
+    "start": 12.82,
+    "end": 25.34
   },
   {
     "file": "haitiancreolefrench4.mp3",
@@ -1085,7 +1375,10 @@
     "nativeLanguage": "haitian creole french",
     "birthplace": "port-au-prince, haiti",
     "gender": "male",
-    "age": 21
+    "age": 21,
+    "start": 33.04,
+    "end": 67.16,
+    "firstEnd": 50.02
   },
   {
     "file": "haitiancreolefrench1.mp3",
@@ -1093,7 +1386,10 @@
     "nativeLanguage": "haitian creole french",
     "birthplace": "port-au-prince, haiti",
     "gender": "male",
-    "age": 42
+    "age": 42,
+    "start": 24.9,
+    "end": 47.2,
+    "firstEnd": 34.36
   },
   {
     "file": "haitiancreolefrench6.mp3",
@@ -1101,7 +1397,9 @@
     "nativeLanguage": "haitian creole french",
     "birthplace": "ouanaminthe, haiti",
     "gender": "female",
-    "age": 18
+    "age": 18,
+    "start": 26.2,
+    "end": 55.12
   },
   {
     "file": "hungarian8.mp3",
@@ -1109,7 +1407,10 @@
     "nativeLanguage": "hungarian",
     "birthplace": "pinkoc, hungary",
     "gender": "female",
-    "age": 86
+    "age": 86,
+    "start": 34.15,
+    "end": 68.8,
+    "firstEnd": 47.22
   },
   {
     "file": "hungarian12.mp3",
@@ -1117,7 +1418,9 @@
     "nativeLanguage": "hungarian",
     "birthplace": "szeged, hungary",
     "gender": "female",
-    "age": 22
+    "age": 22,
+    "start": 13.42,
+    "end": 24.46
   },
   {
     "file": "hungarian4.mp3",
@@ -1125,7 +1428,9 @@
     "nativeLanguage": "hungarian",
     "birthplace": "szeged, hungary",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "start": 15.82,
+    "end": 27.92
   },
   {
     "file": "indonesian3.mp3",
@@ -1133,7 +1438,9 @@
     "nativeLanguage": "indonesian",
     "birthplace": "jakarta, indonesia",
     "gender": "female",
-    "age": 32
+    "age": 32,
+    "start": 16.58,
+    "end": 30.92
   },
   {
     "file": "indonesian2.mp3",
@@ -1141,7 +1448,9 @@
     "nativeLanguage": "indonesian",
     "birthplace": "jakarta, indonesia",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 11,
+    "end": 20.32
   },
   {
     "file": "indonesian10.mp3",
@@ -1149,7 +1458,9 @@
     "nativeLanguage": "indonesian",
     "birthplace": "banda aceh, indonesia",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 12.2,
+    "end": 22.06
   },
   {
     "file": "english280.mp3",
@@ -1157,7 +1468,9 @@
     "nativeLanguage": "english",
     "birthplace": "ramsey, isle of man",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 10.68,
+    "end": 19.96
   },
   {
     "file": "hindi28.mp3",
@@ -1165,7 +1478,9 @@
     "nativeLanguage": "hindi",
     "birthplace": "patna, india",
     "gender": "male",
-    "age": 21
+    "age": 21,
+    "start": 13.3,
+    "end": 23.58
   },
   {
     "file": "hindi34.mp3",
@@ -1173,7 +1488,9 @@
     "nativeLanguage": "hindi",
     "birthplace": "pune, india",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "start": 14.66,
+    "end": 26.92
   },
   {
     "file": "hindi13.mp3",
@@ -1181,7 +1498,9 @@
     "nativeLanguage": "hindi",
     "birthplace": "jaipur, india",
     "gender": "female",
-    "age": 43
+    "age": 43,
+    "start": 16.88,
+    "end": 34.84
   },
   {
     "file": "english72.mp3",
@@ -1189,7 +1508,9 @@
     "nativeLanguage": "english",
     "birthplace": "kilkenny, ireland",
     "gender": "male",
-    "age": 31
+    "age": 31,
+    "start": 11.04,
+    "end": 20.7
   },
   {
     "file": "english300.mp3",
@@ -1197,7 +1518,9 @@
     "nativeLanguage": "english",
     "birthplace": "dublin, ireland",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 9.54,
+    "end": 17.44
   },
   {
     "file": "english304.mp3",
@@ -1205,7 +1528,9 @@
     "nativeLanguage": "english",
     "birthplace": "clare, ireland",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "start": 12.04,
+    "end": 20.4
   },
   {
     "file": "farsi9.mp3",
@@ -1213,7 +1538,9 @@
     "nativeLanguage": "farsi",
     "birthplace": "tehran, iran",
     "gender": "male",
-    "age": 39
+    "age": 39,
+    "start": 14.54,
+    "end": 25.66
   },
   {
     "file": "farsi1.mp3",
@@ -1221,7 +1548,9 @@
     "nativeLanguage": "farsi",
     "birthplace": "tehran, iran",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 15.58,
+    "end": 28.34
   },
   {
     "file": "farsi2.mp3",
@@ -1229,7 +1558,9 @@
     "nativeLanguage": "farsi",
     "birthplace": "esfahan, iran",
     "gender": "female",
-    "age": 34
+    "age": 34,
+    "start": 18.06,
+    "end": 33.88
   },
   {
     "file": "arabic31.mp3",
@@ -1237,7 +1568,10 @@
     "nativeLanguage": "arabic",
     "birthplace": "baghdad, iraq",
     "gender": "female",
-    "age": 47
+    "age": 47,
+    "start": 28.52,
+    "end": 48.26,
+    "firstEnd": 36.76
   },
   {
     "file": "arabic33.mp3",
@@ -1245,7 +1579,10 @@
     "nativeLanguage": "arabic",
     "birthplace": "baghdad, iraq",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "start": 18.98,
+    "end": 39.7,
+    "firstEnd": 25.48
   },
   {
     "file": "arabic92.mp3",
@@ -1253,7 +1590,10 @@
     "nativeLanguage": "arabic",
     "birthplace": "baghdad, iraq",
     "gender": "male",
-    "age": 36
+    "age": 36,
+    "start": 20.42,
+    "end": 43.52,
+    "firstEnd": 30
   },
   {
     "file": "icelandic1.mp3",
@@ -1261,7 +1601,9 @@
     "nativeLanguage": "icelandic",
     "birthplace": "reykjavik, iceland",
     "gender": "male",
-    "age": 21
+    "age": 21,
+    "start": 15.2,
+    "end": 27.48
   },
   {
     "file": "icelandic2.mp3",
@@ -1269,7 +1611,9 @@
     "nativeLanguage": "icelandic",
     "birthplace": "akranes, iceland",
     "gender": "female",
-    "age": 43
+    "age": 43,
+    "start": 12.22,
+    "end": 23.08
   },
   {
     "file": "hebrew1.mp3",
@@ -1277,7 +1621,9 @@
     "nativeLanguage": "hebrew",
     "birthplace": "yehud, israel",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "start": 10.94,
+    "end": 24.2
   },
   {
     "file": "hebrew2.mp3",
@@ -1285,7 +1631,9 @@
     "nativeLanguage": "hebrew",
     "birthplace": "jerusalem, israel",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "start": 11.2,
+    "end": 20.74
   },
   {
     "file": "hebrew6.mp3",
@@ -1293,7 +1641,9 @@
     "nativeLanguage": "hebrew",
     "birthplace": "rishon, israel",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "start": 12.18,
+    "end": 23.18
   },
   {
     "file": "italian4.mp3",
@@ -1301,7 +1651,9 @@
     "nativeLanguage": "italian",
     "birthplace": "cremona, italy",
     "gender": "female",
-    "age": 47
+    "age": 47,
+    "start": 10.06,
+    "end": 19.48
   },
   {
     "file": "italian2.mp3",
@@ -1309,7 +1661,10 @@
     "nativeLanguage": "italian",
     "birthplace": "caltanissetta, italy",
     "gender": "male",
-    "age": 46
+    "age": 46,
+    "start": 22.76,
+    "end": 48.56,
+    "firstEnd": 31.72
   },
   {
     "file": "italian1.mp3",
@@ -1317,7 +1672,9 @@
     "nativeLanguage": "italian",
     "birthplace": "carbonia, italy",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "start": 14.9,
+    "end": 29.3
   },
   {
     "file": "english91.mp3",
@@ -1325,7 +1682,9 @@
     "nativeLanguage": "english",
     "birthplace": "kingston, jamaica",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "start": 11.4,
+    "end": 19.46
   },
   {
     "file": "english617.mp3",
@@ -1333,7 +1692,9 @@
     "nativeLanguage": "english",
     "birthplace": "kingston, jamaica",
     "gender": "female",
-    "age": 34
+    "age": 34,
+    "start": 12.28,
+    "end": 22.66
   },
   {
     "file": "english489.mp3",
@@ -1341,7 +1702,9 @@
     "nativeLanguage": "english",
     "birthplace": "kingston, jamaica",
     "gender": "female",
-    "age": 46
+    "age": 46,
+    "start": 17.06,
+    "end": 32.5
   },
   {
     "file": "japanese7.mp3",
@@ -1349,7 +1712,9 @@
     "nativeLanguage": "japanese",
     "birthplace": "osaka, japan",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 13.7,
+    "end": 23.9
   },
   {
     "file": "japanese5.mp3",
@@ -1357,7 +1722,9 @@
     "nativeLanguage": "japanese",
     "birthplace": "chiba, japan",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 21.04,
+    "end": 35.62
   },
   {
     "file": "japanese4.mp3",
@@ -1365,7 +1732,10 @@
     "nativeLanguage": "japanese",
     "birthplace": "tokyo, japan",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 21.64,
+    "end": 39.42,
+    "firstEnd": 29.34
   },
   {
     "file": "kazakh1.mp3",
@@ -1373,7 +1743,9 @@
     "nativeLanguage": "kazakh",
     "birthplace": "semey, kazakhstan",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 10.74,
+    "end": 20.2
   },
   {
     "file": "kazakh4.mp3",
@@ -1381,7 +1753,9 @@
     "nativeLanguage": "kazakh",
     "birthplace": "kokshetau, kazakhstan",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "start": 14.54,
+    "end": 28.42
   },
   {
     "file": "kazakh2.mp3",
@@ -1389,7 +1763,9 @@
     "nativeLanguage": "kazakh",
     "birthplace": "almaty, kazakhstan",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 11.36,
+    "end": 20.42
   },
   {
     "file": "kirgiz1.mp3",
@@ -1397,7 +1773,9 @@
     "nativeLanguage": "kyrgyz",
     "birthplace": "bishkek, kyrgyzstan",
     "gender": "female",
-    "age": 32
+    "age": 32,
+    "start": 18.02,
+    "end": 35.3
   },
   {
     "file": "kirghiz2.mp3",
@@ -1405,7 +1783,9 @@
     "nativeLanguage": "kyrgyz",
     "birthplace": "bishkek, kyrgystan",
     "gender": "female",
-    "age": 18
+    "age": 18,
+    "start": 13.74,
+    "end": 26.9
   },
   {
     "file": "khmer1.mp3",
@@ -1413,7 +1793,9 @@
     "nativeLanguage": "khmer",
     "birthplace": "phnom penh, cambodia",
     "gender": "female",
-    "age": 21
+    "age": 21,
+    "start": 17.24,
+    "end": 33.78
   },
   {
     "file": "khmer2.mp3",
@@ -1421,7 +1803,9 @@
     "nativeLanguage": "khmer",
     "birthplace": "phnom penh, cambodia",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 14.82,
+    "end": 27.98
   },
   {
     "file": "khmer3.mp3",
@@ -1429,7 +1813,10 @@
     "nativeLanguage": "khmer",
     "birthplace": "baling, cambodia",
     "gender": "male",
-    "age": 46
+    "age": 46,
+    "start": 22.42,
+    "end": 44.98,
+    "firstEnd": 29.98
   },
   {
     "file": "korean6.mp3",
@@ -1437,7 +1824,9 @@
     "nativeLanguage": "korean",
     "birthplace": "sunchun, south korea",
     "gender": "female",
-    "age": 21
+    "age": 21,
+    "start": 12.5,
+    "end": 22.94
   },
   {
     "file": "korean2.mp3",
@@ -1445,7 +1834,9 @@
     "nativeLanguage": "korean",
     "birthplace": "taegu, south korea",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "start": 15.18,
+    "end": 28.34
   },
   {
     "file": "korean1.mp3",
@@ -1453,7 +1844,10 @@
     "nativeLanguage": "korean",
     "birthplace": "ui jong bu, south korea",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "start": 20.1,
+    "end": 41.42,
+    "firstEnd": 27.72
   },
   {
     "file": "arabic18.mp3",
@@ -1461,7 +1855,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "kuwait city, kuwait",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 15.14,
+    "end": 27.76
   },
   {
     "file": "arabic87.mp3",
@@ -1469,7 +1865,10 @@
     "nativeLanguage": "arabic",
     "birthplace": "kuwait city, kuwait",
     "gender": "female",
-    "age": 49
+    "age": 49,
+    "start": 16.14,
+    "end": 33.82,
+    "firstEnd": 24.16
   },
   {
     "file": "arabic95.mp3",
@@ -1477,7 +1876,10 @@
     "nativeLanguage": "arabic",
     "birthplace": "kuwait city, kuwait",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "start": 23.06,
+    "end": 45.5,
+    "firstEnd": 32.74
   },
   {
     "file": "lao1.mp3",
@@ -1485,7 +1887,9 @@
     "nativeLanguage": "lao",
     "birthplace": "savannakhet, laos",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 17.04,
+    "end": 32.98
   },
   {
     "file": "lao2.mp3",
@@ -1493,7 +1897,10 @@
     "nativeLanguage": "lao",
     "birthplace": "vientiane, laos",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 28,
+    "end": 53.5,
+    "firstEnd": 38.9
   },
   {
     "file": "arabic13.mp3",
@@ -1501,7 +1908,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "zabbougha, lebanon",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "start": 14.85,
+    "end": 29.6
   },
   {
     "file": "arabic43.mp3",
@@ -1509,7 +1918,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "beirut, lebanon",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "start": 17.04,
+    "end": 30.44
   },
   {
     "file": "arabic20.mp3",
@@ -1517,7 +1928,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "chtaura, lebanon",
     "gender": "male",
-    "age": 36
+    "age": 36,
+    "start": 14.16,
+    "end": 25.94
   },
   {
     "file": "arabic63.mp3",
@@ -1525,7 +1938,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "bani walid, libya",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "start": 20.48,
+    "end": 41.94
   },
   {
     "file": "arabic169.mp3",
@@ -1533,7 +1948,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "tripoli, libya",
     "gender": "female",
-    "age": 21
+    "age": 21,
+    "start": 11.86,
+    "end": 20.58
   },
   {
     "file": "sinhala3.mp3",
@@ -1541,7 +1958,9 @@
     "nativeLanguage": "sinhala",
     "birthplace": "colombo, sri lanka",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 21.24,
+    "end": 38.5
   },
   {
     "file": "sinhala7.mp3",
@@ -1549,7 +1968,9 @@
     "nativeLanguage": "sinhala",
     "birthplace": "nuwara eliya, sri lanka",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "start": 18.38,
+    "end": 33.6
   },
   {
     "file": "sinhala10.mp3",
@@ -1557,7 +1978,9 @@
     "nativeLanguage": "sinhala",
     "birthplace": "colombo, sri lanka",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 13.88,
+    "end": 25.88
   },
   {
     "file": "lithuanian2.mp3",
@@ -1565,7 +1988,9 @@
     "nativeLanguage": "lithuanian",
     "birthplace": "vilnius, lithuania",
     "gender": "female",
-    "age": 34
+    "age": 34,
+    "start": 19.01,
+    "end": 36.16
   },
   {
     "file": "lithuanian1.mp3",
@@ -1573,7 +1998,9 @@
     "nativeLanguage": "lithuanian",
     "birthplace": "klaipeda, lithuania",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "start": 12.94,
+    "end": 23.8
   },
   {
     "file": "luxembourgeois1.mp3",
@@ -1581,7 +2008,9 @@
     "nativeLanguage": "luxembourgeois",
     "birthplace": "luxembourg, luxembourg",
     "gender": "female",
-    "age": 54
+    "age": 54,
+    "start": 12.02,
+    "end": 23.16
   },
   {
     "file": "latvian1.mp3",
@@ -1589,7 +2018,9 @@
     "nativeLanguage": "latvian",
     "birthplace": "riga, latvia",
     "gender": "female",
-    "age": 24
+    "age": 24,
+    "start": 13.06,
+    "end": 24.28
   },
   {
     "file": "latvian3.mp3",
@@ -1597,7 +2028,9 @@
     "nativeLanguage": "latvian",
     "birthplace": "riga, latvia",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 12.78,
+    "end": 23.02
   },
   {
     "file": "arabic7.mp3",
@@ -1605,7 +2038,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "casablanca, morocco",
     "gender": "female",
-    "age": 18
+    "age": 18,
+    "start": 14.72,
+    "end": 29.44
   },
   {
     "file": "arabic5.mp3",
@@ -1613,7 +2048,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "casablanca, morocco",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 14.62,
+    "end": 30.16
   },
   {
     "file": "arabic8.mp3",
@@ -1621,7 +2058,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "casablanca, morocco",
     "gender": "male",
-    "age": 21
+    "age": 21,
+    "start": 16.96,
+    "end": 27.82
   },
   {
     "file": "romanian19.mp3",
@@ -1629,7 +2068,9 @@
     "nativeLanguage": "romanian",
     "birthplace": "chisinau, moldova",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 9.72,
+    "end": 17.14
   },
   {
     "file": "romanian14.mp3",
@@ -1637,7 +2078,9 @@
     "nativeLanguage": "romanian",
     "birthplace": "costesti, moldova",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 13.9,
+    "end": 26.26
   },
   {
     "file": "malagasy2.mp3",
@@ -1645,7 +2088,9 @@
     "nativeLanguage": "malagasy",
     "birthplace": "antananarivo, madagascar",
     "gender": "male",
-    "age": 21
+    "age": 21,
+    "start": 14.96,
+    "end": 26.88
   },
   {
     "file": "malagasy1.mp3",
@@ -1653,7 +2098,10 @@
     "nativeLanguage": "malagasy",
     "birthplace": "antananarivo, madagascar",
     "gender": "male",
-    "age": 44
+    "age": 44,
+    "start": 27.02,
+    "end": 48.72,
+    "firstEnd": 34.5
   },
   {
     "file": "spanish24.mp3",
@@ -1661,7 +2109,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "mexico city, mexico",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "start": 15.34,
+    "end": 28.4
   },
   {
     "file": "spanish56.mp3",
@@ -1669,7 +2119,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "monterrey, mexico",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 10.9,
+    "end": 20.22
   },
   {
     "file": "spanish227.mp3",
@@ -1677,7 +2129,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "durango, mexico",
     "gender": "female",
-    "age": 49
+    "age": 49,
+    "start": 16.4,
+    "end": 31.3
   },
   {
     "file": "macedonian1.mp3",
@@ -1685,7 +2139,9 @@
     "nativeLanguage": "macedonian",
     "birthplace": "ohrid, macedonia",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 12.06,
+    "end": 23.34
   },
   {
     "file": "macedonian5.mp3",
@@ -1693,7 +2149,9 @@
     "nativeLanguage": "macedonian",
     "birthplace": "skopje, macedonia",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 11.52,
+    "end": 20.7
   },
   {
     "file": "macedonian6.mp3",
@@ -1701,7 +2159,9 @@
     "nativeLanguage": "macedonian",
     "birthplace": "skopje, macedonia",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 11.2,
+    "end": 22.14
   },
   {
     "file": "bambara3.mp3",
@@ -1709,7 +2169,9 @@
     "nativeLanguage": "bambara",
     "birthplace": "bamako, mali",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 19.7,
+    "end": 33.74
   },
   {
     "file": "bambara1.mp3",
@@ -1717,7 +2179,9 @@
     "nativeLanguage": "bambara",
     "birthplace": "bamako, mali",
     "gender": "female",
-    "age": 15.5
+    "age": 15.5,
+    "start": 17.06,
+    "end": 34.14
   },
   {
     "file": "bambara2.mp3",
@@ -1725,7 +2189,9 @@
     "nativeLanguage": "bambara",
     "birthplace": "bamako, mali",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "start": 16.48,
+    "end": 29.98
   },
   {
     "file": "burmese1.mp3",
@@ -1733,7 +2199,9 @@
     "nativeLanguage": "burmese",
     "birthplace": "yangon, myanmar",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "start": 17.02,
+    "end": 32.14
   },
   {
     "file": "burmese2.mp3",
@@ -1741,7 +2209,9 @@
     "nativeLanguage": "burmese",
     "birthplace": "yangon, myanmar",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "start": 14.76,
+    "end": 26.98
   },
   {
     "file": "serbian14.mp3",
@@ -1749,7 +2219,9 @@
     "nativeLanguage": "serbian",
     "birthplace": "podgorica, montenegro",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "start": 17.12,
+    "end": 29.6
   },
   {
     "file": "mongolian2.mp3",
@@ -1757,7 +2229,9 @@
     "nativeLanguage": "mongolian",
     "birthplace": "ulaanbaatar, mongolia",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 17.44,
+    "end": 32.96
   },
   {
     "file": "mongolian1.mp3",
@@ -1765,15 +2239,10 @@
     "nativeLanguage": "mongolian",
     "birthplace": "ulaanbaatar, mongolia",
     "gender": "female",
-    "age": 18
-  },
-  {
-    "file": "mongolian7.mp3",
-    "country": "MNG",
-    "nativeLanguage": "mongolian",
-    "birthplace": "darhan, mongolia",
-    "gender": "female",
-    "age": 28
+    "age": 18,
+    "start": 17.38,
+    "end": 34.92,
+    "firstEnd": 23.7
   },
   {
     "file": "mauritian1.mp3",
@@ -1781,7 +2250,9 @@
     "nativeLanguage": "mauritian",
     "birthplace": "port louis, mauritius",
     "gender": "male",
-    "age": 21
+    "age": 21,
+    "start": 15.64,
+    "end": 31.56
   },
   {
     "file": "mauritian3.mp3",
@@ -1789,7 +2260,9 @@
     "nativeLanguage": "mauritian",
     "birthplace": "rose hill, mauritius",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "start": 14.86,
+    "end": 26.8
   },
   {
     "file": "malay6.mp3",
@@ -1797,7 +2270,9 @@
     "nativeLanguage": "malay",
     "birthplace": "johor bahru, malaysia",
     "gender": "male",
-    "age": 38
+    "age": 38,
+    "start": 10.92,
+    "end": 20.48
   },
   {
     "file": "malay4.mp3",
@@ -1805,7 +2280,9 @@
     "nativeLanguage": "malay",
     "birthplace": "kuala lumpur, malaysia",
     "gender": "female",
-    "age": 21
+    "age": 21,
+    "start": 13.22,
+    "end": 24.46
   },
   {
     "file": "malay2.mp3",
@@ -1813,7 +2290,9 @@
     "nativeLanguage": "malay",
     "birthplace": "kuching, malaysia",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 13.04,
+    "end": 25.9
   },
   {
     "file": "hausa8.mp3",
@@ -1821,7 +2300,9 @@
     "nativeLanguage": "hausa",
     "birthplace": "katsina, nigeria",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "start": 17.56,
+    "end": 30.64
   },
   {
     "file": "miskito1.mp3",
@@ -1829,7 +2310,9 @@
     "nativeLanguage": "miskito",
     "birthplace": "krinkrin, nicaragua",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 20.78,
+    "end": 38.12
   },
   {
     "file": "miskito2.mp3",
@@ -1837,7 +2320,9 @@
     "nativeLanguage": "miskito",
     "birthplace": "bilwi, nicaragua",
     "gender": "female",
-    "age": 18
+    "age": 18,
+    "start": 16.34,
+    "end": 32.56
   },
   {
     "file": "miskito3.mp3",
@@ -1845,7 +2330,9 @@
     "nativeLanguage": "miskito",
     "birthplace": "bilwi, nicaragua",
     "gender": "male",
-    "age": 32
+    "age": 32,
+    "start": 12.16,
+    "end": 22.68
   },
   {
     "file": "dutch1.mp3",
@@ -1853,7 +2340,9 @@
     "nativeLanguage": "dutch",
     "birthplace": "nijmegen, netherlands",
     "gender": "male",
-    "age": 38
+    "age": 38,
+    "start": 19.46,
+    "end": 34.63
   },
   {
     "file": "dutch2.mp3",
@@ -1861,7 +2350,9 @@
     "nativeLanguage": "dutch",
     "birthplace": "amsterdam, netherlands",
     "gender": "male",
-    "age": 41
+    "age": 41,
+    "start": 13.38,
+    "end": 22.72
   },
   {
     "file": "dutch14.mp3",
@@ -1869,7 +2360,9 @@
     "nativeLanguage": "dutch",
     "birthplace": "zwolle, netherlands",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "start": 16.54,
+    "end": 28.12
   },
   {
     "file": "norwegian1.mp3",
@@ -1877,7 +2370,9 @@
     "nativeLanguage": "norwegian",
     "birthplace": "drammen, norway",
     "gender": "female",
-    "age": 33
+    "age": 33,
+    "start": 12.22,
+    "end": 22.34
   },
   {
     "file": "norwegian3.mp3",
@@ -1885,7 +2380,9 @@
     "nativeLanguage": "norwegian",
     "birthplace": "volda, norway",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 10.88,
+    "end": 19.08
   },
   {
     "file": "norwegian4.mp3",
@@ -1893,7 +2390,9 @@
     "nativeLanguage": "norwegian",
     "birthplace": "lakselv, norway",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "start": 11.98,
+    "end": 21.72
   },
   {
     "file": "nepali1.mp3",
@@ -1901,7 +2400,9 @@
     "nativeLanguage": "nepali",
     "birthplace": "kathmandu, nepal",
     "gender": "female",
-    "age": 22
+    "age": 22,
+    "start": 13.76,
+    "end": 27.86
   },
   {
     "file": "nepali11.mp3",
@@ -1909,7 +2410,10 @@
     "nativeLanguage": "nepali",
     "birthplace": "kathmandu, nepal",
     "gender": "female",
-    "age": 24
+    "age": 24,
+    "start": 23.98,
+    "end": 50.48,
+    "firstEnd": 34.64
   },
   {
     "file": "nepali8.mp3",
@@ -1917,7 +2421,9 @@
     "nativeLanguage": "nepali",
     "birthplace": "pokhara, nepal",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 13.24,
+    "end": 23.96
   },
   {
     "file": "english410.mp3",
@@ -1925,7 +2431,9 @@
     "nativeLanguage": "english",
     "birthplace": "hamilton, new zealand",
     "gender": "male",
-    "age": 35
+    "age": 35,
+    "start": 14.7,
+    "end": 25.24
   },
   {
     "file": "english490.mp3",
@@ -1933,7 +2441,9 @@
     "nativeLanguage": "english",
     "birthplace": "auckland, new zealand",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 11.76,
+    "end": 21
   },
   {
     "file": "english354.mp3",
@@ -1941,7 +2451,9 @@
     "nativeLanguage": "english",
     "birthplace": "christchurch, new zealand",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "start": 11.34,
+    "end": 21.54
   },
   {
     "file": "arabic65.mp3",
@@ -1949,7 +2461,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "samail, oman",
     "gender": "female",
-    "age": 32
+    "age": 32,
+    "start": 15.64,
+    "end": 27.12
   },
   {
     "file": "urdu1.mp3",
@@ -1957,7 +2471,10 @@
     "nativeLanguage": "urdu",
     "birthplace": "karachi, pakistan",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 25.16,
+    "end": 46.32,
+    "firstEnd": 34.84
   },
   {
     "file": "urdu15.mp3",
@@ -1965,7 +2482,9 @@
     "nativeLanguage": "urdu",
     "birthplace": "mandi bahauddin, pakistan",
     "gender": "male",
-    "age": 28
+    "age": 28,
+    "start": 11.94,
+    "end": 22.78
   },
   {
     "file": "urdu26.mp3",
@@ -1973,7 +2492,9 @@
     "nativeLanguage": "urdu",
     "birthplace": "lahore, pakistan",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 14.26,
+    "end": 25.88
   },
   {
     "file": "spanish6.mp3",
@@ -1981,7 +2502,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "lima, peru",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 15.32,
+    "end": 28.16
   },
   {
     "file": "spanish228.mp3",
@@ -1989,7 +2512,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "piura, peru",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "start": 15.16,
+    "end": 27.64
   },
   {
     "file": "spanish207.mp3",
@@ -1997,7 +2522,10 @@
     "nativeLanguage": "spanish",
     "birthplace": "ica, peru",
     "gender": "female",
-    "age": 39
+    "age": 39,
+    "start": 17.26,
+    "end": 36.8,
+    "firstEnd": 23.28
   },
   {
     "file": "tagalog1.mp3",
@@ -2005,7 +2533,9 @@
     "nativeLanguage": "tagalog",
     "birthplace": "manila, philippines",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 12.26,
+    "end": 22.32
   },
   {
     "file": "tagalog2.mp3",
@@ -2013,7 +2543,9 @@
     "nativeLanguage": "tagalog",
     "birthplace": "urdaneta, philippines",
     "gender": "female",
-    "age": 21
+    "age": 21,
+    "start": 15.78,
+    "end": 28.24
   },
   {
     "file": "tagalog21.mp3",
@@ -2021,7 +2553,10 @@
     "nativeLanguage": "tagalog",
     "birthplace": "manila, philippines",
     "gender": "female",
-    "age": 40
+    "age": 40,
+    "start": 18,
+    "end": 36.44,
+    "firstEnd": 25.64
   },
   {
     "file": "english48.mp3",
@@ -2029,7 +2564,9 @@
     "nativeLanguage": "english",
     "birthplace": "port moresby, papua new guinea",
     "gender": "male",
-    "age": 26
+    "age": 26,
+    "start": 11.62,
+    "end": 24.34
   },
   {
     "file": "polish1.mp3",
@@ -2037,7 +2574,9 @@
     "nativeLanguage": "polish",
     "birthplace": "janow, poland",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "start": 16.32,
+    "end": 32.6
   },
   {
     "file": "polish2.mp3",
@@ -2045,7 +2584,9 @@
     "nativeLanguage": "polish",
     "birthplace": "mielec, poland",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "start": 18.48,
+    "end": 39.06
   },
   {
     "file": "polish5.mp3",
@@ -2053,7 +2594,9 @@
     "nativeLanguage": "polish",
     "birthplace": "ozarow maz, poland",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 12.02,
+    "end": 22.56
   },
   {
     "file": "spanish175.mp3",
@@ -2061,15 +2604,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "rio piedras, puerto rico",
     "gender": "female",
-    "age": 20
-  },
-  {
-    "file": "spanish81.mp3",
-    "country": "PRI",
-    "nativeLanguage": "spanish",
-    "birthplace": "san juan, puerto rico",
-    "gender": "female",
-    "age": 63
+    "age": 20,
+    "start": 13.3,
+    "end": 23.62
   },
   {
     "file": "portuguese12.mp3",
@@ -2077,7 +2614,9 @@
     "nativeLanguage": "portuguese",
     "birthplace": "lisbon, portugal",
     "gender": "male",
-    "age": 36
+    "age": 36,
+    "start": 11.92,
+    "end": 21.94
   },
   {
     "file": "portuguese65.mp3",
@@ -2085,7 +2624,9 @@
     "nativeLanguage": "portuguese",
     "birthplace": "almada, portugal",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "start": 12.82,
+    "end": 22.44
   },
   {
     "file": "portuguese46.mp3",
@@ -2093,7 +2634,9 @@
     "nativeLanguage": "portuguese",
     "birthplace": "cascais, portugal",
     "gender": "male",
-    "age": 65
+    "age": 65,
+    "start": 18.42,
+    "end": 31.38
   },
   {
     "file": "spanish163.mp3",
@@ -2101,7 +2644,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "asuncion, paraguay",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "start": 16.28,
+    "end": 30.7
   },
   {
     "file": "arabic3.mp3",
@@ -2109,7 +2654,10 @@
     "nativeLanguage": "arabic",
     "birthplace": "doha, qatar",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "start": 22.36,
+    "end": 46.22,
+    "firstEnd": 34.24
   },
   {
     "file": "arabic29.mp3",
@@ -2117,7 +2665,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "doha, qatar",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 18.18,
+    "end": 34.96
   },
   {
     "file": "romanian4.mp3",
@@ -2125,7 +2675,9 @@
     "nativeLanguage": "romanian",
     "birthplace": "bucharest, romania",
     "gender": "female",
-    "age": 35
+    "age": 35,
+    "start": 14.22,
+    "end": 26.24
   },
   {
     "file": "romanian1.mp3",
@@ -2133,7 +2685,9 @@
     "nativeLanguage": "romanian",
     "birthplace": "timisoara, romania",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "start": 13.76,
+    "end": 24.62
   },
   {
     "file": "romanian15.mp3",
@@ -2141,7 +2695,9 @@
     "nativeLanguage": "romanian",
     "birthplace": "bucharest, romania",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "start": 14.58,
+    "end": 26.52
   },
   {
     "file": "russian9.mp3",
@@ -2149,7 +2705,9 @@
     "nativeLanguage": "russian",
     "birthplace": "moscow, russia",
     "gender": "male",
-    "age": 23
+    "age": 23,
+    "start": 12.9,
+    "end": 22.24
   },
   {
     "file": "russian5.mp3",
@@ -2157,7 +2715,9 @@
     "nativeLanguage": "russian",
     "birthplace": "khabarovsk, russia",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 16.14,
+    "end": 30.1
   },
   {
     "file": "russian10.mp3",
@@ -2165,7 +2725,9 @@
     "nativeLanguage": "russian",
     "birthplace": "moscow, russia",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "start": 10.31,
+    "end": 18.08
   },
   {
     "file": "arabic1.mp3",
@@ -2173,7 +2735,10 @@
     "nativeLanguage": "arabic",
     "birthplace": "riyadh, saudi arabia",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "start": 22.3,
+    "end": 45.12,
+    "firstEnd": 32.26
   },
   {
     "file": "arabic40.mp3",
@@ -2181,7 +2746,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "jiddah, saudi arabia",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 17.36,
+    "end": 34.16
   },
   {
     "file": "wolof1.mp3",
@@ -2189,7 +2756,9 @@
     "nativeLanguage": "wolof",
     "birthplace": "dakar, senegal",
     "gender": "male",
-    "age": 21
+    "age": 21,
+    "start": 18.46,
+    "end": 33.08
   },
   {
     "file": "wolof3.mp3",
@@ -2197,7 +2766,9 @@
     "nativeLanguage": "wolof",
     "birthplace": "khombole, senegal",
     "gender": "female",
-    "age": 52
+    "age": 52,
+    "start": 13.82,
+    "end": 24.94
   },
   {
     "file": "wolof5.mp3",
@@ -2205,7 +2776,10 @@
     "nativeLanguage": "wolof",
     "birthplace": "saint louis, senegal",
     "gender": "female",
-    "age": 30
+    "age": 30,
+    "start": 16.58,
+    "end": 35.76,
+    "firstEnd": 24.44
   },
   {
     "file": "english287.mp3",
@@ -2213,7 +2787,9 @@
     "nativeLanguage": "english",
     "birthplace": "singapore, singapore",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "start": 9.74,
+    "end": 17.68
   },
   {
     "file": "english279.mp3",
@@ -2221,7 +2797,9 @@
     "nativeLanguage": "english",
     "birthplace": "singapore, singapore",
     "gender": "female",
-    "age": 30
+    "age": 30,
+    "start": 10.86,
+    "end": 19.7
   },
   {
     "file": "english655.mp3",
@@ -2229,7 +2807,9 @@
     "nativeLanguage": "english",
     "birthplace": "singapore, singapore",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "start": 13.5,
+    "end": 24.24
   },
   {
     "file": "spanish8.mp3",
@@ -2237,7 +2817,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "san salvador, el salvador",
     "gender": "male",
-    "age": 21
+    "age": 21,
+    "start": 15.06,
+    "end": 29.3
   },
   {
     "file": "spanish28.mp3",
@@ -2245,7 +2827,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "san miguel, el salvador",
     "gender": "female",
-    "age": 20
+    "age": 20,
+    "start": 17.76,
+    "end": 34.96
   },
   {
     "file": "spanish4.mp3",
@@ -2253,7 +2837,10 @@
     "nativeLanguage": "spanish",
     "birthplace": "cabanas, el salvador",
     "gender": "female",
-    "age": 21
+    "age": 21,
+    "start": 21.34,
+    "end": 42.44,
+    "firstEnd": 29.82
   },
   {
     "file": "somali1.mp3",
@@ -2261,7 +2848,9 @@
     "nativeLanguage": "somali",
     "birthplace": "mogadishu, somalia",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "start": 20.4,
+    "end": 37.5
   },
   {
     "file": "somali3.mp3",
@@ -2269,7 +2858,9 @@
     "nativeLanguage": "somali",
     "birthplace": "borama, somalia",
     "gender": "female",
-    "age": 50
+    "age": 50,
+    "start": 26.52,
+    "end": 49.84
   },
   {
     "file": "serbian2.mp3",
@@ -2277,7 +2868,10 @@
     "nativeLanguage": "serbian",
     "birthplace": "zrenjanin, serbia",
     "gender": "male",
-    "age": 36
+    "age": 36,
+    "start": 17.94,
+    "end": 36.62,
+    "firstEnd": 25.06
   },
   {
     "file": "serbian4.mp3",
@@ -2285,7 +2879,9 @@
     "nativeLanguage": "serbian",
     "birthplace": "velika plana, serbia",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "start": 16.22,
+    "end": 30.22
   },
   {
     "file": "serbian17.mp3",
@@ -2293,7 +2889,9 @@
     "nativeLanguage": "serbian",
     "birthplace": "belgrade, serbia",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "start": 13.92,
+    "end": 26.16
   },
   {
     "file": "slovak1.mp3",
@@ -2301,7 +2899,9 @@
     "nativeLanguage": "slovak",
     "birthplace": "kosice, slovak republic",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 11.5,
+    "end": 21.78
   },
   {
     "file": "slovak2.mp3",
@@ -2309,7 +2909,9 @@
     "nativeLanguage": "slovak",
     "birthplace": "piestany, slovak republic",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "start": 12.88,
+    "end": 23.08
   },
   {
     "file": "slovenian1.mp3",
@@ -2317,7 +2919,9 @@
     "nativeLanguage": "slovenian",
     "birthplace": "slovenj gradec, slovenia",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 11.16,
+    "end": 20.2
   },
   {
     "file": "swedish2.mp3",
@@ -2325,7 +2929,9 @@
     "nativeLanguage": "swedish",
     "birthplace": "uppsala, sweden",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 13.18,
+    "end": 24.28
   },
   {
     "file": "swedish3.mp3",
@@ -2333,7 +2939,9 @@
     "nativeLanguage": "swedish",
     "birthplace": "stockholm, sweden",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "start": 12.08,
+    "end": 22.08
   },
   {
     "file": "swedish23.mp3",
@@ -2341,7 +2949,9 @@
     "nativeLanguage": "swedish",
     "birthplace": "lulea, sweden",
     "gender": "female",
-    "age": 24
+    "age": 24,
+    "start": 16.28,
+    "end": 27.98
   },
   {
     "file": "arabic82.mp3",
@@ -2349,7 +2959,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "damascus, syria",
     "gender": "male",
-    "age": 42
+    "age": 42,
+    "start": 16.66,
+    "end": 31.42
   },
   {
     "file": "sarua1.mp3",
@@ -2357,7 +2969,10 @@
     "nativeLanguage": "sarua",
     "birthplace": "ndjamena, chad",
     "gender": "male",
-    "age": 21
+    "age": 21,
+    "start": 25.86,
+    "end": 54.32,
+    "firstEnd": 40.56
   },
   {
     "file": "thai4.mp3",
@@ -2365,7 +2980,9 @@
     "nativeLanguage": "thai",
     "birthplace": "songkhla, thailand",
     "gender": "female",
-    "age": 23
+    "age": 23,
+    "start": 14.82,
+    "end": 28.44
   },
   {
     "file": "thai1.mp3",
@@ -2373,7 +2990,9 @@
     "nativeLanguage": "thai",
     "birthplace": "khon kaen, thailand",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 15.5,
+    "end": 28.46
   },
   {
     "file": "thai5.mp3",
@@ -2381,7 +3000,9 @@
     "nativeLanguage": "thai",
     "birthplace": "bangkok, thailand",
     "gender": "male",
-    "age": 25
+    "age": 25,
+    "start": 13.46,
+    "end": 24.3
   },
   {
     "file": "tajiki2.mp3",
@@ -2389,7 +3010,9 @@
     "nativeLanguage": "tajiki",
     "birthplace": "khujand, tajikistan",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 11.74,
+    "end": 22.02
   },
   {
     "file": "tajiki3.mp3",
@@ -2397,7 +3020,9 @@
     "nativeLanguage": "tajiki",
     "birthplace": "khujand, tajikistan",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 15.56,
+    "end": 30.26
   },
   {
     "file": "tajiki6.mp3",
@@ -2405,7 +3030,9 @@
     "nativeLanguage": "tajiki",
     "birthplace": "shaidon, tajikistan",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 12.58,
+    "end": 23.02
   },
   {
     "file": "turkmen1.mp3",
@@ -2413,7 +3040,9 @@
     "nativeLanguage": "turkmen",
     "birthplace": "balkanabat, turkmenistan",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "start": 15.26,
+    "end": 26.74
   },
   {
     "file": "turkmen2.mp3",
@@ -2421,7 +3050,9 @@
     "nativeLanguage": "turkmen",
     "birthplace": "turkmenabat, turkmenistan",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "start": 14.76,
+    "end": 28.68
   },
   {
     "file": "fataluku1.mp3",
@@ -2429,7 +3060,9 @@
     "nativeLanguage": "fataluku",
     "birthplace": "lautem, timor-leste",
     "gender": "male",
-    "age": 39
+    "age": 39,
+    "start": 16.08,
+    "end": 30.02
   },
   {
     "file": "english31.mp3",
@@ -2437,7 +3070,9 @@
     "nativeLanguage": "english",
     "birthplace": "st. augustine, trinidad",
     "gender": "female",
-    "age": 31
+    "age": 31,
+    "start": 11.16,
+    "end": 22.78
   },
   {
     "file": "arabic11.mp3",
@@ -2445,7 +3080,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "monastir, tunisia",
     "gender": "female",
-    "age": 30
+    "age": 30,
+    "start": 17.4,
+    "end": 31.88
   },
   {
     "file": "turkish6.mp3",
@@ -2453,7 +3090,9 @@
     "nativeLanguage": "turkish",
     "birthplace": "istanbul, turkey",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 12.26,
+    "end": 21.68
   },
   {
     "file": "turkish7.mp3",
@@ -2461,7 +3100,9 @@
     "nativeLanguage": "turkish",
     "birthplace": "izmir, turkey",
     "gender": "male",
-    "age": 19
+    "age": 19,
+    "start": 12.72,
+    "end": 23
   },
   {
     "file": "turkish1.mp3",
@@ -2469,7 +3110,9 @@
     "nativeLanguage": "turkish",
     "birthplace": "bingol, turkey",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "start": 17.34,
+    "end": 32.52
   },
   {
     "file": "mandarin13.mp3",
@@ -2477,7 +3120,9 @@
     "nativeLanguage": "mandarin",
     "birthplace": "nantou, taiwan",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "start": 11.8,
+    "end": 21.56
   },
   {
     "file": "mandarin18.mp3",
@@ -2485,7 +3130,9 @@
     "nativeLanguage": "mandarin",
     "birthplace": "taoyuan, taiwan",
     "gender": "female",
-    "age": 29
+    "age": 29,
+    "start": 16.36,
+    "end": 31.68
   },
   {
     "file": "kiswahili1.mp3",
@@ -2493,7 +3140,9 @@
     "nativeLanguage": "kiswahili",
     "birthplace": "dar-es-salaam, tanzania",
     "gender": "male",
-    "age": 22
+    "age": 22,
+    "start": 11.68,
+    "end": 21.5
   },
   {
     "file": "kiswahili2.mp3",
@@ -2501,7 +3150,9 @@
     "nativeLanguage": "kiswahili",
     "birthplace": "kigoma, tanzania",
     "gender": "male",
-    "age": 28
+    "age": 28,
+    "start": 15.86,
+    "end": 31.32
   },
   {
     "file": "ukrainian4.mp3",
@@ -2509,7 +3160,9 @@
     "nativeLanguage": "ukrainian",
     "birthplace": "kiev, ukraine",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 11.5,
+    "end": 22.14
   },
   {
     "file": "ukrainian5.mp3",
@@ -2517,7 +3170,10 @@
     "nativeLanguage": "ukrainian",
     "birthplace": "kiev, ukraine",
     "gender": "male",
-    "age": 18
+    "age": 18,
+    "start": 17.56,
+    "end": 35.94,
+    "firstEnd": 25
   },
   {
     "file": "ukrainian12.mp3",
@@ -2525,7 +3181,9 @@
     "nativeLanguage": "ukrainian",
     "birthplace": "kiev, ukraine",
     "gender": "female",
-    "age": 19
+    "age": 19,
+    "start": 14.52,
+    "end": 27.84
   },
   {
     "file": "spanish36.mp3",
@@ -2533,7 +3191,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "montevideo, uruguay",
     "gender": "male",
-    "age": 27
+    "age": 27,
+    "start": 12.64,
+    "end": 22.68
   },
   {
     "file": "spanish57.mp3",
@@ -2541,7 +3201,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "montevideo, uruguay",
     "gender": "male",
-    "age": 33
+    "age": 33,
+    "start": 12.46,
+    "end": 21.9
   },
   {
     "file": "english36.mp3",
@@ -2549,7 +3211,9 @@
     "nativeLanguage": "english",
     "birthplace": "arcadia, usa",
     "gender": "male",
-    "age": 60
+    "age": 60,
+    "start": 11.02,
+    "end": 20.38
   },
   {
     "file": "english45.mp3",
@@ -2557,7 +3221,9 @@
     "nativeLanguage": "english",
     "birthplace": "pine bluff, usa",
     "gender": "male",
-    "age": 52
+    "age": 52,
+    "start": 15.48,
+    "end": 30.86
   },
   {
     "file": "english83.mp3",
@@ -2565,7 +3231,9 @@
     "nativeLanguage": "english",
     "birthplace": "winnfield, usa",
     "gender": "female",
-    "age": 42
+    "age": 42,
+    "start": 14.28,
+    "end": 25.26
   },
   {
     "file": "uzbek1.mp3",
@@ -2573,7 +3241,10 @@
     "nativeLanguage": "uzbek",
     "birthplace": "samarkand, uzbekistan",
     "gender": "female",
-    "age": 39
+    "age": 39,
+    "start": 20.18,
+    "end": 40.24,
+    "firstEnd": 27.4
   },
   {
     "file": "spanish1.mp3",
@@ -2581,7 +3252,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "caracas, venezuela",
     "gender": "male",
-    "age": 24
+    "age": 24,
+    "start": 17.58,
+    "end": 33.42
   },
   {
     "file": "spanish2.mp3",
@@ -2589,7 +3262,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "puerto la cruz, venezuela",
     "gender": "male",
-    "age": 20
+    "age": 20,
+    "start": 18.82,
+    "end": 34.88
   },
   {
     "file": "spanish174.mp3",
@@ -2597,7 +3272,9 @@
     "nativeLanguage": "spanish",
     "birthplace": "falcon, venezuela",
     "gender": "female",
-    "age": 26
+    "age": 26,
+    "start": 13.14,
+    "end": 24.3
   },
   {
     "file": "english112.mp3",
@@ -2605,7 +3282,9 @@
     "nativeLanguage": "english",
     "birthplace": "st. thomas, us virgin islands",
     "gender": "male",
-    "age": 21
+    "age": 21,
+    "start": 16.08,
+    "end": 31.44
   },
   {
     "file": "vietnamese1.mp3",
@@ -2613,7 +3292,10 @@
     "nativeLanguage": "vietnamese",
     "birthplace": "can tho, vietnam",
     "gender": "male",
-    "age": 29
+    "age": 29,
+    "start": 21.62,
+    "end": 40.5,
+    "firstEnd": 30.18
   },
   {
     "file": "vietnamese3.mp3",
@@ -2621,7 +3303,9 @@
     "nativeLanguage": "vietnamese",
     "birthplace": "vinh long, vietnam",
     "gender": "female",
-    "age": 28
+    "age": 28,
+    "start": 18,
+    "end": 32.24
   },
   {
     "file": "vietnamese4.mp3",
@@ -2629,7 +3313,9 @@
     "nativeLanguage": "vietnamese",
     "birthplace": "hanoi, vietnam",
     "gender": "female",
-    "age": 25
+    "age": 25,
+    "start": 12.52,
+    "end": 23.58
   },
   {
     "file": "arabic6.mp3",
@@ -2637,7 +3323,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "sanaa, yemen",
     "gender": "male",
-    "age": 21
+    "age": 21,
+    "start": 13.4,
+    "end": 25.7
   },
   {
     "file": "arabic157.mp3",
@@ -2645,7 +3333,9 @@
     "nativeLanguage": "arabic",
     "birthplace": "sanaa, yemen",
     "gender": "female",
-    "age": 38
+    "age": 38,
+    "start": 16.56,
+    "end": 30.6
   },
   {
     "file": "afrikaans1.mp3",
@@ -2653,7 +3343,9 @@
     "nativeLanguage": "afrikaans",
     "birthplace": "virginia, south africa",
     "gender": "female",
-    "age": 27
+    "age": 27,
+    "start": 11.14,
+    "end": 19.52
   },
   {
     "file": "shona3.mp3",
@@ -2661,6 +3353,8 @@
     "nativeLanguage": "shona",
     "birthplace": "chinhoyi, zimbabwe",
     "gender": "male",
-    "age": 30
+    "age": 30,
+    "start": 17.34,
+    "end": 32.16
   }
 ]

@@ -20,6 +20,7 @@ const EARTH_RADIUS_KM = 6371;
 const nameToCentroid = new Map<string, LatLng>();
 const codeToCentroid = new Map<string, LatLng>();
 const codeToName = new Map<string, string>();
+const nameToLabelPoint = new Map<string, LatLng>();
 
 function flattenPositions(geometry: Geometry | null | undefined): Position[] {
   if (!geometry) return [];
@@ -66,6 +67,25 @@ function computeCentroid(geometry: Geometry | null | undefined): LatLng | null {
   };
 }
 
+// Where to put a country's pin on the map: the middle of its largest landmass,
+// so e.g. the US pin sits in the lower 48 rather than being pulled toward Alaska.
+function computeLabelPoint(geometry: Geometry | null | undefined): LatLng | null {
+  if (!geometry) return null;
+  const polygons =
+    geometry.type === "Polygon" ? [geometry.coordinates]
+    : geometry.type === "MultiPolygon" ? geometry.coordinates
+    : [];
+  if (!polygons.length) return computeCentroid(geometry);
+
+  const ringArea = (ring: Position[]) =>
+    Math.abs(ring.reduce((sum, [x1, y1], i) => {
+      const [x2, y2] = ring[(i + 1) % ring.length];
+      return sum + x1 * y2 - x2 * y1;
+    }, 0)) / 2;
+  const largest = polygons.reduce((a, b) => (ringArea(b[0]) > ringArea(a[0]) ? b : a));
+  return computeCentroid({ type: "Polygon", coordinates: [largest[0]] });
+}
+
 function toRadians(value: number): number {
   return (value * Math.PI) / 180;
 }
@@ -89,14 +109,9 @@ function haversineDistanceKm(a: LatLng, b: LatLng): number {
 }
 
 // Precompute centroids and lookup maps once at module load.
-if (
-  typeof countriesData === "object" &&
-  countriesData !== null &&
-  Array.isArray((countriesData as any).features)
-) {
-  const features = (countriesData as any).features as CountryFeature[];
-
-  for (const feature of features) {
+const countryFeatures = (countriesData as unknown as { features?: CountryFeature[] }).features;
+if (Array.isArray(countryFeatures)) {
+  for (const feature of countryFeatures) {
     const name = feature.properties?.ADMIN;
     const code = feature.properties?.ISO_A3;
     const centroid = computeCentroid(feature.geometry);
@@ -105,6 +120,7 @@ if (
 
     if (name) {
       nameToCentroid.set(name, centroid);
+      nameToLabelPoint.set(name, computeLabelPoint(feature.geometry) ?? centroid);
     }
     if (code) {
       codeToCentroid.set(code.toUpperCase(), centroid);
@@ -127,6 +143,11 @@ function getCentroidForCountryCode(code: string | null | undefined): LatLng | nu
 export function getCountryNameFromCode(code: string | null | undefined): string | null {
   if (!code) return null;
   return codeToName.get(code.toUpperCase()) ?? null;
+}
+
+export function getCountryLabelPoint(name: string | null | undefined): LatLng | null {
+  if (!name) return null;
+  return nameToLabelPoint.get(name) ?? null;
 }
 
 export interface RoundScoreResult {

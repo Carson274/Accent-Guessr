@@ -57,7 +57,7 @@ export default class Server implements Party.Server {
 
   // ── Connection lifecycle ─────────────────────────────────
 
-  onConnect(conn: Party.Connection, _ctx: Party.ConnectionContext) {
+  onConnect(conn: Party.Connection) {
     this.send(conn, { type: "sync", state: this.gameState });
   }
 
